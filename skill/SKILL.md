@@ -5,13 +5,13 @@ description: 面向 AI 智能体的浙江高考物理六维属性知识图谱（
 
 # 浙江物理知识图谱
 
-本技能提供浙江高考物理（新课标 2017 版 2020 修订 · 人教版 2019 全六册）的**权威受控知识图谱与确定性推理查询接口**，单一可信源位于独立仓库 `D:/yinkai_self/浙江高考物理知识图谱`。
+本技能提供浙江高考物理（新课标 2017 版 2020 修订 · 人教版 2019 全六册）的**权威受控知识图谱与确定性推理查询接口**，单一可信源位于独立的 `zhejiang-physics-kg` 图谱仓库（可通过环境变量 `ZJ_PHYSICS_KG_ROOT` 或本技能 `SKILL.md` 真实物理路径的上级目录定位）。
 
 ---
 
 ## 一、 渐进式阅读协议（Progressive Context Loading）
 
-1. **首轮意图对齐（L0 路由）**：先读取同目录下的 [references/L0-map.md](references/L0-map.md)（约 4K Tokens），一次性掌握全图谱 500+ 受控节点的语义 ID（`unit.*` / `law.*` / `model.*` / `exp.*` / `expskill.*` / `method.*` / `trap.*` / `slot.*`）。
+1. **首轮意图对齐（L0 路由）**：先读取同目录下的 [references/L0-map.md](references/L0-map.md)（约 4K Tokens），一次性掌握全图谱 592 个受控节点的语义 ID（`unit.*` / `law.*` / `model.*` / `exp.*` / `expskill.*` / `method.*` / `trap.*` / `slot.*`）。
 2. **局部契约展开（L1 精读）**：选定 1~5 个候选节点后，运行 `inspect` 拉取标准公式、严格适用条件护栏、易混辨析对（`CONTRASTS_WITH`）与高频审题陷阱，**不要猜测节点 ID 或手写模糊关键词搜题**。
 3. **拓扑选题与零超纲门禁（L2 实证）**：传入学校实际已学章节选择器（支持任意选修讲授顺序，如 `b1,b2,b3,s2` 或精确到节 `unit.s1.c1.s3`），由 `match` 执行 100% 确定性零超纲筛选。
 
@@ -19,10 +19,11 @@ description: 面向 AI 智能体的浙江高考物理六维属性知识图谱（
 
 ## 二、 核心 CLI 原语速查
 
-在任意工作目录下直接调用：
+在图谱仓库根目录（或任意目录指定 `<KG_ROOT>/scripts/cli.mjs`）调用：
 
 ```powershell
-$kg = "D:\yinkai_self\浙江高考物理知识图谱\scripts\cli.mjs"
+# 若通过软链接调用，可先从技能目录解析物理仓库根路径
+$kg = "<KG_ROOT>/scripts/cli.mjs"
 
 # 1. 查看图谱版本、规模与 135 卷五级数据集切分状态
 node $kg stats

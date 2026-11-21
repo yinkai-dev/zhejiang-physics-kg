@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 export const KG_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const DEFAULT_BANK_ROOT = process.env.ZJ_PHYSICS_BANK_ROOT || 'D:/yinkai_self/yinkai的浙江高考物理题库';
+export const DEFAULT_BANK_ROOT = process.env.ZJ_PHYSICS_BANK_ROOT || path.resolve(KG_ROOT, '../yinkai的浙江高考物理题库');
 
 /**
  * 读取并解析 JSON 文件
