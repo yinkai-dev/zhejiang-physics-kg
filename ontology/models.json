@@ -837,6 +837,18 @@
     "triggers_trap": ["trap.em.gravity_ignored_for_droplet_ball", "trap.mech.accel_dec_means_decelerating"],
     "appears_in_slot": ["slot.choice.multi_capstone", "slot.nonchoice.calc_particle"]
   },
+  {
+    "id": "model.mag.nonuniform_mag_coil_propulsion",
+    "type": "PhysicalModel",
+    "family": "磁场与带电粒子电磁场运动压轴模型族",
+    "title": "非均匀/梯度稳恒磁场（磁介质半填充螺绕环或反亥姆霍兹线圈）载流线圈差动安培力推进模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["梯度磁场 B=kx", "反向电流同轴双圆环", "半填充磁性材料螺绕环", "两侧边不等大安培力差驱动"],
+    "applies_law": ["law.e3.ampere_force_effective_l", "law.e2.series_parallel_meters", "law.m3.newton_second_law"],
+    "uses_method": ["method.math.3d_projection_views", "method.thought.symmetry_principle"],
+    "triggers_trap": ["trap.gen.effective_area_angle"],
+    "appears_in_slot": ["slot.nonchoice.calc_ind", "slot.choice.single_capstone"]
+  },
 
   {
     "id": "model.ind.motional_plus_induced_emf",

@@ -1,0 +1,683 @@
+{
+  "paper_id": "zj-27-shoukao--ningbo-yimo-2611",
+  "ontology_version": "1.3.0-rc",
+  "annotated_at": "2026-11-21T11:51:37.107Z",
+  "annotator": "test-ood-1",
+  "questions": [
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q01",
+      "question_sha256": "9e6f62cd06876fdcd144ff58edd5278e78ec4ec1b2504be551af72f6a9f5cf7e",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.tom_core",
+      "models": [],
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.mass_defect_breaks_mass_num"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q02",
+      "question_sha256": "62fe8f464e09dec34ddc93446165ffbb738ed0b6d29cdfce2e46d98cae5c7824",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m1.point_mass_reference",
+        "law.m1.displacement_distance",
+        "law.m1.avg_instant_velocity"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q03",
+      "question_sha256": "f647cd71eaa531eed72497cc57a8501af85d315127f335a9ce6dcafd6cad02bd",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m2.elastic_force_hooke",
+        "law.m6.work_energy_theorem",
+        "law.m4.centripetal_force_accel",
+        "law.m3.apparent_weight",
+        "law.m2.newton_third_law"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q04",
+      "question_sha256": "0d974913a1038cbb3632e3f7fe67bfef27ab6bee9817bb4c0d7e63db7cb342a7",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.tom_core",
+      "models": [],
+      "laws": [
+        "law.t1.diffusion_brownian",
+        "law.t2.second_law_entropy",
+        "law.t1.liquids_surface_capillary",
+        "law.t2.real_gas_phase_intro",
+        "law.t1.internal_energy"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q05",
+      "question_sha256": "b447f267d2aa6349416c80a41e132c57711420d88f7bec2887fb63491744e6b5",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.em_core",
+      "models": [],
+      "laws": [
+        "law.e5.ac_generation_neutral",
+        "law.e5.ac_four_values",
+        "law.e5.ideal_transformer",
+        "law.e2.electric_work_joule"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q06",
+      "question_sha256": "1350bcc82c340792101f1d7aa5c5773cb207ef47e14f16707f2bd2757feffbbf",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m4.oblique_projectile",
+        "law.m4.motion_composition",
+        "law.m6.power_avg_instant",
+        "law.m6.work_energy_theorem",
+        "law.m6.gravity_elastic_pe",
+        "law.m7.momentum_theorem",
+        "law.m7.momentum_impulse"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.gravity_impulse_ignored"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q07",
+      "question_sha256": "f2e3d6589ba2a2407d613081bef2b5a6c238b1f6e5387fe4aec08dc96ab0993e",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m5.universal_gravitation",
+        "law.m5.celestial_mass_density",
+        "law.m5.gravity_gold_sub",
+        "law.m5.satellite_orbit_scaling"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q08",
+      "question_sha256": "0f2073502397c6082ce8f91fe47db4fd52085da7ab439a2e7ac2632a170ef67e",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.tom_core",
+      "models": [
+        "model.mod.photoelectric_bohr_combo"
+      ],
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.q1.photoelectric_effect",
+        "law.q1.compton_de_broglie",
+        "law.o2.double_slit_interference",
+        "law.e2.current_micro_macro"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": [
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q09",
+      "question_sha256": "8017c2d703e77ef9f66c8c7856bd401c3148275d483ae52846cfb09c4a94195b",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.single_capstone",
+      "models": [
+        "model.elec.dipole_equal_charges"
+      ],
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.em.zero_e_means_zero_phi"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q10",
+      "question_sha256": "e97c36ab6923ac6a9439cd598c62bd55b56d6a8b0c83524ee5ad47a4b48aeaf7",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.single_capstone",
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.apparent_depth_shift"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q11",
+      "question_sha256": "51d26f1e17f74345d777d383a2d28bae045c4474853f6911b758bd7da76ecb8e",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.multi_mod_thermo",
+      "models": [],
+      "laws": [
+        "law.q1.compton_de_broglie",
+        "law.e5.lc_oscillation",
+        "law.e3.ampere_right_hand_rule",
+        "law.e5.common_sensors",
+        "law.m8.doppler_effect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q12",
+      "question_sha256": "7c70fbbf408561ad7304cf4bf8e216aa579f5a0dcb505584022dbb16299a6c4b",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.multi_wave_opt",
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused",
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q13",
+      "question_sha256": "3b519af52a4dcffa35b46376dbff8cc23e5609460a5470e61d95c4d4a2cb929c",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.multi_capstone",
+      "models": [
+        "model.ind.vortex_electric_field_betatron",
+        "model.ind.rotating_rod_sector_coil"
+      ],
+      "laws": [
+        "law.e3.magnetic_induction_flux",
+        "law.e4.faraday_induction_law",
+        "law.e4.lenz_law",
+        "law.e2.resistance_law",
+        "law.e2.closed_circuit_ohm",
+        "law.e4.motional_emf_linear_rot"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle",
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.em.cutting_rod_terminal_voltage_as_emf",
+        "trap.em.flux_vs_flux_change_rate"
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q14",
+      "question_sha256": "69a3a2fd332e66d4ef00ae49df45fa5bc8ae2526b4cf87bc5c84ce42feeb6b7c",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.exp_trio",
+      "models": [],
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.e2.ohm_volt_ampere_curve",
+        "law.e2.series_parallel_meters",
+        "law.e2.resistance_law"
+      ],
+      "experiments": [
+        "exp.mech.newton_second_law",
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler",
+        "expskill.op.friction_compensation",
+        "expskill.op.small_mass_approx",
+        "expskill.data.error_algebraic_proof",
+        "expskill.read.micrometer",
+        "expskill.graph.vt_fit",
+        "expskill.circuit.ammeter_in_out",
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [
+        "method.thought.control_variables",
+        "method.graph.ui_dc",
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.exp.micrometer_miss_half_mm",
+        "trap.exp.rheostat_divider_short_wire",
+        "trap.gen.diameter_vs_radius"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "14-I(1)",
+          "score": 2,
+          "process": "补充测量纸带计数点间距所需刻度尺并调整细线与轨道平行",
+          "invoked_laws": [
+            "law.m3.newton_second_law"
+          ],
+          "exp_skills": [
+            "expskill.read.mm_ruler",
+            "expskill.op.friction_compensation"
+          ]
+        },
+        {
+          "sub_id": "14-I(3)",
+          "score": 1,
+          "process": "对比增大研究对象小车质量后 a-F 图像满足小质量近似的线性区间变大",
+          "invoked_laws": [
+            "law.m3.newton_second_law"
+          ],
+          "exp_skills": [
+            "expskill.op.small_mass_approx",
+            "expskill.data.error_algebraic_proof"
+          ]
+        },
+        {
+          "sub_id": "14-I(4)",
+          "score": 2,
+          "process": "综合三组不同小车质量实验曲线选择线性度最好的乙组探究 a 与 F 定量关系",
+          "invoked_laws": [
+            "law.m3.newton_second_law"
+          ],
+          "exp_skills": [
+            "expskill.op.small_mass_approx"
+          ]
+        },
+        {
+          "sub_id": "14-I(5)",
+          "score": 1,
+          "process": "归纳推断当小车质量远大于所挂槽码质量时槽码重力近似等于拉力使 a 与 F 成正比",
+          "invoked_laws": [
+            "law.m3.newton_second_law"
+          ],
+          "exp_skills": [
+            "expskill.op.small_mass_approx",
+            "expskill.data.error_algebraic_proof"
+          ]
+        },
+        {
+          "sub_id": "14-II(1)",
+          "score": 2,
+          "process": "规范排列螺旋测微器旋钮与微调棘轮操作顺序并读取待测金属丝直径",
+          "invoked_laws": [],
+          "exp_skills": [
+            "expskill.read.micrometer"
+          ]
+        },
+        {
+          "sub_id": "14-II(2)①",
+          "score": 2,
+          "process": "在 U-I 图像中拟合直线求斜率得出金属丝电阻 Rx",
+          "invoked_laws": [
+            "law.e2.ohm_volt_ampere_curve"
+          ],
+          "exp_skills": [
+            "expskill.graph.vt_fit"
+          ]
+        },
+        {
+          "sub_id": "14-II(2)②",
+          "score": 1,
+          "process": "依据待测小电阻阻值与数据点电压调节范围选定电流表外接法与滑动变阻器分压式电路",
+          "invoked_laws": [
+            "law.e2.series_parallel_meters"
+          ],
+          "exp_skills": [
+            "expskill.circuit.ammeter_in_out",
+            "expskill.circuit.rheostat_div_limit"
+          ]
+        },
+        {
+          "sub_id": "14-II(3)",
+          "score": 2,
+          "process": "按照分压式与电流表外接电路图补充实物图缺失导线",
+          "invoked_laws": [
+            "law.e2.series_parallel_meters"
+          ],
+          "exp_skills": [
+            "expskill.circuit.ammeter_in_out",
+            "expskill.circuit.rheostat_div_limit"
+          ]
+        },
+        {
+          "sub_id": "14-II(4)",
+          "score": 1,
+          "process": "代入长度、线径与阻值利用电阻定律估算金属丝电阻率数量级",
+          "invoked_laws": [
+            "law.e2.resistance_law"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q15",
+      "question_sha256": "602368eeca93c42c3ed7b2f525b5526137aa8b5d6380d9230d7af9604b32a3e5",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_thermo",
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t2.gas_pressure_micro",
+        "law.t2.gas_three_laws_ideal",
+        "law.t2.gas_work_pv_area",
+        "law.t2.first_law_thermo"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.slowly_moving_ke_zero"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 2,
+          "process": "判断绝热活塞到达卡环前等压升温过程气体内能增大且单位时间撞击单位面积分子数减少",
+          "invoked_laws": [
+            "law.t1.internal_energy",
+            "law.t2.gas_pressure_micro"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 2,
+          "process": "对活塞缓慢右移至刚接触卡环的等压膨胀过程列盖-吕萨克定律求温度 T2",
+          "invoked_laws": [
+            "law.t2.gas_three_laws_ideal"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 4,
+          "process": "计算等压膨胀对外做功与内能增量并由热力学第一定律求电热丝放出的总热量 Q",
+          "invoked_laws": [
+            "law.t2.gas_work_pv_area",
+            "law.t2.first_law_thermo"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q16",
+      "question_sha256": "9e280bd7677a4fb69b3e15f419d4707c230f96edef168cdb81d5e9324749d09f",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_particle",
+      "models": [
+        "model.mag.velocity_selector",
+        "model.mag.bounded_mag_chord_tangent",
+        "model.mag.lorentz_component_impulse"
+      ],
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.e3.lorentz_force",
+        "law.m2.concurrent_equilibrium",
+        "law.e3.cyclotron_motion_laws",
+        "law.m7.momentum_theorem"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.circle_chord_geometry",
+        "method.thought.infinitesimal_sum",
+        "method.graph.fx_work"
+      ],
+      "traps": [
+        "trap.em.mag_arc_time_by_arc_length_trap",
+        "trap.em.multi_exit_tangent_missed"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 3,
+          "process": "正离子沿速度选择器中心线匀速通过时由电场力与洛伦兹力平衡求速度 v0",
+          "invoked_laws": [
+            "law.e1.electric_field_superpos",
+            "law.e3.lorentz_force",
+            "law.m2.concurrent_equilibrium"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 4,
+          "process": "离子在单平行双边界匀强磁场中做圆周偏转由几何关系求侧移距离 y 与圆心角对应运动时间 t",
+          "invoked_laws": [
+            "law.e3.cyclotron_motion_laws"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 4,
+          "process": "在 B2=kx 线性非匀强磁场中对竖直方向应用洛伦兹力分量微元动量定理消去时间求不从右边界射出的临界系数 k",
+          "invoked_laws": [
+            "law.e3.lorentz_force",
+            "law.m7.momentum_theorem"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q17",
+      "question_sha256": "262e05a700dd2bd2b7ef5aa781c537930eb6260c9b4a03bf32ec14b03ade30b4",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_mech",
+      "models": [
+        "model.mech.multi_stage_track_combo",
+        "model.mech.elastic_moving_hits_rest",
+        "model.mech.bullet_block_arc_groove",
+        "model.mech.pulley_system_mech_energy"
+      ],
+      "laws": [
+        "law.m4.oblique_projectile",
+        "law.m4.projectile_horizontal",
+        "law.m2.sliding_friction",
+        "law.m6.work_energy_theorem",
+        "law.m7.elastic_collision_laws",
+        "law.m7.momentum_conservation",
+        "law.m6.multi_body_mech_energy",
+        "law.m4.motion_composition",
+        "law.m4.centripetal_force_accel",
+        "law.m2.concurrent_equilibrium",
+        "law.m2.newton_third_law"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking",
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.movable_groove_rel_speed",
+        "trap.gen.newton3_action_vs_force_on",
+        "trap.mech.groove_total_momentum_conserved"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 2,
+          "process": "将小滑块从圆弧末端斜抛至最高点水平击中小球视为逆向平抛运动求碰前速度 v0",
+          "invoked_laws": [
+            "law.m4.oblique_projectile",
+            "law.m4.projectile_horizontal"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 3,
+          "process": "对小滑块沿粗糙斜面下滑并经等高光滑圆弧至抛出点过程列动能定理求释放距离 d",
+          "invoked_laws": [
+            "law.m2.sliding_friction",
+            "law.m6.work_energy_theorem"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 3,
+          "process": "等质量弹性碰撞交换速度后对小球与可动滑块系统在轻杆转至水平时列水平动量守恒与系统机械能守恒求小球速度 v1",
+          "invoked_laws": [
+            "law.m7.elastic_collision_laws",
+            "law.m7.momentum_conservation",
+            "law.m6.multi_body_mech_energy",
+            "law.m4.motion_composition"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(4)",
+          "score": 4,
+          "process": "由水平动量守恒与机械能守恒求最低点两物速度，用相对速度列圆周向心力方程并结合牛顿第三定律求对滑轨压力 F",
+          "invoked_laws": [
+            "law.m7.momentum_conservation",
+            "law.m6.multi_body_mech_energy",
+            "law.m4.centripetal_force_accel",
+            "law.m2.concurrent_equilibrium",
+            "law.m2.newton_third_law"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-27-shoukao--ningbo-yimo-2611-q18",
+      "question_sha256": "bc03bdbb51bc7d83d567a381979c261df2f943aea78ae0e8b93968ebab95a174",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_ind",
+      "models": [
+        "model.ind.moving_mag_field_drive",
+        "model.mech.linear_drag_momentum_sum"
+      ],
+      "laws": [
+        "law.e4.motional_emf_linear_rot",
+        "law.m4.circular_kinematics",
+        "law.e2.closed_circuit_ohm",
+        "law.e2.series_parallel_meters",
+        "law.e4.eddy_damping_drive",
+        "law.e3.ampere_force_effective_l",
+        "law.e2.ohm_volt_ampere_curve",
+        "law.m3.newton_second_law",
+        "law.m7.momentum_theorem"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle",
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": [
+        "trap.em.cutting_rod_terminal_voltage_as_emf",
+        "trap.mech.accel_dec_means_decelerating"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)①",
+          "score": 2,
+          "process": "计算鼠笼静止时旋转辐向磁场相对金属杆的切割线速度并求动生电动势大小",
+          "invoked_laws": [
+            "law.e4.motional_emf_linear_rot",
+            "law.m4.circular_kinematics"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(1)②",
+          "score": 1,
+          "process": "由对径双切割杆对称串联使上下无阻圆环等电势判定磁场外其余10根金属杆无电流",
+          "invoked_laws": [
+            "law.e2.closed_circuit_ohm",
+            "law.e2.series_parallel_meters"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 7,
+          "process": "基于相对角速度切割电动势、双杆安培力与粘滞阻力列牛顿第二定律求最大切向加速度与最大收尾角速度",
+          "invoked_laws": [
+            "law.e4.motional_emf_linear_rot",
+            "law.e4.eddy_damping_drive",
+            "law.e3.ampere_force_effective_l",
+            "law.e2.ohm_volt_ampere_curve",
+            "law.m3.newton_second_law"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 3,
+          "process": "沿切向运动方向列微元动量定理并对时间累积求和（∑ωΔt=θ）解出鼠笼转过的角度",
+          "invoked_laws": [
+            "law.m7.momentum_theorem",
+            "law.m4.circular_kinematics"
+          ],
+          "exp_skills": []
+        }
+      ]
+    }
+  ]
+}
