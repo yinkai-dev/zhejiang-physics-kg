@@ -801,6 +801,30 @@
     "triggers_trap": ["trap.gen.vector_direction_omitted"],
     "appears_in_slot": ["slot.nonchoice.calc_particle"]
   },
+  {
+    "id": "model.mag.galvanometer_radial_coil",
+    "type": "PhysicalModel",
+    "family": "磁场与带电粒子电磁场运动压轴模型族",
+    "title": "磁电式电表极靴扇形辐向磁场通电线圈安培力与游丝弹力线性平衡模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["磁电式电流表", "极靴与铁芯间辐向均匀分布磁场", "螺旋弹簧游丝恢复力矩"],
+    "applies_law": ["law.e3.ampere_force_effective_l", "law.m2.elastic_force_hooke", "law.m2.concurrent_equilibrium"],
+    "uses_method": ["method.math.3d_projection_views"],
+    "triggers_trap": ["trap.gen.effective_area_angle"],
+    "appears_in_slot": ["slot.choice.em_core", "slot.nonchoice.calc_ind"]
+  },
+  {
+    "id": "model.mag.ring_on_rough_rod_eb",
+    "type": "PhysicalModel",
+    "family": "磁场与带电粒子电磁场运动压轴模型族",
+    "title": "电磁复合场中粗糙绝缘直杆套带电圆环支持力零点反向变加速模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["带电小圆环套在足够长的粗糙绝缘直杆上", "支持力减为零后反向", "加速度最大与最终匀速"],
+    "applies_law": ["law.e3.lorentz_force", "law.m2.sliding_friction", "law.m3.newton_second_law", "law.m6.work_energy_relations"],
+    "uses_method": ["method.graph.vt"],
+    "triggers_trap": ["trap.em.gravity_ignored_for_droplet_ball", "trap.mech.accel_dec_means_decelerating"],
+    "appears_in_slot": ["slot.choice.multi_capstone", "slot.nonchoice.calc_particle"]
+  },
 
   {
     "id": "model.ind.motional_plus_induced_emf",
@@ -1022,6 +1046,42 @@
     "triggers_trap": ["trap.em.power_line_loss_use_total_u"],
     "appears_in_slot": ["slot.choice.em_core"]
   },
+  {
+    "id": "model.ind.vortex_electric_field_betatron",
+    "type": "PhysicalModel",
+    "family": "电磁感应与交变输电模型族",
+    "title": "圆形对称时变磁场感生涡旋电场、径向零电动势割补与电子感应加速器模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["圆形区域磁感应强度 B=kt 均匀变化", "感生电场切向加速圆环管道小球", "连接圆心径向辅助线"],
+    "applies_law": ["law.e4.faraday_induction_law", "law.e4.lenz_law", "law.e3.cyclotron_motion_laws"],
+    "uses_method": ["method.thought.symmetry_principle"],
+    "triggers_trap": ["trap.em.flux_vs_flux_change_rate"],
+    "appears_in_slot": ["slot.choice.multi_capstone", "slot.nonchoice.calc_ind"]
+  },
+  {
+    "id": "model.ind.varying_width_v_rail",
+    "type": "PhysicalModel",
+    "family": "电磁感应与交变输电模型族",
+    "title": "角形（V形/三角形）连续变有效切割长度导轨（长度与电阻线性约分）模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["顶角为 θ 的V形光滑金属导轨", "三角形导轨", "单位长度电阻均为 r0"],
+    "applies_law": ["law.e4.motional_emf_linear_rot", "law.e2.resistance_law", "law.e4.induced_charge_formula", "law.m7.momentum_theorem"],
+    "uses_method": ["method.graph.fx_work", "method.thought.infinitesimal_sum"],
+    "triggers_trap": ["trap.gen.effective_area_angle"],
+    "appears_in_slot": ["slot.nonchoice.calc_ind", "slot.choice.multi_capstone"]
+  },
+  {
+    "id": "model.ind.boost_rectifier_lc_filter",
+    "type": "PhysicalModel",
+    "family": "电磁感应与交变输电模型族",
+    "title": "开关电感斩波升压（Boost）续流与二极管桥式整流 LC 滤波电路模型",
+    "topics": ["电学"],
+    "surface_clues": ["桥式整流", "滤波电容与滤波电感", "高频开关通断自感升压充电"],
+    "applies_law": ["law.e4.mutual_self_inductance", "law.e5.diode_unidirectional", "law.e5.reactance_inductor_capacitor"],
+    "uses_method": ["method.graph.phi_t_bt"],
+    "triggers_trap": ["trap.em.pulsating_dc_transformer_zero"],
+    "appears_in_slot": ["slot.choice.em_core", "slot.choice.single_capstone"]
+  },
 
   {
     "id": "model.thermo.cylinder_piston_thermo1",
@@ -1190,5 +1250,17 @@
     "uses_method": ["method.thought.infinitesimal_sum"],
     "triggers_trap": ["trap.mech.collision_rebound_sign_missing"],
     "appears_in_slot": ["slot.choice.single_capstone", "slot.choice.multi_mod_thermo"]
+  },
+  {
+    "id": "model.mod.bohr_orbit_magnetic_moment",
+    "type": "PhysicalModel",
+    "family": "热学、波动光学与近代物理模型族",
+    "title": "核外电子圆轨道运动等效环形电流（I=e/T）与外加弱磁场微扰模型",
+    "topics": ["近代物理", "电学", "力学"],
+    "surface_clues": ["氢原子核外电子绕核匀速圆周运动等效电流", "等效磁矩", "外加垂直轨道平面匀强磁场"],
+    "applies_law": ["law.q1.rutherford_nuclear_model", "law.e2.current_micro_macro", "law.e1.coulomb_law", "law.e3.lorentz_force"],
+    "uses_method": ["method.thought.equivalence_method"],
+    "triggers_trap": ["trap.em.lorentz_negative_charge_hand"],
+    "appears_in_slot": ["slot.choice.em_core", "slot.nonchoice.calc_particle"]
   }
 ]

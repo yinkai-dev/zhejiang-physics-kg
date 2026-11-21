@@ -1,6 +1,6 @@
 {
   "paper_id": "zj-25-shoukao--gaosan-beidouxingmeng-2412",
-  "ontology_version": "1.1.0-train",
+  "ontology_version": "1.2.0-dev",
   "annotated_at": "2026-11-21T10:37:06.488Z",
   "annotator": "train-seed-g4",
   "questions": [

@@ -118,7 +118,7 @@ export function renderL0Map(ontology, closures, questionStats) {
   }
   lines.push('');
 
-  lines.push('## 2. 18 个二级专题与 136 个概念规律算子 (`law.*`)');
+  lines.push(`## 2. 18 个二级专题与 ${laws.length} 个概念规律算子 (\`law.*\`)`);
   const lawsByMod = new Map();
   for (const l of laws) {
     if (!lawsByMod.has(l.module)) lawsByMod.set(l.module, []);
@@ -129,7 +129,7 @@ export function renderL0Map(ontology, closures, questionStats) {
   }
   lines.push('');
 
-  lines.push('## 3. 6 大模型族与 92 个浙江经典物理模型 (`model.*`)');
+  lines.push(`## 3. 6 大模型族与 ${models.length} 个浙江经典物理模型 (\`model.*\`)`);
   const modelsByFam = new Map();
   for (const m of models) {
     if (!modelsByFam.has(m.family)) modelsByFam.set(m.family, []);
@@ -140,7 +140,7 @@ export function renderL0Map(ontology, closures, questionStats) {
   }
   lines.push('');
 
-  lines.push('## 4. 24 个学生实验 (`exp.*`) 与 25 个实验微技能 (`expskill.*`)');
+  lines.push(`## 4. ${experiments.length} 个学生实验 (\`exp.*\`) 与 ${expSkills.length} 个实验微技能 (\`expskill.*\`)`);
   for (const dom of ['力学实验', '电学实验', '光学与热学实验']) {
     const list = experiments.filter((e) => e.domain === dom).map((e) => `\`${e.id}\` ${e.title}`);
     lines.push(`- **${dom}**: ${list.join(' | ')}`);
@@ -151,14 +151,14 @@ export function renderL0Map(ontology, closures, questionStats) {
   }
   lines.push('');
 
-  lines.push('## 5. 36 个思想方法、物理图像与数学工具 (`method.*`)');
+  lines.push(`## 5. ${methods.length} 个思想方法、物理图像与数学工具 (\`method.*\`)`);
   for (const cat of ['思想方法', '物理图像', '数学与几何工具']) {
     const list = methods.filter((m) => m.category === cat).map((m) => `\`${m.id}\` ${m.title}`);
     lines.push(`- **${cat}**: ${list.join(' | ')}`);
   }
   lines.push('');
 
-  lines.push('## 6. 12 个浙江选考功能题位簇 (`slot.*`)');
+  lines.push(`## 6. ${slots.length} 个浙江选考功能题位簇 (\`slot.*\`)`);
   lines.push(slots.map((s) => `- \`${s.id}\`: ${s.title} [18题卷:${s.paper_18_numbers.join(',')} / 20题卷:${s.paper_20_numbers.join(',')}]`).join('\n'));
   lines.push('');
 

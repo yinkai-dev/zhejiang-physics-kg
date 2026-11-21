@@ -1,0 +1,697 @@
+{
+  "paper_id": "zj-25-shoukao--zhuji-zhenduan-2412",
+  "ontology_version": "1.2.0-dev",
+  "annotated_at": "2026-11-21T11:01:07.044Z",
+  "annotator": "dev-a-alpha-d3",
+  "questions": [
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q01",
+      "question_sha256": "3649666d24bfe4a27efa2ec0975f351ff66d6677883858cf7ba2a783a42157c6",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.si_concept",
+      "models": [],
+      "laws": [
+        "law.m1.displacement_distance",
+        "law.e2.current_micro_macro",
+        "law.e3.magnetic_induction_flux",
+        "law.e3.ampere_force_effective_l",
+        "law.q1.photoelectric_effect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.directional_scalar_as_vector"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q02",
+      "question_sha256": "6778827226eb04068f1b7b5b68755b776de72b707b814d92fa61238d52b9985a",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m1.point_mass_reference",
+        "law.m1.displacement_distance",
+        "law.m3.newton_first_inertia"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q03",
+      "question_sha256": "9c1416985eef33d43c59139f2c4b943269b944fac70c11e102fda47aad016750",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.tom_core",
+      "models": [],
+      "laws": [
+        "law.o2.thin_film_interference"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q04",
+      "question_sha256": "af9fc4852b040825a0b0882aafd82a306a3e6593f85605edc66aef40d72a2356",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.static_friction",
+        "law.m2.elastic_force_hooke"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.static_friction_equals_mu_fn"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q05",
+      "question_sha256": "8cd20b1abcff29e8188d431d09e1a8b95a5273f6fcba7d7fd970930ece45a6db",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [
+        "model.mech.binary_star_orbit_transfer"
+      ],
+      "laws": [
+        "law.m5.three_cosmic_velocities",
+        "law.m5.universal_gravitation",
+        "law.m5.gravity_gold_sub"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.surface_height_vs_center_r"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q06",
+      "question_sha256": "c5763e123085173f3628e3eec282a13d79866ba22cfee35f5f447a047deba359",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.em_core",
+      "models": [],
+      "laws": [
+        "law.m4.projectile_horizontal",
+        "law.e4.motional_emf_linear_rot",
+        "law.e4.right_hand_cutting_rule"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q07",
+      "question_sha256": "f7996a1c0184650a47ade9fe11eb0690256e845c0e717eee9f4281426ee2891f",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.similar_triangles",
+        "method.graph.vt"
+      ],
+      "traps": []
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q08",
+      "question_sha256": "357d46768ac46ad9939623c4eaa78bde1026510b51da2aa1f43ce3b4b88b4a18",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.tom_core",
+      "models": [
+        "model.mod.photoelectric_bohr_combo"
+      ],
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.q1.photoelectric_effect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": [
+        "trap.tom.single_vs_group_h_transitions",
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q09",
+      "question_sha256": "cffcef03ff7505aeb1925732111f84af1e2cc3d7df764185d90713395a1fad47",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [
+        "model.mech.vertical_spring_shm_energy"
+      ],
+      "laws": [
+        "law.m2.static_friction",
+        "law.m2.sliding_friction",
+        "law.m7.momentum_conservation",
+        "law.m6.mechanical_energy_cons",
+        "law.m6.work_energy_relations"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.static_friction_equals_mu_fn"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q10",
+      "question_sha256": "9f065292d21136702f5ad071a3b42f9053832a32ef96133ea4bfec88e9771337",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.em_core",
+      "models": [],
+      "laws": [
+        "law.e5.lc_oscillation",
+        "law.e1.capacitor_formulas",
+        "law.e4.mutual_self_inductance"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q11",
+      "question_sha256": "3150f6a079f3a72df0314054b56c85f6c7855783233a350ed52f9d5181e5061d",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.mech_core",
+      "models": [],
+      "laws": [
+        "law.m4.motion_composition",
+        "law.m4.centripetal_force_accel",
+        "law.m1.free_fall_vertical_throw",
+        "law.m6.power_avg_instant"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.3d_projection_views"
+      ],
+      "traps": []
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q12",
+      "question_sha256": "d8ac5a8b1770b81c163a6235f4975236b02a70b2618b2bf869effaad75f2550c",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.single_capstone",
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.total_internal_reflection"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface",
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q13",
+      "question_sha256": "83ec47cbd2dba6b97be937a4cfa298f30a0ecbfc38d4f96ea4b62f50077240f8",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.single_capstone",
+      "models": [
+        "model.mech.conical_banked_turn"
+      ],
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.e1.electric_field_superpos",
+        "law.m2.force_composition_decomp",
+        "law.m2.concurrent_equilibrium",
+        "law.m4.centripetal_force_accel"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.3d_projection_views"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q14",
+      "question_sha256": "5ae296a2627b4fc7acd365c34c14de4522be9d95c38b88c228baaa9aaffb2e34",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.multi_mod_thermo",
+      "models": [],
+      "laws": [
+        "law.e5.maxwell_em_waves",
+        "law.t1.solids_crystal_amorphous",
+        "law.t1.diffusion_brownian",
+        "law.t1.liquids_surface_capillary"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.polycrystal_anisotropy"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q15",
+      "question_sha256": "fb1c3d1e5387fbbb7845cc67ecf22277c9212dbc3a9c5dd839ce76bf13865710",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.choice.multi_wave_opt",
+      "models": [
+        "model.wave.two_source_interference_grid",
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.wave_superposition_interf"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave",
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q16",
+      "question_sha256": "9baf2ff17dc6ed6b97499c6b1dea387ca23d977c4a4ff621d13a03e5cf031385",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.exp_trio",
+      "models": [],
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.uam_basic_kinematics",
+        "law.e1.charge_conservation",
+        "law.e1.capacitor_formulas",
+        "law.e2.current_micro_macro",
+        "law.e5.common_sensors",
+        "law.e2.series_parallel_meters"
+      ],
+      "experiments": [
+        "exp.mech.cart_uam_law",
+        "exp.elec.capacitor_charge_dis",
+        "exp.elec.sensor_auto_control"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.op.small_mass_approx",
+        "expskill.read.mm_ruler",
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit",
+        "expskill.read.pointer_meters"
+      ],
+      "methods": [
+        "method.graph.linear_kin_trans"
+      ],
+      "traps": [
+        "trap.exp.ticker_five_intervals_dt"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "16-I(1)",
+          "score": 1,
+          "process": "识别电火花打点计时器所需的220V交流工作电源",
+          "invoked_laws": [],
+          "exp_skills": [
+            "expskill.op.ac_spark_timer"
+          ]
+        },
+        {
+          "sub_id": "16-I(2)",
+          "score": 1,
+          "process": "判断探究小车速度随时间变化规律实验中的细线平行调节与免小质量近似规范",
+          "invoked_laws": [],
+          "exp_skills": [
+            "expskill.op.ac_spark_timer",
+            "expskill.op.small_mass_approx"
+          ]
+        },
+        {
+          "sub_id": "16-I(3)",
+          "score": 2,
+          "process": "读取毫米刻度尺上计数点2的位置，结合每4个打点间隔Δt=0.08s求0到5的平均速度",
+          "invoked_laws": [
+            "law.m1.avg_instant_velocity"
+          ],
+          "exp_skills": [
+            "expskill.read.mm_ruler",
+            "expskill.op.ac_spark_timer"
+          ]
+        },
+        {
+          "sub_id": "16-I(4)",
+          "score": 2,
+          "process": "利用x/t-t线性化图像纵轴截距读取计数点0对应的初速度v0",
+          "invoked_laws": [
+            "law.m1.uam_basic_kinematics"
+          ],
+          "exp_skills": [
+            "expskill.data.linearization_plot",
+            "expskill.graph.vt_fit"
+          ]
+        },
+        {
+          "sub_id": "16-II(1)",
+          "score": 2,
+          "process": "连接单刀双掷开关放电闭合回路接线柱D并根据电源极性判定电解电容器A端为负极",
+          "invoked_laws": [
+            "law.e1.charge_conservation"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "16-II(2)",
+          "score": 1,
+          "process": "按0~200μA量程分度规则读取微安表瞬时电流示数",
+          "invoked_laws": [],
+          "exp_skills": [
+            "expskill.read.pointer_meters"
+          ]
+        },
+        {
+          "sub_id": "16-II(3)",
+          "score": 1,
+          "process": "选择适合测量电容器电压的零刻度居左电压表",
+          "invoked_laws": [],
+          "exp_skills": [
+            "expskill.read.pointer_meters"
+          ]
+        },
+        {
+          "sub_id": "16-II(4)",
+          "score": 1,
+          "process": "辨识电容器先充电后反向放电时电流随时间指数衰减的i-t图像",
+          "invoked_laws": [
+            "law.e1.capacitor_formulas",
+            "law.e2.current_micro_macro"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "16-III(1)",
+          "score": 1,
+          "process": "从常见电子元件实物图中识别光敏电阻",
+          "invoked_laws": [
+            "law.e5.common_sensors"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "16-III(2)",
+          "score": 2,
+          "process": "根据光线变暗光敏电阻阻值增大时的分压变化判断三极管导通与LED自动开启条件",
+          "invoked_laws": [
+            "law.e5.common_sensors",
+            "law.e2.series_parallel_meters"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q17",
+      "question_sha256": "ae0c47d1b1d1d5abf0a8853d82125deb7de57ba6b6ddcf6e2e60d99f76e3208e",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_thermo",
+      "models": [
+        "model.thermo.cylinder_piston_thermo1",
+        "model.thermo.variable_mass_pumping"
+      ],
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t2.first_law_thermo",
+        "law.t2.gas_three_laws_ideal",
+        "law.t2.gas_pressure_micro",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.isothermal_ideal_gas_du_nonzero"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 3,
+          "process": "乘客入座导热气缸等温压缩，由热力学第一定律判放热，由压强变大判器壁单位面积压力增大",
+          "invoked_laws": [
+            "law.t1.internal_energy",
+            "law.t2.first_law_thermo",
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.gas_pressure_micro"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 3,
+          "process": "列四气缸活塞空载与载人平衡压强方程，结合玻意耳定律求驾驶员和乘客总质量m",
+          "invoked_laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.t2.gas_three_laws_ideal"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 2,
+          "process": "充气升高车身稳定后总载荷压强与环境温度均不变，判定气体分子数密度等于刚充气时",
+          "invoked_laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.t2.gas_pressure_micro",
+            "law.t2.gas_three_laws_ideal"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q18",
+      "question_sha256": "8d6a708c433daf0e87394609a34e4329d9247fb0d54079071c91990061c1b187",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_mech",
+      "models": [
+        "model.mech.multi_stage_track_combo",
+        "model.mech.horizontal_conveyor",
+        "model.mech.vertical_circle_cord_track",
+        "model.mech.inelastic_bounce_series"
+      ],
+      "laws": [
+        "law.m2.sliding_friction",
+        "law.m6.work_energy_theorem",
+        "law.m4.centripetal_force_accel",
+        "law.m3.newton_second_law",
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds",
+        "law.m1.uam_basic_kinematics",
+        "law.m7.elastic_collision_laws",
+        "law.m6.work_energy_relations",
+        "law.m6.energy_conservation_macro"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.friction_heat_net_disp_vs_path"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 3,
+          "process": "小滑块沿粗糙斜面由静止滑至底端B，应用动能定理求速度v0",
+          "invoked_laws": [
+            "law.m2.sliding_friction",
+            "law.m6.work_energy_theorem"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 5,
+          "process": "由最低点绳张力阈值反推卡住后圆周运动速度，再经完全非弹性碰撞动量守恒与传送带加减速距离核算求传送带速度范围",
+          "invoked_laws": [
+            "law.m4.centripetal_force_accel",
+            "law.m3.newton_second_law",
+            "law.m7.momentum_conservation",
+            "law.m7.inelastic_collision_bounds",
+            "law.m1.uam_basic_kinematics"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 3,
+          "process": "小球E与挡板F多次弹性碰撞直至最终静止在挡板上，对全过程列系统重力势能减少等于筒壁摩擦生热求最远下滑距离h",
+          "invoked_laws": [
+            "law.m7.elastic_collision_laws",
+            "law.m6.work_energy_relations",
+            "law.m6.energy_conservation_macro"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q19",
+      "question_sha256": "37bbfd5266045c3f69fd33f9673ee613d244fc0c8506d7489f9173e454fee9e8",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_ind",
+      "models": [
+        "model.ind.moving_mag_field_drive",
+        "model.ind.coil_crossing_mag_field",
+        "model.ind.single_rod_damping_stop"
+      ],
+      "laws": [
+        "law.e4.lenz_law",
+        "law.e4.motional_emf_linear_rot",
+        "law.e2.closed_circuit_ohm",
+        "law.e3.ampere_force_effective_l",
+        "law.e4.induced_charge_formula",
+        "law.m7.momentum_impulse",
+        "law.e2.resistance_law",
+        "law.m7.momentum_theorem"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum",
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": [
+        "trap.em.flux_flip_sign_missed"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 3,
+          "process": "汽车随车磁场刚入测速线圈，用楞次定律判感应电流逆时针，联立E=BLv与欧姆定律求车速",
+          "invoked_laws": [
+            "law.e4.lenz_law",
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 3,
+          "process": "计算随车磁场进出测速线圈两段位移L2过程中线圈所受安培力的总冲量",
+          "invoked_laws": [
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm",
+            "law.e3.ampere_force_effective_l",
+            "law.e4.induced_charge_formula",
+            "law.m7.momentum_impulse"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 5,
+          "process": "分磁场进入金属板（电阻随x反比变化，微元xΔx累积安培力冲量）与完全进入后两阶段列动量定理求总滑行距离x0",
+          "invoked_laws": [
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.resistance_law",
+            "law.e2.closed_circuit_ohm",
+            "law.e3.ampere_force_effective_l",
+            "law.m7.momentum_theorem"
+          ],
+          "exp_skills": []
+        }
+      ]
+    },
+    {
+      "question_id": "zj-25-shoukao--zhuji-zhenduan-2412-q20",
+      "question_sha256": "2be85a2d75327cc29eef0deef697dca6aa62a5576b7dd42dc337e334642d27d4",
+      "annotation_source": "answer_grounded_ai",
+      "slot": "slot.nonchoice.calc_particle",
+      "models": [
+        "model.mag.velocity_selector",
+        "model.mag.radial_annular_mag_field",
+        "model.mech.linear_variable_force_shm"
+      ],
+      "laws": [
+        "law.e3.lorentz_force",
+        "law.e1.uniform_field_u_ed",
+        "law.m2.concurrent_equilibrium",
+        "law.m7.momentum_theorem",
+        "law.m4.motion_composition",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.3d_projection_views",
+        "method.math.small_angle_approx",
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.em.lorentz_negative_charge_hand"
+      ],
+      "subquestions": [
+        {
+          "sub_id": "(1)",
+          "score": 2,
+          "process": "电子束匀速穿过正交匀强电磁场速度选择器，由电场力与洛伦兹力平衡求极板电压U",
+          "invoked_laws": [
+            "law.e3.lorentz_force",
+            "law.e1.uniform_field_u_ed",
+            "law.m2.concurrent_equilibrium"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(2)",
+          "score": 5,
+          "process": "薄透镜近似下由径向动量定理求径向动量改变量Δpr及径向速度，结合出射后匀速直线运动求会聚焦距f",
+          "invoked_laws": [
+            "law.e3.lorentz_force",
+            "law.m7.momentum_theorem",
+            "law.m4.motion_composition"
+          ],
+          "exp_skills": []
+        },
+        {
+          "sub_id": "(3)",
+          "score": 4,
+          "process": "计入筒内径向位移后径向洛伦兹力Fr=-kevr满足简谐运动，利用轴向渡越时间等于(2n+1)T/4求电子速度条件",
+          "invoked_laws": [
+            "law.e3.lorentz_force",
+            "law.m8.shm_kinematics_dynamics",
+            "law.m4.motion_composition"
+          ],
+          "exp_skills": []
+        }
+      ]
+    }
+  ]
+}

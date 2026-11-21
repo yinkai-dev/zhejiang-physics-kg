@@ -28,6 +28,7 @@
 - `trap.mech.groove_total_momentum_conserved` [力学迷思] 光滑水平面上物块滑上可动斜面/圆弧槽误认为系统总动量守恒
 - `trap.mech.movable_groove_rel_speed` [力学迷思] 滑块通过可动圆弧槽/小车最低点时误用对地速度（而非相对速度 v₁-v₂）列圆周向心力
 - `trap.mech.kepler_second_cross_planets` [力学迷思] 误将开普勒第二定律（同一行星等时扫过相等面积）跨轨道套用到不同行星
+- `trap.mech.ellipse_circle_intersect_an` [力学迷思] 误以为椭圆轨道与圆轨道非相切交点处两卫星的向心加速度大小相等
 - `trap.mech.gravity_impulse_ignored` [力学迷思] 非瞬时竖直/抛体过程中对物体用动量定理漏算重力冲量 mgt
 - `trap.mech.collision_rebound_sign_missing` [力学迷思] 一维动量计算中碰后反向反弹速度漏加负号
 - `trap.mech.collision_violate_energy_or_order` [力学迷思] 碰撞结果仅检验动量守恒，未排除总动能增加或后物穿模越过前物的非物理解
@@ -61,6 +62,8 @@
 - `trap.em.capacitor_rod_apply_q_dphi_r` [电磁迷思] 含电容器导轨回路误套纯电阻经验公式 q = ΔΦ / R
 - `trap.em.ac_charge_use_rms_instead_of_avg` [电磁迷思] 交变电流求流过电荷量 q 误用有效值，或求焦耳热 Q 误用平均值
 - `trap.em.power_line_loss_use_total_u` [电磁迷思] 远距离输电误用输送总电压 U²/R_线 计算输电线热损耗功率
+- `trap.em.slotted_tube_zero_eddy_fallacy` [电磁迷思] 误以为带竖直裂缝的铝管/铜管内完全无涡流，强磁铁下落做自由落体运动
+- `trap.em.pulsating_dc_transformer_zero` [电磁迷思] 误将换向器或二极管整流输出的脉动直流当成恒定直流而误判变压器副线圈无电压
 - `trap.tom.celsius_in_gas_law` [热光近迷思] 理想气体实验定律误直接代入摄氏温度 t (°C) 而未转开尔文 T = t + 273 K
 - `trap.tom.gas_cube_edge_as_diameter` [热光近迷思] 将气体摩尔体积除以 NA 开立方所得间距误认作气体分子直径
 - `trap.tom.r0_force_vs_pe_curve_swap` [热光近迷思] 混淆分子力 F-r 图像（r=r₀ 处 F=0）与分子势能 Ep-r 图像（r=r₀ 处 Ep 最小）

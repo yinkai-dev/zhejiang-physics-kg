@@ -1,6 +1,6 @@
 {
   "paper_id": "zj-25-shoukao--z20-mingxiao-lianmeng-2412",
-  "ontology_version": "1.1.0-train",
+  "ontology_version": "1.2.0-dev",
   "annotated_at": "2026-11-21T10:41:12.303Z",
   "annotator": "train-seed-g4",
   "questions": [
