@@ -413,6 +413,30 @@
     "triggers_trap": ["trap.gen.unit_cm_gram_unconverted", "trap.gen.mah_as_energy_unit"],
     "appears_in_slot": ["slot.choice.single_capstone", "slot.choice.mech_core"]
   },
+  {
+    "id": "model.mech.linear_drag_momentum_sum",
+    "type": "PhysicalModel",
+    "family": "力学能量动量与多过程压轴模型族",
+    "title": "线性速度阻力（f=-kv）抛体/电磁场运动正交微元动量定理消位移模型",
+    "topics": ["力学", "电学"],
+    "surface_clues": ["空气阻力与速率成正比 f=kv", "粘滞阻力", "匀强磁场中受阻力 f=-kv"],
+    "applies_law": ["law.m7.momentum_theorem", "law.m4.motion_composition"],
+    "uses_method": ["method.thought.infinitesimal_sum"],
+    "triggers_trap": ["trap.mech.gravity_impulse_ignored", "trap.gen.vector_direction_omitted"],
+    "appears_in_slot": ["slot.choice.single_capstone", "slot.nonchoice.calc_mech", "slot.nonchoice.calc_particle"]
+  },
+  {
+    "id": "model.mech.linear_variable_force_shm",
+    "type": "PhysicalModel",
+    "family": "力学能量动量与多过程压轴模型族",
+    "title": "跨光滑—粗糙边界/浸入浮力随位移线性变力等效简谐与 F-x 面积模型",
+    "topics": ["力学"],
+    "surface_clues": ["匀质长木板滑入粗糙区域", "动摩擦因数随位置线性增大 μ=kx", "圆柱体缓慢或自由浸入液体"],
+    "applies_law": ["law.m8.shm_kinematics_dynamics", "law.m6.work_energy_theorem"],
+    "uses_method": ["method.graph.fx_work", "method.thought.equivalence_method"],
+    "triggers_trap": ["trap.mech.accel_dec_means_decelerating"],
+    "appears_in_slot": ["slot.nonchoice.calc_mech", "slot.choice.single_capstone"]
+  },
 
   {
     "id": "model.elec.three_collinear_charges",
@@ -799,8 +823,33 @@
     "surface_clues": ["闭合金属线框穿过有界磁场", "i-x 图像", "F-x 图像", "线框完全进入瞬间"],
     "applies_law": ["law.e4.motional_emf_linear_rot", "law.e4.lenz_law", "law.e4.induction_energy_work"],
     "uses_method": ["method.graph.phi_t_bt", "method.graph.fx_work"],
+    "has_variant": ["model.ind.superconducting_inductance_coil"],
     "triggers_trap": ["trap.em.cutting_rod_terminal_voltage_as_emf"],
     "appears_in_slot": ["slot.choice.em_core", "slot.nonchoice.calc_ind"]
+  },
+  {
+    "id": "model.ind.superconducting_inductance_coil",
+    "type": "PhysicalModel",
+    "family": "电磁感应与交变输电模型族",
+    "title": "零电阻超导自感线框磁通量守恒（ΔΦ_外 + LΔi = 0）类简谐与磁能模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["超导线框", "电阻为零、自感系数为L", "磁通量保持不变", "磁场能 ½Li²"],
+    "applies_law": ["law.e4.mutual_self_inductance", "law.e4.faraday_induction_law", "law.m8.shm_kinematics_dynamics", "law.m6.energy_conservation_macro"],
+    "uses_method": ["method.graph.fx_work"],
+    "triggers_trap": ["trap.em.flux_vs_flux_change_rate"],
+    "appears_in_slot": ["slot.nonchoice.calc_ind"]
+  },
+  {
+    "id": "model.ind.moving_mag_field_drive",
+    "type": "PhysicalModel",
+    "family": "电磁感应与交变输电模型族",
+    "title": "平移运动磁场（行波磁场/电磁驱动）相对速度切割 E=BL(v₀-v) 与能量转化模型",
+    "topics": ["电学", "力学"],
+    "surface_clues": ["磁场以速度 v0 向右匀速运动", "直线电机", "行波磁场驱动导体棒"],
+    "applies_law": ["law.e4.motional_emf_linear_rot", "law.e4.eddy_damping_drive", "law.m7.momentum_theorem", "law.m6.energy_conservation_macro"],
+    "uses_method": ["method.thought.infinitesimal_sum"],
+    "triggers_trap": ["trap.mech.friction_heat_net_disp_vs_path"],
+    "appears_in_slot": ["slot.nonchoice.calc_ind", "slot.choice.multi_capstone"]
   },
   {
     "id": "model.ind.rotating_rod_sector_coil",
@@ -1021,6 +1070,30 @@
     "uses_method": ["method.graph.pv_pt_vt"],
     "triggers_trap": ["trap.tom.isothermal_ideal_gas_du_nonzero", "trap.gen.graph_axis_origin_offset"],
     "appears_in_slot": ["slot.choice.multi_mod_thermo", "slot.nonchoice.calc_thermo"]
+  },
+  {
+    "id": "model.thermo.balloon_buoyancy_gas",
+    "type": "PhysicalModel",
+    "family": "热学、波动光学与近代物理模型族",
+    "title": "热气球 / 孔明灯 / 潜水钟阿基米德浮力平衡与气体状态（定质量膨胀 vs 开口排气）模型",
+    "topics": ["热学", "力学"],
+    "surface_clues": ["热气球", "孔明灯", "下方开口与大气相通", "空气密度随温度变化", "刚好升空"],
+    "applies_law": ["law.t2.gas_three_laws_ideal", "law.t2.first_law_thermo", "law.m2.concurrent_equilibrium"],
+    "uses_method": ["method.thought.equivalence_method"],
+    "triggers_trap": ["trap.tom.celsius_in_gas_law"],
+    "appears_in_slot": ["slot.nonchoice.calc_thermo"]
+  },
+  {
+    "id": "model.wave.standing_longitudinal_hetero",
+    "type": "PhysicalModel",
+    "family": "热学、波动光学与近代物理模型族",
+    "title": "反射驻波波腹波节、纵波疏密点阵与跨异速双介质分段相位差干涉模型",
+    "topics": ["力学"],
+    "surface_clues": ["纵波质点疏部密部", "反射波叠加驻波", "两种不同波速介质分界面", "传播时间差"],
+    "applies_law": ["law.m8.wave_superposition_interf", "law.m8.wave_formation_params"],
+    "uses_method": ["method.graph.vib_wave_yt_yx"],
+    "triggers_trap": ["trap.mech.wave_particle_moves_with_wave"],
+    "appears_in_slot": ["slot.choice.multi_wave_opt", "slot.choice.single_capstone"]
   },
   {
     "id": "model.wave.vib_wave_dual_graphs",

@@ -1,0 +1,95 @@
+# 高频审题陷阱与认知迷思速查表 (`trap.*`)
+
+- `trap.gen.unit_cm_gram_unconverted` [通用审题陷阱] 非国际单位（cm/mm/g/cm²/μF/pF/eV）漏换算直接代算
+- `trap.gen.vector_direction_omitted` [通用审题陷阱] 求矢量漏答方向，或比较矢量大小时误带正负号
+- `trap.gen.directional_scalar_as_vector` [通用审题陷阱] 将具有方向约定或正负号的标量（电流 I、磁通量 Φ、电势 φ、功 W）误判为矢量
+- `trap.gen.newton3_action_vs_force_on` [通用审题陷阱] 问“物块对轨道压力”只算完支持力漏写牛顿第三定律说明
+- `trap.gen.braking_reverse_overshoot` [通用审题陷阱] 刹车或单向阻尼减速停下后误代入超过停止时间算成倒车
+- `trap.gen.si_derived_as_base` [通用审题陷阱] 将导出单位（N/J/W/C/V/Ω/T/Wb）误认作国际单位制基本单位或混淆物理量与单位
+- `trap.gen.ratio_def_proportional_fallacy` [通用审题陷阱] 误以为比值定义物理量（E/φ/C/R/B/ρ）随试探分子分母正反比变化
+- `trap.gen.graph_axis_origin_offset` [通用审题陷阱] 忽略坐标轴交点非 (0,0) 或单位倍率（×10⁻² / mA）导致截距斜率算错
+- `trap.gen.graph_secant_vs_tangent` [通用审题陷阱] 混淆非线性曲线上某点“与原点连线割线斜率 y/x”和“切线斜率 dy/dx”
+- `trap.gen.diameter_vs_radius` [通用审题陷阱] 题给圆筒/金属丝/圆形磁场“直径 d”误当“半径 r”代入
+- `trap.gen.surface_height_vs_center_r` [通用审题陷阱] 天体问题混淆“距地面高度 h”与“轨道半径 r = R + h”
+- `trap.gen.mah_as_energy_unit` [通用审题陷阱] 将电池容量单位 mA·h 误当作能量单位（实为电荷量 q=It）
+- `trap.gen.slowly_moving_ke_zero` [通用审题陷阱] 忽略“缓慢移动”隐含 ΔEk=0 动态准静态平衡及变力不能套恒力功
+- `trap.gen.just_reach_critical_ambiguity` [通用审题陷阱] 未区分不同模型下“恰好/刚好”对应的物理临界方程（N=0 / v=0 / v共 / 相切）
+- `trap.gen.effective_area_angle` [通用审题陷阱] 磁通量、切割长度或迎风/受光面积未投影到垂直方向
+- `trap.mech.accel_dec_means_decelerating` [力学迷思] 误以为“加速度减小，速度就减小”（a与v同向时速度仍在增大！）
+- `trap.mech.rod_force_always_along_rod` [力学迷思] 误以为固定端轻杆（死杆）的弹力方向一定沿杆方向
+- `trap.mech.static_friction_equals_mu_fn` [力学迷思] 物体相对静止时直接套用 f = μFN 算静摩擦力
+- `trap.mech.spring_force_instant_zero` [力学迷思] 剪断轻绳瞬间误以为轻弹簧弹力也立即突变为零
+- `trap.mech.cord_vs_rod_top_speed` [力学迷思] 混淆竖直圆周最高点轻绳/单侧内轨临界 √(gR) 与轻杆/双侧管道临界 0
+- `trap.mech.arc_detach_miss_half_circle` [力学迷思] 竖直圆弧轨道“不脱离”漏判“最高不超过圆心等高点滑回”情况
+- `trap.mech.orbit_boost_speed_up_fallacy` [力学迷思] 误以为卫星点火加速变轨至高圆轨道后稳定线速度变大
+- `trap.mech.equator_obj_vs_near_satellite` [力学迷思] 比较赤道随地球自转物体与近地卫星向心加速度时用错参量桥梁
+- `trap.mech.friction_heat_net_disp_vs_path` [力学迷思] 摩擦生热误代对地位移或往返净相对位移（应为相对路程总和），或动能定理误代相对位移
+- `trap.mech.single_body_in_connected_mech_cons` [力学迷思] 轻绳/轻杆连接多物体系统对单个物体误用机械能守恒定律
+- `trap.mech.groove_total_momentum_conserved` [力学迷思] 光滑水平面上物块滑上可动斜面/圆弧槽误认为系统总动量守恒
+- `trap.mech.movable_groove_rel_speed` [力学迷思] 滑块通过可动圆弧槽/小车最低点时误用对地速度（而非相对速度 v₁-v₂）列圆周向心力
+- `trap.mech.kepler_second_cross_planets` [力学迷思] 误将开普勒第二定律（同一行星等时扫过相等面积）跨轨道套用到不同行星
+- `trap.mech.gravity_impulse_ignored` [力学迷思] 非瞬时竖直/抛体过程中对物体用动量定理漏算重力冲量 mgt
+- `trap.mech.collision_rebound_sign_missing` [力学迷思] 一维动量计算中碰后反向反弹速度漏加负号
+- `trap.mech.collision_violate_energy_or_order` [力学迷思] 碰撞结果仅检验动量守恒，未排除总动能增加或后物穿模越过前物的非物理解
+- `trap.mech.fluid_impact_forget_delta_m` [力学迷思] 风力/水流连续冲击问题漏构柱体微元 Δm = ρSvΔt 或错算反弹/减速速率差
+- `trap.mech.spring_separation_at_natural_l` [力学迷思] 外力推动弹簧栓接/紧靠双物块误以为必在弹簧原长处分离
+- `trap.mech.conveyor_co_speed_keep_sliding` [力学迷思] 倾斜传送带滑块达共速瞬间未比较 μ 与 tanθ 盲目判定此后共速匀速
+- `trap.mech.pulley_equal_speed_assumed` [力学迷思] 动滑轮或绳杆斜拉连接体误设两物体速度/位移大小相等
+- `trap.mech.shm_balance_net_force_zero` [力学迷思] 误以为简谐运动经过平衡位置时物体所受合外力一定为零
+- `trap.mech.wave_particle_moves_with_wave` [力学迷思] 误以为机械波传播时质点随波水平迁移，或误以为干涉加强点位移恒处于最大值
+- `trap.mech.wave_yt_yx_direction_confused` [力学迷思] 混淆振动图像 y-t 与波动图像 y-x 的起振方向判读，或漏掉双向/多周期通解
+- `trap.mech.resonance_freq_changes_source` [力学迷思] 误以为驱动力频率改变会改变受迫系统的固有频率
+- `trap.em.field_line_is_trajectory` [电磁迷思] 将曲线电场线或磁感线误当作带电粒子的运动轨迹
+- `trap.em.zero_e_means_zero_phi` [电磁迷思] 误以为电场强度 E=0 处电势 φ 必为 0，或电势 φ=0 处场强 E 必为 0
+- `trap.em.u_ed_in_nonuniform_field` [电磁迷思] 在点电荷等非匀强电场中定量套用 U=Ed 计算电势差
+- `trap.em.capacitor_disconnected_e_changes` [电磁迷思] 平行板电容器断电恒 Q 仅改变板间距 d 时误判场强 E 改变
+- `trap.em.capacitor_diode_reverse_discharge` [电磁迷思] 电容器串联理想二极管时忽略单向导电阻止放电导致的恒 Q 锁定
+- `trap.em.electrolyte_current_cancel_charges` [电磁迷思] 电解液/电离气体正负离子反向穿过截面时误将电量相减而非绝对值相加
+- `trap.em.motor_apply_ohm_law` [电磁迷思] 对正常运转的非纯电阻用电器（电动机/电解槽）误套欧姆定律 I=U/r
+- `trap.em.capacitor_branch_reversal_dq` [电磁迷思] 电路开关切换导致电容器上下极板正负电性反转时误算 ΔQ = |Q₂ - Q₁|
+- `trap.em.lorentz_negative_charge_hand` [电磁迷思] 负电荷（电子/负离子）在磁场中用左手定则忘记四指指向速度反方向
+- `trap.em.hall_carrier_sign_ignored` [电磁迷思] 霍尔效应题盲目默认载流子必为自由电子，忽略正空穴载流子极板电势反向
+- `trap.em.cyclotron_max_ke_depends_on_u` [电磁迷思] 误以为增大回旋加速器加速电压 U 能提高引出粒子的最大动能
+- `trap.em.mag_arc_time_by_arc_length_trap` [电磁迷思] 误由弧长长短判断同种粒子在匀强磁场中运动时间（应看圆心角 α）
+- `trap.em.multi_exit_tangent_missed` [电磁迷思] 有界磁场粒子运动漏讨论多边界相切双临界或交变磁场多解
+- `trap.em.gravity_ignored_for_droplet_ball` [电磁迷思] 宏观带电微粒（油滴/液滴/小球/尘埃）在电磁场中误忽略重力
+- `trap.em.eq_gravity_highest_point_wrong` [电磁迷思] 重力与匀强电场复合圆周运动误把几何最高点当作动力学临界点
+- `trap.em.flux_vs_flux_change_rate` [电磁迷思] 混淆磁通量 Φ、磁通量变化量 ΔΦ 与磁通量变化率 ΔΦ/Δt
+- `trap.em.flux_flip_sign_missed` [电磁迷思] 线圈翻转 180° 或反向穿出时误将 ΔΦ 算为 BS - BS = 0（实为 2BS）
+- `trap.em.cutting_rod_terminal_voltage_as_emf` [电磁迷思] 将闭合回路中含内阻切割棒两端路端电压 Uab 直接当电动势 BLv 或判反高低电势
+- `trap.em.unequal_rails_momentum_conserved` [电磁迷思] 宽窄不等间距导轨双杆（或 B₁≠B₂ 双杆）误列系统动量守恒
+- `trap.em.capacitor_rod_apply_q_dphi_r` [电磁迷思] 含电容器导轨回路误套纯电阻经验公式 q = ΔΦ / R
+- `trap.em.ac_charge_use_rms_instead_of_avg` [电磁迷思] 交变电流求流过电荷量 q 误用有效值，或求焦耳热 Q 误用平均值
+- `trap.em.power_line_loss_use_total_u` [电磁迷思] 远距离输电误用输送总电压 U²/R_线 计算输电线热损耗功率
+- `trap.tom.celsius_in_gas_law` [热光近迷思] 理想气体实验定律误直接代入摄氏温度 t (°C) 而未转开尔文 T = t + 273 K
+- `trap.tom.gas_cube_edge_as_diameter` [热光近迷思] 将气体摩尔体积除以 NA 开立方所得间距误认作气体分子直径
+- `trap.tom.r0_force_vs_pe_curve_swap` [热光近迷思] 混淆分子力 F-r 图像（r=r₀ 处 F=0）与分子势能 Ep-r 图像（r=r₀ 处 Ep 最小）
+- `trap.tom.isothermal_ideal_gas_du_nonzero` [热光近迷思] 误以为一定质量理想气体等温膨胀对外做功内能减小
+- `trap.tom.free_expansion_work_nonzero` [热光近迷思] 绝热抽隔板理想气体向真空自由膨胀误判对外做功降温
+- `trap.tom.polycrystal_anisotropy` [热光近迷思] 误以为常见金属块等多晶体表现为各向异性，或没有固定熔点
+- `trap.tom.refraction_angle_to_surface` [热光近迷思] 折射定律误取光线与分界面的夹角代入 sinθ（必须取与法线夹角！）
+- `trap.tom.light_freq_changes_in_medium` [热光近迷思] 误以为光从真空进入介质后频率或颜色发生改变
+- `trap.tom.tir_sparse_to_dense` [热光近迷思] 光从光疏介质（空气）射向光密介质（水/玻璃）时误判发生全反射
+- `trap.tom.double_slit_vs_single_slit_pattern` [热光近迷思] 混淆双缝干涉（等间距等宽亮纹）与单缝衍射（中央亮纹最宽最亮）图样
+- `trap.tom.wedge_bend_convex_concave_swap` [热光近迷思] 劈尖等厚干涉条纹向尖端/厚端弯曲判被检平面凹凸反判
+- `trap.tom.photoelectric_intensity_raises_ek` [热光近迷思] 误以为频率不变增大入射光强会增大光电子最大初动能与遏止电压
+- `trap.tom.photon_vs_electron_excitation` [热光近迷思] 混淆光子吸收跃迁（hν 必恰等于 ΔE，电离除外）与实物电子碰撞激发（Ek ≥ ΔE 即可）
+- `trap.tom.single_vs_group_h_transitions` [热光近迷思] 混淆“一个处于 n 能级氢原子最多发 n-1 种光”与“一群氢原子发 C(n,2) 种光”
+- `trap.tom.half_life_few_nuclei_or_temp` [热光近迷思] 对少数几个原子核套用半衰期公式，或误以为加温加压化合态能改变半衰期
+- `trap.tom.beta_electron_from_orbital` [热光近迷思] 误以为 β 衰变释放的电子来自原子核外轨道电子
+- `trap.tom.mass_defect_breaks_mass_num` [热光近迷思] 误把核反应质量亏损 Δm 混同为质量数不守恒
+- `trap.tom.fission_cancel_neutrons` [热光近迷思] 书写重核裂变核反应方程时将左右两边中子约去，或混淆慢化剂与镉棒功能
+- `trap.exp.vernier_extra_digit` [实验陷阱] 游标卡尺读数多估读一位，或转 cm 时小数位数错位
+- `trap.exp.micrometer_miss_half_mm` [实验陷阱] 螺旋测微器漏看固定刻度 0.5 mm 半刻线或漏写末位估读 0
+- `trap.exp.ohmmeter_forget_rezero` [实验陷阱] 多用电表欧姆挡换倍率后漏做两表笔短接欧姆调零
+- `trap.exp.ohmmeter_black_lead_polarity` [实验陷阱] 多用电表欧姆挡测二极管时误以为红表笔接表内电源正极
+- `trap.exp.pendulum_length_miss_radius` [实验陷阱] 单摆摆长漏加摆球半径 r，或计时从最高点开始、全振动次数多记 1 次
+- `trap.exp.mech_energy_use_gt_for_v` [实验陷阱] 验证机械能守恒定律误用 v=gt 或 v=√(2gh) 算速度造成循环论证
+- `trap.exp.rheostat_divider_short_wire` [实验陷阱] 滑动变阻器分压接法实物图连错接线柱（接同上两端失效）或初态滑片位置反置
+- `trap.exp.emf_sys_error_reversed` [实验陷阱] 测电源 E, r 常规外接法（电压表分流）将 E_测, r_测 系统误差反判为偏大
+- `trap.exp.oil_film_ignore_concentration` [实验陷阱] 油膜法漏乘油酸酒精溶液浓度比或混淆 1 mL 滴数
+- `trap.exp.boyle_dead_volume_ignored` [实验陷阱] 注射器验证玻意耳定律漏计连接软管死体积 V₀，或手握针筒破坏等温条件
+- `trap.exp.glass_pins_too_close` [实验陷阱] 插针法测玻璃折射率两针间距过小、入射角不当或用玻璃砖界面直接当尺画线
+- `trap.exp.double_slit_dx_count_n` [实验陷阱] 双缝干涉第 1 条到第 N 条亮纹间距求 Δx 误除以 N（应除以 N-1）
+- `trap.exp.ticker_five_intervals_dt` [实验陷阱] 打点纸带“每两个计数点间还有 4 个点未画出”误取 T=0.02s 或 T=0.08s（应为 5×0.02s=0.10s）
+- `trap.exp.transformer_dc_or_high_v` [实验陷阱] 探究变压器实验误接直流电源或高压交流电，或测副线圈电压误选多用电表直流挡

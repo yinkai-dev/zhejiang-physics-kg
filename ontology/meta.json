@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "ontology_version": "1.0.0-prior",
-  "stage": "K1_prior_baseline",
+  "ontology_version": "1.1.0-train",
+  "stage": "K2_train_calibrated",
   "title": "浙江高考物理 Agent-Native 知识图谱本体",
   "curriculum_standard": "普通高中物理课程标准（2017年版2020年修订）· 人教版（2019）必修1-3 + 选择性必修1-3",
   "legacy_topics": ["力学", "电学", "热学", "光学", "近代物理"],

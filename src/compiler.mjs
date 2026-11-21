@@ -265,10 +265,17 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
   const l0Text = renderL0Map(ontology, closures, { annotatedQuestions });
   fs.writeFileSync(path.join(agentDir, 'L0-map.md'), l0Text + '\n');
 
-  // 同步一份 L0-map 到 skill/references/
+  const trapsLines = ['# 高频审题陷阱与认知迷思速查表 (`trap.*`)\n'];
+  for (const t of ontology.traps) {
+    trapsLines.push(`- \`${t.id}\` [${t.domain}] ${t.title}`);
+  }
+  fs.writeFileSync(path.join(agentDir, 'traps-index.md'), trapsLines.join('\n') + '\n');
+
+  // 同步一份 L0-map 与 traps-index 到 skill/references/
   const skillRefDir = path.join(root, 'skill', 'references');
   fs.mkdirSync(skillRefDir, { recursive: true });
   fs.writeFileSync(path.join(skillRefDir, 'L0-map.md'), l0Text + '\n');
+  fs.writeFileSync(path.join(skillRefDir, 'traps-index.md'), trapsLines.join('\n') + '\n');
 
   // 输出面向题库网站前端的轻量四维导航投影 (章节 / 考点规律 / 物理模型 / 必做实验)
   const webNav = {
