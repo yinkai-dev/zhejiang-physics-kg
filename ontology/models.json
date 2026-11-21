@@ -437,6 +437,18 @@
     "triggers_trap": ["trap.mech.accel_dec_means_decelerating"],
     "appears_in_slot": ["slot.nonchoice.calc_mech", "slot.choice.single_capstone"]
   },
+  {
+    "id": "model.mech.non_inertial_pendulum_frame",
+    "type": "PhysicalModel",
+    "family": "力学运动与平衡模型族",
+    "title": "加速车厢 / 斜置平面“纯力学等效重力场”单摆周期与圆周极值模型",
+    "topics": ["力学"],
+    "surface_clues": ["匀加速行驶车厢内悬挂小球", "倾斜光滑平面上的单摆（杆线摆）", "等效最低点与最高点"],
+    "applies_law": ["law.m3.newton_second_law", "law.m8.simple_pendulum", "law.m4.centripetal_force_accel"],
+    "uses_method": ["method.thought.equivalence_method"],
+    "triggers_trap": ["trap.em.eq_gravity_highest_point_wrong"],
+    "appears_in_slot": ["slot.choice.mech_core", "slot.choice.multi_capstone"]
+  },
 
   {
     "id": "model.elec.three_collinear_charges",
@@ -1204,16 +1216,40 @@
     "appears_in_slot": ["slot.choice.multi_wave_opt", "slot.choice.single_capstone"]
   },
   {
+    "id": "model.opt.thin_film_wedge_newton_ring",
+    "type": "PhysicalModel",
+    "family": "热学、波动光学与近代物理模型族",
+    "title": "劈尖等厚干涉平整度检测与牛顿环球面空气膜条纹半径（r²=kRλ 内疏外密）模型",
+    "topics": ["光学"],
+    "surface_clues": ["牛顿环", "平凸透镜置于平板玻璃上", "劈尖空气薄膜", "抽去垫片条纹移动疏密"],
+    "applies_law": ["law.o2.thin_film_interference"],
+    "uses_method": ["method.math.small_angle_approx", "method.graph.linear_kin_trans"],
+    "triggers_trap": ["trap.tom.wedge_bend_convex_concave_swap"],
+    "appears_in_slot": ["slot.choice.multi_wave_opt", "slot.nonchoice.exp_trio"]
+  },
+  {
     "id": "model.mod.photoelectric_bohr_combo",
     "type": "PhysicalModel",
     "family": "热学、波动光学与近代物理模型族",
-    "title": "氢原子能级跃迁辐射光子谱 + 光电管遏止电压 + 光电子磁场偏转联立模型",
+    "title": "氢原子能级跃迁辐射光子谱照射光电管遏止电压联合判读模型",
     "topics": ["近代物理", "电学"],
     "surface_clues": ["处于 n=4 激发态的一群氢原子", "照射光电管阴极 K", "能使金属发生光电效应的光有几种"],
-    "applies_law": ["law.q1.bohr_hydrogen_transitions", "law.q1.photoelectric_effect", "law.e3.cyclotron_motion_laws"],
+    "applies_law": ["law.q1.bohr_hydrogen_transitions", "law.q1.photoelectric_effect"],
     "uses_method": ["method.graph.uc_nu_photo"],
     "triggers_trap": ["trap.tom.single_vs_group_h_transitions", "trap.tom.photoelectric_intensity_raises_ek", "trap.tom.photon_vs_electron_excitation"],
     "appears_in_slot": ["slot.choice.multi_mod_thermo", "slot.nonchoice.calc_particle"]
+  },
+  {
+    "id": "model.mod.franck_hertz_collision",
+    "type": "PhysicalModel",
+    "family": "热学、波动光学与近代物理模型族",
+    "title": "弗兰克—赫兹实验实物电子碰撞激发原子分立能级与周期电流峰值模型",
+    "topics": ["近代物理", "电学", "力学"],
+    "surface_clues": ["弗兰克-赫兹实验", "电子碰撞汞原子激发能级", "阳极电流随加速电压周期性骤降"],
+    "applies_law": ["law.q1.bohr_hydrogen_transitions", "law.e1.charged_particle_accel", "law.m7.inelastic_collision_bounds"],
+    "uses_method": ["method.graph.ui_dc"],
+    "triggers_trap": ["trap.tom.photon_vs_electron_excitation"],
+    "appears_in_slot": ["slot.choice.single_capstone", "slot.choice.multi_mod_thermo"]
   },
   {
     "id": "model.mod.decay_recoil_tangent_circles",
