@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "ontology_version": "1.0.0-prior",
+  "stage": "K1_prior_baseline",
+  "title": "浙江高考物理 Agent-Native 知识图谱本体",
+  "curriculum_standard": "普通高中物理课程标准（2017年版2020年修订）· 人教版（2019）必修1-3 + 选择性必修1-3",
+  "legacy_topics": ["力学", "电学", "热学", "光学", "近代物理"],
+  "node_types": [
+    "CurriculumUnit",
+    "ConceptAndLaw",
+    "PhysicalModel",
+    "Experiment",
+    "ExpSkill",
+    "MethodAndTool",
+    "Misconception",
+    "ExamSlot"
+  ],
+  "edge_types": [
+    "BELONGS_TO_UNIT",
+    "REQUIRES_PREREQ",
+    "APPLIES_LAW",
+    "USES_METHOD",
+    "HAS_VARIANT",
+    "CONTRASTS_WITH",
+    "TRIGGERS_TRAP",
+    "REMEDIATED_BY",
+    "APPEARS_IN_SLOT"
+  ],
+  "annotation_sources": [
+    "answer_grounded_ai",
+    "question_only_ai",
+    "teacher_verified"
+  ]
+}

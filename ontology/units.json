@@ -1,0 +1,452 @@
+[
+  {
+    "id": "unit.b1.c1",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b1",
+    "book_title": "必修第一册",
+    "order": 1,
+    "title": "第一章 运动的描述",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b1.c1.s1", "order": 1, "title": "质点 参考系", "topics": ["力学"] },
+      { "id": "unit.b1.c1.s2", "order": 2, "title": "时间 位移", "topics": ["力学"] },
+      { "id": "unit.b1.c1.s3", "order": 3, "title": "位置变化快慢的描述——速度", "topics": ["力学"] },
+      { "id": "unit.b1.c1.s4", "order": 4, "title": "实验：借助传感器或打点计时器测速度", "topics": ["力学"] },
+      { "id": "unit.b1.c1.s5", "order": 5, "title": "速度变化快慢的描述——加速度", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b1.c2",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b1",
+    "book_title": "必修第一册",
+    "order": 2,
+    "title": "第二章 匀变速直线运动的研究",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b1.c2.s1", "order": 1, "title": "实验：探究小车速度随时间变化的规律", "topics": ["力学"] },
+      { "id": "unit.b1.c2.s2", "order": 2, "title": "匀变速直线运动的速度与时间的关系", "topics": ["力学"] },
+      { "id": "unit.b1.c2.s3", "order": 3, "title": "匀变速直线运动的位移与时间的关系", "topics": ["力学"] },
+      { "id": "unit.b1.c2.s4", "order": 4, "title": "自由落体运动与伽利略的研究", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b1.c3",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b1",
+    "book_title": "必修第一册",
+    "order": 3,
+    "title": "第三章 相互作用——力",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b1.c3.s1", "order": 1, "title": "重力与弹力（含探究弹簧弹力与形变量关系）", "topics": ["力学"] },
+      { "id": "unit.b1.c3.s2", "order": 2, "title": "摩擦力", "topics": ["力学"] },
+      { "id": "unit.b1.c3.s3", "order": 3, "title": "牛顿第三定律", "topics": ["力学"] },
+      { "id": "unit.b1.c3.s4", "order": 4, "title": "力的合成和分解（含探究两个互成角度的力的合成规律）", "topics": ["力学"] },
+      { "id": "unit.b1.c3.s5", "order": 5, "title": "共点力的平衡", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b1.c4",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b1",
+    "book_title": "必修第一册",
+    "order": 4,
+    "title": "第四章 运动和力的关系",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b1.c4.s1", "order": 1, "title": "牛顿第一定律", "topics": ["力学"] },
+      { "id": "unit.b1.c4.s2", "order": 2, "title": "实验：探究加速度与力、质量的关系", "topics": ["力学"] },
+      { "id": "unit.b1.c4.s3", "order": 3, "title": "牛顿第二定律", "topics": ["力学"] },
+      { "id": "unit.b1.c4.s4", "order": 4, "title": "力学单位制", "topics": ["力学"] },
+      { "id": "unit.b1.c4.s5", "order": 5, "title": "牛顿运动定律的应用", "topics": ["力学"] },
+      { "id": "unit.b1.c4.s6", "order": 6, "title": "超重和失重", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b2.c5",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b2",
+    "book_title": "必修第二册",
+    "order": 5,
+    "title": "第五章 抛体运动",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b2.c5.s1", "order": 1, "title": "曲线运动", "topics": ["力学"] },
+      { "id": "unit.b2.c5.s2", "order": 2, "title": "运动的合成与分解", "topics": ["力学"] },
+      { "id": "unit.b2.c5.s3", "order": 3, "title": "实验：探究平抛运动的特点", "topics": ["力学"] },
+      { "id": "unit.b2.c5.s4", "order": 4, "title": "抛体运动的规律", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b2.c6",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b2",
+    "book_title": "必修第二册",
+    "order": 6,
+    "title": "第六章 圆周运动",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b2.c6.s1", "order": 1, "title": "圆周运动", "topics": ["力学"] },
+      { "id": "unit.b2.c6.s2", "order": 2, "title": "向心力（含探究向心力大小实验）", "topics": ["力学"] },
+      { "id": "unit.b2.c6.s3", "order": 3, "title": "向心加速度", "topics": ["力学"] },
+      { "id": "unit.b2.c6.s4", "order": 4, "title": "生活中的圆周运动", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b2.c7",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b2",
+    "book_title": "必修第二册",
+    "order": 7,
+    "title": "第七章 万有引力与宇宙航行",
+    "topics": ["力学", "近代物理"],
+    "sections": [
+      { "id": "unit.b2.c7.s1", "order": 1, "title": "行星的运动", "topics": ["力学"] },
+      { "id": "unit.b2.c7.s2", "order": 2, "title": "万有引力定律", "topics": ["力学"] },
+      { "id": "unit.b2.c7.s3", "order": 3, "title": "万有引力理论的成就", "topics": ["力学"] },
+      { "id": "unit.b2.c7.s4", "order": 4, "title": "宇宙航行", "topics": ["力学"] },
+      { "id": "unit.b2.c7.s5", "order": 5, "title": "相对论时空观与牛顿力学的局限性", "topics": ["近代物理", "力学"] }
+    ]
+  },
+  {
+    "id": "unit.b2.c8",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b2",
+    "book_title": "必修第二册",
+    "order": 8,
+    "title": "第八章 机械能守恒定律",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.b2.c8.s1", "order": 1, "title": "功与功率", "topics": ["力学"] },
+      { "id": "unit.b2.c8.s2", "order": 2, "title": "重力势能", "topics": ["力学"] },
+      { "id": "unit.b2.c8.s3", "order": 3, "title": "动能和动能定理", "topics": ["力学"] },
+      { "id": "unit.b2.c8.s4", "order": 4, "title": "机械能守恒定律", "topics": ["力学"] },
+      { "id": "unit.b2.c8.s5", "order": 5, "title": "实验：验证机械能守恒定律", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.b3.c9",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b3",
+    "book_title": "必修第三册",
+    "order": 9,
+    "title": "第九章 静电场及其应用",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.b3.c9.s1", "order": 1, "title": "电荷", "topics": ["电学"] },
+      { "id": "unit.b3.c9.s2", "order": 2, "title": "库仑定律", "topics": ["电学"] },
+      { "id": "unit.b3.c9.s3", "order": 3, "title": "电场 电场强度", "topics": ["电学"] },
+      { "id": "unit.b3.c9.s4", "order": 4, "title": "静电的防止与利用", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.b3.c10",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b3",
+    "book_title": "必修第三册",
+    "order": 10,
+    "title": "第十章 静电场中的能量",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.b3.c10.s1", "order": 1, "title": "电势能和电势", "topics": ["电学"] },
+      { "id": "unit.b3.c10.s2", "order": 2, "title": "电势差", "topics": ["电学"] },
+      { "id": "unit.b3.c10.s3", "order": 3, "title": "电势差与电场强度的关系", "topics": ["电学"] },
+      { "id": "unit.b3.c10.s4", "order": 4, "title": "电容器的电容（含观察充放电）", "topics": ["电学"] },
+      { "id": "unit.b3.c10.s5", "order": 5, "title": "带电粒子在电场中的运动", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.b3.c11",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b3",
+    "book_title": "必修第三册",
+    "order": 11,
+    "title": "第十一章 电路及其应用",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.b3.c11.s1", "order": 1, "title": "电源和电流", "topics": ["电学"] },
+      { "id": "unit.b3.c11.s2", "order": 2, "title": "导体的电阻（含伏安特性曲线）", "topics": ["电学"] },
+      { "id": "unit.b3.c11.s3", "order": 3, "title": "实验：导体电阻率的测量", "topics": ["电学"] },
+      { "id": "unit.b3.c11.s4", "order": 4, "title": "串联电路和并联电路", "topics": ["电学"] },
+      { "id": "unit.b3.c11.s5", "order": 5, "title": "实验：练习使用多用电表", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.b3.c12",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b3",
+    "book_title": "必修第三册",
+    "order": 12,
+    "title": "第十二章 电能 能量守恒定律",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.b3.c12.s1", "order": 1, "title": "电路中的能量转化", "topics": ["电学"] },
+      { "id": "unit.b3.c12.s2", "order": 2, "title": "闭合电路的欧姆定律", "topics": ["电学"] },
+      { "id": "unit.b3.c12.s3", "order": 3, "title": "实验：电池电动势和内阻的测量", "topics": ["电学"] },
+      { "id": "unit.b3.c12.s4", "order": 4, "title": "能源与可持续发展", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.b3.c13",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "b3",
+    "book_title": "必修第三册",
+    "order": 13,
+    "title": "第十三章 电磁感应与电磁波初步",
+    "topics": ["电学", "近代物理"],
+    "sections": [
+      { "id": "unit.b3.c13.s1", "order": 1, "title": "磁场 磁感线", "topics": ["电学"] },
+      { "id": "unit.b3.c13.s2", "order": 2, "title": "磁感应强度 磁通量", "topics": ["电学"] },
+      { "id": "unit.b3.c13.s3", "order": 3, "title": "电磁感应现象及应用", "topics": ["电学"] },
+      { "id": "unit.b3.c13.s4", "order": 4, "title": "电磁波的发现及应用", "topics": ["电学"] },
+      { "id": "unit.b3.c13.s5", "order": 5, "title": "能量量子化", "topics": ["近代物理"] }
+    ]
+  },
+  {
+    "id": "unit.s1.c1",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s1",
+    "book_title": "选择性必修第一册",
+    "order": 14,
+    "title": "第一章 动量守恒定律",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.s1.c1.s1", "order": 1, "title": "动量", "topics": ["力学"] },
+      { "id": "unit.s1.c1.s2", "order": 2, "title": "动量定理", "topics": ["力学"] },
+      { "id": "unit.s1.c1.s3", "order": 3, "title": "动量守恒定律", "topics": ["力学"] },
+      { "id": "unit.s1.c1.s4", "order": 4, "title": "实验：验证动量守恒定律", "topics": ["力学"] },
+      { "id": "unit.s1.c1.s5", "order": 5, "title": "弹性碰撞和非弹性碰撞", "topics": ["力学"] },
+      { "id": "unit.s1.c1.s6", "order": 6, "title": "反冲现象 火箭", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.s1.c2",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s1",
+    "book_title": "选择性必修第一册",
+    "order": 15,
+    "title": "第二章 机械振动",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.s1.c2.s1", "order": 1, "title": "简谐运动", "topics": ["力学"] },
+      { "id": "unit.s1.c2.s2", "order": 2, "title": "简谐运动的描述", "topics": ["力学"] },
+      { "id": "unit.s1.c2.s3", "order": 3, "title": "简谐运动的回复力和能量", "topics": ["力学"] },
+      { "id": "unit.s1.c2.s4", "order": 4, "title": "单摆", "topics": ["力学"] },
+      { "id": "unit.s1.c2.s5", "order": 5, "title": "实验：用单摆测量重力加速度", "topics": ["力学"] },
+      { "id": "unit.s1.c2.s6", "order": 6, "title": "受迫振动 共振", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.s1.c3",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s1",
+    "book_title": "选择性必修第一册",
+    "order": 16,
+    "title": "第三章 机械波",
+    "topics": ["力学"],
+    "sections": [
+      { "id": "unit.s1.c3.s1", "order": 1, "title": "波的形成", "topics": ["力学"] },
+      { "id": "unit.s1.c3.s2", "order": 2, "title": "波的描述", "topics": ["力学"] },
+      { "id": "unit.s1.c3.s3", "order": 3, "title": "波的反射、折射和衍射", "topics": ["力学"] },
+      { "id": "unit.s1.c3.s4", "order": 4, "title": "波的干涉", "topics": ["力学"] },
+      { "id": "unit.s1.c3.s5", "order": 5, "title": "多普勒效应", "topics": ["力学"] }
+    ]
+  },
+  {
+    "id": "unit.s1.c4",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s1",
+    "book_title": "选择性必修第一册",
+    "order": 17,
+    "title": "第四章 光",
+    "topics": ["光学"],
+    "sections": [
+      { "id": "unit.s1.c4.s1", "order": 1, "title": "光的折射（含测量玻璃折射率实验）", "topics": ["光学"] },
+      { "id": "unit.s1.c4.s2", "order": 2, "title": "全反射", "topics": ["光学"] },
+      { "id": "unit.s1.c4.s3", "order": 3, "title": "光的干涉", "topics": ["光学"] },
+      { "id": "unit.s1.c4.s4", "order": 4, "title": "实验：用双缝干涉测量光的波长", "topics": ["光学"] },
+      { "id": "unit.s1.c4.s5", "order": 5, "title": "光的衍射", "topics": ["光学"] },
+      { "id": "unit.s1.c4.s6", "order": 6, "title": "光的偏振 激光", "topics": ["光学"] }
+    ]
+  },
+  {
+    "id": "unit.s2.c1",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s2",
+    "book_title": "选择性必修第二册",
+    "order": 18,
+    "title": "第一章 安培力与洛伦兹力",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.s2.c1.s1", "order": 1, "title": "磁场对通电导线的作用力", "topics": ["电学"] },
+      { "id": "unit.s2.c1.s2", "order": 2, "title": "磁场对运动电荷的作用力", "topics": ["电学"] },
+      { "id": "unit.s2.c1.s3", "order": 3, "title": "带电粒子在匀强磁场中的运动", "topics": ["电学"] },
+      { "id": "unit.s2.c1.s4", "order": 4, "title": "质谱仪与回旋加速器", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.s2.c2",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s2",
+    "book_title": "选择性必修第二册",
+    "order": 19,
+    "title": "第二章 电磁感应",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.s2.c2.s1", "order": 1, "title": "楞次定律（含探究感应电流方向实验）", "topics": ["电学"] },
+      { "id": "unit.s2.c2.s2", "order": 2, "title": "法拉第电磁感应定律", "topics": ["电学"] },
+      { "id": "unit.s2.c2.s3", "order": 3, "title": "涡流、电磁阻尼和电磁驱动", "topics": ["电学"] },
+      { "id": "unit.s2.c2.s4", "order": 4, "title": "互感和自感", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.s2.c3",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s2",
+    "book_title": "选择性必修第二册",
+    "order": 20,
+    "title": "第三章 交变电流",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.s2.c3.s1", "order": 1, "title": "交变电流", "topics": ["电学"] },
+      { "id": "unit.s2.c3.s2", "order": 2, "title": "交变电流的描述", "topics": ["电学"] },
+      { "id": "unit.s2.c3.s3", "order": 3, "title": "变压器（含探究变压器匝数与电压关系实验）", "topics": ["电学"] },
+      { "id": "unit.s2.c3.s4", "order": 4, "title": "电能的输送", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.s2.c4",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s2",
+    "book_title": "选择性必修第二册",
+    "order": 21,
+    "title": "第四章 电磁振荡与电磁波",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.s2.c4.s1", "order": 1, "title": "电磁振荡", "topics": ["电学"] },
+      { "id": "unit.s2.c4.s2", "order": 2, "title": "电磁场与电磁波", "topics": ["电学"] },
+      { "id": "unit.s2.c4.s3", "order": 3, "title": "无线电波的发射和接收", "topics": ["电学"] },
+      { "id": "unit.s2.c4.s4", "order": 4, "title": "电磁波谱", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.s2.c5",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s2",
+    "book_title": "选择性必修第二册",
+    "order": 22,
+    "title": "第五章 传感器",
+    "topics": ["电学"],
+    "sections": [
+      { "id": "unit.s2.c5.s1", "order": 1, "title": "认识传感器", "topics": ["电学"] },
+      { "id": "unit.s2.c5.s2", "order": 2, "title": "常见传感器的工作原理及应用", "topics": ["电学"] },
+      { "id": "unit.s2.c5.s3", "order": 3, "title": "利用传感器制作简单的自动控制装置", "topics": ["电学"] }
+    ]
+  },
+  {
+    "id": "unit.s3.c1",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s3",
+    "book_title": "选择性必修第三册",
+    "order": 23,
+    "title": "第一章 分子动理论",
+    "topics": ["热学"],
+    "sections": [
+      { "id": "unit.s3.c1.s1", "order": 1, "title": "分子动理论的基本内容", "topics": ["热学"] },
+      { "id": "unit.s3.c1.s2", "order": 2, "title": "实验：用油膜法估测油酸分子的大小", "topics": ["热学"] },
+      { "id": "unit.s3.c1.s3", "order": 3, "title": "分子运动速率分布规律", "topics": ["热学"] },
+      { "id": "unit.s3.c1.s4", "order": 4, "title": "分子动能和分子势能", "topics": ["热学"] }
+    ]
+  },
+  {
+    "id": "unit.s3.c2",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s3",
+    "book_title": "选择性必修第三册",
+    "order": 24,
+    "title": "第二章 气体、固体和液体",
+    "topics": ["热学"],
+    "sections": [
+      { "id": "unit.s3.c2.s1", "order": 1, "title": "温度和温标", "topics": ["热学"] },
+      { "id": "unit.s3.c2.s2", "order": 2, "title": "气体的等温变化（含探究气体等温变化规律实验）", "topics": ["热学"] },
+      { "id": "unit.s3.c2.s3", "order": 3, "title": "气体的等压变化和等容变化", "topics": ["热学"] },
+      { "id": "unit.s3.c2.s4", "order": 4, "title": "固体", "topics": ["热学"] },
+      { "id": "unit.s3.c2.s5", "order": 5, "title": "液体", "topics": ["热学"] }
+    ]
+  },
+  {
+    "id": "unit.s3.c3",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s3",
+    "book_title": "选择性必修第三册",
+    "order": 25,
+    "title": "第三章 热力学定律",
+    "topics": ["热学"],
+    "sections": [
+      { "id": "unit.s3.c3.s1", "order": 1, "title": "功、热和内能的改变", "topics": ["热学"] },
+      { "id": "unit.s3.c3.s2", "order": 2, "title": "热力学第一定律", "topics": ["热学"] },
+      { "id": "unit.s3.c3.s3", "order": 3, "title": "能量守恒定律", "topics": ["热学"] },
+      { "id": "unit.s3.c3.s4", "order": 4, "title": "热力学第二定律", "topics": ["热学"] }
+    ]
+  },
+  {
+    "id": "unit.s3.c4",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s3",
+    "book_title": "选择性必修第三册",
+    "order": 26,
+    "title": "第四章 原子结构和波粒二象性",
+    "topics": ["近代物理"],
+    "sections": [
+      { "id": "unit.s3.c4.s1", "order": 1, "title": "普朗克黑体辐射理论", "topics": ["近代物理"] },
+      { "id": "unit.s3.c4.s2", "order": 2, "title": "光电效应", "topics": ["近代物理"] },
+      { "id": "unit.s3.c4.s3", "order": 3, "title": "原子的核式结构模型", "topics": ["近代物理"] },
+      { "id": "unit.s3.c4.s4", "order": 4, "title": "氢原子光谱和玻尔的原子模型", "topics": ["近代物理"] },
+      { "id": "unit.s3.c4.s5", "order": 5, "title": "粒子的波动性和量子力学的建立", "topics": ["近代物理"] }
+    ]
+  },
+  {
+    "id": "unit.s3.c5",
+    "type": "CurriculumUnit",
+    "level": "chapter",
+    "book_id": "s3",
+    "book_title": "选择性必修第三册",
+    "order": 27,
+    "title": "第五章 原子核",
+    "topics": ["近代物理"],
+    "sections": [
+      { "id": "unit.s3.c5.s1", "order": 1, "title": "原子核的组成", "topics": ["近代物理"] },
+      { "id": "unit.s3.c5.s2", "order": 2, "title": "放射性元素的衰变", "topics": ["近代物理"] },
+      { "id": "unit.s3.c5.s3", "order": 3, "title": "核力与结合能", "topics": ["近代物理"] },
+      { "id": "unit.s3.c5.s4", "order": 4, "title": "核裂变与核聚变", "topics": ["近代物理"] },
+      { "id": "unit.s3.c5.s5", "order": 5, "title": "“基本”粒子", "topics": ["近代物理"] }
+    ]
+  }
+]

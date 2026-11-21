@@ -1,0 +1,134 @@
+[
+  {
+    "id": "slot.choice.si_concept",
+    "type": "ExamSlot",
+    "title": "单选首题：国际单位制与基础概念辨析",
+    "paper_18_numbers": ["1"],
+    "paper_20_numbers": ["1"],
+    "question_type": "单选题",
+    "default_score": 3,
+    "topics": ["力学", "电学"],
+    "summary": "考查 SI 七大基本量与基本单位、导出单位量纲推导、矢量与标量辨析或物理学史常识。"
+  },
+  {
+    "id": "slot.choice.mech_core",
+    "type": "ExamSlot",
+    "title": "单选中前段：力学情境建模与运动相互作用",
+    "paper_18_numbers": ["2", "3", "4", "5", "6"],
+    "paper_20_numbers": ["2", "3", "4", "5", "6", "7", "8"],
+    "question_type": "单选题",
+    "default_score": 3,
+    "topics": ["力学"],
+    "summary": "以体育运动、交通、工程机械、天体航行为背景，考查共点力平衡、直线/抛体/圆周运动、万有引力与机械能动量基础。"
+  },
+  {
+    "id": "slot.choice.em_core",
+    "type": "ExamSlot",
+    "title": "单选中段：静电场、电路变压器与电磁场规律",
+    "paper_18_numbers": ["4", "5", "6", "7", "8", "9"],
+    "paper_20_numbers": ["6", "7", "8", "9", "10", "11", "12"],
+    "question_type": "单选题",
+    "default_score": 3,
+    "topics": ["电学"],
+    "summary": "考查点电荷与静电图像、电容器动态分析、闭合电路/传感器、理想变压器输电、安培力平衡及电磁感应图像。"
+  },
+  {
+    "id": "slot.choice.single_capstone",
+    "type": "ExamSlot",
+    "title": "单选压轴：工程能量微元估算与多物理过程推理",
+    "paper_18_numbers": ["9", "10"],
+    "paper_20_numbers": ["12", "13"],
+    "question_type": "单选题",
+    "default_score": 3,
+    "topics": ["力学", "电学", "光学", "近代物理"],
+    "summary": "浙江选考标志性区分题：常考风力/水流/光子微元冲击估算、复杂几何光学、霍尔/质谱/回旋仪器或天体多体变式。"
+  },
+  {
+    "id": "slot.choice.multi_mod_thermo",
+    "type": "ExamSlot",
+    "title": "多选首题：近代物理、电磁波与分子热学综合",
+    "paper_18_numbers": ["11"],
+    "paper_20_numbers": ["14"],
+    "question_type": "多选题",
+    "default_score": 4,
+    "topics": ["近代物理", "电学", "光学", "热学"],
+    "summary": "聚焦选择性必修二、三册概念拼盘：光电效应、玻尔氢原子能级跃迁、核反应衰变、电磁振荡与波谱、分子力与固液性质。"
+  },
+  {
+    "id": "slot.choice.multi_wave_opt",
+    "type": "ExamSlot",
+    "title": "多选中后段：机械振动机械波与光学干涉全反射",
+    "paper_18_numbers": ["12", "13"],
+    "paper_20_numbers": ["15"],
+    "question_type": "多选题",
+    "default_score": 4,
+    "topics": ["力学", "光学"],
+    "summary": "考查振动图像与波动图像双图联动、波的多解性与双源干涉加强减弱计数、透明介质折射与全反射临界光路。"
+  },
+  {
+    "id": "slot.choice.multi_capstone",
+    "type": "ExamSlot",
+    "title": "多选压轴：力电综合或复合模型多选辨析",
+    "paper_18_numbers": ["13"],
+    "paper_20_numbers": ["15"],
+    "question_type": "多选题",
+    "default_score": 4,
+    "topics": ["力学", "电学"],
+    "summary": "考查连接体/弹簧动量能量极值、电磁感应线框/导轨动态图像或带电粒子运动多选项定量判断。"
+  },
+  {
+    "id": "slot.nonchoice.exp_trio",
+    "type": "ExamSlot",
+    "title": "非选实验大题：力学+电学+选修微实验拼盘",
+    "paper_18_numbers": ["14"],
+    "paper_20_numbers": ["16"],
+    "question_type": "实验题",
+    "default_score": 14,
+    "topics": ["力学", "电学", "光学", "热学"],
+    "summary": "浙江选考稳定采用“一力 + 一电 + 一选修（双缝/折射率/油膜法/气体等温/传感器/变压器）”结构，重读数、电路排错、化曲为直与误差推导。"
+  },
+  {
+    "id": "slot.nonchoice.calc_thermo",
+    "type": "ExamSlot",
+    "title": "计算第一题：理想气体状态变化与热力学第一定律",
+    "paper_18_numbers": ["15"],
+    "paper_20_numbers": ["17"],
+    "question_type": "计算题",
+    "default_score": 8,
+    "topics": ["热学", "力学"],
+    "summary": "本库实证 100% 为热学气体计算：气缸活塞/水银柱受力关联平衡、变质量充抽气等效与热力学第一定律吸放热做功。"
+  },
+  {
+    "id": "slot.nonchoice.calc_mech",
+    "type": "ExamSlot",
+    "title": "计算第二题：多过程组合轨道力学综合",
+    "paper_18_numbers": ["16"],
+    "paper_20_numbers": ["18"],
+    "question_type": "计算题",
+    "default_score": 11,
+    "topics": ["力学"],
+    "summary": "串联斜面、粗糙平面/传送带/板块、弹簧弹射、弹性/非弹性碰撞、竖直圆弧轨道不脱离双判据及平抛落点。"
+  },
+  {
+    "id": "slot.nonchoice.calc_ind",
+    "type": "ExamSlot",
+    "title": "计算第三题：电磁感应导轨/线框动力学与能量动量综合",
+    "paper_18_numbers": ["17"],
+    "paper_20_numbers": ["19"],
+    "question_type": "计算题",
+    "default_score": 12,
+    "topics": ["电学", "力学"],
+    "summary": "单杆/双杆（等距或不等距）、旋转切割、含容/含源导轨回路，结合安培力微元动量定理消电量与焦耳热能量分配。"
+  },
+  {
+    "id": "slot.nonchoice.calc_particle",
+    "type": "ExamSlot",
+    "title": "计算压轴题：带电粒子在有界/组合/三维电磁场中的几何临界运动",
+    "paper_18_numbers": ["18"],
+    "paper_20_numbers": ["20"],
+    "question_type": "计算题",
+    "default_score": 13,
+    "topics": ["电学", "力学", "近代物理"],
+    "summary": "粒子源/光电效应/核反应注入有界磁场、组合场、正交复合场（配速法）或三维螺旋场，考查放缩圆、旋转圆、磁聚焦及多周期临界几何。"
+  }
+]

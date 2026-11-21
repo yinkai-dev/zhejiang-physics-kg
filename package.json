@@ -1,0 +1,20 @@
+{
+  "name": "zhejiang-physics-kg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "面向 AI 智能体与浙江高考物理题库的六维正交属性知识图谱（Agent-Native Physics Knowledge Graph）",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "splits:init": "node scripts/init-splits.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check:math": "node scripts/check-math.mjs",
+    "build": "node scripts/build.mjs",
+    "cli": "node scripts/cli.mjs",
+    "eval": "node scripts/evaluate.mjs",
+    "sync:dry": "node scripts/sync-downstream.mjs --dry-run",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
