@@ -1,0 +1,4701 @@
+{
+  "schema_version": "1.0.0",
+  "book_id": "s1",
+  "annotation_source": "textbook_grounded_ai",
+  "items": [
+    {
+      "item_id": "tb.s1.c1.s1.exmp.1",
+      "unit_id": "unit.s1.c1.s1",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 4,
+      "content_sha256": "b8cd1f71ffa9b656474a4dcfb116920746e8c9108e8c4c539a393548638cfc6b",
+      "concise_topic": "钢球水平撞击坚硬墙壁原速率弹回的一维动量变化量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_impulse"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s1.prac.q1",
+      "unit_id": "unit.s1.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "7759120b1fa2440b5f5702ccbff9319d05537ddf1a8a5ab460717912e5edcbf1",
+      "concise_topic": "速度大小或方向变化及双物体系统中动量与动能概念对比辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s1.prac.q2",
+      "unit_id": "unit.s1.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "0443ec8febf5a469bd9cbcd1177650521a833636b42393ebb890a58e3c296ba1",
+      "concise_topic": "静止物体受分段矩形变化合力F-t图像作用求指定时刻动量大小",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m7.momentum_theorem",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ft_impulse",
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.exmp.1",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 8,
+      "content_sha256": "6a307634b335211d6a9db859fddafefce2916ffa20095a25d87dcbefde2f32ad",
+      "concise_topic": "球棒短时击打水平飞来垒球反向飞回的平均作用力计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m7.momentum_impulse"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q1",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "66a3f038d5e344ee14edb456c7058b56de1964239eaea65cf1c424867267bbc5",
+      "concise_topic": "斜向上恒力拉水平面静止物体时拉力、静摩擦力与合力冲量辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m7.momentum_theorem",
+        "law.m2.static_friction",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted",
+        "trap.mech.static_friction_equals_mu_fn"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q2",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 11,
+      "content_sha256": "2c5dad35b00e5394ea33a61d4256999da23a21b964ae45ddbf0639696a162bb2",
+      "concise_topic": "体操运动员落地屈腿延长缓冲时间减小地面冲击力的动量定理解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.momentum_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q3",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 11,
+      "content_sha256": "8a09446c82883d47ff26dc0915bf47a8cfa8c36ba9510cd5f2abb98b69e2c01a",
+      "concise_topic": "铁锤短时打击钉子计与不计重力两种情形下平均作用力对比及忽略条件",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.gravity_impulse_ignored",
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q4",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 11,
+      "content_sha256": "7ed52db238876298f94d7cbcfca8e6acd81f2014b8678847ab820c67a478111f",
+      "concise_topic": "直线运动物体受反向恒力作用后速度反向的动量定理求力计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m7.momentum_impulse"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q5",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 11,
+      "content_sha256": "d7a8cbeec0b4bd9bdf549816e4e77edd700f78a99b8bed40f7a22071d5c3108f",
+      "concise_topic": "蹦床运动员自由下落触网竖直弹回全过程动量变化、平均网力与冲量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m7.momentum_impulse",
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.gravity_impulse_ignored",
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.prac.q6",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 11,
+      "content_sha256": "0a6e3d71912db832958203e9160dbf7682b8a99a32a53aea46bfe5600ec0ce25",
+      "concise_topic": "青年徒手接住三楼坠落儿童的合力冲量与平均冲击力物理估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.mech.gravity_impulse_ignored"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s3.exmp.1",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 14,
+      "content_sha256": "b307f5a21f1d9d4a84d9b582405223fc29e6d8490d3e149b66df568401763959",
+      "concise_topic": "铁路编组站运动货车与静止货车碰撞结合共速的动量守恒计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s3.exmp.2",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 15,
+      "content_sha256": "99b46ec45ea2af96c7734a944201619c4c168983daa3fd6225fe58c8fc0a590e",
+      "concise_topic": "水平飞行火箭燃料耗尽空中炸裂为两块后残块对地速度计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.recoil_avg_momentum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q1",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "6c0916d754ea794d7bb2de0b518c788602e7d0dbf375111afcdbf397f07111ef",
+      "concise_topic": "光滑冰面上静止甲乙两人互推反向滑开的总动量与速率反比关系",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.recoil_avg_momentum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q2",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "ab482b3fbc7a3c6c942dbbeb2e142871ef0d41d79fdb8b99b475f4da32402c00",
+      "concise_topic": "光滑水平面同向运动两物体追及碰撞后求后方物体速度大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q3",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "a8ffff048296a4886764f3e6753fe5e858515f7970cc6da21337a86b4ea27450",
+      "concise_topic": "子弹水平射入光滑桌面静止木块留在其中与击穿两种情形末速度计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds"
+      ],
+      "models": [
+        "model.mech.bullet_block_arc_groove"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q4",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "97f9c468689a4e394abef63053d366f86bb36537fa52c83e5d0420d1db3c70af",
+      "concise_topic": "机车依次碰撞对接停在铁轨上的7节等质量车厢求最终共同速度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds"
+      ],
+      "models": [
+        "model.mech.multi_collision_cascade"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q5",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "0d4c8d2e3d568d6360e1a74e00d035cd93b7f618f96cf0948c02b88da17ebeb1",
+      "concise_topic": "两物体同一直线相向运动碰撞后各自反向弹回求两物体质量之比",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s3.prac.q6",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "a14bb340277134a2663343bd348bddfcc972ce1e46fa22cc216206af48fa3f0c",
+      "concise_topic": "冲击摆模型：子弹水平射入细线悬挂沙袋共同摆至最大偏角求子弹初速",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [
+        "model.mech.bullet_block_arc_groove"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.groove_total_momentum_conserved"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s4.prac.q1",
+      "unit_id": "unit.s1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 20,
+      "content_sha256": "4a11ddc9b6c2eee40e06ee49734c693af6a6e56630944d55354680b11acc7489",
+      "concise_topic": "补偿阻力长木板打点纸带法测量橡皮泥小车碰撞粘连前后速度与动量",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [
+        "expskill.op.friction_compensation",
+        "expskill.op.ac_spark_timer",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.exp.ticker_five_intervals_dt"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s4.prac.q2",
+      "unit_id": "unit.s1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 20,
+      "content_sha256": "b1d130a9215aea29b064b4f14781e54ef937f6d7ce52a986a6800bf66fd05b35",
+      "concise_topic": "斜槽平抛验证动量守恒实验中入射高度偏低或末端倾斜的系统误差分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m4.projectile_horizontal"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_violate_energy_or_order"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s5.exmp.1",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 22,
+      "content_sha256": "5d31fe307d075d5f3d9d9594a7bd60b2ea45daafd038d6e55b8ca5e3266eca11",
+      "concise_topic": "光滑水平面等质量运动物块与静止物块碰撞粘连后的系统动能损失证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds",
+        "law.m6.work_energy_relations"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s5.prac.q1",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 24,
+      "content_sha256": "3d1d8cc475977aea75072c926624b9046b71c440085209f64eea800d3f0b4602",
+      "concise_topic": "气垫导轨两滑块迎面碰撞粘连后的共同速度方向与机械能损失计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds",
+        "law.m6.work_energy_relations"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s5.prac.q2",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 24,
+      "content_sha256": "288b2b1de1888272febfe2ba5e0dd0d3867d2c712640630ae8dd1dd9f5d01a91",
+      "concise_topic": "轻塑料球与4倍质量静止钢球一维弹性正碰后两球速度大小与方向计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.elastic_collision_laws",
+        "law.m7.momentum_conservation",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s5.prac.q3",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 24,
+      "content_sha256": "6dac362e558996480ffd9cbeb83b19a8c43f0153ef31f9fe8ec86bc783d1ec78",
+      "concise_topic": "核反应堆慢化剂选用小质量原子核与中子弹性碰撞高效减速的原理解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.elastic_collision_laws",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s5.prac.q4",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 24,
+      "content_sha256": "1a9d7bdec88f1a594de47b04932d7493549a8ffaea4febd93d8c7aa94d271513",
+      "concise_topic": "查德威克发现中子实验：未知粒子分别弹性正碰静止氢核与氮核求质量",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m7.elastic_collision_laws",
+        "law.m7.momentum_conservation",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s5.prac.q5",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 24,
+      "content_sha256": "4c9bbbc6b9caf01d20cdec461833ed6602b919b67aacaf4aae86ceafc478c2ce",
+      "concise_topic": "运动A球正碰3倍质量静止B球后被碰球速度取值范围的物理可行性论证",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.inelastic_collision_bounds",
+        "law.m7.elastic_collision_laws",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_violate_energy_or_order"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s6.prac.q1",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 28,
+      "content_sha256": "5b5e4fdb4e4224453068f042744df1fffd437df7c45f64e0a80c6dd85422303d",
+      "concise_topic": "喷气式飞机喷出气体对地速度与飞行同向时飞机仍能反冲加速的辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.rocket_variable_mass",
+        "law.m7.momentum_conservation",
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s6.prac.q2",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 28,
+      "content_sha256": "b0a6bccead7119dd8564121ca300af6d87f29be2382f1b718e129110b772cb08",
+      "concise_topic": "太空舱外静止航天员限时返回飞船所需一次性高压喷气质量计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.rocket_variable_mass",
+        "law.m7.recoil_avg_momentum",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s6.prac.q3",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 28,
+      "content_sha256": "46478dc070bb98aec863d01023312458ad86fbe5262dc74f144eeb8d8def5814",
+      "concise_topic": "圆轨道星箭沿切向给定相对速度反冲分离后各自速度与变轨运动分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.recoil_avg_momentum",
+        "law.m7.momentum_conservation",
+        "law.m4.centrifugal_motion",
+        "law.m5.satellite_orbit_scaling"
+      ],
+      "models": [
+        "model.mech.binary_star_orbit_transfer"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s6.prac.q4",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 28,
+      "content_sha256": "8766204a1aaa7a278de9a9ca180e7d9309266e067d37278b77f5929c947bb96f",
+      "concise_topic": "静止皮划艇上士兵步枪连续射出10发子弹的反冲速度变化与平均反冲力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.recoil_avg_momentum",
+        "law.m7.momentum_conservation",
+        "law.m7.momentum_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q1",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "58db9953ca85947235d914256843250915f6f1f3c84e458e9d272cc260f30df0",
+      "concise_topic": "铁锤自由下落短时撞击水泥桩时对桩平均冲击力的动量定理计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m1.free_fall_vertical_throw",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.gravity_impulse_ignored",
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q2",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "bdc840e12319443383ae5435e9076879298901910d49e2b4c49e2e34c786787b",
+      "concise_topic": "初动量相同但质量不同的两物体在同动摩擦因数水平面滑行时间比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q3",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "724d14c5a4c7dbb1c29a06ccc845081f046073207a2cb3e3444f71850bf177a0",
+      "concise_topic": "同高处等质量三球分别竖直上抛、竖直下抛与自由落体的落地动量及动量变化比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m7.momentum_theorem",
+        "law.m1.free_fall_vertical_throw",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q4",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "52e94e690752d4eb18b64f3f31019928f3a99b987c97d88ca23a2307e019f3f3",
+      "concise_topic": "平抛金属小球落地动量大小方向、动量变化量与重力冲量矢量关系验证",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m7.momentum_impulse",
+        "law.m4.projectile_horizontal"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q5",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "4a670fb3a40738e77fc61bf544d2194eeff6e99f48e00f14f0a178d257c6fee6",
+      "concise_topic": "木槌打糍粑编题数据合理性辨析：由冲击初速与平均力检验真实生活情境",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q6",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "e8bfd5855f1cecd0b092f73592bc8309e720f2d468dbb9da2c7e60d333cffbfb",
+      "concise_topic": "两带正电粒子共线静电力相互作用距离最近瞬间共速的速度计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.e1.coulomb_law",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [
+        "model.mech.spring_connected_two_body"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q7",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "11a9bdb597b85cbf270000044b4b81030e4d15c02da3dd1b8b0724428c04b7b2",
+      "concise_topic": "由光滑水平面两物体正碰前后x-t位移时间图像求未知质量与碰撞类型",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.elastic_collision_laws",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt"
+      ],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revA.q8",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 29,
+      "content_sha256": "5a9ccfc0ff9e35e8309124c34c96631c910e440c30d25b2324aeb09851fa03bb",
+      "concise_topic": "子弹水平击穿高杆顶端静止小球后两者各自平抛落地的水平射程计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m4.projectile_horizontal"
+      ],
+      "models": [
+        "model.mech.bullet_block_arc_groove"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q1",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "31f6e7e17d784635f4e3e5d57c23b01ab72cd47671a514d72ff15f233a0dc7e5",
+      "concise_topic": "方向不变且大小随时间正比线性增大变力F=5t在给定时间内的冲量计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_impulse"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ft_impulse",
+        "method.thought.infinitesimal_sum",
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q2",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "37395f5e4893b666e2df84fc117e5f4f552759c29b618ec8432f3ca7bc13c44e",
+      "concise_topic": "水平恒力拉粗糙面物体时间t撤力后又经时间t停下的全过程动量定理求拉力",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q3",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "3a44e1dbee70627c5d5abfa8fd7fee70f53c49bee90ba0653630f5cb6a4a3a80",
+      "concise_topic": "高空坠物安全警示：18楼自由下落鸡蛋撞地匀减速时间与对地面平均冲击力估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.uam_basic_kinematics",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q4",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "07c6ac3f5464d828f43bc5b9398c21b5ae7fe5ba229238c8a96445c508c45d07",
+      "concise_topic": "连续流体冲击模型：水枪高速水流垂直射向竖直墙壁速度归零求平均冲击力",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m2.newton_third_law"
+      ],
+      "models": [
+        "model.mech.continuous_fluid_jet_impact"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": [
+        "trap.mech.fluid_impact_forget_delta_m",
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q5",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "f37d9b3a5b75785fe5162d94af827088a0fab876e3ad15661b6e8ee69e0bcb69",
+      "concise_topic": "经典人船模型：人从静水中静止小船船头走到船尾求人与船各自对地位移",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.recoil_avg_momentum",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q6",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "d3777d880b51cf6508466a9fb6bdb59e05d113bffbaf776d5914379f02248faf",
+      "concise_topic": "光滑面两等质量弹性球正碰压缩最紧时最大弹性势能反推碰前初速度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m6.mechanical_energy_cons",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [
+        "model.mech.spring_connected_two_body",
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q7",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "9bff67c184a3b1d76aa6754fb5c747d096cd90a5ac6e0871615c1769c2f1321d",
+      "concise_topic": "长板A载滑块B碰静止块C后AB摩擦共速且恰好不再二次碰C的多过程动量综合",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.inelastic_collision_bounds"
+      ],
+      "models": [
+        "model.mech.block_on_plank",
+        "model.mech.multi_collision_cascade"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity",
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.revB.q8",
+      "unit_id": "unit.s1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 30,
+      "content_sha256": "1f48a23aa8cbdfe61e7af592a8bff3fa906ce99595bffab1f898e68566fd2ea1",
+      "concise_topic": "水平细线悬挂小球下摆带动光滑面并排双木块在最低点分离的三体速度计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [
+        "model.mech.bullet_block_arc_groove",
+        "model.mech.spring_blocks_separation"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.mech.groove_total_momentum_conserved",
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s1.prac.q1",
+      "unit_id": "unit.s1.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 35,
+      "content_sha256": "e6cdd2b48ad823d0fbcdd4d016881b77a7914c68b5ce4b47bff58de346b0b8ad",
+      "concise_topic": "匀速拖动白纸配合垂直笔尖振动模拟绘制简谐运动x-t图像的坐标定标",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.graph.xt",
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s1.prac.q2",
+      "unit_id": "unit.s1.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 35,
+      "content_sha256": "5ec17f5e731fb98694416fc9f8abf968b684057bd03f0ee88e92e8189d992732",
+      "concise_topic": "由质点简谐运动振动图像判读振幅、位置、运动方向、位移及累积路程",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy",
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.graph.xt"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s2.exmp.1",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 39,
+      "content_sha256": "d5aa796d2a1dc05e8b1fa1c2d4e7870f01d751649c725d76e635c3c04b8db37e",
+      "concise_topic": "弹簧振子在BC两点间往复简谐运动绘制x-t图像及多周期路程与位移计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.graph.xt"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s2.prac.q1",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 42,
+      "content_sha256": "a484d7146f4795758070bf497b4b971abddc4cafe5af7b06778076f946f214a6",
+      "concise_topic": "简谐运动小球从平衡位置出发先后两次经过同一点M的时间对称多解周期计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_symmetry_energy",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.prac.q2",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 42,
+      "content_sha256": "2da05de692c4a036b5cdfc5aeace382fdf3465f0fd746b986a8f8b09f6885e73",
+      "concise_topic": "根据两个简谐运动正弦振动方程求解振幅之比、各自频率与恒定相位差",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.prac.q3",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 42,
+      "content_sha256": "f41c4c9f09a7371625562e2f2f285a484b5ee4623570f09523ac3e9dfa7dcbba",
+      "concise_topic": "由同坐标系两条简谐运动振动图像的周期与零时刻状态读取相位差",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.prac.q4",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 42,
+      "content_sha256": "5826149190e44dfff12c73cc9e3d7b50b9ff3668ff7cc53b39e847840cd0a68e",
+      "concise_topic": "已知甲乙两简谐运动振幅、周期、初位移与相位超前滞后关系绘制x-t图像",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.graph.xt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.prac.q5",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 42,
+      "content_sha256": "129dbc863c7a0c268969356936b1fd2e0c4d3c100c66d79f6fd0a9970d982e9f",
+      "concise_topic": "由甲乙两条简谐运动x-t图像提取振幅、周期与初相位写出正弦振动方程",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s3.prac.q1",
+      "unit_id": "unit.s1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 45,
+      "content_sha256": "22b0f17adffc4ff77edae35e2f24bdba4e5f49ef1cc0f215efb25c2c3968a856",
+      "concise_topic": "光滑斜面上弹簧连接小球平衡位置与线性回复力F=-kx的简谐运动证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m2.elastic_force_hooke",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.mech.vertical_spring_shm_energy"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s3.prac.q2",
+      "unit_id": "unit.s1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 45,
+      "content_sha256": "7fc2fc77ec666c8ab1b58550dcfdd5cdd52ab9a6c4986519aeff59bcbd47d65f",
+      "concise_topic": "竖直漂浮木筷上下浸水浮力振动与光滑圆弧面底部小位移小球简谐运动判定思路",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.simple_pendulum"
+      ],
+      "models": [
+        "model.mech.linear_variable_force_shm"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.small_angle_approx"
+      ],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s3.prac.q3",
+      "unit_id": "unit.s1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 45,
+      "content_sha256": "85ca1cffb54a4c2b109fe94a1bf95bae48ec8ffe57d443485c3942916bfd46da",
+      "concise_topic": "根据简谐运动物体经过A、B两点时反向加速度大小与间距确定平衡位置",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s3.prac.q4",
+      "unit_id": "unit.s1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 45,
+      "content_sha256": "8c296ba43a970a9e3637428bec45efac504c4e60009223c33a3361df1cf21ba2",
+      "concise_topic": "由简谐运动图像分析同回复力、同速度、同动能时刻及加速度与势能增减区间",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.shm_symmetry_energy",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted",
+        "trap.mech.accel_dec_means_decelerating"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s4.prac.q1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 50,
+      "content_sha256": "3aa6b0b13a77b2b2844e853f34c63719cacce105187366c3ad494e0a2109a2ce",
+      "concise_topic": "理想单摆所在星球自由落体加速度减半时单摆振动周期变化倍数计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.prac.q2",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 50,
+      "content_sha256": "0cd0d1eb64e47611218018be9a84d053bb782af5812869c02020e394c46ffd98",
+      "concise_topic": "地球秒摆摆长计算及移至月球表面后完成50次全振动所需总时间求解",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.prac.q3",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 50,
+      "content_sha256": "96cc03b648be9c2303af6a83dc2bc184318776c3d6735dedac89181749e914af",
+      "concise_topic": "由甲乙两单摆振动图像求周期比、摆长之比及特定时刻摆球位置与运动方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.prac.q4",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 50,
+      "content_sha256": "b15df48a49952d42466ba396d0af79329f630735e85a7e14e1787bf622131bf2",
+      "concise_topic": "由单摆振动图像的周期与振幅计算单摆摆长并用小角度近似估算最大偏角",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.math.small_angle_approx"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s5.prac.q1",
+      "unit_id": "unit.s1.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "916f4961c476ddc694d670002c1c2a52abd558650909c131819e72759a3d07e6",
+      "concise_topic": "单摆测重力加速度实验中摆线摆球选材、小摆角、摆长定义与平衡位置计时正误辨析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler",
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s5.prac.q2",
+      "unit_id": "unit.s1.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "2fa98819176d394113f8d6a003879045b5d9f807d447fb959bf3877287095c94",
+      "concise_topic": "非线性实验数据化曲为直描点作图推导两物理量定量函数关系及常数单位",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s6.prac.q1",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "45d81fdd19adc562dc2c0e58e39c91cc7f2ab77dde002e4428329192d73219be",
+      "concise_topic": "匀速转动圆盘驱动浸水弹簧小球稳定受迫振动的实际频率与固有频率辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.forced_vib_resonance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.prac.q2",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "0b69599c03bee62d76b3d7631a9a927592c93d7fa52f9219b5640c7a3f0ef4a6",
+      "concise_topic": "张紧水平绳耦合双等长单摆与不等长单摆受迫共振与能量交替传递现象分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.prac.q3",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "9d88cc314ed1b32e5665624e4e207e30ece57f0eedf248713580da99e54f0090",
+      "concise_topic": "汽车在等间距凸起路面行驶引发车身弹簧系统最剧烈颠簸的共振车速计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s6.prac.q4",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "06b538e99008f5c8c662b4b4d3e43f9da719d2225b344f104be96965fe443dd6",
+      "concise_topic": "由单摆共振曲线峰值驱动频率估算摆长及摆长增大时共振峰横坐标移动方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.prac.q5",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "33a7859ea7e6222a6bba7ba906f8b692037eb2702e93b65e25fe3526d013b661",
+      "concise_topic": "由单摆阻尼振动位移时间图像比较先后经过等位移点时的势能、动能与机械能",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m8.shm_symmetry_energy",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q1",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "6b5fff819df76505c0e3fe1d2c26599fd8f447b87c505d428fb5b60513032f2e",
+      "concise_topic": "简谐运动质点通过平衡位置瞬间位移、回复力、加速度、速度与能量极值辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_symmetry_energy",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q2",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "569493c36af540c67878b27e44e79316e58faf9ba9e36d120f137febc3863c08",
+      "concise_topic": "已知弹簧振子完成10次全振动时间与总路程计算振幅、周期与频率",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q3",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "8146c320b343a4c5e9c14679372287431fe53dbadc35df7b31e308df204b482b",
+      "concise_topic": "水平弹簧滑块从正向最大位移端点开始计时做简谐运动的余弦型x-t图像绘制",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.graph.xt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q4",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "78e43f0263910fc9c91347fd8169f1294910e7a6808e60f5af6af023f82dc586",
+      "concise_topic": "摆钟走慢偏大的原因分析与缩短摆长减小固有周期校准摆钟方法",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q5",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "19ee222ac6e72b96591524639e5aa51fa59deed777a98c9ad6746178ddffa4b8",
+      "concise_topic": "光滑凹球面底部极小圆弧往复运动小球的类单摆简谐运动证明与振动频率推导",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.small_angle_approx",
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q6",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "5150bd9cb42236af5c52286c5d93cb5e4f6accb765868c3d3bd33f2a780a8966",
+      "concise_topic": "长绳单摆小偏角释放与悬点自由下落小球到达平衡位置先后时间定量比较",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revA.q7",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 59,
+      "content_sha256": "b9ae7fc932ed6907cf560dc54e68afce84bf9ebf6bdc2bed733425da269b20db",
+      "concise_topic": "由简谐运动x-t图像读取振幅周期频率、全振动起止点及最大动能势能特征点",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q1",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 59,
+      "content_sha256": "6e4c65207c546ac351c81664c81544d1e97bb6fcb3709ca951b7578b6602fee7",
+      "concise_topic": "阻尼单摆每10次全振动最大高度衰减后定期补充能量维持原振幅的总能耗计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m6.gravity_elastic_pe",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q2",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 59,
+      "content_sha256": "6233a3e956d0bb48eeb9b2f4c0455d8eabead48fd47dd941f5087acb3399e0c9",
+      "concise_topic": "同一单摆在不同质量与半径的两颗星球表面做简谐运动的周期之比推导",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m5.gravity_gold_sub",
+        "law.m5.universal_gravitation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q3",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 60,
+      "content_sha256": "577361eccf7f6bb02412917525c01370c41ae8822e43f77a771664e1bfd7fcc3",
+      "concise_topic": "用l-T²图像斜率求重力加速度表达式及消除摆球质量分布不均重心误差证明",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit",
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius",
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q4",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 60,
+      "content_sha256": "413ed6f626a039b3e958885d8bb2d71fd0ddac19317b1b635580d3111d9bb349",
+      "concise_topic": "由弹簧振子振动图像写位移方程、判读物理量变化及计算第100s位移与总路程",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q5",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 60,
+      "content_sha256": "ad25c6ebf9d2ebd74a7021a2efb40081d657522dbc0dec2290cb2efb935b564f",
+      "concise_topic": "力传感器测单摆悬线拉力F-t周期曲线求单摆周期、摆长、摆球质量与最大速度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m4.centripetal_force_accel",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [
+        "model.mech.vertical_circle_cord_track"
+      ],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ft_impulse"
+      ],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.revB.q6",
+      "unit_id": "unit.s1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 60,
+      "content_sha256": "a39e759303c194d1bc09292f2e311c83bd9cd1818c1650379b6ff090c42d48c2",
+      "concise_topic": "电动偏心轮共振筛结合共振曲线通过调节驱动电压转速或筛子质量增大振幅方案",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.forced_vib_resonance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.prac.q1",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 66,
+      "content_sha256": "1f9d2c90487d43e80040039a2cf95574c3ca7c2f0031e73c7ffa8ac1ba56199a",
+      "concise_topic": "列举生活实例说明机械波传播振动运动形式而介质质点并不随波迁移",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.prac.q2",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 66,
+      "content_sha256": "cb6931d19231c8b3cc1a1f02f2d15e63815edffad4257f90db977fad42ceb312",
+      "concise_topic": "绳波质点依次带动传播示意图中半周期、四分之三周期与整周期指定质点状态分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.prac.q3",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 66,
+      "content_sha256": "2089923d7bf7608f5577cd18b18a67120544c23989209bf3c8ead29bdb2ce9b6",
+      "concise_topic": "由波源P向右传播至波前质点Q的绳上波形图判断横波类型与波源起振方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.exmp.1",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 69,
+      "content_sha256": "cf804f28c3dc3ffaee6b58ccc09f5cde0a59b12450b61dfc4b61c9f89a4779cb",
+      "concise_topic": "已知时间间隔小于周期的正弦波实虚线波形图讨论左右双向传播波速与周期",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q1",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "0c3b3d7a06ed61dcce1dedc13df6c932aa7783d09b8b15096ededf2520c7c6f3",
+      "concise_topic": "沿x轴正向传播简谐波微平移法画极短时间后波形并判读各质点振动与速率变化",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q2",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "f6f4858e9af055ba9d1d4c301540ffd61f3e9560f35ea8cb4489fb8d1fd50dc2",
+      "concise_topic": "简谐横波非特殊位置质点P的速度加速度方向、整周期路程与四分之一周期路程辨析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q3",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "617ae0184538e88b011c781b3fdd32c4886ce37a0e62d4fbb3e1bf824fd8bda2",
+      "concise_topic": "简谐波分别沿x轴正方向与负方向传播时波形上K、L、M三质点最先回平衡位置判定",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q4",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "5ba3d347aa5a43b7ae184fa871e8cbdee3938ea2a2451991209d529cf3205dbd",
+      "concise_topic": "横波某时刻波形图与单质点振动图像联动在正负两传播方向下匹配对应质点",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q5",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "79e97ae67508fb28c757543dd3bb03cf9ee74716791985a6f343d78c7c859820",
+      "concise_topic": "声波由空气传入0℃水中时频率保持不变与声速增大引起的波长计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s2.prac.q6",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "dae8845dde4f78241325994d72a34a3deea8d0b72f1bad957534e7fac13e88d3",
+      "concise_topic": "湖面相距20m两小船分别位于波峰波谷且中间含一波峰并结合浮动次数求水波波速",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s3.prac.q1",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 73,
+      "content_sha256": "b8393fc407c024bea14530667c489f30c7016c73e3e4db66465be261a7ab350a",
+      "concise_topic": "蝙蝠黑暗中飞行靠声波反射避开细绳索所需短波长高频率超声波数量级估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.wave_diffraction",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s3.prac.q2",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 73,
+      "content_sha256": "2153e4f69497c96d160db1d88905ca1a3a1eb19fc2d510620dd08e4120693ea2",
+      "concise_topic": "教学大楼后听操场喇叭音乐时高音波长短不易衍射比低音减弱更明显的解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.wave_diffraction",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s3.prac.q3",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 73,
+      "content_sha256": "3eccab5da3c5b5f41a0aea45d3759dfcb7de1ab44f079c52fbbb98d4aec31fef",
+      "concise_topic": "可调挡板空隙水波衍射实验中减小狭缝宽度或降低波源频率使阴影区P点起振",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_diffraction",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s3.prac.q4",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 73,
+      "content_sha256": "24222ae829427dfa07133740b68673f5b14e449339ccca9c6a2823f7ee5be6c3",
+      "concise_topic": "假想人耳可听声波波长为毫米数量级时声波难以绕过日常障碍物衍射的生活影响",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s4.prac.q1",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 78,
+      "content_sha256": "aeb3bf29edb66601cdc77636f82b3d86ec8470c9859866dd4d13edabfb91457d",
+      "concise_topic": "两列同频横波相遇波峰波谷同心圆干涉图样中加强点M、减弱点N运动与加强减弱连线",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s4.prac.q2",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 78,
+      "content_sha256": "e290ce7a203f3659a88ee21df7b2936bf2749d802071a3db6865987bb41af725",
+      "concise_topic": "二维干涉图样中波峰相遇点凸起波形推移方向、质点不迁移及经T/4位移归零辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.wave_superposition_interf",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s4.prac.q3",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 78,
+      "content_sha256": "16952ce629002411914de5790e430c7082a2f8e49615625c960e1c81ac79c561",
+      "concise_topic": "内燃机分岔管道干涉式消声器利用两束声波路程差为半波长奇数倍抵消噪声条件",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.standing_longitudinal_hetero"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s4.prac.q4",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 78,
+      "content_sha256": "07212414fdc00cd2eac8675dd485f5da7872e6e3851673b6159207a961ea1c9a",
+      "concise_topic": "相距1.2m两同相波源相向传播简谐横波求连线上合振动振幅最小减弱点空间位置",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_superposition_interf",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s5.prac.q1",
+      "unit_id": "unit.s1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 81,
+      "content_sha256": "9bc3972ee335b57da688732f388edb579e7366ff0107fef46a6bf973bc61c129",
+      "concise_topic": "等时间间隔抛球游戏类比模拟观察者迎向波源运动时接收周期缩短与频率增大",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.doppler_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s5.prac.q2",
+      "unit_id": "unit.s1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 81,
+      "content_sha256": "1fc50a56457e841f75410c57028657ff12815e8b1c88452ff2cbecb84872b391",
+      "concise_topic": "火车声源与观察者相对驶近或驶离四种情形中接收音调变低的多普勒效应判别",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.doppler_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s5.prac.q3",
+      "unit_id": "unit.s1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 81,
+      "content_sha256": "1965c58781da88cd7e1d110420d0e5ed181164c58ff16b3b6f7536ffc305ebc2",
+      "concise_topic": "检索调研多普勒效应在雷达测速、彩超测血流与天体红移等现代科技中的应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.doppler_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revA.q1",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 82,
+      "content_sha256": "d40733b1aa23ee4cfb54cd17073a93946e41d70ebb1d364fc84f73b8a9722447",
+      "concise_topic": "根据孔径或障碍物尺寸与水波波长的大小对比作图描绘水波衍射明显与不明显传播图样",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revA.q2",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 82,
+      "content_sha256": "bb31b7898846166dc49150ee9c2a5b94169b993d375ea761e2af06f3c167bdea",
+      "concise_topic": "日内瓦湖声速测定模拟：由火光与水下钟声10s时间差计算水中声速",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revA.q3",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 82,
+      "content_sha256": "d76cf4bd6911fdbede1f9cf590cc59c1b8e770147b0121fef2b27ce180eb1a40",
+      "concise_topic": "已知波速沿x轴正方向传播横波根据波形平移法绘制1s后与4s后的波形图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revA.q4",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 82,
+      "content_sha256": "db3256abfe83f3925b28e034767295e2b8c33f63ee78b3078e2810d667da22f3",
+      "concise_topic": "结合零时刻横波波形图与质点正弦振动方程求波长、波速及波传播方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revA.q5",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 82,
+      "content_sha256": "a3f7ce3b5515e628514efa5d553019658d0349d45c7a3ca2e01385bf7890d8d3",
+      "concise_topic": "由波源振动图像及传播方向A、B两点距离与起振时间差求波长及位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q1",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "b99b3d623f216a1927c255b084ea4820d3f85c2d8ebc3858bffe4dc208b8c069",
+      "concise_topic": "两列上下反相半正弦横波相向叠加“消失”瞬间质点振动速度方向判定",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_superposition_interf",
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q2",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "02a2f81e18c256e1c2c1ed464a2203bfa1c7230f6a30ce9ce8fdb2d754803a88",
+      "concise_topic": "由振源带动细绳传播0.4s形成的波形图反推起振方向并画振动图像",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q3",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "c07d4a70a8bc7467701de5f051a27cba9f69264d4b6f73a450194c438bd37e1d",
+      "concise_topic": "无周期限制下由相隔0.2s的两条正弦波形曲线求双向周期性多解波速",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q4",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "da3457d18895af7059d490e02927102f4e8d65c6448849af839d5ab462f24ba2",
+      "concise_topic": "已知波源频率、波速及与P、Q两点距离判定相位状态并绘制S、P、Q三点振动图像",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q5",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "0dc0bb056d5564f8f428bdaa9e04db92d3153ddef716891c5fbecc4dcc8c8fbb",
+      "concise_topic": "50m直跑道两端同相声源干涉场中从跑道中点行进10m声音强弱计数",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q6",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "7bdb639714849c48e914341f43394a3dc45eb336968bc8dacbc4244022c7f7ca",
+      "concise_topic": "由相距6m的a、b两质点振动图像分析双向空间周期性求波长与波速",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_formation_params",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.revB.q7",
+      "unit_id": "unit.s1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 83,
+      "content_sha256": "438b3860a6cacbd0be65bee8874ec3f60c261cc0326bb346786ff9938d657bff",
+      "concise_topic": "两列等幅同速简谐横波相向传播相遇时刻计算及中点质点M叠加振动后的累积路程求解",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m8.wave_superposition_interf",
+        "law.m8.wave_formation_params",
+        "law.m8.shm_symmetry_energy"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s1.exmp.1",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 88,
+      "content_sha256": "8f4ae050e998cdda610eabc4c9509ad8b78a5ddf50b81e7509048c75325404f9",
+      "concise_topic": "储油桶无油看桶底边缘与半桶油看到桶底内移点利用光路可逆求油折射率与光速",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking"
+      ],
+      "traps": [
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q1",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "9f9b373827976c0bcf19c01dae2902903f82e7561a82cbf452dfcfa72b059be5",
+      "concise_topic": "光线由空气射入半圆形玻璃砖过圆心或偏离圆心再射入空气的四幅光路正误判别",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.tir_sparse_to_dense"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q2",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "3e293476466669025f1e0df3c15613bb614254649ca51b71eb4283bbb4066011",
+      "concise_topic": "已知60°入射角与玻璃折射率由折射定律计算折射角并规范绘制折射光路图",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q3",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "bb3987b319829d3f199b75eb1290bb438dd12064e0d21acf49587035ae9f71c3",
+      "concise_topic": "由光线与分界面夹角数据换算法线入射角与折射角计算介质折射率及介质中光速",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q4",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "9da2974368283a714cd47b89c2b717d544e41b8918594a36393e58b3cb0c0809",
+      "concise_topic": "坦克厚壁观察孔嵌入平行厚玻璃砖后内部乘员可观测到的外界最大张角范围计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.apparent_depth_shift"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q5",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "898420b125c22e7daa395c9414c03ced29683f6cbcaec5ee5d10b88ed266a64a",
+      "concise_topic": "两面平行玻璃砖出射光线与入射光线平行关系及侧移量随入射角增大而增大的几何证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.apparent_depth_shift",
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.glass_refractive_index"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s1.prac.q6",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 89,
+      "content_sha256": "8757d551c4444065dabf2f6c3509ba97c7369bd0233f69480059468995fb027d",
+      "concise_topic": "竖直插入装水圆柱形玻璃杯中的筷子在水平观察时产生侧移且视觉变粗的折射成因解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.apparent_depth_shift"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s2.exmp.1",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 92,
+      "content_sha256": "c4e5cc6e65cfdee4d4a395fc8e7864064024e277a578d530584cd9d3cc0accbc",
+      "concise_topic": "水下潜水员观察岸上全部景物收缩于顶角2C倒立圆锥内的全反射临界角光路计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [
+        "model.opt.liquid_surface_light_cone"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s2.prac.q1",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 94,
+      "content_sha256": "a41833e8ab046e7aa694c17204fb5e4b7aae8ba093d881ef6c6545b3bbbea7b6",
+      "concise_topic": "由玻璃与金刚石折射率分别计算光射入空气发生全反射的临界角大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s2.prac.q2",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 94,
+      "content_sha256": "8f355c32da2f4c33c84168ab6979054b748cfb69e8f6bc431fe7ab84832407fa",
+      "concise_topic": "比较40°入射角与折射率√2介质临界角45°判定界面处能否发生全反射",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s2.prac.q3",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 94,
+      "content_sha256": "9ebb179be2929045bfdb0913fc863898efd8f7a0c3f17fc543767382d5cf4db1",
+      "concise_topic": "光束垂直射入高折射率直角四棱柱后在各界面全反射与反射折射完整光路作图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s2.prac.q4",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 94,
+      "content_sha256": "5e7f4a4e37d67b1c8854447001bde1f848a852d4ddb29361d392db5e638eda0a",
+      "concise_topic": "圆柱长玻璃丝光纤模型：光从端面折射进入后在侧壁全反射的入射角条件",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s3.prac.q1",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 100,
+      "content_sha256": "0fe3e75a1fd010757ffdebb112b4932ed9de950a952ffd212fcd46bde126400a",
+      "concise_topic": "光的干涉现象作为波动特有特征对确立光的波动本性的物理学意义阐述",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.prac.q2",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 100,
+      "content_sha256": "456c6103cbf5f276df73adc7211a8a802761951a6a0b5b38c01ee89cd47bd494",
+      "concise_topic": "双光源干涉亮暗条纹路程差条件及类比计算双同相声源下两观察者位置声音强弱",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.prac.q3",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 100,
+      "content_sha256": "53162653110072f212398cfdef0ce2e7d6a4e01473ee380fdbcc385fdfcc21a6",
+      "concise_topic": "双缝干涉实验中已知照射光频率计算波长并结合屏上P点路程差判别亮纹或暗纹",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.prac.q4",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 100,
+      "content_sha256": "cf81e8f49d7946b17f6ff7c0463025b873ac248bc49ee3e7a117e43806d9dea7",
+      "concise_topic": "两平板玻璃劈尖空气薄膜等厚干涉装置抽去一张垫纸减小劈角后条纹变疏移动分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o2.thin_film_interference"
+      ],
+      "models": [
+        "model.opt.thin_film_wedge_newton_ring"
+      ],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.wedge_bend_convex_concave_swap"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s4.prac.q1",
+      "unit_id": "unit.s1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "73de3193d5d6c0d4f5dae28c1c5b1b38abcbdaf08f05c95a9938bb759232b024",
+      "concise_topic": "双缝干涉实验增大屏距l、绿光换红光及增大双缝间距d时相邻亮条纹间距变化分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s4.prac.q2",
+      "unit_id": "unit.s1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "5fb7a033f26d99cfa7d843e3933e2b57a0885155d05ec0b88c724c30f561f8be",
+      "concise_topic": "双缝干涉测波长实验累积测量n条亮纹总距离求间距以减小相对误差原理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.exp.double_slit_dx_count_n"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s4.prac.q3",
+      "unit_id": "unit.s1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "6f1b9190fd5b2aaa4b4a70e90c588e4e232e633b9c1d6f614d8d8ad19e73e352",
+      "concise_topic": "双缝干涉实验中螺旋测微器测量头读第1与第6条亮纹示数计算单色光波长",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [
+        "expskill.read.micrometer"
+      ],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.exp.double_slit_dx_count_n",
+        "trap.exp.micrometer_miss_half_mm",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s5.prac.q1",
+      "unit_id": "unit.s1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "d4464611ff1d3b95190d240c917680feca48332c2fd6080f05ca744fb472aced",
+      "concise_topic": "双铅笔夹狭缝平行紧贴眼睛观察日光灯线光源看到彩色单缝衍射条纹现象与解释",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.light_diffraction",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.double_slit_vs_single_slit_pattern"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s5.prac.q2",
+      "unit_id": "unit.s1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "b88b9d805aa7ca309b272c6e6f60670d068e5ba564da74cb2aea7fd64d1edb2e",
+      "concise_topic": "平行单色光照射可调单缝或游标卡尺卡脚缝隙进一步调窄缝宽时衍射条纹展宽变暗规律",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.light_diffraction"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [
+        "expskill.read.vernier_caliper"
+      ],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": [
+        "trap.tom.double_slit_vs_single_slit_pattern"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s5.prac.q3",
+      "unit_id": "unit.s1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "b4cbe9d5fb0f8caa5464881d8bd2a8a6ffe4070beb91aa6903d9018d56a30b0c",
+      "concise_topic": "太阳光透过遮光板三角形孔尺寸减小时从几何光斑到小孔成像及衍射演变",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.light_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s5.prac.q4",
+      "unit_id": "unit.s1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "23e16e5f0feb6695a826f96b60dfddacbe133ce45a503152cdb154245bdfc207",
+      "concise_topic": "假想微米级瞳孔直径与可见光波长相当时明显圆孔衍射导致的模糊视觉",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.light_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.prac.q1",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "0ef95fa3fa300a3738edf6e242acc58260bb78f56c4aa2cfd83b8d3d2982733a",
+      "concise_topic": "光的偏振现象定义及其证明光波为横波而非纵波的物理学意义",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.prac.q2",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "99d27f99a42a325ab895fc8e5d8e708a95e4c0283ea214e5f81370ed956d3be7",
+      "concise_topic": "偏振太阳镜滤除水平面反射强偏振眩光的竖直透振方向设计及偏振片检测应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.prac.q3",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "2a786758f6e8aadab4dd8b65c7c1f9857e84e27c6b0db362a95e9f43c51724c7",
+      "concise_topic": "利用激光高相干性单色性在光纤通信、全息照相与精密干涉测量中的应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.laser_properties",
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.prac.q4",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "f017bcc622d6ce1fafaeebaacbe34531ae7a4170394346d559e0df3e238a6f86",
+      "concise_topic": "高密度光盘微米级信息轨道精细聚焦读写所依赖的激光高平行度方向性特性",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.laser_properties"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.prac.q5",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "fcbd93b788983ae6b3e0c67766f5ab5231a962c729cbfa8c16ac412bf9557e4b",
+      "concise_topic": "红宝石巨脉冲激光器高功率密度亮度特性在工业加工与医学聚变中的应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.laser_properties"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revA.q1",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "1306349af6b4a849b2a2f36dc136138d7f3d438dec86334d301598af30b0c689",
+      "concise_topic": "分别证明光是一种波、光是横波、光波长极短及绿光波长短于红光的实验依据归纳",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o2.light_diffraction",
+        "law.o2.light_polarization",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revA.q2",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "896d473b616cf5acaa59356368ffe434ff4bf0b7273f0f47c8646ffa07593dc0",
+      "concise_topic": "透过压在书上的厚平行玻璃板看文字位置感觉变浅抬高的折射视深光路解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.apparent_depth_shift",
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revA.q3",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "5976b7997e86f66c3cb00dbbdfa1314ba0eb05a0eb27ebe314015aaf9fd5b15a",
+      "concise_topic": "折射定律几何作图单位圆辅助线法：证明介质折射率等于两同心辅助圆半径比R/r",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.glass_refractive_index"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.math.similar_triangles"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revA.q4",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "5c9ef095ec9bf95ff066a8a11d8a0b8e4fd5709e39abf45c24521830c9f60662",
+      "concise_topic": "红紫复色光由半圆柱玻璃砖圆弧底端O点射入分别从弦端射出的传播时间相等证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.circle_chord_geometry"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revA.q5",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "d9ba9ccc25ec3de5b736c538e84dccc8c13c1b6a701394d3265ebb422784d471",
+      "concise_topic": "等腰梯形道威棱镜折射与底边全反射光路作图及出射光束上下翻转特性证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.revB.q1",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 114,
+      "content_sha256": "14b0b91e5faa823073279ec4f08882ff7a583ff9ad3db1afc7df6d75b6048487",
+      "concise_topic": "光束斜射入平行界面折射率连续递增或递减多层介质膜的弯曲光路与全反射趋势作图",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": [
+        "trap.tom.tir_sparse_to_dense"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.revB.q2",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 114,
+      "content_sha256": "6f15aad55f4e14a6d48a9f7f80f9095b3d88ffa417f61fe52fd52c9367a9b0a5",
+      "concise_topic": "漂浮圆形软木塞圆心插大头针恰好在液面上方全方向不可见的全反射法测液体折射率",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [
+        "model.opt.liquid_surface_light_cone"
+      ],
+      "experiments": [
+        "exp.opt.glass_refractive_index"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.revB.q3",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "166907b5e0f0a1d1f67b927a71e1898ca17d2738944ee0196bf4271d5b2d2c9a",
+      "concise_topic": "单反相机取景器五棱镜截面内光线两次等入射角全反射正交转向出射的最小折射率计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.revB.q4",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "cf07131a502590a573f26cf1c631b4d0220ad6a936a9d7306dc755f5e78e4e8d",
+      "concise_topic": "洛埃镜实验利用单色光源与平面镜虚像构成等效双缝相干光源推导干涉条纹间距表达式",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle",
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.revB.q5",
+      "unit_id": "unit.s1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "56e6aaed2f0f3857db7db20b8410a84e8ec9b7a6b57f86eb93cde45fe7653c45",
+      "concise_topic": "四分之一圆弧透明柱体圆心点光源发出光线在两直角边全反射的圆弧弧长",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s2.walk.1",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 9,
+      "content_sha256": "a12a937481c0d4438972962e8d860105fba204dfa28888b6ca54dfc66566f175",
+      "concise_topic": "笛卡儿mv与莱布尼兹mv²运动量度之争及动量时间累积与动能空间累积统一",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m7.momentum_theorem",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s2.stse.1",
+      "unit_id": "unit.s1.c1.s2",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 9,
+      "content_sha256": "b84fa4c0ea0c484e45847852d122479a93edbd3ffc8730b9b5de947ff777ad08",
+      "concise_topic": "汽车实车刚性壁障碰撞安全试验、传感器冲击力评估与缓冲保护设计",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.momentum_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s3.think.1",
+      "unit_id": "unit.s1.c1.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 13,
+      "content_sha256": "dfbc107b070c2c5fbc2ce7879190badb86232649cfb6365e9953b92d9ad545ff",
+      "concise_topic": "烧断细线后压缩轻弹簧弹开静止双小车系统的总动量守恒矢量性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.recoil_avg_momentum"
+      ],
+      "models": [
+        "model.mech.spring_connected_two_body"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s4.think.1",
+      "unit_id": "unit.s1.c1.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 18,
+      "content_sha256": "af9e097aea6bd9b8c214914d620e8a0d3273fd5992a077bb1002447f889e804b",
+      "concise_topic": "验证动量守恒实验中光电门、打点计时器与平抛法测速度方案对比选择",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m1.avg_instant_velocity",
+        "law.m4.projectile_horizontal"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons",
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.photogate_width_speed",
+        "expskill.op.ac_spark_timer"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s6.think.1",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 26,
+      "content_sha256": "d5506ce1de26c5803cb35c2cf3cb83be76306bff5d5036f33101dd6d5d5ba456",
+      "concise_topic": "太空静止航天员向后抛出微元小物体获得反冲速度增量的火箭原理推导铺垫",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m7.rocket_variable_mass",
+        "law.m7.recoil_avg_momentum",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s6.walk.1",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 27,
+      "content_sha256": "0ce53477b457e99f7b4cd0df54dc2534f4f7375891a3a6c339950124ec868780",
+      "concise_topic": "单级火箭质量比瓶颈、多级火箭抛弃空壳逐级加速达到第一宇宙速度原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m7.rocket_variable_mass",
+        "law.m5.three_cosmic_velocities"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s1.think.1",
+      "unit_id": "unit.s1.c2.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 33,
+      "content_sha256": "82df87fe6503c99eaaae9282fd80d28eacebf9030a83462e7c20603e16565ba7",
+      "concise_topic": "利用频闪照相或匀速运动底片等时间间隔记录弹簧振子位置构建x-t振动图像",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt",
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s1.think.2",
+      "unit_id": "unit.s1.c2.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 34,
+      "content_sha256": "fa7a75f07e08581d837e0a9a066f9dbd079be46c4399991b2df8a44a200afd3a",
+      "concise_topic": "假定正弦函数代入实测坐标比对与计算机拟合验证弹簧振子x-t正弦简谐规律",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.walk.1",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 41,
+      "content_sha256": "c5a526a7489f0719e28c62ede96ce2c5f486374a04dedd0eefb3ff5665b90154",
+      "concise_topic": "音乐C调音阶频率整数比、大小三和弦谐和音物理机理与人耳高音八度感知",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.think.1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 46,
+      "content_sha256": "70a44885af489d6475a1928ea15a2682728a60084df9a2f2c8296c0ede0fdce7",
+      "concise_topic": "动力学线性回复力证明与运动学正弦位移图像两种途径探究单摆是否为简谐运动",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.small_angle_approx"
+      ],
+      "traps": [
+        "trap.mech.shm_balance_net_force_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s4.walk.1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 49,
+      "content_sha256": "8d6141c42809c753e00dc0ff0d1aec056505e0060870e8aa8925233cfde55bbd",
+      "concise_topic": "从日晷水钟、机械摆钟、石英晶体钟到空间冷原子钟的时间频率计量演进史",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s5.think.1",
+      "unit_id": "unit.s1.c2.s5",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 52,
+      "content_sha256": "7bd5a795782a10918dae9bf4098e18ed1e810e362c08eab2f0d6cca81d004d14",
+      "concise_topic": "用单摆测重力加速度实验中细线与重球选择标准及铁夹固定悬点防摆长变化设计",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.walk.1",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 57,
+      "content_sha256": "55e03e9ed80b52d72df569abe889b7586aba75c2ff551c9baa81994cc01c466e",
+      "concise_topic": "塔科马大桥风激共振坍塌教训与调谐质量阻尼器在港珠澳大桥工程减振中的应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.forced_vib_resonance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s2.think.1",
+      "unit_id": "unit.s1.c3.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 69,
+      "content_sha256": "ad054c3c7ef8adea54a598c59d337e2e6c06cf792a9ca460643b89271538b984",
+      "concise_topic": "未限定周期时仅凭两个时刻的实虚线波形图能否唯一判定波传播方向辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.vib_wave_dual_graphs"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": [
+        "trap.mech.wave_yt_yx_direction_confused"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s4.stse.1",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 77,
+      "content_sha256": "f50512e69434d959da5fbd6057d3f16f43c6fa99cbbead37f2478b5c84d39dd7",
+      "concise_topic": "主动降噪耳机双麦克风采集并发射同幅同频反相声波干涉抵消环境噪声的工程原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s5.think.1",
+      "unit_id": "unit.s1.c3.s5",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 80,
+      "content_sha256": "e46afc8f6a8c305beac2c202d4b5cc407294209788dab7c7037b5846db1923e8",
+      "concise_topic": "发波水槽移动振源产生疏密偏心圆波纹照片判定波源运动方向与左右接收波数差异",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.doppler_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s2.think.1",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 91,
+      "content_sha256": "c9f295602ef6cea0005e46b09d45d2e7b0c3315a1669fb4a43e80507bd36bac8",
+      "concise_topic": "利用趋近90°入射光路可逆性推导介质射入空气的全反射临界角公式",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking",
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": [
+        "trap.tom.tir_sparse_to_dense"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s3.think.1",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 97,
+      "content_sha256": "ba7759c9918e783d05cca9e2a4cc585a7a8c31797632dd2642b59fd6f8b6bd61",
+      "concise_topic": "双缝干涉几何光程差与远场小角度近似推导相邻亮暗条纹中心间距公式",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.small_angle_approx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.think.2",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 98,
+      "content_sha256": "d8bf17c6f7dfee3ecd1786b967a75acfaa5c40de698d6e8cdb8c2c6ebfe13d8a",
+      "concise_topic": "根据双缝干涉条纹间距与波长正比关系预测红光、黄光与蓝光单色干涉条纹疏密差异",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.walk.1",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 99,
+      "content_sha256": "a5c4f4fe9a12ff31a762539450fd1d2524b229cec76414824e4afc3e67114bba",
+      "concise_topic": "光的本性认识史：从牛顿微粒说与惠更斯波动说之争到电磁波说及光的波粒二象性",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o2.light_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s4.ext.1",
+      "unit_id": "unit.s1.c4.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 102,
+      "content_sha256": "2eaff92836e1e82e42c39dd700b83bd975531a72654bb0a95dd64ae182c116c5",
+      "concise_topic": "利用线阵光敏单元光传感器与计算机数字化采集光强分布图像测量双缝干涉光波波长",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s5.walk.1",
+      "unit_id": "unit.s1.c4.s5",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 106,
+      "content_sha256": "523e8f5a9124991cfcb30d855db6498641ed3ab53879fa749e144a37d14f717f",
+      "concise_topic": "菲涅耳与泊松亮斑科学史轶事及劳厄X射线晶体衍射促成DNA双螺旋结构发现",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.o2.light_diffraction",
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.think.1",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 109,
+      "content_sha256": "7181a09be57f0506613d335760f6e988ef1f88839f1ec8043caad039bcf95dec",
+      "concise_topic": "自然光与偏振光微观振动方向特征、双偏振片正交消光机理及横波偏振特性的对比解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.walk.1",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 112,
+      "content_sha256": "1080310078f059fc5f721b72ef020bc358f2d2b5bd413b4d8114204683aefe30",
+      "concise_topic": "人眼双目视差立体感机理与正交偏振眼镜分拣左右画面观看3D立体电影的光学原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s1.demo.1",
+      "unit_id": "unit.s1.c1.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 2,
+      "content_sha256": "d2f42501463f2992b1ee445eae5755bf1ce751c7c2d0c213817f13e8f3fff7ae",
+      "concise_topic": "不等质量单摆球碰撞演示与滑轨小车粘连碰撞数字计时器探寻守恒量p=mv",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [
+        "expskill.op.photogate_width_speed"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s1.hand.1",
+      "unit_id": "unit.s1.c1.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 5,
+      "content_sha256": "5ae1f9343df092d7ca56176711a8cd674edb831177473a5fc3fb8ec61a389008",
+      "concise_topic": "同速投接充气大乳胶气球与放气小气球的体感差异体验质量对动量的影响",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_impulse",
+        "law.m7.momentum_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s4.exp.1",
+      "unit_id": "unit.s1.c1.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 17,
+      "content_sha256": "e446be619af9a19632ffe9ba565f30d3f89ff86f99dcc3762a4bb96fce4f4542",
+      "concise_topic": "验证动量守恒定律实验思路：碰撞内力远大于外力近似条件与待测物理量设计",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m7.momentum_theorem"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s4.exp.2",
+      "unit_id": "unit.s1.c1.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 18,
+      "content_sha256": "af19d71784b51e737e413f153e0d5c79bf270e62a78a0dd5020112cfcc907c6d",
+      "concise_topic": "气垫导轨光电门三类滑块碰撞与斜槽末端小球平抛法验证动量守恒实验方案",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.momentum_conservation",
+        "law.m4.projectile_horizontal"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [
+        "expskill.op.photogate_width_speed",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.mech.collision_rebound_sign_missing",
+        "trap.mech.collision_violate_energy_or_order"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c1.s5.exp.1",
+      "unit_id": "unit.s1.c1.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 21,
+      "content_sha256": "db424485c35594f8300e4e416558d6b5d04bf814aaa33e88b859a29b070dea7f",
+      "concise_topic": "加装弹性碰撞架改进滑轨小车实验探究弹性碰撞与非弹性碰撞动能变化",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.elastic_collision_laws",
+        "law.m7.inelastic_collision_bounds",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.momentum_cons"
+      ],
+      "exp_skills": [
+        "expskill.op.photogate_width_speed"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c1.s6.hand.1",
+      "unit_id": "unit.s1.c1.s6",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 26,
+      "content_sha256": "d38fe3978df78e03d3aa7f16a64601230d8e985397a8800b6032fd499b244a75",
+      "concise_topic": "放手喷气气球飞出与下部弯管流水带动盛水容器旋转的反冲现象体验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m7.recoil_avg_momentum",
+        "law.m7.rocket_variable_mass"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s1.hand.1",
+      "unit_id": "unit.s1.c2.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 34,
+      "content_sha256": "57227249602f8c3e04b3e5e0a4bc6c4ce3556dfcf24d11a427d37dcb0a6a596c",
+      "concise_topic": "用数码相机或手机连拍功能记录竖直弹簧振子钢球位置并平铺绘制x-t图像",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.mech.vertical_spring_shm_energy"
+      ],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.op.smartphone_phyphox"
+      ],
+      "methods": [
+        "method.graph.xt",
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.hand.1",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 37,
+      "content_sha256": "c02b27a4b9a0999c0cfb8dba3aba8c197b76ed736a3eb11cd19d26fc35443651",
+      "concise_topic": "停表累积测量竖直弹簧振子不同振幅下n次全振动周期验证简谐运动等时性",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [
+        "model.mech.vertical_spring_shm_energy"
+      ],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [
+        "method.thought.control_variables",
+        "method.thought.micro_amplification"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.demo.1",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 38,
+      "content_sha256": "acd42d0f74e45909885288010adbe11ce63156d4729e6e6aed5f23ba7afa8e79",
+      "concise_topic": "并列双相同弹簧振子同时释放与先后释放观察同相与相位滞后及简谐运动三要素",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s2.hand.2",
+      "unit_id": "unit.s1.c2.s2",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 40,
+      "content_sha256": "bbaaab079e08f0e60b37b985731546e0b99bd297f67184c2e860f3125a9a4a92",
+      "concise_topic": "用计算机录制乐音do与sol呈现声振动波形图并对比等时长周期数求频率比",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.op.smartphone_phyphox"
+      ],
+      "methods": [
+        "method.graph.vib_wave_yt_yx",
+        "method.thought.micro_amplification"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s3.hand.1",
+      "unit_id": "unit.s1.c2.s3",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 44,
+      "content_sha256": "c68b796d5e1e857985d37a5cd91085881bbbfd969d90cec2a1f2008a04dc9b2c",
+      "concise_topic": "水平弹簧振子在平衡位置与最大位移间往返各阶段动能、弹性势能与机械能守恒填表",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m8.shm_symmetry_energy",
+        "law.m6.mechanical_energy_cons",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.hand.1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 47,
+      "content_sha256": "be03e4b60db7a8fd2f6fc14ec4845940b9dd06f75288376d1744570407acf264",
+      "concise_topic": "细线悬挂漏墨汁注射器单摆在匀速拖动木板上描绘正弦振动图样实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum",
+        "law.m8.shm_kinematics_dynamics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt",
+        "method.graph.vib_wave_yt_yx"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.demo.1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 48,
+      "content_sha256": "e78b5fb03e33a48153cced00f5ba77a900d343758d836b08d7d27d7a3944964a",
+      "concise_topic": "控制变量法对比双单摆振幅、摆球质量与摆长定性探究影响单摆周期的因素",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c2.s4.exp.1",
+      "unit_id": "unit.s1.c2.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 48,
+      "content_sha256": "49b1f0c74dfbde9a3ebbd22b8ce6b120de5e54f8b083c13a7fbe44a06b0d138d",
+      "concise_topic": "大范围改变摆长测量单摆周期并化曲为直探究惠更斯单摆周期公式定量关系",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.data.linearization_plot",
+        "expskill.read.stopwatch_spring",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s5.exp.1",
+      "unit_id": "unit.s1.c2.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 51,
+      "content_sha256": "bdc99d4cc7cafcb051b49a5d31867fc17f4ac903cc4f3df64e0b1654068847dd",
+      "concise_topic": "用单摆测量当地重力加速度的实验原理、铁架台桌边悬挂装置与减小误差设计",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s5.exp.2",
+      "unit_id": "unit.s1.c2.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 52,
+      "content_sha256": "cb2490bb0dd0368dcb61ba409c7ef6fd8d18553e09f38932c185b6e3a3b9cd62",
+      "concise_topic": "单摆实验游标卡尺与刻度尺测摆长、停表累积测周期及平均值与图像法求g",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.pendulum_gravity"
+      ],
+      "exp_skills": [
+        "expskill.read.vernier_caliper",
+        "expskill.read.mm_ruler",
+        "expskill.read.stopwatch_spring",
+        "expskill.data.linearization_plot"
+      ],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.exp.pendulum_length_miss_radius",
+        "trap.exp.vernier_extra_digit"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.hand.1",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 55,
+      "content_sha256": "1ec78b0ab2d286f7ddfa65da5846c9194a58afc5910dabfd951d6fc721f86721",
+      "concise_topic": "可调速电动机驱动弹簧钩码系统验证稳定受迫振动频率等于驱动力频率",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.forced_vib_resonance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c2.s6.hand.2",
+      "unit_id": "unit.s1.c2.s6",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 55,
+      "content_sha256": "e5bcd9db377c5dc425e110b956e2b636650feaa9e1a6a77739235a455d90ead8",
+      "concise_topic": "横梁悬挂多摆长单摆演示共振现象、绘制共振曲线及共振转速计应用与防振",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.forced_vib_resonance",
+        "law.m8.simple_pendulum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.resonance_freq_changes_source"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.demo.1",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 62,
+      "content_sha256": "4e2ccb980da83830713abb33fc7f4d3d6ac269b95d1bb2f36b6915928f8fac82",
+      "concise_topic": "手抖软绳演示横波产生与传播微观质点带动机理及绳上红标记只上下振动不随波迁移",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.hand.1",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 63,
+      "content_sha256": "11a639663b322615987f4f80a9ffa7873ccb73cab8c6845b7f35d868ce220d14",
+      "concise_topic": "学生排成一行依次迟后下蹲起立人浪团体操模拟横波波峰波谷传播且质点不迁移",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.demo.2",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 64,
+      "content_sha256": "1ca9834ea6f774c8f337cbc0d61b83a75ebf08b3bf8119dcb4f3397aa634a167",
+      "concise_topic": "推拉水平软弹簧演示纵波密部疏部交替传播机理及音叉空气声波传递能量与信息",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [
+        "model.wave.standing_longitudinal_hetero"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s1.hand.2",
+      "unit_id": "unit.s1.c3.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 65,
+      "content_sha256": "8b982de503d4e7d0db10281bb2901df6db5c318303736e55eaa850b3987e5765",
+      "concise_topic": "笔尖周期性轻点水面观察圆形水波向外传播而水面漂浮小纸屑原地上浮下沉不迁移",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_formation_params"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s3.demo.1",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 71,
+      "content_sha256": "f89d87939fac54733070e86d8382d0fd47f357a8cb027aef401297367cad9ac2",
+      "concise_topic": "发波水槽斜置挡板演示水波反射定律及深浅不同水域交界面水波折射现象",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s3.demo.2",
+      "unit_id": "unit.s1.c3.s3",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 72,
+      "content_sha256": "c093316a3c712ba6957b3b2910a693e821d337b627cfb55848c805d85b833092",
+      "concise_topic": "发波水槽控制变量改变狭缝宽度与水波波长探究缝孔或障碍物发生明显衍射的条件",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s4.demo.1",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 74,
+      "content_sha256": "ec35d0fadf852dbe03b79ea9191df35895849d1c5d2f1fa7f5a166af313ac4a5",
+      "concise_topic": "长绳两端相向抖动两列脉冲波演示波相遇独立传播特征与重叠区域位移矢量叠加原理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s4.demo.2",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 75,
+      "content_sha256": "fe47574290e99fb101a704ff1bebdff3022c78d9bb3d519a94c1c8863234f861",
+      "concise_topic": "发波水槽同步双细杆演示水波稳定干涉图样及频率相同相位差恒定条件",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.wave_particle_moves_with_wave"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c3.s4.hand.1",
+      "unit_id": "unit.s1.c3.s4",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 77,
+      "content_sha256": "22324fb2ef015c35018ccac2d3415d431901ce43bd18d4f3b89bf395a03b2608",
+      "concise_topic": "同信号源驱动双扬声器间两组学生寻找声音最强与最弱空间分布体验声波干涉现象",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.wave_superposition_interf"
+      ],
+      "models": [
+        "model.wave.two_source_interference_grid"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c3.s5.demo.1",
+      "unit_id": "unit.s1.c3.s5",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 79,
+      "content_sha256": "88c2a1da454bff9f5def44ab7ae4d6fabfe30d0f8efd5fbd85518b0fa7f5f01e",
+      "concise_topic": "头顶快速旋转长竹竿蜂鸣器听音调高低变化及行人队列模拟解释声波多普勒效应",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m8.doppler_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s1.exp.1",
+      "unit_id": "unit.s1.c4.s1",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 87,
+      "content_sha256": "d1e539ac9765498942df7ea9f2a02b327a46f0bf85de16f8f256a56e1230451a",
+      "concise_topic": "四枚大头针插针法确定平行玻璃砖入射与出射光路测量入射角折射角求玻璃折射率",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o1.refraction_snell",
+        "law.o1.apparent_depth_shift"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.glass_refractive_index"
+      ],
+      "exp_skills": [
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.glass_pins_too_close",
+        "trap.tom.refraction_angle_to_surface"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s2.demo.1",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 90,
+      "content_sha256": "fdddbf953d98119eb98c02d2f0bfbb48538276a7d35e6cc5e1e849c86687b332",
+      "concise_topic": "光线沿半圆形玻璃砖半径射向直边逐渐增大入射角观察折射光减弱消失的全反射现象",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o1.total_internal_reflection",
+        "law.o1.refraction_snell"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [
+        "exp.opt.glass_refractive_index"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.tir_sparse_to_dense"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s2.demo.2",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 93,
+      "content_sha256": "b1239ba607829d05f60b2e2fe0caed36449b3574f125e6d5b24e48463bf991db",
+      "concise_topic": "激光在弯曲有机玻璃棒内锯齿形全反射传播演示及双层光纤内窥镜与光纤通信原理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [
+        "model.opt.prism_semicircle_sphere_tir"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.tir_sparse_to_dense"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s2.hand.1",
+      "unit_id": "unit.s1.c4.s2",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 94,
+      "content_sha256": "c525c2e0ac3c88499b9be2224c42c85e1b922f765aaeadc0054d5660db058441",
+      "concise_topic": "激光水平射向盛水塑料瓶下侧出水小孔观察激光沿弯曲水流全反射导光实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o1.total_internal_reflection"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s3.demo.1",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 95,
+      "content_sha256": "dda633bb3ae9101bd34794e9d7540390d09a87870f3ee5f0ef69210d1c64438c",
+      "concise_topic": "氦氖激光器照射平行双狭缝演示杨氏双缝干涉明暗条纹及半波长奇偶倍路程差判据",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.double_slit_interference",
+        "law.o2.laser_properties"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs",
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.double_slit_vs_single_slit_pattern"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s3.hand.1",
+      "unit_id": "unit.s1.c4.s3",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 98,
+      "content_sha256": "c662120a8a2f5ee688076d45d2e42207aef8a7778af4412cd5e02da82ebf73fb",
+      "concise_topic": "食盐黄光酒精灯照射竖直肥皂液膜观察前后表面反射形成的薄膜干涉条纹",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.thin_film_interference",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s4.exp.1",
+      "unit_id": "unit.s1.c4.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 101,
+      "content_sha256": "ab14daad38eb0fd2276dde58ca6ee47bbb3dfb6d67053eb59bd5bc0c843ddae0",
+      "concise_topic": "用双缝干涉测量光的波长实验：遮光筒共轴调节、测量头读数与多纹求均",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.double_slit_interference"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.double_slit_wavelength"
+      ],
+      "exp_skills": [
+        "expskill.op.optical_coaxial_align",
+        "expskill.read.micrometer",
+        "expskill.read.vernier_caliper",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.exp.double_slit_dx_count_n"
+      ]
+    },
+    {
+      "item_id": "tb.s1.c4.s6.demo.1",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 109,
+      "content_sha256": "4b38604ef6eece6d2527e57ef6f8fc5b4a11bf3555dcd53bd591d75461607f86",
+      "concise_topic": "旋转单块偏振片透射自然光强度不变与旋转第二块检偏器透射光强明暗周期变化演示",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s1.c4.s6.hand.1",
+      "unit_id": "unit.s1.c4.s6",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 111,
+      "content_sha256": "133189c106f93b8452497e8ad652e227c8079512e5fab8305d14b46bbf468c89",
+      "concise_topic": "转动单片偏振片对比观察窗外自然光、玻璃桌面反射偏振光及手机液晶屏线偏振光实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.opt.wave_phenomena_obs"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    }
+  ]
+}

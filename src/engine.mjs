@@ -318,10 +318,27 @@ export function diagnoseError(bundle, { questionId, trapQuery }) {
     const remediationNodes = (trap.remediated_by || []).map((rid) => {
       const rn = bundle.nodes[rid];
       const remediationQuestions = (bundle.node_questions[rid] || []).filter((qid) => qid !== questionId).slice(0, 5);
+      const tbIds = bundle.node_textbook_items?.[rid] || [];
+      const tbCards = tbIds
+        .map((tid) => bundle.textbook_items?.[tid])
+        .filter(Boolean)
+        .sort((a, b) => {
+          const rank = (x) => (x.category === 'worked_example' ? 0 : x.pedagogical_role === 'canonical_archetype' ? 1 : 2);
+          return rank(a) - rank(b) || (a.printed_page || 0) - (b.printed_page || 0);
+        })
+        .slice(0, 3)
+        .map((x) => ({
+          item_id: x.item_id,
+          book_id: x.book_id,
+          printed_page: x.printed_page,
+          category: x.category,
+          concise_topic: x.concise_topic
+        }));
       return {
         id: rid,
         type: rn?.type,
         title: rn?.title,
+        sample_textbook_archetypes: tbCards,
         sample_question_ids: remediationQuestions
       };
     });
@@ -407,5 +424,199 @@ export function buildBlueprint(bundle, { mode = 'zhejiang_18_mock', focusNodeIds
     distinct_source_papers: usedPapers.size,
     distinct_models_covered: usedModels.size,
     slots: items
+  };
+}
+
+/**
+ * 原语 7: queryArchetypes —— 检索人教版 6 册教材母题、STSE/拓展/漫步栏目与必做实验原型
+ */
+export function queryArchetypes(
+  bundle,
+  {
+    query = '',
+    nodeIds = [],
+    bookId = null,
+    category = null,
+    role = null,
+    gaokaoOnly = false,
+    learnedSelectors = null,
+    limit = 25
+  } = {}
+) {
+  const learnedSections = learnedSelectors ? expandUnitSelectors(bundle, learnedSelectors) : null;
+  const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+
+  // 展开节点过滤（母模型展开子变式树，章展开节）
+  const expandedFilterSets = nodeIds.map((nid) => {
+    const n = bundle.nodes[nid];
+    if (!n) return new Set([nid]);
+    if (n.variant_subtree) return new Set(n.variant_subtree);
+    if (n.type === 'CurriculumUnit' && n.level === 'chapter') return new Set([nid, ...(n.section_ids || [])]);
+    return new Set([nid]);
+  });
+
+  const matched = [];
+  for (const item of Object.values(bundle.textbook_items || {})) {
+    if (bookId && item.book_id !== bookId) continue;
+    if (category && item.category !== category) continue;
+    if (role && item.pedagogical_role !== role) continue;
+    if (gaokaoOnly && !(item.derived_gaokao_questions?.length > 0)) continue;
+
+    if (learnedSections) {
+      const req = item.required_units || [];
+      if (req.length === 0 || !req.every((u) => learnedSections.has(u))) continue;
+    }
+
+    if (expandedFilterSets.length > 0) {
+      const itemNodes = new Set([
+        item.unit_id,
+        ...(item.models || []),
+        ...(item.laws || []),
+        ...(item.experiments || []),
+        ...(item.exp_skills || []),
+        ...(item.methods || []),
+        ...(item.traps || [])
+      ]);
+      if (!expandedFilterSets.every((fset) => [...fset].some((x) => itemNodes.has(x)))) continue;
+    }
+
+    if (terms.length > 0) {
+      const nodeTitles = [
+        ...(item.models || []),
+        ...(item.laws || []),
+        ...(item.experiments || [])
+      ]
+        .map((id) => bundle.nodes[id]?.title || '')
+        .join(' ');
+      const hay = `${item.item_id} ${item.concise_topic} ${item.category} ${nodeTitles}`.toLowerCase();
+      if (!terms.every((t) => hay.includes(t))) continue;
+    }
+
+    matched.push(item);
+  }
+
+  matched.sort(
+    (a, b) =>
+      (b.derived_gaokao_questions?.length || 0) - (a.derived_gaokao_questions?.length || 0) ||
+      a.item_id.localeCompare(b.item_id)
+  );
+
+  return {
+    total: matched.length,
+    items: matched.slice(0, limit).map((x) => ({
+      item_id: x.item_id,
+      book_id: x.book_id,
+      unit_id: x.unit_id,
+      unit_title: bundle.nodes[x.unit_id]?.title,
+      printed_page: x.printed_page,
+      category: x.category,
+      pedagogical_role: x.pedagogical_role,
+      concise_topic: x.concise_topic,
+      models: x.models,
+      laws: x.laws,
+      experiments: x.experiments,
+      derived_gaokao_count: x.derived_gaokao_questions?.length || 0,
+      derived_gaokao_questions: x.derived_gaokao_questions || []
+    }))
+  };
+}
+
+/**
+ * 原语 8: traceProvenance —— 双向溯源：从高考真题/模拟题查课本第一出处，或从课本条目反查历年真题与联考变式
+ */
+export function traceProvenance(
+  bundle,
+  { questionId = null, paperId = null, level = null, textbookId = null, query = '', limit = 30 } = {}
+) {
+  const expandTb = (tid) => {
+    const tb = bundle.textbook_items?.[tid];
+    if (!tb) return { item_id: tid };
+    return {
+      item_id: tb.item_id,
+      book_id: tb.book_id,
+      unit_id: tb.unit_id,
+      unit_title: bundle.nodes[tb.unit_id]?.title,
+      printed_page: tb.printed_page,
+      category: tb.category,
+      pedagogical_role: tb.pedagogical_role,
+      concise_topic: tb.concise_topic
+    };
+  };
+
+  // 1. 若按具体教材条目 ID 反查衍生出的高考真题与同源模拟题
+  if (textbookId) {
+    const tb = bundle.textbook_items?.[textbookId];
+    if (!tb) return { error: 'textbook_item_not_found', textbookId };
+    const mockMatches = Object.values(bundle.questions || {})
+      .filter((q) => (q.recommended_textbook_ids || []).includes(textbookId))
+      .map((q) => ({ question_id: q.question_id, paper_id: q.paper_id, slot: q.slot, models: q.models }))
+      .slice(0, limit);
+    return {
+      mode: 'textbook_to_exams',
+      archetype: expandTb(textbookId),
+      derived_gaokao_questions: tb.derived_gaokao_questions || [],
+      matched_bank_questions_count: mockMatches.length,
+      matched_bank_questions: mockMatches
+    };
+  }
+
+  // 2. 若按单个题号查询（先查官方高考真题溯源库，再查题库模拟题推荐原型）
+  if (questionId) {
+    for (const p of bundle.gaokao_provenance || []) {
+      const hit = (p.questions || []).find((q) => q.question_id === questionId);
+      if (hit) {
+        return {
+          mode: 'gaokao_question_provenance',
+          paper_id: p.paper_id,
+          paper_title: p.title,
+          ...hit,
+          source_textbook_cards: (hit.source_textbook_ids || []).map(expandTb)
+        };
+      }
+    }
+    const bankQ = bundle.questions?.[questionId];
+    if (bankQ) {
+      return {
+        mode: 'bank_question_archetype_match',
+        question_id: bankQ.question_id,
+        paper_id: bankQ.paper_id,
+        slot: bankQ.slot,
+        models: bankQ.models,
+        laws: bankQ.laws,
+        recommended_textbook_cards: (bankQ.recommended_textbook_ids || []).map(expandTb)
+      };
+    }
+    return { error: 'question_not_found', questionId };
+  }
+
+  // 3. 批量筛选历年浙江选考官方真题溯源库
+  const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const results = [];
+  for (const p of bundle.gaokao_provenance || []) {
+    if (paperId && p.paper_id !== paperId) continue;
+    for (const q of p.questions || []) {
+      if (level && q.provenance_level !== level) continue;
+      if (terms.length > 0) {
+        const tbText = (q.source_textbook_ids || []).map((tid) => bundle.textbook_items?.[tid]?.concise_topic || '').join(' ');
+        const hay = `${p.title} ${q.question_id} ${q.exam_question_summary} ${q.adaptation_mechanism} ${tbText}`.toLowerCase();
+        if (!terms.every((t) => hay.includes(t))) continue;
+      }
+      results.push({
+        paper_id: p.paper_id,
+        paper_title: p.title,
+        question_no: q.question_no,
+        question_id: q.question_id,
+        exam_question_summary: q.exam_question_summary,
+        provenance_level: q.provenance_level,
+        source_textbook_cards: (q.source_textbook_ids || []).map(expandTb),
+        adaptation_mechanism: q.adaptation_mechanism
+      });
+    }
+  }
+
+  return {
+    mode: 'gaokao_provenance_search',
+    total: results.length,
+    results: results.slice(0, limit)
   };
 }

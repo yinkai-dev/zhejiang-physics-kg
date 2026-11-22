@@ -6,7 +6,9 @@ import {
   computeCurriculumScope,
   matchQuestions,
   diagnoseError,
-  buildBlueprint
+  buildBlueprint,
+  queryArchetypes,
+  traceProvenance
 } from '../src/engine.mjs';
 import { loadSplits, readBankPaperSafely } from '../src/split-guard.mjs';
 
@@ -105,6 +107,42 @@ switch (cmd) {
     );
     break;
   }
+  case 'archetype': {
+    console.log(
+      JSON.stringify(
+        queryArchetypes(bundle, {
+          query: positional.join(' ') || flags.query || '',
+          nodeIds: splitCsv(flags.nodes),
+          bookId: flags.book || null,
+          category: flags.category || null,
+          role: flags.role || null,
+          gaokaoOnly: Boolean(flags['gaokao-only']),
+          learnedSelectors: flags.learned ? splitCsv(flags.learned) : null,
+          limit: Number(flags.limit || 25)
+        }),
+        null,
+        2
+      )
+    );
+    break;
+  }
+  case 'provenance': {
+    console.log(
+      JSON.stringify(
+        traceProvenance(bundle, {
+          questionId: flags.question || null,
+          paperId: flags.paper || null,
+          level: flags.level || null,
+          textbookId: flags.textbook || null,
+          query: positional.join(' ') || flags.query || '',
+          limit: Number(flags.limit || 30)
+        }),
+        null,
+        2
+      )
+    );
+    break;
+  }
   case 'read-paper': {
     const paperId = positional[0] || flags.paper;
     const res = readBankPaperSafely(paperId, {
@@ -115,7 +153,7 @@ switch (cmd) {
     break;
   }
   default: {
-    console.log(`用法: node scripts/cli.mjs <stats|locate|inspect|scope|match|diagnose|blueprint|read-paper> [参数]`);
+    console.log(`用法: node scripts/cli.mjs <stats|locate|inspect|scope|match|diagnose|blueprint|archetype|provenance|read-paper> [参数]`);
     process.exit(cmd ? 1 : 0);
   }
 }

@@ -153,3 +153,28 @@ export function loadPaperAnnotations(root = KG_ROOT) {
   }
   return map;
 }
+
+/**
+ * 加载所有已落盘的人教版教材母题与栏目图谱挂载文件 (annotations/textbook/*.json)
+ * @param {string} root 图谱仓库根目录
+ */
+export function loadTextbookAnnotations(root = KG_ROOT) {
+  const tbDir = path.join(root, 'annotations', 'textbook');
+  if (!fs.existsSync(tbDir)) return new Map();
+  const map = new Map();
+  for (const file of fs.readdirSync(tbDir).filter((f) => f.endsWith('.json')).sort()) {
+    const data = readJson(path.join(tbDir, file));
+    if (data?.book_id) map.set(data.book_id, data);
+  }
+  return map;
+}
+
+/**
+ * 加载浙江新教材选考官方真题双向教材溯源库 (annotations/provenance/zhejiang-gaokao-provenance.json)
+ * @param {string} root 图谱仓库根目录
+ */
+export function loadGaokaoProvenance(root = KG_ROOT) {
+  const provPath = path.join(root, 'annotations', 'provenance', 'zhejiang-gaokao-provenance.json');
+  if (!fs.existsSync(provPath)) return null;
+  return readJson(provPath);
+}

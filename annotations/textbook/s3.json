@@ -1,0 +1,4198 @@
+{
+  "schema_version": "1.0.0",
+  "book_id": "s3",
+  "annotation_source": "textbook_grounded_ai",
+  "items": [
+    {
+      "item_id": "tb.s3.c1.s1.prac.q1",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 6,
+      "content_sha256": "9e8da8932f67bf62c4a2790c4aa3b67fb0232c86a9edb1cc2bd627f54063d903",
+      "concise_topic": "铜分子紧密球形模型由密度与摩尔质量估算分子直径",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.gas_cube_edge_as_diameter"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s1.prac.q2",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 6,
+      "content_sha256": "b8ef43bf0e2ba3b5d33ef637fc5504fc84e8c216d6047a7f157596d65b768330",
+      "concise_topic": "标准状态下氧气摩尔体积立方体模型估算分子平均间距",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.gas_cube_edge_as_diameter"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s1.prac.q3",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 6,
+      "content_sha256": "384adecec79340847a421fc5c284de2625e49cf81e750fe73d8a994e86e9a8c5",
+      "concise_topic": "布朗运动本质、观测微粒与加热胡椒粉对流翻滚概念辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.diffusion_brownian"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s1.prac.q4",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 6,
+      "content_sha256": "53c8359b0ffe6ebafbf78cd0ac0825e457f951ddbb58490d6e2637a8407b4030",
+      "concise_topic": "水中悬浮粉笔末定时位置折线记录图与水分子无规则运动辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.diffusion_brownian"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s1.prac.q5",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 6,
+      "content_sha256": "e04cd5dfc76f68845e1f88214acb147d9b8b62bd51345900a7fee4476beb545c",
+      "concise_topic": "分子间距相对平衡距离增大或减小时分子力引力与斥力表现判据",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.intermolecular_force_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.r0_force_vs_pe_curve_swap"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s2.prac.q1",
+      "unit_id": "unit.s3.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 9,
+      "content_sha256": "99e8a3a3e3eea5a18ac47bdf8ea6f74807e53ae8884eec4c35898361ecb4d033",
+      "concise_topic": "盐水悬浮等密度替代法与天平测质量计算均匀塑料薄膜厚度",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.avogadro_micro_est",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.oil_film_molecule"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method",
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s2.prac.q2",
+      "unit_id": "unit.s3.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 9,
+      "content_sha256": "015e917426762b5c3c3f4a19a6064c6a0b70ff2770c1d1f3f262e876da4d2362",
+      "concise_topic": "迁移油膜法稀释取样与累积测量思想称微量食盐及测细铁丝截面积",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.oil_film_molecule"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler",
+        "expskill.read.micrometer"
+      ],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": [
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s2.prac.q3",
+      "unit_id": "unit.s3.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 9,
+      "content_sha256": "43e2c87aaa67b1132b2b565f634b2bac5f9679e38340e9f08797de6d4722ad11",
+      "concise_topic": "油膜法实验纯油酸单滴体积计算、坐标方格数算面积与分子直径估算",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.oil_film_molecule"
+      ],
+      "exp_skills": [
+        "expskill.data.area_grid_counting"
+      ],
+      "methods": [
+        "method.thought.micro_amplification",
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.exp.oil_film_ignore_concentration",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s3.prac.q1",
+      "unit_id": "unit.s3.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 13,
+      "content_sha256": "40384ae7a3a9c6f44b641a75a93f305bdcf1c0ac6ed5b6e3290c5e1392100302",
+      "concise_topic": "定质量气体等容升温与等温压缩使压强增大的微观机理区别",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.gas_pressure_micro",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s3.prac.q2",
+      "unit_id": "unit.s3.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 13,
+      "content_sha256": "eab9743aa689d6936c5a07a6ad4bf27dfc2864337ffd05c51514b105fd37372b",
+      "concise_topic": "等容等质量氧气在0℃与100℃下分子速率分布统计规律异同比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s3.prac.q3",
+      "unit_id": "unit.s3.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 13,
+      "content_sha256": "20308696ebf521ee4c3b7c4288156fb084f6d18b54abc87d4dfbc61cf5e66c30",
+      "concise_topic": "四瓶氢气在不同体积、质量与温度条件下压强大小的微观统计判据",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.gas_pressure_micro",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s3.prac.q4",
+      "unit_id": "unit.s3.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 13,
+      "content_sha256": "97d9b8dd9f95bb167cc84718473104cfcc311abfaedb107711afff95f783b67f",
+      "concise_topic": "大量随机事件统计规律迁移应用于共享单车大数据公交线路规划",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s4.prac.q1",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "d2dc30cc40720ca22d7cbcf36b407eb2bea7caff9a6c8103af9c5c15be4bd008",
+      "concise_topic": "密闭容器内同温水滴蒸发为水蒸气过程的分子势能与内能变化分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t1.intermolecular_force_pe",
+        "law.t2.real_gas_phase_intro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s4.prac.q2",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "b2cc487571d322ad1fb8b5bd2c673ce71285c5f591c12c058d03d003fe4899df",
+      "concise_topic": "真空钟罩内绝热细线悬吊铁块昼夜降温时的热辐射与内能变化",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s4.prac.q3",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "b5dff30379480a150606c8721169ee8da18ec545f9b8ae556e6f6bf2a573e725",
+      "concise_topic": "高铁加速过程宏观机械动能增大与分子热运动平均动能及温度辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist",
+        "law.t1.internal_energy",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s4.prac.q4",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "b4129af1e80a6e3c998d8d1f5d53ad8a11608eecf85d25c1d3a680eb6721348d",
+      "concise_topic": "举高物体克服重力做功增加重力势能与分子势能及内能概念辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t1.intermolecular_force_pe",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.revA.q1",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 17,
+      "content_sha256": "46c97e04f0a585d19d00e377446546991f6b851c02f9f59c2f1f6715abe778ef",
+      "concise_topic": "任何物体均具有内能的微观原因及定容升温过程内能变化规律",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.revA.q2",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 17,
+      "content_sha256": "0d78dcac850067788191be1d5b04cec396e83c38e06a4399374592beaceaf853",
+      "concise_topic": "分子间距从0.9r0增大至10r0过程中分子力与分子势能的非单调变化",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.intermolecular_force_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ep_x"
+      ],
+      "traps": [
+        "trap.tom.r0_force_vs_pe_curve_swap"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.revA.q3",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 17,
+      "content_sha256": "71dd2f2bff5349221287d5bbf65834a56e0eb1d0383e0128a7bcfaddb0d4aa6f",
+      "concise_topic": "钻石球形分子紧密排列模型下总分子数与分子直径代数表达式推导",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.gas_cube_edge_as_diameter"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.revA.q4",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 17,
+      "content_sha256": "9bf5540edba01492bb5064140097022c8d5ffaa805cf53d4c3e344f27e85e20c",
+      "concise_topic": "气体分子小立方体占据空间模型估算标准状态下相邻分子平均间距",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.gas_cube_edge_as_diameter"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.revB.q1",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 17,
+      "content_sha256": "ad37c4ddeb2e2ee8589a8cc5cbf28b7a5ba630bf9900bb62478a0ff969b810d3",
+      "concise_topic": "铁分子单列紧密排布构筑地月分子大道所需分子总数与总质量估算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.revB.q2",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 17,
+      "content_sha256": "e5d131762f3f610d3239f345c9bb5398b5fa008ad7a71ba6466ce973734a0b24",
+      "concise_topic": "油膜法实验溶液偏稀、换粗针管及半格全算三类操作失误的系统误差分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.oil_film_molecule"
+      ],
+      "exp_skills": [
+        "expskill.data.area_grid_counting",
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.oil_film_ignore_concentration"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.revB.q3",
+      "unit_id": "unit.s3.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 17,
+      "content_sha256": "1879943c36eaff7e1323466bbf905adf84c37f8e5b684c5c2decfc0c2dc009a0",
+      "concise_topic": "重复投掷4枚硬币记录正面朝上枚数的个体偶然性与大样本统计规律探究",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s1.prac.q1",
+      "unit_id": "unit.s3.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "14db498c0c9daa7cd633bbacec487c7aeb69e177118c32651b90263cf012e32d",
+      "concise_topic": "混合法测金属块比热容实验中沸水加热与水温稳定两处热平衡概念辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s1.prac.q2",
+      "unit_id": "unit.s3.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "49c5cac6748058bafc1bc8d3ed7e06b9055dee0e543e68de81c1f9e32499cda1",
+      "concise_topic": "日常摄氏温度与低温物理热力学温度开尔文之间的定量换算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s1.prac.q3",
+      "unit_id": "unit.s3.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "396ff64e75cbefdbc9514f177f0719c832966a9d17e3623062e4e5d77f1e068f",
+      "concise_topic": "与热力学温度成正比的物理量在X-T与X-t坐标系中的方程与图像对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": [
+        "trap.tom.celsius_in_gas_law",
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s1.prac.q4",
+      "unit_id": "unit.s3.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "7bf83f28e0a1824802ca3b2c8b981d9bb997dbf9d641130779d1309821eeb687",
+      "concise_topic": "金属丝电阻随温度变化特性与串联电池电流表改装电阻温度计刻度判读",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist",
+        "law.e2.resistance_law",
+        "law.e2.closed_circuit_ohm",
+        "law.e5.common_sensors"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s2.prac.q1",
+      "unit_id": "unit.s3.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 25,
+      "content_sha256": "f0bf30fcd98896edc8030dad3287b01b3aac7ed63ccc496f7e0929efa598bf26",
+      "concise_topic": "探究气体等温变化规律实验中仅凭两组邻近数据判断反比与连线过原点辨析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.gas_isothermal_boyle"
+      ],
+      "exp_skills": [
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": [
+        "trap.exp.boyle_dead_volume_ignored"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s2.prac.q2",
+      "unit_id": "unit.s3.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 25,
+      "content_sha256": "62a8505f21c94f0c6d6794e174833f495b9bacc2c586c938943e51f861206bd2",
+      "concise_topic": "定质量气体p-V图像中两条双曲线等温线对应温度高低的比较判据",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.pv_pt_vt",
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s2.prac.q3",
+      "unit_id": "unit.s3.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 25,
+      "content_sha256": "ac0dbffd3feccf36b4b8f6c4afd6671f3cefcd0e2230c9e83bb4ff829a20cb74",
+      "concise_topic": "打气筒向定容足球分20次充气的变质量等温压强计算与理想化前提辨析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.variable_mass_pumping"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s2.prac.q4",
+      "unit_id": "unit.s3.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 25,
+      "content_sha256": "8056354404796221987e8481e58d27a6587e93068f63499215f0d57c414ae94e",
+      "concise_topic": "管顶混入空气泡的水银气压计在等温条件下由示数变化推算真实大气压",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s3.exmp.1",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 27,
+      "content_sha256": "f975a3f734567deb94945910b9d6b2fb7755ce90395f56926438b333b675fe80",
+      "concise_topic": "封闭理想气体先后经历等温膨胀与等容升温两阶段过程的终态压强计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s3.prac.q1",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "96ee6cf001a3ac181b763408319b2246ccdde09f653a44934f8e4a9e6b9ed368",
+      "concise_topic": "氧气钢瓶从17℃室内搬至-13℃工地后由查理定律判断钢瓶是否漏气",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s3.prac.q2",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "7d3604cf1ac0645bdace08583d791822a5ad8938dc2b19c467acf54fc42ee173",
+      "concise_topic": "中医拔火罐加热空气倒扣皮肤等容冷却后罐内气体对皮肤压力估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.celsius_in_gas_law",
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s3.prac.q3",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "453c30ebe86c8f0e3482f965dd9439b6c4bbee588d32e869655d52b130cce489",
+      "concise_topic": "密封饮料罐插带油柱细吸管自制等压气温计的温度刻度均匀性与量程计算",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s3.prac.q4",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "37b4a9eb8f877c6b0e37b53ba1343b4abd512fe9b09d9ac4a10819b8b5c5cc32",
+      "concise_topic": "插有水银柱细管的不规则容器浸入热水等压膨胀测定容器容积表达式推导",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s4.prac.q1",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 35,
+      "content_sha256": "b2483fff7050ea4976a48560d7a29cf0987eee2305ffa48a5e43b8e3b8183341",
+      "concise_topic": "薄片正交轴等距两点加热测温无差异能否断定为非晶体的严密性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.solids_crystal_amorphous"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.polycrystal_anisotropy"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s4.prac.q2",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 35,
+      "content_sha256": "7af4c85145fa7a8402478e679d51e92b322ee4e71e17d98efcd7b88cc553051c",
+      "concise_topic": "氯化钠晶体钠氯离子立方晶格空间分布模型推导相邻钠离子中心距离",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t1.solids_crystal_amorphous",
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s4.prac.q3",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 35,
+      "content_sha256": "3565797950ff343b2dc2edc953b6aad975a354141045b9983096e21f4275bf60",
+      "concise_topic": "岩盐平面晶格不同分界线正负离子库仑合力计算与立方体解理特征解释",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t1.solids_crystal_amorphous",
+        "law.e1.coulomb_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q1",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "980698ca5c46cda74c9fd1dc62d72c6a29e2a1b535f63847705ea11eba4704a0",
+      "concise_topic": "玻璃管裂口在火焰上烧熔后因液态玻璃表面张力收缩使尖端变钝",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.t1.solids_crystal_amorphous"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q2",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "2030397d6c8e0f079403ba167146ce315581316a25506dd02c1ad68f159ca056",
+      "concise_topic": "地面蒸发皿大小水银滴形状差异及完全失重宇宙飞船中大滴水银呈球形解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.m3.apparent_weight"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q3",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "bbcb975817e918d7918ecdc1858a3f87e4ff9457f58ff84e5af36168e3d71dce",
+      "concise_topic": "涂油脂缝衣针借助水表面张力与不浸润停浮水面及按入水下沉底实验分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q4",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "d210cda1f202e4c0e3175d83cd4cfde24732185e25b9414bc95e9f2b095928d6",
+      "concise_topic": "热熨斗隔棉纸熔化衣物蜡迹并利用棉纸浸润毛细现象吸除液态石蜡的原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q5",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "c2e355953ce450b2c3259e6e0e11d33704ffc998dfd7388763a71167c7709719",
+      "concise_topic": "利用纤维多孔材料浸润与毛细现象设计家庭盆栽自动浇水装置",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.prac.q6",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "9c9907c904fbcae7d56c3e174ebfd75f7d83df2a6dd30bb7a033a735f95696a8",
+      "concise_topic": "对比液滴接触形态选用对酱油不浸润材料制作防挂壁渗漏清洁酱油瓶口",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q1",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "2f52c62c46908d0d93e86fbb89eb516a19b525b223d37d05e5d4d73e1571a14a",
+      "concise_topic": "完全失重环境下气体对器壁压强的分子碰撞微观解释与自由下落实验验证",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_pressure_micro",
+        "law.m3.apparent_weight"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q2",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "cb82909e4133a0d9b1d453fdce8da507a04e343987bbf1ec72826fbfa92d0aab",
+      "concise_topic": "自动洗衣机竖直控水细管封闭空气等温压缩与压力传感器停水液位高度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.e5.common_sensors"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q3",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "d264a6b0e9a2c256ec1599af3c0b7977e68f95f4a9958a695e06b867bca9a427",
+      "concise_topic": "活塞封闭理想气体的汽缸从水平横放改为竖直悬挂静止时的等温气柱长度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q4",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "91862f2d5daa972cee90a776c982fc430bf816b7397cb136027179d8728fa4e3",
+      "concise_topic": "理想气体先等压升温再等容降温至初温过程的中间态体积与压强变化微观解释",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.t2.gas_pressure_micro"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q5",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "d59f5ba477ca31125b656ce31ddc97613ff21cd69b06a9a38c22ecbbf320c68f",
+      "concise_topic": "敞开连通大气的教室从上午17℃升温至下午27℃时室内空气质量之比计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.variable_mass_pumping",
+        "model.thermo.balloon_buoyancy_gas"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q6",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 42,
+      "content_sha256": "027164eaf90e6e2f26f412dd47b60f027d91bde08f5552f096268ef20df32bb0",
+      "concise_topic": "烧纸扣合双不锈钢碗模拟马德堡半球实验由拉开拉力估算初封热空气温度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.celsius_in_gas_law",
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q7",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 43,
+      "content_sha256": "2186d6bf2fbe3865d84316c1cae8f5ad40297e8c11c8d64bbc87d8d029174f02",
+      "concise_topic": "理想气体p-V方格图像中等压膨胀与等容降压两阶段过程的终态温度求解",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revA.q8",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 43,
+      "content_sha256": "bebf02cbab81d4e3bc6c7ea03e8679129ad10ccc1c82bfd884559a4d81c401bb",
+      "concise_topic": "蔬菜收割后翻松表层土壤破坏土壤毛细管以阻断地下水分散失的农学原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q1",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 43,
+      "content_sha256": "27c40a21e4eede6743d7958e31204a7d61154557c8c89e0007d611840221d87a",
+      "concise_topic": "玻璃泡插水银槽气体测温计的等容刻度定标及高山低压标定所致系统误差分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q2",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 43,
+      "content_sha256": "e04803b37e9ad04b3a3b01569946c5ae803d0b6f1a1bc30869a5934f299d5f7c",
+      "concise_topic": "超市强力吸盘挂钩扳下锁扣拉大密封气腔体积降压产生巨大压紧力的力学热学分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q3",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 43,
+      "content_sha256": "26d1f41bb5b0fb434767438a3cea670f3789709dd4652687fb4074eb3364f1e2",
+      "concise_topic": "连通管水银压强计装置利用玻意耳定律前后对比测定不规则忌液固体体积",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [
+        "exp.thermo.gas_isothermal_boyle"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q4",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 44,
+      "content_sha256": "8f99f843f6f7a8d17dc2317b3a935cbfd434a421daa0a0d6c1a4ea59fe7edaf8",
+      "concise_topic": "汽车轮胎宽温区安全胎压上下限约束下20℃等容充气合适胎压区间计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q5",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 44,
+      "content_sha256": "558f61c76ae356697d44f09c7221faa6ecbc2779c06e28e57e298ce5fd3f6cf4",
+      "concise_topic": "理想气体多过程状态变化由V-T图像定量换算绘制p-T图像并标定状态参量",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": [
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q6",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 44,
+      "content_sha256": "15c64066703b7c3b319b75190603d5e91f47b5c27c9ba72f4967e3e3ac357102",
+      "concise_topic": "细长玻璃管水银柱封闭空气柱由开口向下与水平放置求开口向上竖直气柱长",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.revB.q7",
+      "unit_id": "unit.s3.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 44,
+      "content_sha256": "09dd833e021bb369f5db1f4a29d838c09def7eff3c982544115d6a9f5b3a85c0",
+      "concise_topic": "上端封闭竖直漂浮水面的玻璃管下压少许后放手返回平衡位置的浮力与气压分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.balloon_buoyancy_gas",
+        "model.thermo.mercury_column_tube"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s1.prac.q1",
+      "unit_id": "unit.s3.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "96f9f714ae05e041f5aeb9a6da65dfd700590c91dadb42c67ed2b2cce0e7e525",
+      "concise_topic": "焦耳重物下落叶轮搅水与电流热效应实验中机械能和电能向内能的绝热功转化",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s1.prac.q2",
+      "unit_id": "unit.s3.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "ce733184d22e9479400662463c7981a92a19ce3b996581352e0385b4fb5d7e90",
+      "concise_topic": "壶水受热升温与烧红铁棒冷却纯热传递过程中物体内能增减判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s1.prac.q3",
+      "unit_id": "unit.s3.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "d073488ddc3d238295fc48e51a1a33dbf395fdfee52ac57809cee1fe91c10411",
+      "concise_topic": "气体绝热膨胀与绝热压缩过程的做功正负、内能及温度变化机理与生活实例",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.gas_work_pv_area",
+        "law.t2.first_law_thermo",
+        "law.t1.internal_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s1.prac.q4",
+      "unit_id": "unit.s3.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "01781eed13ef21e4fa48274b872e368c4a428a2369e0404ccbfb853bebeec5c2",
+      "concise_topic": "高速铅弹射入固定木块停驻时动能按比例转化为铅弹内能的升温计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.m6.work_energy_relations",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.exmp.1",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 51,
+      "content_sha256": "80c1b6e01f2343ba63fbad3302b542ee34602085e1bf4dc3b38ef1bde1a2910b",
+      "concise_topic": "四冲程内燃机压缩冲程与做功冲程向汽缸散热条件下气体内能变化量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area",
+        "law.m6.work_definition"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.prac.q1",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "f2c3d9aa02f652115efaed22d84b95b6b75514f8b9ea512dc1ba1ae1862d486c",
+      "concise_topic": "活塞压缩汽缸空气做功同时向外散热过程由热力学第一定律求内能变化",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.first_law_thermo"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.prac.q2",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "9b4af7f2371cb0060fc0b62280fcdc809f14057b79cc7b8d24284ee3d63df994",
+      "concise_topic": "汽缸封闭空气定容升温与定压膨胀升高相同温度时吸热量比较及比热容差异解释",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area",
+        "law.t1.internal_energy"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.prac.q3",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "bd8b2cf340cbc9889a12e139e863080bdadeb090d9976716602fc4a6ca4f2411",
+      "concise_topic": "约20层楼高瀑布水流下落机械能全部转化为内能引起上下水潭温差估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.gravity_elastic_pe",
+        "law.m6.energy_conservation_macro",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.prac.q4",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "c55de81c4b2f6978f084f9bff93cdd1c673d494fba140350b7c6814caa3ec3aa",
+      "concise_topic": "由奶牛心脏停跳后体温下降速率估算维持活体恒温每日所需食物最低热量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s3.prac.q1",
+      "unit_id": "unit.s3.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "7e0eb70452b43d815e716e9aaa2c0bbfdf7b577e7383fb9c4066884208e9e57a",
+      "concise_topic": "永磁体永动机、无动力水上行船与太阳能无燃料飞机是否违背能量守恒辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.t2.second_law_entropy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s3.prac.q2",
+      "unit_id": "unit.s3.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "44bb76c94d49c73a2859805f5a3ccc107199e1c6560ff582fb7f08b3c3f122f5",
+      "concise_topic": "饮料罐营养能量参考值折算成年人克服重力爬楼层数的数量级估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.s3.prac.q3",
+      "unit_id": "unit.s3.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 58,
+      "content_sha256": "1ca88850d49bbca39a00b9f1b3f9c2019c5ad934180d6c24c67ed4ec88ad7678",
+      "concise_topic": "内壁涂黑保温盛水矮圆筒阳光垂直照射升温实验估算地面太阳辐射功率",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.s4.prac.q1",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 63,
+      "content_sha256": "1c710d8f88de85848454e70ffdf8cf16b91167abb8e748013e66963a4380e408",
+      "concise_topic": "汽车行驶消耗汽油释放化学能经各环节耗散最终转化为环境内能的全途径分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.t2.second_law_entropy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s4.prac.q2",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 63,
+      "content_sha256": "57a9c2558e1c801e06005c3fc11e8794f8cd748818cb509102e1d901bc932291",
+      "concise_topic": "热茶自热、单热源全功蒸汽机、泥水重力沉降与电冰箱制冷的热二定律判据",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.second_law_entropy",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s4.prac.q3",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 63,
+      "content_sha256": "633eba02d898c430b21b04af2d9389fc4e2be4f59aa705c24303c5e0d8656a71",
+      "concise_topic": "密闭房间内给电冰箱通电并敞开冰箱门能否使室内降温的能量守恒分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t2.second_law_entropy",
+        "law.m6.energy_conservation_macro",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q1",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "4dfc37b5802dc80d78fdd574cbae8fccec38d54f87230c30932788cb0f1b9de4",
+      "concise_topic": "远古钻木取火利用克服摩擦力做功将机械能转化为内能升温引燃的原理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.m6.work_energy_relations"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q2",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "c5ea60cd2e240184c75fdf547f223d49bcd5e2a34e670c56df47ecc93477c6b4",
+      "concise_topic": "冬天搓手摩擦做功与哈气或取暖器热传递两种改变手部内能方式的物理原理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t1.internal_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q3",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "3e665d69fae6399478c27cdab787a4531dc14bd88fc443af9f4bd51ddd4c7899",
+      "concise_topic": "绝热容器抽开隔板稀薄气体向真空室自由膨胀过程的做功与内能变化判断",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_work_pv_area",
+        "law.t2.first_law_thermo",
+        "law.t1.internal_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.free_expansion_work_nonzero"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q4",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "b600538bdf8eb9141e674895df6fe7a3cb08d5c2eb18f32a28aa12e9c9836349",
+      "concise_topic": "恒温水槽底部气泡缓慢上浮等温降压膨胀过程的内能变化与吸放热判据",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area",
+        "law.t1.internal_energy",
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [
+        "model.thermo.balloon_buoyancy_gas"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.isothermal_ideal_gas_du_nonzero",
+        "trap.gen.slowly_moving_ke_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q5",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "ace69d01d82e7426df3c4422c088fd4685ab6824e9005e67f8ab33921d9174b2",
+      "concise_topic": "电热丝加热固定绝热汽缸内气体推动光滑活塞等压左移过程的内能变化分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area",
+        "law.t2.gas_three_laws_ideal",
+        "law.t1.internal_energy"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revA.q6",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 64,
+      "content_sha256": "8894b150ddc62221e00ae3a5c692fa3472a9ae70cfb24d384e303dfb65fe5be1",
+      "concise_topic": "读取烧水前后燃气表示数测量家用燃气灶烧水热效率的待补参量与表达式",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.revB.q1",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 64,
+      "content_sha256": "47a7c0f0b895b800e0fb3b7920dcf2be360064fa93ff61e2bf6431905a7c4530",
+      "concise_topic": "空调制冷吸放热不等关系、海水降温发电、热机效率上限与能量退降综合辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.second_law_entropy",
+        "law.t2.first_law_thermo",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revB.q2",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 64,
+      "content_sha256": "39d0a3cd6140b64549fa3ba4dcb0d4e4b22829a90fa1b7b6c113c1cf7966fdf2",
+      "concise_topic": "高压钢瓶开阀喷气的不可逆性与外界低压气体能否自发涌入钢瓶增压的方向性分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.second_law_entropy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.revB.q3",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 65,
+      "content_sha256": "7594e02f2467aa3e0a857a2994321c65ae6cb38c733ea7751aba97212a13b25d",
+      "concise_topic": "竖直圆柱汽缸重活塞密封气体吸热等压缓慢上升过程的终温与内能增量计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.t2.gas_work_pv_area",
+        "law.t2.first_law_thermo",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.slowly_moving_ke_zero"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.revB.q4",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 65,
+      "content_sha256": "c300684157b2693e8026c5604dd97cbe679cf4e3892e3489891c15fcf859ab4d",
+      "concise_topic": "理想气体p-V图像等压膨胀过程由面积求做功结合吸热量计算内能变化量",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.t2.gas_work_pv_area",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": [
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c3.revB.q5",
+      "unit_id": "unit.s3.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 65,
+      "content_sha256": "9e3c9695969395e0a2919ffdb2acc6acccf87d21ac0a71545fcf88d74ebb8a95",
+      "concise_topic": "竖直汽缸封闭气体膨胀内能增量计算及违背热力学第二定律的循环设问科学性评价",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.second_law_entropy"
+      ],
+      "models": [
+        "model.thermo.cylinder_piston_thermo1",
+        "model.thermo.gas_cycle_pv_pt_vt"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s1.prac.q1",
+      "unit_id": "unit.s3.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "3538f264ed868e4fd5bf6dcbec2e98c4ad5cda68e26f037dea5016b288dcb1f5",
+      "concise_topic": "可见光波段400nm与760nm边界波长电磁辐射普朗克能量子计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.blackbody_energy_quantum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s1.prac.q2",
+      "unit_id": "unit.s3.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 70,
+      "content_sha256": "2ed7869be5e3657f72843b51e23b7d8b7efb993e9dface81a87c1c444ad8cf62",
+      "concise_topic": "能量量子化理论下宏观开水辐射散热温度连续平滑降低而非阶跃变化的解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.blackbody_energy_quantum",
+        "law.t1.internal_energy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s2.prac.q1",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 77,
+      "content_sha256": "756fc97a089a1e401508d801b01346d738d181b88ac28dc922ac4c3ff563d48d",
+      "concise_topic": "光电效应实验中定波长增光强与增频率对饱和光电流及最大初动能的影响",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.photoelectric_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": [
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s2.prac.q2",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 77,
+      "content_sha256": "8593cff555ab9df0517e6777d86cd7af886b9072be4a8f78333ba392ca2c4c6d",
+      "concise_topic": "绿光临界光电效应金属改用紫光红光照射判断及不同金属光电子最大速率差异",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.photoelectric_effect",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s2.prac.q3",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 77,
+      "content_sha256": "2062ab00cd8009861e370c6a8a47f674b9b0b2456182ad9c55f55e8b2f9409dc",
+      "concise_topic": "200nm紫外光照射铝表面时最大初动能、遏止电压与截止频率定量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.photoelectric_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s2.prac.q4",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 77,
+      "content_sha256": "81e4088b2c7807c20831e0829cca7178002224ad345b9c97e7552a8ab7a40c3d",
+      "concise_topic": "用已知多频率单色光测量光电管遏止电压测定普朗克常量的实验步骤与公式推导",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.q1.photoelectric_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s2.prac.q5",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 77,
+      "content_sha256": "874bcda19d55585cb16ff57150188f764ec7553e4e7f06f03915617aedec677d",
+      "concise_topic": "按可见光转换效率估算60W白炽灯每秒发出可见光光子数的数量级",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q1.blackbody_energy_quantum",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q1",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "e801d7591e81882d21894c9887dfde96c550077197f1fd6d68d5db5ba378fce2",
+      "concise_topic": "阴极射线管两电极间高压电场加速初速为零电子到达阳极时的速率计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q2",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "d92e6936c2071260a3ee4076a06d26d8885babe6c88b6b3c742c70b2464d7bc5",
+      "concise_topic": "密立根油滴实验中匀强电场静电力与重力平衡求微滴所带电子个数",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charge_conservation",
+        "law.e1.electric_field_superpos",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.elec.capacitor_const_u_vs_q"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.gravity_ignored_for_droplet_ball",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q3",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "1c2bfeec96201a364d3d66f29e105c6822f3ea0d61a1f31828f460fd6772e080",
+      "concise_topic": "汤姆孙平行板类平抛偏转打屏与正交电磁场选速归零法测定电子比荷计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.rutherford_nuclear_model",
+        "law.e1.uniform_field_u_ed",
+        "law.e1.charged_particle_deflect",
+        "law.e3.lorentz_force"
+      ],
+      "models": [
+        "model.elec.oscilloscope_accel_deflect",
+        "model.mag.velocity_selector"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q4",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "ff688ade68543fa8f2de536dc9cb77d3de6acb98630186b8b932f614bfc0e4ef",
+      "concise_topic": "卢瑟福原子核式结构模型的核心图景及其α粒子散射实验依据",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.rutherford_nuclear_model"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q5",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "f3e79969f33b2167eab4d4eff7744b911bb2f3fe353a6c6f3f2e550ea3c012dd",
+      "concise_topic": "按卢瑟福核式结构模型核与原子尺度比将原子核比作绿豆时估算整个原子大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.rutherford_nuclear_model"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s3.prac.q6",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 83,
+      "content_sha256": "6de4c72b95e8c1bb757b43ea9007974a7faae3dda35f49d28a4d906b17b49f74",
+      "concise_topic": "α粒子散射实验选用金箔等大质量高核电荷重金属而非铝箔轻金属的原因分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.rutherford_nuclear_model",
+        "law.e1.coulomb_law",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q1",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "2b7d88ccb58cfe4ecbe8e320b91523b02b33d73275cdb62538f5477f7fcb22e2",
+      "concise_topic": "线状谱与连续谱定义对比及不同原子特征发射光谱不可能性相同的解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q2",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "2b8532dda397c27777b6c46bb857ece7177f305220da6e6a93547cfcbe0e2e18",
+      "concise_topic": "用玻尔理论解释巴耳末公式n=5对应氢原子第5与第2能级间跃迁",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q3",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "088dc57c53b93ce194627f445e334a823f840e3fddf41a5d23b530849bb8fc8a",
+      "concise_topic": "由巴耳末公式计算氢原子可见光谱最长波长前两条谱线及光谱分立特点",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q4",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "1a30cb74fe7af3b6cc269aa8d7d49b97b085a4c544eb72e71c6ec9116ceb105c",
+      "concise_topic": "大量氢原子处于n=3能级跃迁辐射光的频率种数与最短波长对应能级",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.single_vs_group_h_transitions"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q5",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "5d7280d5a6c58193d42f9ed3e70582df5a7a12d967580fa6c100c21b4a146aed",
+      "concise_topic": "用玻尔定态能量量子化与能级跃迁假设解释原子发射光谱呈分立亮线",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q6",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "6f03859defbdcd10f02cc2ef1ee8901d6a271e9267e2d0bf7c8976bc95446f2a",
+      "concise_topic": "处于n=2激发态氢原子发生电离所需吸收的最小能量计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.photon_vs_electron_excitation"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s4.prac.q7",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 91,
+      "content_sha256": "8e098af117f6febd6ea61e7fb9a02b368fbc4c08bbf3ebc4255c313bbd713dba",
+      "concise_topic": "用玻尔能级跃迁理论解释原子吸收光谱暗线与发射光谱亮线一一对应",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.photon_vs_electron_excitation"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s5.prac.q1",
+      "unit_id": "unit.s3.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 97,
+      "content_sha256": "06f265146b4d3f257eee585561c307d1a46d7441c449911f1c7e4adb37860701",
+      "concise_topic": "综合光的干涉衍射与光电效应及康普顿散射论证光具有波粒二象性",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.compton_de_broglie",
+        "law.q1.photoelectric_effect",
+        "law.o2.double_slit_interference",
+        "law.o2.light_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s5.prac.q2",
+      "unit_id": "unit.s3.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 97,
+      "content_sha256": "113ca6c965a2df7359cde3207814a1067264a2156bc207a6aadcd35b73d9aa12",
+      "concise_topic": "等动能的电子与质子由动量与动能关系比较德布罗意物质波波长大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s5.prac.q3",
+      "unit_id": "unit.s3.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 97,
+      "content_sha256": "420d3841918b68b6fcc20070f2f95e461b5e379d6d8cfa6ce0945a4a6ba86440",
+      "concise_topic": "估算飞行子弹极微小的德布罗意波长解释射击不会因物质波衍射失准",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q1.compton_de_broglie",
+        "law.m8.wave_diffraction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q1",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "cb7420457c483ae7ca200de5fe8dc14dd726890d7587948bcb9ae7e83fb6b0fb",
+      "concise_topic": "同一光电管三条光电流—电压曲线比较入射光频率、波长、截止频率与最大初动能",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.photoelectric_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": [
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q2",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "323fd0cb8601315ef4300e2fe7d3fa86dc5944fc5d47e7b66fc518380bef1121",
+      "concise_topic": "实物电子碰撞基态氢原子刚好使其电离所需的电子动能计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.photon_vs_electron_excitation"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q3",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "6e0f6a566731d754bdba3538a5689aa2f7c2e023474b947e6cd3fae4614fbf47",
+      "concise_topic": "紫外线激发钞票荧光物质发出可见光而红外线光子能量不足无法激发的解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.q1.blackbody_energy_quantum",
+        "law.e5.em_spectrum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q4",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "b6338f9335d8a0afbb4d170306afacdc21ea6ecf64045975532c978de4b4e9e5",
+      "concise_topic": "估算跑步运动员德布罗意波长数量级并解释宏观物体波动性不可观测原因",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q5",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "d720e00e5c3983a4cd179c041513fd819fe09cfd1cb03617b00da5245151a074",
+      "concise_topic": "由钠光谱两条黄色特征谱线波长计算钠原子核外电子跃迁能级差",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.q1.blackbody_energy_quantum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q6",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "876654dbe682584b69db466acc1124b08cdb79413d157f6ac07d06b73456287c",
+      "concise_topic": "氢原子光谱巴耳末系最小极限波长与最大波长之比推导计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revA.q7",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 98,
+      "content_sha256": "62b7ccc6293996d69736990c3035115b77d181b70932fa4b7fef48043b7e557a",
+      "concise_topic": "光电管分压电路测两已知频率光对应遏止电压推导普朗克常量测定公式",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.q1.photoelectric_effect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q1",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 98,
+      "content_sha256": "33e0046820ba73d9e5a5074a1e127205058cb5201a38b4a4b6a0bd3f6e9f953f",
+      "concise_topic": "同一单色光照射锌板与银板时光子能量、逸出功、光电子动能及最大初动能异同辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.photoelectric_effect",
+        "law.q1.blackbody_energy_quantum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q2",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 98,
+      "content_sha256": "a96f815e55ecd1ba707ba79a9c2467e99bb799a17c1fe1b3db534a9def96cd9b",
+      "concise_topic": "大量氢原子处于n=1至4能级向低能级跃迁发射光波长种数与最短波长计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.single_vs_group_h_transitions"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q3",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 99,
+      "content_sha256": "56c81573c09668a4d33a5566d7ab6a5bfc146daedd04802b6c2d2ecb42cc4267",
+      "concise_topic": "由钠原子四条辐射谱线波长反推五个分立能级值并按比例绘制钠原子能级图",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.q1.blackbody_energy_quantum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q4",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 99,
+      "content_sha256": "b4443cac1c777b295a789fa878d068e36b09606948825bc14cb645e393edf6ca",
+      "concise_topic": "与10eV动能质子具有相同德布罗意波长的电子动能定量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q5",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 99,
+      "content_sha256": "b50593a882cb191076f73f220e07b473402953b818aee82efac50092f3831def",
+      "concise_topic": "能量比2∶1的两束光子照射同种金属由最大初动能求光子动量比与逸出功",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q1.photoelectric_effect",
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.revB.q6",
+      "unit_id": "unit.s3.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 99,
+      "content_sha256": "f1647839b9c1d26e9547be8f2b7905e4a5fdde0f2834d9245c52ae64f9637e6c",
+      "concise_topic": "各向同性绿光点光源球面辐射模型结合暗处瞳孔光子接收率估算人眼最远视距",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q1.blackbody_energy_quantum",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.diameter_vs_radius",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q1",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "ab9c47fc8ad3a5d9ae9e1cdc409865131a4945b91e9a15e3dba688383c1e1fe5",
+      "concise_topic": "放射性与元素化合态及温压无关证明射线源于原子核内部及其科学意义",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.half_life_few_nuclei_or_temp"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q2",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "91f83df4e5f521625cd3d94e7921aaf5d847027da4c75c18d407ad0afe7ddd63",
+      "concise_topic": "对比α、β、γ三种射线本质与性质判断γ射线与X射线最相似",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays",
+        "law.e5.em_spectrum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q3",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "4d4f4bd61e9d2514659bfecb801599e89b3846188513be430354e93145de104f",
+      "concise_topic": "α射线强电离空气产生负离子中和带正电验电器导致金属箔张角减小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q4",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "e8ca84670564d6d4ff9ced24955f23fca9ffdb304fc80f4481dc593ef8325c2b",
+      "concise_topic": "由原子核质量与电荷量比值远大于质子质荷比推断核内必含不带电中子",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q5",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "d00d6af05e1602461d5d5c61f4eec69ffd1637ba754ee9c63287f9b03577be32",
+      "concise_topic": "α粒子及碳14、氧17、钾40、氡222核素符号书写与质子数中子数计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.prac.q6",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "210c00eb636c984ed57ce15ce39672395697aa642386e113f38fd64363a10ab9",
+      "concise_topic": "氕氘氚三种氢同位素核符号书写及铀234、铀235、铀238同位素异同比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q1",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "7c7642f834cefac654213cd1658fb085bbe252f64b01ec86d0c722f5f1dd762f",
+      "concise_topic": "β衰变电子源于核内中子转化为质子的微观机制及钋210的β衰变方程书写",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.beta_electron_from_orbital"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q2",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "e2c5b85ce00608a611737917606ae835c72f8cbda2d1ca5f18cf994229f6ee95",
+      "concise_topic": "铀238衰变为氡222过程中由质量数和电荷数守恒求α衰变与β衰变次数",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q3",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "9d2f6c45a74156a54dfa22d26ddad2b02c40bf296040486820c60e13e9a537e4",
+      "concise_topic": "应用半衰期公式计算钍234衰变剩余质量及铋210衰减至指定质量所需天数",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.geometric_series"
+      ],
+      "traps": [
+        "trap.tom.half_life_few_nuclei_or_temp"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q4",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "32a3ee2c8ffd3204a2e8c0ed235836004af9b4db89c9ff4b583b1caadd917950",
+      "concise_topic": "原子核人工转变（高能粒子轰击诱发）与天然放射性衰变（自发进行）的区别",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q5",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "da6761488d4591fd78c1aea2cab8ba6584399c4f08e0a1221fa79392e17a0e82",
+      "concise_topic": "钠、铝、氧、硅原子核俘获入射粒子放出新核子的四个人工核转变方程书写",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q6",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "2c293894291748355b8e3ad3307e11ceaddb9ed92e73b9304ca5ed2cc1b568de",
+      "concise_topic": "依据核反应前后电荷数与质量数守恒补全三个人工核反应方程中的未知粒子",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.prac.q7",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 114,
+      "content_sha256": "d5fb9954979b25ee96ab0e2fe8ad37edc32d20507d1bef8344a51929b789d38f",
+      "concise_topic": "电离辐射警示标志识别及医院放射科与工业探伤场所射线安全防护常识",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s3.exmp.1",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 117,
+      "content_sha256": "ba4150ec36c7200a423f2e3e61e13a5352f9abdd362f557b4b078b6cffdb4ef5",
+      "concise_topic": "由质子、中子与氘核静止质量计算质量亏损、结合能及氘核比结合能",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.mass_defect_breaks_mass_num",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q1",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "644df98e8a815c1f1166fff1e2abdce5f7078f8fafa5b107abd482cca2161c45",
+      "concise_topic": "核反应与化学反应在基本相互作用类型及核子或核外电子重组层面的对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.binding_energy_mass_defect",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q2",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "25d22b5f4f964eb103b8663c125609c8d292d921ee53754422ccedab662a5aff",
+      "concise_topic": "从拆散核子所需平均能量角度解释原子核比结合能越大越稳定的原因",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q3",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "3381c5c9cc8c8cf53004dd4d958963d1699339399d369974795689bb7e0af970",
+      "concise_topic": "由爱因斯坦质能方程中光速平方极大解释日常能量变化对应质量变化难以察觉",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q4",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "cb09399e559b224394b6a25a04294942475137556ef06ffc474b6e7c046999fe",
+      "concise_topic": "根据原子质量单位1u定义与爱因斯坦质能方程证明1u相当于931.5MeV能量",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q5",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "e1705a17cab34e1fddf18324f01cc7633688c15ea17791002111b870e390ef55",
+      "concise_topic": "1微克油墨等效质能完全转化为载人直升机重力势能时的抬升高度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.binding_energy_mass_defect",
+        "law.m6.gravity_elastic_pe",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s3.prac.q6",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "0ef92a7564d218a0124cf72777dc208aff590e4f626c071b6c72bd4eb043b027",
+      "concise_topic": "铀核α衰变为钍核过程由核反应前后质量亏损计算释放核能的焦耳值",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.binding_energy_mass_defect",
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.mass_defect_breaks_mass_num"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q1",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "f53d97f5c5d565d0da443eeaaf431b53b8dabac7b23a74f9b370fb3b422b558f",
+      "concise_topic": "重核裂变定义及裂变中子持续引发后续重核分裂的链式反应机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.fission_fusion"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q2",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "58be849e180d1e5f744a04b15dbdfcc908cc7d0791ef481e70ab19ef2eb3bd16",
+      "concise_topic": "核反应堆利用慢化剂减速快中子与插拔镉控制棒吸收中子调节核裂变速度",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.fission_fusion"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q3",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "b5bdfd1998394bb81f7b26d2ca304de49dd25563905b4b06edfb6aaadb6c1711",
+      "concise_topic": "轻核聚变定义及单核子平均释放核能远大于重核裂变的能量转化特点",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q4",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "5787a9cce87f7b08d77b73a7bfd0baa0b6d4d6fa9e75913b8c1efd64a631f43f",
+      "concise_topic": "地球上实现受控热核聚变的清洁能源必要性、原料可行性与超高温约束困难",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.fission_fusion"
+      ],
+      "models": [
+        "model.mag.radial_annular_mag_field"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q5",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "132620ac7234ce9847d62ae15b79a8e632f714bad3e8906f935c77a04393f32d",
+      "concise_topic": "反应堆石墨慢化剂中快中子与静止碳核多次弹性正碰的动能折减与碰撞次数计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.m7.elastic_collision_laws"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.geometric_series"
+      ],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons",
+        "trap.mech.collision_rebound_sign_missing"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q6",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "fce9931914e04d2aa56cbad07ee90aec3a99b6f68d277cf8698b6121d894615f",
+      "concise_topic": "秦山核电站一期装机功率下按铀235裂变比能量计算每年消耗核燃料质量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s4.prac.q7",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 125,
+      "content_sha256": "ba74560ab4ac222d3f5a173883e18e65a19431c93da0bc19d831f6b66288eb05",
+      "concise_topic": "由太阳总辐射输出功率与质能方程计算太阳氢核聚变每秒损失的质量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s5.prac.q1",
+      "unit_id": "unit.s3.c5.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 130,
+      "content_sha256": "3a32fe14ab3f287662a4f16511d8259e07b9ba8e6157cb8e8c564cb30937addf",
+      "concise_topic": "设计粒子分类结构表格系统归纳强子、轻子、规范玻色子与希格斯玻色子",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s5.prac.q2",
+      "unit_id": "unit.s3.c5.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 130,
+      "content_sha256": "1dcb1044652ac063ccf0c6e45713f2fffa7734b2eccce94200450f1d95160cae",
+      "concise_topic": "查阅综述华人物理学家在正负电子湮灭、宇称不守恒与J/Ψ粒子等领域的贡献",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revA.q1",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 131,
+      "content_sha256": "42853b474490f5be74605b3bdea39c285b40b0354379c0e0c282f5677f8a9233",
+      "concise_topic": "密封玻璃管内铀矿石发生α衰变放出的氦核结合电子生成氦气的解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revA.q2",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 131,
+      "content_sha256": "31e8f0726286197ebde44c0b5b84d97d5b62f38be33ddc6a012ef3980489a2e7",
+      "concise_topic": "辨析钠24的β衰变、铀235裂变、氟19人工核转变与氘氚核聚变四类核反应",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.fission_fusion"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.revA.q3",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 131,
+      "content_sha256": "6b1e4124c6c036b2b6c91ece7fc9a3acb0e11d0b779471d13098308b608fd1c1",
+      "concise_topic": "α粒子与氧16核聚合成氖20核的方程书写及生成核与反应核结合能大小比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.binding_energy_mass_defect",
+        "law.q2.fission_fusion"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revA.q4",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 131,
+      "content_sha256": "e55f883ec32ef0066bbd060b547f3a8f42bda02d672d46c5e9df0e43970c02c8",
+      "concise_topic": "火星车钚238核电池的α衰变方程书写及衰变掉87.5%原子核所需时间计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.geometric_series"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revA.q5",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 131,
+      "content_sha256": "66ee1082c96d298b2c4e1e037f55659e30c692594e06bddcd1d0767e943a1584",
+      "concise_topic": "镭226发生α衰变为氡222过程由相对原子质量亏损计算释放核能的电子伏特值",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.binding_energy_mass_defect",
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.mass_defect_breaks_mass_num"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.revB.q1",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 131,
+      "content_sha256": "c514a39b4c68d732b52d1066da2729b34ce47cea398031478c40ff08a9e31b94",
+      "concise_topic": "钍232经历6次α衰变和4次β衰变后稳定产物铅208的质量数与原子序数推算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revB.q2",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 131,
+      "content_sha256": "c20964079dc9e2b3f8c9ba003debd86af4e1b061eae3ef1b9e2cf24431851c95",
+      "concise_topic": "无毒放射性同位素半衰期求算及稀释均匀取样示踪法估算大型水库库容",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.geometric_series",
+        "method.thought.micro_amplification",
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.revB.q3",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 131,
+      "content_sha256": "78271fc16b7009efab9f9fa04f0aa7af076fb763d0bd301b6c05cc69474c9e40",
+      "concise_topic": "两个氘核聚变为氦核的质量亏损及1kg氘完全聚变释放总能量计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.binding_energy_mass_defect",
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.revB.q4",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 131,
+      "content_sha256": "d2d143a6bd36c2b541d26ad0483978d359124dc31b3f3a62e15406d27adeee2c",
+      "concise_topic": "静止钚239发生α衰变伴随γ光子辐射时由质能方程与动量守恒求α粒子动能",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q2.nuclear_decay_half_life",
+        "law.q2.binding_energy_mass_defect",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.mass_defect_breaks_mass_num"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.revB.q5",
+      "unit_id": "unit.s3.c5",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 131,
+      "content_sha256": "18f16c369aa93055bc56a2862c1c6f5995e32379925b2b60e59bd0f62c3e4dda",
+      "concise_topic": "铀235裂变方程配平及100万千瓦核电站每年消耗2%浓缩铀吨数的综合计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.binding_energy_mass_defect",
+        "law.t1.avogadro_micro_est",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est",
+        "model.mod.collider_nuclear_reaction"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s1.think.1",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 4,
+      "content_sha256": "fd6dbbcfc47d3d96630698516134673d4af0bf503beb4f00a3138aed23d0d559",
+      "concise_topic": "悬浮花粉微粒受液体分子撞击不平衡性及微粒越小温度越高布朗运动越明显机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.diffusion_brownian",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s4.think.1",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 15,
+      "content_sha256": "4ab22b0b44bc4733af2cc6e6ff767b66dab1e7d36802f95d209261f5a2a35241",
+      "concise_topic": "两分子靠近过程分子力做功正负与分子势能随间距Ep-r图像极小值规律分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.intermolecular_force_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ep_x"
+      ],
+      "traps": [
+        "trap.tom.r0_force_vs_pe_curve_swap"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s4.think.2",
+      "unit_id": "unit.s3.c1.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 16,
+      "content_sha256": "490ca9b4ed78ca691dfd3090b575108aae20dbeb03086124696f95daa5700f52",
+      "concise_topic": "下落物体与滚动足球的整体宏观机械能与微观分子无规则热运动内能辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.m6.mechanical_energy_cons"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s1.walk.1",
+      "unit_id": "unit.s3.c2.s1",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 21,
+      "content_sha256": "135b1f5162964f8ce8519ba60aeaf6c3104f5194e2de985b6222662042bd595c",
+      "concise_topic": "双金属片、热电偶、铂电阻、热敏电阻与气体压力表等各类温度计测温原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.temp_molecular_ke_dist",
+        "law.e5.common_sensors",
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s3.ext.1",
+      "unit_id": "unit.s3.c2.s3",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 29,
+      "content_sha256": "06ae2659bd1aff3b5b9317dc5c00f70481d0441758eaa59de81ad7be14c66102",
+      "concise_topic": "理想气体状态方程、气体三大实验定律微观统计解释与理想模型科学思想方法",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.t2.gas_three_laws_ideal",
+        "law.t2.gas_pressure_micro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": [
+        "trap.tom.celsius_in_gas_law"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s4.think.1",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 32,
+      "content_sha256": "84804ff0ca4e9a1b1bf21c7a6bd2cb8c4f42546d5c9fc395c1d19f513362965e",
+      "concise_topic": "常见金属与粘结糖块由大量杂乱取向小单晶粒构成多晶体的各向同性与固定熔点",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.solids_crystal_amorphous"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.polycrystal_anisotropy"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s4.walk.1",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 34,
+      "content_sha256": "fe681b7a774076dd0ecf4c3f5a17dcbb05b27b29ad524e770699dc99c566d8d3",
+      "concise_topic": "盖姆抗磁悬浮活蛙实验与透明胶带机械剥离法制备单原子层石墨烯的科学探索史",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.t1.solids_crystal_amorphous",
+        "law.e3.ampere_molecular_current"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.think.1",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 37,
+      "content_sha256": "aa897d77072ba16ec677398e43688bb7cd81b2eccf379f7a959db97ccd783e54",
+      "concise_topic": "天宫一号失重完美球形水滴、荷叶露珠与水黾停驻水面的液体表面张力机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.m3.apparent_weight"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.walk.1",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 40,
+      "content_sha256": "0776bd0c2d56a672c6cb1b66557993b8b5ac1519f06e962d6ea5086f6ca6ae13",
+      "concise_topic": "TN模式液晶分子旋光性、正交偏振片电场调制明暗与矩阵三基色彩色显示原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.o2.light_polarization"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.think.1",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 51,
+      "content_sha256": "11e1cab91796a724f11e821d46b2c96b917ec0a454d0154af7ccfb763c78e713",
+      "concise_topic": "气体膨胀对外做功同时放热的内能变化计算与热一定律功和热量正负号规则",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s2.walk.1",
+      "unit_id": "unit.s3.c3.s2",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 52,
+      "content_sha256": "216ca29df997ef5407ad0d43506eadaf15620e7ee82d7340854063dab45b3e2a",
+      "concise_topic": "热质说与热动说历史争鸣、伦福德炮筒镗孔摩擦生热实验与焦耳定量实验确立热本质",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.t1.internal_energy",
+        "law.t2.first_law_thermo",
+        "law.m6.work_energy_relations"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s3.think.1",
+      "unit_id": "unit.s3.c3.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 57,
+      "content_sha256": "fffb6c619fc7dd9503bb547064cb23136872508262a1ee892549e3ca53f37e3e",
+      "concise_topic": "历史上第一类永动机设计违背普遍能量守恒定律必然失败的原因与科学史启示",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.t2.second_law_entropy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s4.think.1",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 60,
+      "content_sha256": "5095f219f6b173224aa8ae4e8b6cd7ee9f02f8468ce27bb6d8fda5c87d04f8ea",
+      "concise_topic": "电冰箱耗电非自发制冷传热与热机工作能流分配及热力学第二定律开尔文表述",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.second_law_entropy",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s4.think.2",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 61,
+      "content_sha256": "881998417a90b5026f273ca7ad082cc5ae260d2ed23ab3827217be359b2e46f5",
+      "concise_topic": "地面滚动足球摩擦生热耗散不可逆性与克劳修斯表述和开尔文表述的等价性",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.t2.second_law_entropy",
+        "law.m6.work_energy_relations"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s4.ext.1",
+      "unit_id": "unit.s3.c3.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 62,
+      "content_sha256": "40f071d8a6b7501dec816bced331354aa27aab0b696cbfac6e63383c54a498b4",
+      "concise_topic": "气体向真空自由膨胀微观态概率统计、有序向无序演化与孤立系统熵增加原理",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.t2.second_law_entropy"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.free_expansion_work_nonzero"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s2.think.1",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 73,
+      "content_sha256": "a99d5a0fd7b8e0d72b1428111eafd1f116512dbf7db82858021fda9e75a57e2a",
+      "concise_topic": "金属逸出功概念、经典电磁理论解释光电效应的三大矛盾与爱因斯坦光电效应方程",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.photoelectric_effect",
+        "law.q1.blackbody_energy_quantum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": [
+        "trap.tom.photoelectric_intensity_raises_ek"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c4.s2.think.2",
+      "unit_id": "unit.s3.c4.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 75,
+      "content_sha256": "e50d312551d706e92d5e59d1710006c805cfbcc1cf67e150ecfecc8264598723",
+      "concise_topic": "密立根Uc-ν图像测普朗克常量、康普顿散射光子动量与光的波粒二象性",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q1.photoelectric_effect",
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.uc_nu_photo"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s3.think.1",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 80,
+      "content_sha256": "74a08d1b69a77adb45b49d327ee56c9588317b4ec2c4a876cec3027e92458cbd",
+      "concise_topic": "电中性原子内部正电荷与电子分布方式设想及汤姆孙枣糕式原子模型介绍",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q1.rutherford_nuclear_model"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s3.think.2",
+      "unit_id": "unit.s3.c4.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 81,
+      "content_sha256": "6fc67efd2d3e81435b6f95c830a113fcb682d386ad4c64eb96b4e723cc1702fa",
+      "concise_topic": "排除电子碰撞偏转影响、否定汤姆孙模型并建立卢瑟福α粒子大角度散射核式结构",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q1.rutherford_nuclear_model",
+        "law.e1.coulomb_law",
+        "law.m7.momentum_conservation"
+      ],
+      "models": [
+        "model.mech.elastic_moving_hits_rest"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s4.walk.1",
+      "unit_id": "unit.s3.c4.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 90,
+      "content_sha256": "cb5f089a32a2e928fbc88423d849bd1cb0fb0ef174f425fd1186c3638f01ea11",
+      "concise_topic": "牛顿棱镜色散、夫琅禾费暗线、基尔霍夫光谱分析与郭守敬望远镜应用",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q1.bohr_hydrogen_transitions",
+        "law.o1.dispersion_spectrum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c4.s5.stse.1",
+      "unit_id": "unit.s3.c4.s5",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 96,
+      "content_sha256": "160c8664675000b6a09a7d5fdf51741afddbf659b861b315a20df7f82afad445",
+      "concise_topic": "量子力学创立历程、第五届索尔维物理学会议与社会企业科研基金推动半导体革命",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q1.blackbody_energy_quantum",
+        "law.q1.compton_de_broglie"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.think.1",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 102,
+      "content_sha256": "115727151875dcdd2b53f2290133db59f1612b82945c34e28a3769032342f06a",
+      "concise_topic": "由磁场或电场偏转方向判定α、β、γ三种射线电性并对比电离与穿透本领",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays",
+        "law.e3.lorentz_force",
+        "law.e1.charged_particle_deflect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.lorentz_negative_charge_hand"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s1.ext.1",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 103,
+      "content_sha256": "81eb90be3164fc9920690d50957566cbdb03ea035bd14d00a70cc7a69f323cb8",
+      "concise_topic": "威耳逊云室膨胀降温过饱和酒精蒸气凝结径迹辨识与卢瑟福α粒子轰击氮核发现质子",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays",
+        "law.t2.first_law_thermo"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.think.2",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 104,
+      "content_sha256": "9ef794afa9b6e28df73e6c2512e45bbadcd25662182e0257df79a00903a94e88",
+      "concise_topic": "由原子核质荷比异常推演卢瑟福中子猜想、查德威克发现中子与核素同位素符号",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s1.walk.1",
+      "unit_id": "unit.s3.c5.s1",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 106,
+      "content_sha256": "36f5bd1a44fb1b581b63774c4f546c4a3603cc30e8f0338cf831832b6455a716",
+      "concise_topic": "伦琴发现X射线、贝克勒尔意外发现铀盐天然放射性及居里夫妇提炼钋和镭的科学史",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q2.nucleus_isotopes_rays",
+        "law.e5.em_spectrum"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.think.1",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 109,
+      "content_sha256": "5190df0ae8a0a9503cfd66e74043d3bfebf08d1436a091daee5af31a5771f91d",
+      "concise_topic": "α衰变与β衰变前后质量数和电荷数守恒规律及新核在元素周期表中的移位法则",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s2.think.2",
+      "unit_id": "unit.s3.c5.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 110,
+      "content_sha256": "c1f7521057bab17f7293725421a2cd2febc621c9eea9400a2f688e4a8cff7f0f",
+      "concise_topic": "β衰变中核内中子转化为质子放出电子的微观实质及激发态新核跃迁伴随γ射线机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.nuclear_decay_half_life"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.beta_electron_from_orbital"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s3.think.1",
+      "unit_id": "unit.s3.c5.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 116,
+      "content_sha256": "37d400fc2ef6a189e4b3d58c9a39d69b8d06edc2da2dccbabc0ae55ca1ebf32b",
+      "concise_topic": "核子结合成核释放能量与拆散原子核吸收能量的等值关系及结合能与比结合能概念",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s4.ext.1",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 121,
+      "content_sha256": "5c4e38f773f5607785e6fb3e04f56181bae2273b2000df1fd326d3902c74f61e",
+      "concise_topic": "内爆式原子弹超临界链式反应、热中子反应堆慢化控速双回路核电站与氘氚核聚变",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.q2.binding_energy_mass_defect"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.fission_cancel_neutrons"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c5.s4.think.1",
+      "unit_id": "unit.s3.c5.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 123,
+      "content_sha256": "e9e59d2641d5cf973d338709d9a2ac1556930538c4f9bc13e4848bf54d238b33",
+      "concise_topic": "热核聚变高温克服库仑斥力条件、太阳聚变与托卡马克磁约束惯性约束",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.q2.fission_fusion",
+        "law.e1.coulomb_law",
+        "law.e3.lorentz_force",
+        "law.m3.newton_first_inertia"
+      ],
+      "models": [
+        "model.mag.radial_annular_mag_field"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c5.s5.ext.1",
+      "unit_id": "unit.s3.c5.s5",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 128,
+      "content_sha256": "b2eb5a6942aa38bfdadd6c824ad88893b54a2de7cddacba581d75d4d820e9a6a",
+      "concise_topic": "盖尔曼分数电荷夸克禁闭、粒子物理标准模型与华人科学家杰出贡献",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s1.demo.1",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 3,
+      "content_sha256": "fa733d7f554154d4a900580b62b258bb5dc883fb528a8a7520355162d7949d0f",
+      "concise_topic": "高倍显微镜观察不同温度稀释墨汁中小炭粒布朗运动及定时位置连线实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.diffusion_brownian",
+        "law.t1.temp_molecular_ke_dist"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c1.s1.hand.1",
+      "unit_id": "unit.s3.c1.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 5,
+      "content_sha256": "fa13c99899c1424d3ecf569a406702d392a126d4fefc87d97e7b2e61a7f6fc33",
+      "concise_topic": "等体积水与酒精混合总体积减小验证分子空隙及分子间引力斥力F-r图像分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.intermolecular_force_pe",
+        "law.t1.diffusion_brownian"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ep_x"
+      ],
+      "traps": [
+        "trap.tom.r0_force_vs_pe_curve_swap"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s2.exp.1",
+      "unit_id": "unit.s3.c1.s2",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 7,
+      "content_sha256": "0ed60fe31d98e033922eb17cde5912d5ce6fc429de004dcca22e9d3ec2160b86",
+      "concise_topic": "用油膜法配制油酸酒精溶液滴水形成单分子油膜估测油酸分子直径实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.avogadro_micro_est"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.oil_film_molecule"
+      ],
+      "exp_skills": [
+        "expskill.data.area_grid_counting"
+      ],
+      "methods": [
+        "method.thought.micro_amplification",
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.exp.oil_film_ignore_concentration",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c1.s3.demo.1",
+      "unit_id": "unit.s3.c1.s3",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 12,
+      "content_sha256": "57aab318b3db10124fa268dfe3dc535bda6d35d0989ca83a182e556368410515",
+      "concise_topic": "改变豆粒数量与下落高度连续撞击台秤盘模拟气体压强产生的统计微观机理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_pressure_micro",
+        "law.m7.momentum_theorem"
+      ],
+      "models": [
+        "model.mech.continuous_fluid_jet_impact"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables",
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s2.exp.1",
+      "unit_id": "unit.s3.c2.s2",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 23,
+      "content_sha256": "f8a0cd1ab57a9489ba9f51348a121764f5456240b147de8a615e4a32252cbb84",
+      "concise_topic": "利用注射器压力表或压强传感器探究一定质量气体等温变化玻意耳定律实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.gas_three_laws_ideal"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.thermo.gas_isothermal_boyle"
+      ],
+      "exp_skills": [
+        "expskill.data.linearization_plot",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.thought.control_variables",
+        "method.graph.pv_pt_vt"
+      ],
+      "traps": [
+        "trap.exp.boyle_dead_volume_ignored"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s4.exp.1",
+      "unit_id": "unit.s3.c2.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 32,
+      "content_sha256": "04345a48a9dc07063b69933ff4ed22a347e2eaf2013b38d01ada2786b37ed118",
+      "concise_topic": "电烙铁接触涂石蜡薄玻璃片与单层云母片背面观察熔化形状检验各向同性与异性",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.solids_crystal_amorphous"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.tom.polycrystal_anisotropy"
+      ]
+    },
+    {
+      "item_id": "tb.s3.c2.s5.exp.1",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 36,
+      "content_sha256": "60e22f192c50f05b1168f4694d787413c0d8d4de2c772fcb1eff09888d6a0e2f",
+      "concise_topic": "热针刺破铁丝环肥皂膜一侧观察松弛棉线绷紧验证液体表面收缩趋势与表面张力",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.t1.intermolecular_force_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c2.s5.exp.2",
+      "unit_id": "unit.s3.c2.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 38,
+      "content_sha256": "672d540396d06a9ee0e928377b268780d2113cbbd78f6c3b1da65516d7fd2ab0",
+      "concise_topic": "不同内径洁净细玻璃管与塑料笔芯竖直插水观察浸润上升与不浸润下降毛细现象",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t1.liquids_surface_capillary",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.s3.c3.s1.hand.1",
+      "unit_id": "unit.s3.c3.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 48,
+      "content_sha256": "686988617eaf37dc3adb77eec59c037f54a85831bf617854b3cfffeb65031f87",
+      "concise_topic": "向盛少量水的密封透明塑料瓶打气观察橡胶塞跳出绝热膨胀降温液化起雾现象",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.t2.first_law_thermo",
+        "law.t2.gas_work_pv_area",
+        "law.t2.real_gas_phase_intro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    }
+  ]
+}

@@ -1,0 +1,3923 @@
+{
+  "schema_version": "1.0.0",
+  "book_id": "b1",
+  "annotation_source": "textbook_grounded_ai",
+  "items": [
+    {
+      "item_id": "tb.b1.c1.s1.prac.q1",
+      "unit_id": "unit.b1.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 14,
+      "content_sha256": "73c0c50e10f0b3fb8c24ac623ada0eae1af48bd44699a0da79385aa0f02c2262",
+      "concise_topic": "乒乓球与歼-20战斗机能否视为质点的问题情境创设",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s1.prac.q2",
+      "unit_id": "unit.b1.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 14,
+      "content_sha256": "5ba1137e47d723263489b65f362986ca6401cb0fa16a80313725ae8c1b386db4",
+      "concise_topic": "江水东流与日月星辰运动等日常表述中的参考系辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s1.prac.q3",
+      "unit_id": "unit.b1.c1.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 14,
+      "content_sha256": "5000ae7b8464901e1da9f781859b610ebe6827dceb78d02976dbf293ab3f4fb7",
+      "concise_topic": "宋诗行船观云情境中运动相对性与参考系选取分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q1",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 19,
+      "content_sha256": "ef15c6009a01adc8d59980a94166e14aa9d5d70dc47ebe00c769300a464234af",
+      "concise_topic": "火车到站停车及日常计时表述中时刻与时间间隔的区分",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q2",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 19,
+      "content_sha256": "8f7d50c6debaa33e6da8eb4151c958e7088791d393d9e2015b2b3a095996bd4d",
+      "concise_topic": "出租汽车按里程收费标准中路程与位移概念辨析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q3",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 19,
+      "content_sha256": "a5520bbfb9a5f05502c684fe90f2b989f2750cd5b8e2670788807b3da0217a6d",
+      "concise_topic": "标准田径跑道百米直道与800米跑的路程和位移比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q4",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 20,
+      "content_sha256": "7a3e1d43e46b5615a82d9b1b12e964ce3e61320ad27b1012533d603661702a2e",
+      "concise_topic": "一维直线坐标系中物体位置坐标与位移矢量计算作图",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q5",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 20,
+      "content_sha256": "0110d1f7a1f135ad7310e1b0797de5544642ef7f36f38ec5944ce169e3ef7fe2",
+      "concise_topic": "教练场平直道路汽车往返运动x-t图像的位置与过程判读",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.prac.q6",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 20,
+      "content_sha256": "84e87a538ce00565fedb941e934af779617e44bbe9d0a1660230eecd5a912d56",
+      "concise_topic": "高处竖直上抛落回地面小球在不同坐标原点下的坐标与位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s3.prac.q1",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 26,
+      "content_sha256": "81443db4621f8db240826cbf2f7a6b3482d7058156f33bfa52fefe6be503d2d1",
+      "concise_topic": "重物下落打点纸带连接端判断与计数点瞬时速度测算方法",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer"
+      ],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s3.prac.q2",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 26,
+      "content_sha256": "bfb2fbb4b1291a72d73f50fbaa6349cfff811d740e023de5631abda119422c91",
+      "concise_topic": "两物体直线运动v-t图像的初速度、加减速与运动方向判读",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s3.prac.q3",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 26,
+      "content_sha256": "104606f506d105a1a34c503c4fd1bcbc2945a7be2ad31a1f5f77fe707063f237",
+      "concise_topic": "汽车制动各秒位移求不同时段平均速度及逼近初瞬时速度分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s4.prac.q1",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 31,
+      "content_sha256": "a04c6ac35d0f67de3ad560d609a4f302723d46fd9bcd1ce604aebc304397a429",
+      "concise_topic": "三种型号轿车百公里加速性能测试的平均加速度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s4.prac.q2",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 31,
+      "content_sha256": "db6067b765ae588254ee1ebbd6730ea49143fc76caebe1b1c7f81f2c5495048d",
+      "concise_topic": "速度、速度变化量与加速度大小及方向关系的实例辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s4.prac.q3",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 31,
+      "content_sha256": "357564b29050cbe49361a85cd52be6e9a077d47645efe58ebd9a5d595f7eeb9f",
+      "concise_topic": "飞机、自行车、蜗牛与动车运动的速度、速度变化量及加速度排序",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s4.prac.q4",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 31,
+      "content_sha256": "e9c573db1114ad78b42074fefe4d82078edf82c1f37cfc81f12ab73eb93b4372",
+      "concise_topic": "水平向东减速至静止物体的加速度大小与方向计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s4.prac.q5",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 31,
+      "content_sha256": "f68a9099f326b24dedd5f95f4fbed1ee18a868bcff948458ddcffff77c130624",
+      "concise_topic": "由三条v-t直线斜率比较并计算三个物体的加速度大小与方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q1",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "4b28eee114519fc19bec8d85f8f4162a936f5b633777ce9a716a0c032ecd5121",
+      "concise_topic": "蚂蚁搬运与跳水跳高运动观察中质点理想模型适用性判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q2",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "e4eb63e6b5a017b539220d62aaa8d01ede8a19a7efe19537b5bee735e2294419",
+      "concise_topic": "特技跳伞编队保持造型下落时相对运动与参考系选择分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q3",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "d51216248790a941077f8194700af76bb7ffa0c8ca1ee612cdb84e42ab3c118b",
+      "concise_topic": "车站乘车日常对话语境中时刻与时间间隔的区分",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q4",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "deccbe24dd18e77a307fc872d138097ff93ac44f71c76200554a64bd4066b092",
+      "concise_topic": "关于位移与路程矢量性、大小关系及运动轨迹的四观点辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q5",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "7ebce5272d21f81594cde25d2e80d8479f1bcfc4f44310cfbda3f5adcc85ca47",
+      "concise_topic": "汽车前后两段等位移不同平均速度行驶的全程平均速度计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q6",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "360f3a12d73128a31b365a1716c6876d84870d00142141afedc77d1f2ff81f51",
+      "concise_topic": "台球垂直撞击边框反向弹回过程的加速度大小与方向计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revA.q7",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 33,
+      "content_sha256": "6bac95edeb06b733115a32c4e207f2e6bdbc5baafdbd7998358749ec65936217",
+      "concise_topic": "自行车、火车与飞机运动记录中速度、速度变化量与加速度辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revB.q1",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 34,
+      "content_sha256": "86d0b5b925b71e75597dee6ec399bea6aaf68a77157e41891dd3789f25a0c6cb",
+      "concise_topic": "龟兔直线赛跑x-t图像的出发时空、运动性质与相遇次数分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.displacement_distance",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [
+        "model.mech.chase_encounter"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.revB.q2",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 34,
+      "content_sha256": "b43893604081f79abdbde6aa42d8fa027a0785873c1244f00fd267f510eb7fc7",
+      "concise_topic": "多段直线x-t图像各过程速度矢量判读与对应v-t图像转换绘制",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.displacement_distance",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.xt",
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revB.q3",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 34,
+      "content_sha256": "fc1553c868295f3a25fcef6de3fc7d7490fc74e84978b148b35220044372246f",
+      "concise_topic": "折线v-t图像跨正负轴各秒运动方向、速率变化及加速度分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revB.q4",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 34,
+      "content_sha256": "4eccf7df4a4290fa4a3e637f3ece9d2319ae3db643bd798a5d33061ac2e2cc40",
+      "concise_topic": "气垫导轨滑块遮光条先后通过双光电门测瞬时速度与加速度",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.photogate_width_speed"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.revB.q5",
+      "unit_id": "unit.b1.c1",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 34,
+      "content_sha256": "fd3bfbe1bcec78e93ec4795c6a52ecd87c9179ae7683ccbddf9fedefcf961bea",
+      "concise_topic": "电梯多楼层停靠下降与载人上升全过程定性v-t图像绘制",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s1.prac.q1",
+      "unit_id": "unit.b1.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 38,
+      "content_sha256": "92b3026ad5c0e3fcefe819b7ce14eac1605b0ddcd0ad3d1807ccdc7e0b61f3ec",
+      "concise_topic": "打点纸带等时间间隔剪断并排粘贴法绘制小车v-t图像的原理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.cart_uam_law"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s1.prac.q2",
+      "unit_id": "unit.b1.c2.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 38,
+      "content_sha256": "11424b5ec6e05adc416ec4486b777cd0ce6bd17dbe8bdeb920dfdf05527b7e1c",
+      "concise_topic": "列车长直下坡速度表读数单位换算与v-t图像描点拟合",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s2.exmp.1",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 40,
+      "content_sha256": "af245299f273e250e03a526ff54ce5a173bb11252a398972e1bd5662881c457a",
+      "concise_topic": "平直公路汽车匀加速行驶末速度与紧急刹车停止时间计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s2.prac.q1",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "660b542827b00684b44c49e8e5bcd06ce19e071cbb362a1bda88ddc35c024492",
+      "concise_topic": "列车沿下坡路匀加速行驶给定初末速度求通行时间",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s2.prac.q2",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "642c7f418acc1b31b2b57c630ae23ae0232f91222c3c75b14853eee37139d47b",
+      "concise_topic": "列车驶近石拱桥匀减速直线运动2分钟后的末速度计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s2.prac.q3",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "094ca02d941fb31035df4c70f1f31a3eb8dcacb3f7c2e70cd55439acd31100e1",
+      "concise_topic": "嫦娥三号探测器悬停关机后匀加速落月到达月面的速度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s2.prac.q4",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 41,
+      "content_sha256": "561dfac764da5c75d1a80e682d8d4b9d3e5946c619181850f34cf06fbd8204db",
+      "concise_topic": "多段折线v-t图像不同时刻速度与加速度大小及方向的比较",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s3.exmp.1",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 43,
+      "content_sha256": "bb5429dc8ebb956f3eee587fe9eda44880015f9a9f8af1d079915a7ec5ab5a93",
+      "concise_topic": "航母舰载机弹射起飞滑行距离与阻拦着舰匀减速加速度及位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s3.exmp.2",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 44,
+      "content_sha256": "f4ffc38b4c135d3beacc414c200d2f6bc38f2838d3f50d2ca9f5984f8cec8798",
+      "concise_topic": "利用铁轨里程碑间距与电子屏车速估算动车进站加速度及制动距离",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q1",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "697e792d9fd863aefd8f62fca5d46518277856096b3a2fb714d0627fddcd36eb",
+      "concise_topic": "列车下坡匀加速直线运动求坡路长度与到达坡底的速度",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q2",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "a28638486675b5c8ceaed500490d5cf4d421038ef3e0d1b95b46fdccb92879a5",
+      "concise_topic": "汽车制动匀减速求加速度及超过停止时间的5秒内实际位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.braking_reverse_overshoot"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q3",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "90a5779fa27603ad385b21ece72711d1b561a28ad727d1b94adb209e326a3714",
+      "concise_topic": "两物体从静止开始相同时间内匀加速位移之比求加速度之比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics",
+        "law.m1.uam_zero_init_ratios"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q4",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "9913683470e2457fd11df01a8a6a700553d9ba32f7e1639186a799addfa577bf",
+      "concise_topic": "航母舰载机水平跑道与上翘尾段两段连续匀加速起飞离舰速度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q5",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "eb1f949cb2bf4530381ef078264d10efdefbd79995f7286f448fde60e9ac028e",
+      "concise_topic": "神舟五号返回舱着陆前缓冲发动机反推匀减速至零的加速度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s3.prac.q6",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 46,
+      "content_sha256": "ebc82aeb45539ff9d3cfb2602eaef856d2c35a5ab97f1b540ec421a30e84216d",
+      "concise_topic": "根据路面紧急刹车磨痕长度与匀减速加速度推算肇事车初速度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "a42a73d6659bbe4f1d3720a2f53741f4c4732dd8fc36393183d74390d103787f",
+      "concise_topic": "纸片、紧纸团与橡皮同时下落快慢对比及空气阻力影响分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q2",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "879a4c9a0954ad43bcf4968a048bac3e7b714b1c8eb9ff28c5dde277f7ab85df",
+      "concise_topic": "跳水运动员5米跳台自由下落手机连拍两帧高度估算连拍时间间隔",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.op.smartphone_phyphox"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q3",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "dd0aa1391a8b0f5cb1329dd6b66a9d426bc83e71bcb554d57c15da98ab45599c",
+      "concise_topic": "石块自由落井听声时间估算井深及声音传播耗时引起的误差分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q4",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "ed6c3fd8c206d670b5ac8e3ad493019c5d9f98129313a5c644ea86388cb32e7c",
+      "concise_topic": "砖墙前自由下落石子照片模糊径迹长度估算相机快门曝光时间",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q5",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "541d35bb05c6dde64076be70fe1dbfc10669f23175e3bfe57c17324fca93ffc0",
+      "concise_topic": "利用小球自由下落频闪照片位置数据多种方法测定重力加速度",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.uam_midtime_delta_x"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.data.successive_diff"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s4.prac.q6",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 53,
+      "content_sha256": "98d9400d93c8429a3f9e626df4b75b0d1be1b38505bc18da055192da7fb139a3",
+      "concise_topic": "根据自由落体位移时间公式将直尺长度刻度改标为反应时间测量尺",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q1",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "d84c051fec5b612c5672aacd9dc92bc9568bb98d6d6819be029412e91b4e3cec",
+      "concise_topic": "自行车路口遇红灯停止用力匀减速滑行能否停在停车线前的判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q2",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "1cc78fb6f4ad3ac0dbaa3031be1bd94a7c09a7d2c725519ee2237ea817334aa7",
+      "concise_topic": "自行车沿足够长斜坡向上匀减速运动给定时间的位移计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.braking_reverse_overshoot"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q3",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "3d1a16bc3b13fc696f7f23cddb30001163c14c2fbf73054df8f9faa5966f5998",
+      "concise_topic": "自由落体钢球已知落地速度求总高度、前2秒平均速度及最后1秒高度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q4",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "83da48236cfc5444cf988d68309f3968b18b8c316f965e1d0f7bd7fbb8bc2068",
+      "concise_topic": "探究小车速度随时间变化纸带计数点瞬时速度计算与v-t图求加速度",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.uam_midtime_delta_x",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.cart_uam_law",
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.graph.vt_fit",
+        "expskill.data.successive_diff"
+      ],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.exp.ticker_five_intervals_dt",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q5",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "2b3b986b880ba538f43dd90762091ef8d8c359e8f083b34cf72456ee5392e88c",
+      "concise_topic": "低空跳伞先自由落体后开伞匀减速两阶段的速度、总高度与总时间",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.revA.q6",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 54,
+      "content_sha256": "7b00e8f884be5b264a38598dadca4f1b7db41f4075d56e86fff7df1eb7707a36",
+      "concise_topic": "初速度为零匀加速直线运动位移比例推论与连续相等时间邻差公式证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m1.uam_zero_init_ratios",
+        "law.m1.uam_midtime_delta_x",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q1",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "826d7dfa6fb90892147220ef95ca8b0723313b7f44beafcadd59b16dc6baae97",
+      "concise_topic": "汽车先匀加速10秒再匀减速刹车停下在18秒内的v-t图像绘制",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.gen.braking_reverse_overshoot",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q2",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "723eb99cc967945eaca1613dab61f30364525ecce0e9d8ae4b4f18d46c8cf754",
+      "concise_topic": "含反应时间匀速段与刹车匀减速段的晴雨天汽车安全距离最大车速",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.quadratic_discriminant"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q3",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "0014fe5a69c34dc93061d41642b2538d30bc32ca8d3cb153898bb02ae28ea240",
+      "concise_topic": "静止匀加速小汽车追赶前方匀速大客车的追及时间、末速度与最远距离",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [
+        "model.mech.chase_encounter"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q4",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "4cdf1a5df01480667223ed1a76e752704e1d8f80d7bbda06f8631a1501a0cb7c",
+      "concise_topic": "结合窗框照片比例与石子曝光径迹估算自由落体速度及初始高度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q5",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "c18b0ea7c2838cc3670d436558cec6a054eab37b1246882cba85e7e575d9818e",
+      "concise_topic": "子弹匀减速射穿20块相同木板停下逆向比例法求穿各木板时间",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.uam_zero_init_ratios",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.reverse_thinking"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.revB.q6",
+      "unit_id": "unit.b1.c2",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 55,
+      "content_sha256": "085314327a608c6e0292f5b992e2a8a205d5c235989a2474c3262c24a98ed916",
+      "concise_topic": "汽车通过高速公路人工收费通道与ETC通道多过程路程及节时计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q1",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "cd8ec027004ad0710308f5ca9a457a74083b70cefc09c003bc163303ac34373c",
+      "concise_topic": "力的形变与改变运动状态效果及施力物体和受力物体实例说明",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q2",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "e795fb8173e7f270ac1d46cd328369b2a696ae93f1cb33e3c86aad3c1048d948",
+      "concise_topic": "火箭重力、水平推车力与悬绳拉力的力的图示作法及施受力分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q3",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "c71833b784ba8c43b3c36054c8e421aff1494864335c1c453e23c2bd1f948e4f",
+      "concise_topic": "悬挂法实验检验均匀三角形薄板物理重心与几何中线交点重合",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.gravity_center_of_mass"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q4",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "55dfb55125479ab9a24fa53ca0b0d2eaa815bed36ecdd6e55b614c17b537c97e",
+      "concise_topic": "一端支在光滑水平地面另一端竖直绳悬挂均匀钢管的受力示意图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q5",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "5ebc338eb14bc2bc3f2b46221f96eee862661d2182e4314e5245ae994902547f",
+      "concise_topic": "设计观察物体在力作用下微小形变的放大实验方法",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q6",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 62,
+      "content_sha256": "39c7519f7d2f40ad34f38dfe3390b6c38251a5643dcc2fd9c7690637b7655bb1",
+      "concise_topic": "竖直弹簧加挂钩码实验数据作F-x图像并计算弹簧劲度系数",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.spring_hooke"
+      ],
+      "exp_skills": [
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s1.prac.q7",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 62,
+      "content_sha256": "1fc2c84e478141d53f089005f0ae533aca5740177dbd213effa74a6fd3343634",
+      "concise_topic": "利用蓄水容器重心移动失衡倾倒与自动复位设计定时冲水装置",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m2.gravity_center_of_mass"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.exmp.1",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 64,
+      "content_sha256": "b377bc55ab2f17c9f4c4af3fb00444d7be7c59cafae40954bb9888f43add7494",
+      "concise_topic": "水平冰道马拉满载木料雪橇匀速前进所需水平拉力的平衡计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.sliding_friction",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.prac.q1",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "9465ed1cf52914853ade7dc067906428f25d13800947eefd6341f23b402046fa",
+      "concise_topic": "手压桌面滑动体验滑动摩擦力随正压力增大而增大的原理分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.prac.q2",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "35242f1c5950b15e45934047ec9dea3cd7857bd749fc5cc119e14a0d988402f4",
+      "concise_topic": "玻璃瓶在平桌、斜桌、手握静止及抽纸条四种情境中摩擦力有无与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.static_friction",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.prac.q3",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "89b2ce7d3db1ae410bd0a2016a7df61be258e5be6e84b8498e1f654446dec3cf",
+      "concise_topic": "水平地板木箱最大静摩擦力、滑动摩擦力、动摩擦因数及推而未动摩擦力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.static_friction",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.static_friction_equals_mu_fn"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s2.prac.q4",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "d57510887c8a7b765f765d17655230cdc7073d76cc610f3f466121b6d68ddf9f",
+      "concise_topic": "水平雪地空雪橇匀速拉力求动摩擦因数及增载货物后滑动摩擦力",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.sliding_friction",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s3.prac.q1",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "79d7f7b697cd6307ce929085bcc0e1dd8e29393c2ca97850efd75168be202ae0",
+      "concise_topic": "结合二力平衡与牛顿第三定律证明静止物体对台秤压力等于重力",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s3.prac.q2",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "3cd7239c7ecb941c0b762e0ca160c9f11f370e190d998e0e1eec22a173a37d6e",
+      "concise_topic": "辨析等大反向的作用力与反作用力为何不能像平衡力那样相互抵消",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s3.prac.q3",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "2f233c3603746c9ab54221223924ef4a1a76d42a95ca13fb386d1d1cb4a070d9",
+      "concise_topic": "水平停放汽车装载油桶系统中油桶、汽车与地球间相互作用力配对分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s3.prac.q4",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "32a4c74b3a3e5e4a746ae9e2a1e07644459c0447d9a69e2034ba5d2131e9cc5a",
+      "concise_topic": "水平桌面叠放木块A和B受水平牵引保持静止时下木块B受力分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.static_friction",
+        "law.m2.elastic_force_hooke",
+        "law.m2.newton_third_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.exmp.1",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 74,
+      "content_sha256": "a8f769d61f0f82d12b45b91b18fe1a1fa4523ac52e130fac5170560beaced772",
+      "concise_topic": "互相垂直的水平力与竖直力按标度作平行四边形求合力大小和方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q1",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "afaf6f8f35a5262a62f082c37643264925b588142677ddf59c33c43b33af7819",
+      "concise_topic": "已知两分力大小求合力最大值、最小值及给定合力数值可能性判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q2",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "35b4b1e9eca3110c82a55cc2c9a3e324396448b4af7169a7765713a9460c91f6",
+      "concise_topic": "原本合力为零的两力将其中一个力转过90度后的合力大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q3",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "08f8c2b32c8c51450beebd173aabeff21e95b982d6111df14a68f86e0285a916",
+      "concise_topic": "已知大小的两分力夹角为30度和150度时作图求合力的大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q4",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "861d42a8a870670956c838a6b2599fc9f324f503f1493684fa16fd9cb8527c22",
+      "concise_topic": "竖直向下已知力分解出已知大小水平分力时另一分力的大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q5",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "e497753aaafa5e7121e01f1e8d881b748bbd404c9d0049a4314533f50125e278",
+      "concise_topic": "两分力夹角变化或单个分力增大时合力大小变化规律的概念辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q6",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "ff7ec75b07e2a9d928c402107f47245e2772496d7ba7907dd0fa55e5d4d65d20",
+      "concise_topic": "倾角15度斜面上木箱受斜向上拉力沿斜面和垂直斜面的正交分解",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.prac.q7",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 75,
+      "content_sha256": "735df561c80ae08dd4eb7d06ce1db28d0a71c25b35daec8ff684d9b9083b28e3",
+      "concise_topic": "倾角θ斜面上物体的重力沿平行斜面与垂直斜面方向正交分解",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.force_composition_decomp",
+        "law.m2.gravity_center_of_mass"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s5.exmp.1",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 77,
+      "content_sha256": "74d7913542954863a852038e2bc04822cdabefb3f5e42f8d054d77cbd49b8d19",
+      "concise_topic": "幼儿园滑梯给定水平跨度与动摩擦因数按共点力平衡求最小高度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s5.exmp.2",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 78,
+      "content_sha256": "6b57010d603627c5d78bd59e9500ae070e8e53025e6e7bad10daf86910162193",
+      "concise_topic": "水平绳牵引悬吊重物细绳结点O用合成法与正交分解法求两绳拉力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp",
+        "law.m2.newton_third_law"
+      ],
+      "models": [
+        "model.mech.live_dead_knot_rod"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s5.prac.q1",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 79,
+      "content_sha256": "281219ad2526244083567920c581d42bcaac211372240a3138fca3a5aa92e513",
+      "concise_topic": "五个共点力平衡物体撤去其中一个力后其余四力合力的大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s5.prac.q2",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 79,
+      "content_sha256": "795b34c8f7a9c84080d3bbaabc79d8d2ed9362374fb28606aaf811fbf122678a",
+      "concise_topic": "光滑竖直墙壁网兜悬挂足球共点力平衡求悬绳拉力与墙壁支持力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.three_force_concurrency",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s5.prac.q3",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 79,
+      "content_sha256": "a3f7a84349328c7a496d39f1db8a271370e0bb005ae2779efc13428c39a231d5",
+      "concise_topic": "水平细绳缓慢增大拉力牵引悬重绳结点至上段绳刚拉断时的临界拉力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.live_dead_knot_rod"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.slowly_moving_ke_zero",
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s5.prac.q4",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 79,
+      "content_sha256": "9e682537bfeda8c3de60588282eee6758b2ed40ba52906fb50919061b2dd434f",
+      "concise_topic": "平行于斜面的拉力拉箱子沿粗糙斜面匀速上滑的共点力平衡计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s5.prac.q5",
+      "unit_id": "unit.b1.c3.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 79,
+      "content_sha256": "f9c4e9c15711f38e269bbd1581ca7b6d399ab881a90bfda7748294d7b62a3fc2",
+      "concise_topic": "光滑45度斜面与竖直挡板间静止铅球对挡板和斜面的压力计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.revA.q1",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 80,
+      "content_sha256": "14dd73c0f278965e9b568e7a6dfe3dd032943efe75af037492414eb7b22d8a99",
+      "concise_topic": "重力施力物体与方向、弹力摩擦力产生条件及动摩擦因数定义辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke",
+        "law.m2.static_friction",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.revA.q2",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 80,
+      "content_sha256": "4f99e09de7f7d47a28872d3492d07f510ee8aba586107097456ce1ad0ed77608",
+      "concise_topic": "斜靠光滑竖直墙壁与粗糙水平地面间静止直梯的受力示意图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.gravity_center_of_mass",
+        "law.m2.elastic_force_hooke",
+        "law.m2.static_friction",
+        "law.m2.concurrent_equilibrium",
+        "law.m2.three_force_concurrency"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revA.q3",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 80,
+      "content_sha256": "90bf588cd5d1593b2f5ce1e185784f93af008afe821441f30780bc99e3f1f1e4",
+      "concise_topic": "设计测量纸张与桌面之间动摩擦因数的实验方法与计算式",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.sliding_friction",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revA.q4",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 80,
+      "content_sha256": "aeefdabfd8cb9e51afee55717f6abe9005409a29c2d973f0cdd65af1d1ec23fa",
+      "concise_topic": "两人等大拉力共提水桶时手臂夹角大小与省力关系的推导",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.force_composition_decomp",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revA.q5",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 80,
+      "content_sha256": "f08ad73809992f78b88cb7aee4dc3890b73b6193b4c1427485fcf6404611339a",
+      "concise_topic": "等腰刀刃劈物侧向推力分解与轻绳对称悬挂画框最短绳长临界",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m2.force_composition_decomp",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.mech.live_dead_knot_rod"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q1",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 80,
+      "content_sha256": "9c1ce65c622bee7176e310f46f2804d17894e05c8f0fed9fe2bc021cf4f2f41f",
+      "concise_topic": "光滑37度斜面上被45度斜拉轻绳拴住静止小球的拉力与支持力",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q2",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "67bd7ac1fbf43430492318d0f775d2ed84bdda8cdc259c5cf6b7a03ccd219096",
+      "concise_topic": "空调外机三角支架横梁拉力与斜梁压力计算及斜梁加长动态分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.live_dead_knot_rod",
+        "model.mech.dynamic_eq_triangle"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q3",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "e3ce5b341921141c64e0712c6180d58065ce6decd02d92e3f41669ef5e9064f2",
+      "concise_topic": "水平面轻弹簧压缩连接两木块施加外力后各木块静摩擦力计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.elastic_force_hooke",
+        "law.m2.static_friction",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.static_friction_equals_mu_fn",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q4",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "d66b77ce77c21e10797fdff39dd2ba87f18d6ed6d6af1090789b33dd1c0225f6",
+      "concise_topic": "恰沿倾角θ斜面匀速下滑木块在水平推力下匀速上滑所需推力",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp",
+        "law.m2.sliding_friction"
+      ],
+      "models": [
+        "model.mech.friction_angle_cone"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q5",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "ab0702ef714c5e18bb9bf1ca1bbb67f7387782cab907801dc1a111f0ad9ddcfd",
+      "concise_topic": "保持悬线偏角θ不变改变外力F方向使小球平衡的力方向范围图解",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.dynamic_eq_triangle"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q6",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "5420a8ecfa1ee643d5fe6eed7dcd8ebc7b67c2b9546d884b2f0111af6c6884c9",
+      "concise_topic": "三根细线连接悬挂两等重小球静止时整体法与隔离法求各线拉力",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.revB.q7",
+      "unit_id": "unit.b1.c3",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 81,
+      "content_sha256": "333864be384ca79adf4cb83827aede4959cf8dc19406aa6526171918375a028f",
+      "concise_topic": "拔河比赛体重分级与鞋具规定的摩擦原理及运动员后倾受力分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.static_friction",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s1.prac.q1",
+      "unit_id": "unit.b1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 87,
+      "content_sha256": "4251cdbcfcb39018281111693b5fd9a7ee663380519b8eb971444a76d131f9f5",
+      "concise_topic": "飞机投弹、地球自转跳起落点、安全带及上抛受力的惯性解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_first_inertia"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s1.prac.q2",
+      "unit_id": "unit.b1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 87,
+      "content_sha256": "ab499b8fd2fdc06abec46a8935e63558828a14c9f66cbc8232cd2fc3c2b3bba0",
+      "concise_topic": "伽利略理想斜面实验将另一斜面倾角外推至零度得持续运动的推理",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m3.newton_first_inertia"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s1.prac.q3",
+      "unit_id": "unit.b1.c4.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 87,
+      "content_sha256": "58b97c98df9c9c2d317c5106dc968c6031e6cff3195aab5f24005763f907c045",
+      "concise_topic": "辨析物体速度大小、运动方向改变及质量大小与惯性关系的说法",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_first_inertia"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s2.prac.q1",
+      "unit_id": "unit.b1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 92,
+      "content_sha256": "f854462fde52e46e4f47c6c4885407a0d8c141cfab137a400a31b5c8ab200be0",
+      "concise_topic": "按控制变量法分拆混排的加速度与力及质量实验数据并补算缺失值",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.newton_second_law"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s2.prac.q2",
+      "unit_id": "unit.b1.c4.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 93,
+      "content_sha256": "5476d5bc3da1b2e68dc0ba03ee813d4a6343e15ea30c6ce19828a82fc695b128",
+      "concise_topic": "探究加速度与质量关系纸带逐差法求加速度及作a-1/m图像",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_midtime_delta_x"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.newton_second_law"
+      ],
+      "exp_skills": [
+        "expskill.data.successive_diff",
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": [
+        "trap.exp.ticker_five_intervals_dt",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s3.exmp.1",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 96,
+      "content_sha256": "a7ec3a922a5f8d37c48e9024e908ad0b169d1e236a8f31358fd6dad0d5620a51",
+      "concise_topic": "平直路面汽车取消动力滑行停下求阻力及重新起步牵引加速度计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s3.exmp.2",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 97,
+      "content_sha256": "1ac80824147662788065b6f093ba4f53a6c06618cc7a3c43ed2e901f2a6f63af",
+      "concise_topic": "列车加速启动时车厢顶悬球偏角θ测定列车水平加速度的两种解法",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q1",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "93413a33b2cc10040e0787f2916037d75d3129f20a6a22a79a5082e8400d2bf2",
+      "concise_topic": "用力提重箱未提动现象与牛顿第二定律合力产生加速度的辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q2",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "3d659b3587485f056c139c43c915625eba230c17911d50b3459705db4878646d",
+      "concise_topic": "光滑水平桌面两小车受相同拉力由加速度之比求质量倍数",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q3",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "48d0bf8d621cbac31fd8c6984c321c7bf50e44ca73d01f6452e282e9f1e497c2",
+      "concise_topic": "同一物体已知某合力产生加速度求另一加速度对应的合力大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q4",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "76b7541348d2677d7fe211905b7d63776b1fe8fba69a937bd7f6008086b11971",
+      "concise_topic": "光滑水平面物体受两个正交等大水平力时的加速度大小与方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q5",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "176689800ad0f2d2f641c1381604c21ac69a08fd5399e3625f2c3fc7187821e7",
+      "concise_topic": "平直路面手推车受水平推力匀加速求阻力及撤力后减速加速度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s3.prac.q6",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 98,
+      "content_sha256": "cdde8ceddb1c84d9fdd1cf2fc8a39503209d3aea3af7bde1f4012109ae713f83",
+      "concise_topic": "平直道路匀加速货车货箱内石块受周围物体作用力的合力计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation",
+        "method.math.vector_polygon"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s4.exmp.1",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 101,
+      "content_sha256": "4e6f796d6b1d1f9676670f2ed2b06b695c55184a511244f0c603905ea5551195",
+      "concise_topic": "光滑水平面700克静止物体受恒力作用统一SI单位求速度与位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.si_base_units",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s4.prac.q1",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "9f64c6ca82b18795211f7dc7c2f2ef9026df7b002e8f492cc3979bbe628c090c",
+      "concise_topic": "水平公路自行车匀减速滑行停下由初速度与位移计算所受阻力",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s4.prac.q2",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "42310a642fb37f861ae34ff1d3e6b38f6b9b5464943a7fe12d1552ee32eb8374",
+      "concise_topic": "4吨汽车刹车匀减速2秒停下统一国际单位制计算所受阻力",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s4.prac.q3",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "59a8539c6d5ade116e713ca3909a5942fb42463adfacb410f2785b623402691e",
+      "concise_topic": "太空飞行宇宙飞船开动推进器由恒定推力与速度增量计算飞船质量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.acceleration_concept",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s4.prac.q4",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "3b7d726c963aa60a3ebffc568dee4cf0e2cdc61cccaab84733c43c6452b89f2a",
+      "concise_topic": "2吨汽车高速行驶紧急刹车已知制动力统一单位求刹车滑行距离",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s4.prac.q5",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 103,
+      "content_sha256": "177c0359bb0bbd397bfe1f6a1d60a39e4891f8275e2c035d71cc8d9df3ac9e43",
+      "concise_topic": "由功的定义式与牛顿第二定律导出导出单位焦耳与SI基本单位关系",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.si_base_units",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": [
+        "trap.gen.si_derived_as_base"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s5.exmp.1",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 104,
+      "content_sha256": "267de4e7ad6fc30f0f12899b54730e3a8e267bca9f97754a0c21c94256c785f5",
+      "concise_topic": "冰壶自由滑行距离及刷冰减小动摩擦因数后多滑行距离的分段动力学",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.sliding_friction",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s5.exmp.2",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 106,
+      "content_sha256": "ff1bd35e9db1d913985784a65ae05f93e3e54205db4f02b4c5f48a5b980fecfa",
+      "concise_topic": "滑雪者沿30度山坡匀加速下滑已知位移时间求对雪面压力与阻力",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.incline_accel_feature",
+        "law.m3.newton_second_law",
+        "law.m2.newton_third_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s5.prac.q1",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 107,
+      "content_sha256": "cd1574f0f8b195ff1791a5e1811f2c0181e1f5b2d425733f6e68debd94fc5f69",
+      "concise_topic": "光滑水平面静止物体受互成60度两等大水平力求3秒末速度与位移",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s5.prac.q2",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "2e7f9fe64ae7e6830299b11a1e8d1182f2e8f486b6e95198d55200b2bdbe4d87",
+      "concise_topic": "民航客机紧急充气气囊斜面人员受恒定阻力匀加速滑至底端的末速度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.incline_accel_feature",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s5.prac.q3",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "7edc02bcbda27a2499d26db2062c665d06b17c9e0f9ec10027a0527fcf851445",
+      "concise_topic": "汽车抱死紧急刹车测量路面车痕长度检测轮胎与路面间动摩擦因数",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.sliding_friction",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s5.prac.q4",
+      "unit_id": "unit.b1.c4.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "17009fc0fd20a32dc799638d25ddaa007af95bf9ca3f88a9a564da1f0d35acec",
+      "concise_topic": "货车运载光滑圆柱形油桶向左加速时桶间支持力变化与脱离临界加速度",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist",
+        "model.mech.dynamic_eq_triangle"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.vector_polygon"
+      ],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s6.exmp.1",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 111,
+      "content_sha256": "4012ca452d655791c6da0bcd11871a3dc87dcc819883b8ac3d58ffe542323a71",
+      "concise_topic": "电梯匀加速上升时乘客对地板压力计算及超重、失重与完全失重分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s6.prac.q1",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 112,
+      "content_sha256": "0dfb1d96301256d8bbcd8ccbe13f801b3d0f9e4e67dd8405066d67ae6b6e8d34",
+      "concise_topic": "扎孔盛水塑料瓶自由下落处于完全失重状态时水不流出的原理解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s6.prac.q2",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 112,
+      "content_sha256": "10f8f07e20358a98541b0652d6ddd2fa1420d9d697948d2adf6b968c8e129ea6",
+      "concise_topic": "蹦极运动员自由下落与弹性绳拉直后先加速再减速各阶段超失重判别",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s6.prac.q3",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 112,
+      "content_sha256": "e866f522c1981fe814f208fc6f89dba32910e3aa0a7efa1dc471aae87f72884d",
+      "concise_topic": "火箭发射3.5g向上加速度超重阶段航天员体内脏器所需支持力计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s6.prac.q4",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 112,
+      "content_sha256": "034845a003d55577f4512b5e9825266885321c9ec3d62ba35b925f0ed5f03c09",
+      "concise_topic": "游乐跳楼机座舱自由下落段与制动匀减速段乘客对座舱压力计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.dynamics_two_problems",
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.uam_basic_kinematics",
+        "law.m2.newton_third_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.s6.prac.q5",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 112,
+      "content_sha256": "cacb5d18193af1d2c10cf83622170126308009bc8264dce1c461f96e87627cb4",
+      "concise_topic": "利用测力计超失重读数与手机加速度传感器a-t图像估测电梯加速度",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.op.smartphone_phyphox",
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [
+        "method.graph.at"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q1",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "45291e2cf886ef084a91e567b3faaca2481d91e0de986d7f378cd7f20966e261",
+      "concise_topic": "辨析高速行驶汽车制动时间更长是否因惯性增大并用动力学解释",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_first_inertia",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q2",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "af8f3b0dd9d3ef71dc009ef155478f1cf4f00221ef4d31ae9f1e82652346fd10",
+      "concise_topic": "物体受方向相反两力作用将其中一力加倍前后加速度变化的多解计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q3",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "1fe51937e7e25ab04146a7d070cc453a4e5a2d8f8031d539b715b3ca719d73aa",
+      "concise_topic": "匀速上升气球脱落小球受恒定空气阻力先上抛减速后下落加速落地时间",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q4",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "ea2c214016898bfd3e1e422c5f372eb8cbcaa380aff42ef5847feb50255d8639",
+      "concise_topic": "飞船与空间站对接后开动推进器利用动力学整体法测量空间站质量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q5",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "051a28c8cdd18d4eb7a02c77df6f0375c9f3a6c19d2870a29201911887333bb1",
+      "concise_topic": "应用国际单位制量纲分析检验物理计算题位移字母结果表达式正误",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.si_base_units",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q6",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "b25fe14092c182fa498abade903032b9f3736b737de5d927427e55a9fec83866",
+      "concise_topic": "足够长粗糙斜面物体受上拉恒力加速后撤去外力的多阶段加速度分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.incline_accel_feature",
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.sliding_friction",
+        "law.m2.static_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q7",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 113,
+      "content_sha256": "84741187a839422a8dcbd1656fd71bc5635a463d890ef65f2a442a1a6823ddfd",
+      "concise_topic": "双层轨道同步启停装置由等时位移比探究加速度与力及质量的关系",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_zero_init_ratios"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.newton_second_law"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q8",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "65d7cb063f8b4bedd7c4b76f5604a6508bff4f583cf7dc214b96d7d24b145387",
+      "concise_topic": "千米高空雨滴受随速度增大空气阻力下落的变加速收尾匀速与v-t图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revA.q9",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 114,
+      "content_sha256": "faafa6d55a98fd73478ae2f164304905587d4fbce2c0c4b4db4402744041bcf6",
+      "concise_topic": "弹簧悬重竖直加速度测量仪刻度标定原理与水平加速度测量仪设计",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q1",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 114,
+      "content_sha256": "136d25472ad44030e9cf5756c3f8dd9ab205106d4a2fa00b9364c08c5caefd14",
+      "concise_topic": "细绳悬挂轻弹簧连接两等质量小球剪断细绳瞬间的加速度突变计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [
+        "model.mech.instant_cut_spring_cord"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.mech.spring_force_instant_zero"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q2",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 114,
+      "content_sha256": "a75efc5fd72670d1d5427d7697b89614edfd4e3a11132fa416f9bd65c255a7a5",
+      "concise_topic": "木箱内弹簧拉静止物块在木箱竖直失重或水平加速时的相对滑动临界",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m3.apparent_weight",
+        "law.m2.static_friction",
+        "law.m2.sliding_friction"
+      ],
+      "models": [
+        "model.mech.block_on_plank"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q3",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 114,
+      "content_sha256": "7dd6d81a27ac87f4e4f219243fe5dfdff818b15f5d7050e96eed39c6be4b3e01",
+      "concise_topic": "高速公路汽车计入司机反应时间在不同干湿路面摩擦因数下的安全距离",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.sliding_friction",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q4",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "0a3f1a695c3b5bed4b4450051ea89296a67da79fa842a31bb732c1fa26c44df4",
+      "concise_topic": "机场车站水平安检传送带木箱滑动加速至共速留下的摩擦痕迹长度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.sliding_friction",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [
+        "model.mech.horizontal_conveyor"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q5",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "ffaa6e430d0ad02aea709e2c9fb74c54540b32e26eafaece80951f83cd94afa3",
+      "concise_topic": "根据手机拍摄地铁扶手悬吊圆珠笔细绳偏角照片测量估算启动加速度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist"
+      ],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q6",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "eeb5dc4a47adb082d727474203ca039e0fc17c5c4e7012ecb87611f229718c00",
+      "concise_topic": "光滑水平面紧靠两物块受线性时变推拉力作用的分离临界与加速度变化",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c4.revB.q7",
+      "unit_id": "unit.b1.c4",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 115,
+      "content_sha256": "d62e470d20a5a159c8021c353c3ced0b44633881cd30cac1c92dc08f324bd379",
+      "concise_topic": "匀加速铁箱内后壁恰静止木块临界拉力及撤力后箱底相对滑行距离",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.m3.dynamics_two_problems",
+        "law.m3.newton_second_law",
+        "law.m2.static_friction",
+        "law.m2.sliding_friction",
+        "law.m2.newton_third_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [
+        "model.mech.connected_accel_dist",
+        "model.mech.block_on_plank"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.whole_and_isolation"
+      ],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity",
+        "trap.gen.newton3_action_vs_force_on"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s1.think.1",
+      "unit_id": "unit.b1.c1.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 13,
+      "content_sha256": "1f68c263af063158afb41032d9e90b8f86be87164e0a118f401e0d11a7b3d39b",
+      "concise_topic": "研究足球旋转香蕉球成因与整体轨迹时能否将足球视为质点的讨论",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.think.1",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 17,
+      "content_sha256": "9994af71696f989cf2a3cc0bf0e1bafbfd6bc065f1284823cb097bcbfce601d5",
+      "concise_topic": "一维直线坐标系中物体从大坐标移向小坐标的位移大小与方向辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c1.s3.think.1",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 22,
+      "content_sha256": "c0f4045b512dd214f14948c8aa5cb4e767dea532aae036abefa4a8b47801556c",
+      "concise_topic": "极短时间平均速度逼近瞬时速度的极限定义与汽车速度计速率辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation",
+        "method.thought.ratio_definition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s3.ext.1",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 25,
+      "content_sha256": "bf188b0b544398400ee31d0d36da9fd04d011ecc110d5e1d2f7df08d57e752e9",
+      "concise_topic": "红外超声波双脉冲与单盒超声波反射式位移传感器测瞬时速度原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation",
+        "method.graph.vt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s4.think.1",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 28,
+      "content_sha256": "1281314a2fa6986c0f71c04df72170b2cf7c236e4894d8ac791474b09fe9db11",
+      "concise_topic": "日常用语中笼统的快慢分别指代物理速度与加速度的生活实例辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s4.walk.1",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 29,
+      "content_sha256": "a3d647eed5caf56f88541e5e51dba2b64ef3b88e4297f39c2d9bca19191e6f6c",
+      "concise_topic": "自然界与物理运动中的对时间变化率概念及速度与加速度辨析",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.acceleration_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.calculus_rate_area_intuition",
+        "method.thought.ratio_definition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s4.stse.1",
+      "unit_id": "unit.b1.c1.s4",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 30,
+      "content_sha256": "6dd19352fa7a308941f02b5d4718bccbdae516f3074d6516130cf9584ee4a38d",
+      "concise_topic": "交通工具提速演进对城市半径规模、社会发展及绿色立体交通的影响",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s2.think.1",
+      "unit_id": "unit.b1.c2.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 41,
+      "content_sha256": "7c42ed25d7ef65fc5db99c856d07cf76da132bf13282b7394dc1d07308dae4a1",
+      "concise_topic": "曲线v-t图像相等时间间隔内速度变化量比较与变加速运动判别",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m1.acceleration_concept",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s3.ext.1",
+      "unit_id": "unit.b1.c2.s3",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 45,
+      "content_sha256": "3ef30aa110954d8e9a698751c9fc7d115c34bb0b8250254d2549e2a029c43335",
+      "concise_topic": "利用微元分割与矩形面积极限求和推导匀变速运动v-t图面积位移公式",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum",
+        "method.thought.limit_extrapolation",
+        "method.graph.vt",
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.walk.1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 50,
+      "content_sha256": "27fae2a317561bb738cb675d3c9dbef237d5f7e5338f535eae4292b042b58588",
+      "concise_topic": "伽利略研究自由落体运动的铜球斜面冲淡重力实验与合理外推方法",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m1.free_fall_vertical_throw",
+        "law.m1.uam_zero_init_ratios"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.stse.1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 52,
+      "content_sha256": "15918a777b6149099341bc63809c493165e383a98091ccdb97f2f845e125f098",
+      "concise_topic": "伽利略开创近代实验与数学推理结合的科学传统及其科学与社会启示",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.walk.1",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 66,
+      "content_sha256": "76198ac32c968482e180dacba5f97da11fb59703ba2a58cfa3aeb2e673a18cee",
+      "concise_topic": "流体阻力与相对速度、横截面积及流线型形状关系和雨滴匀速下落",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s3.ext.1",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 70,
+      "content_sha256": "439221f3f5393793f9e26930bbf3b838c22e9510ab52a969c30cf36290bcbd5a",
+      "concise_topic": "双力传感器探究作用力反作用力F-t图像及受力分析中平衡力区分",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.concurrent_equilibrium",
+        "law.m2.static_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ft_impulse"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s1.think.1",
+      "unit_id": "unit.b1.c4.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 86,
+      "content_sha256": "8ff6ba530f2292d5f6c1de93ad96926bc47bbd46399d5bfc18f0be0ae1566611",
+      "concise_topic": "从抵抗运动状态变化能力认识惯性本质及质量作为惯性唯一量度",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_first_inertia"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s1.ext.1",
+      "unit_id": "unit.b1.c4.s1",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 86,
+      "content_sha256": "04bd63b5d160e478474324fa2780bff0c02691a769b5b8e57958eb57b204fcc9",
+      "concise_topic": "迅速抽纸小钢球实验辨析牛顿第一定律成立条件与惯性参考系概念",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_first_inertia",
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s2.meth.1",
+      "unit_id": "unit.b1.c4.s2",
+      "group": "column",
+      "category": "scientific_method",
+      "printed_page": 92,
+      "content_sha256": "66048f60cc68ba4e98677a90f849f6570c8022bda7c1febdf265460e2662e7f3",
+      "concise_topic": "控制变量科学方法的原理及其在探究加速度与力、质量关系中的应用",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.newton_second_law"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s3.think.1",
+      "unit_id": "unit.b1.c4.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 95,
+      "content_sha256": "72f6a54e3a9752e36a86aad990ddc90ebec8dadf5989cb7168d18f5cd95bc2e7",
+      "concise_topic": "根据牛顿第二定律中力与质量、加速度定量关系定义力的单位牛顿",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s4.think.1",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 102,
+      "content_sha256": "1b3f4e05fbba6fb2b0e747ab8add24cf2a1c23148da878a9bbc0b3997514fee4",
+      "concise_topic": "利用物理量纲与单位制关系检验几何圆锥体积错误公式的讨论",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s4.ext.1",
+      "unit_id": "unit.b1.c4.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 102,
+      "content_sha256": "9b6b61bc9ed2337743a2d1d4d8123faa6ca098c37c8fb6aa50a6c35616d20278",
+      "concise_topic": "国际单位制中秒、米、千克三个力学基本单位基于自然常数的定义",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s6.think.1",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 110,
+      "content_sha256": "81394bac7b866307e716b3146faed2ed449ae7d8a22147e10240ae06121fce03",
+      "concise_topic": "力传感器记录人下蹲与站起全过程F-t图线的超重与失重阶段分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ft_impulse"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s2.exp.1",
+      "unit_id": "unit.b1.c1.s2",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 18,
+      "content_sha256": "29849cb38b3135916c2ce098aedc85aeaca70e3ab45f31b80a11098dbac60b9a",
+      "concise_topic": "练习使用打点计时器测纸带运动时间位移与北斗全球卫星导航系统简介",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.displacement_distance"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.read.mm_ruler"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c1.s3.exp.1",
+      "unit_id": "unit.b1.c1.s3",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 22,
+      "content_sha256": "09f3fca7b6a69deeb5dbe0c3f7a84dafe4308211bb95d70e1708b3da9ea8eafc",
+      "concise_topic": "利用打点计时器纸带测量平均速度与瞬时速度并描点绘制v-t图像",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.read.mm_ruler",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.thought.limit_extrapolation",
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.exp.ticker_five_intervals_dt"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c2.s1.exp.1",
+      "unit_id": "unit.b1.c2.s1",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 36,
+      "content_sha256": "e20134b96cc23674fa4299069bf5c8f169ddbec0a6e63fe404c544f7cdcb3650",
+      "concise_topic": "探究槽码牵引小车速度随时间变化规律并用坐标纸及软件拟合v-t直线",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.avg_instant_velocity",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.cart_uam_law",
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.demo.1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 48,
+      "content_sha256": "1eaa4019bb9108a76d1afe9f0c40a60cf6b6b2a84c57cc4e5d2eb1dedb51f002",
+      "concise_topic": "牛顿管有空气与抽真空条件下铁片和羽毛下落快慢对比演示实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.exp.1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 48,
+      "content_sha256": "79e2daaa3bb1bb2c9dd28ce3cf30e154ede8761cc63784bb507f132ddb66dbe2",
+      "concise_topic": "用打点计时器测量重物自由落体加速度及地球不同纬度重力加速度分布",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.ticker_velocity"
+      ],
+      "exp_skills": [
+        "expskill.op.ac_spark_timer",
+        "expskill.data.successive_diff"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c2.s4.hand.1",
+      "unit_id": "unit.b1.c2.s4",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 49,
+      "content_sha256": "7e06ce9c377967d59fe973b1c8767d0cc53586b61f96985af5b8e73991d60269",
+      "concise_topic": "利用智能手机内置加速度传感器测量自由落体加速度与缓冲图线观察",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m1.free_fall_vertical_throw"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.op.smartphone_phyphox"
+      ],
+      "methods": [
+        "method.graph.at"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.demo.1",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 59,
+      "content_sha256": "5b8ecffd1be3a4de5d1277e9e1fe18cd4bb5fe6a8fe6da44e402a7bcbe91cb0a",
+      "concise_topic": "利用双平面镜反射光点移动演示桌面微小弹性形变及弹力产生机理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.micro_amplification"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s1.exp.1",
+      "unit_id": "unit.b1.c3.s1",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 60,
+      "content_sha256": "153702b3b5d487f59313452ce7d18924daf875f503f61c0dbaff3bdc3b80bbf1",
+      "concise_topic": "竖直弹簧悬挂钩码探究弹力与形变量定量关系作F-x图像得出胡克定律",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.elastic_force_hooke"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.spring_hooke"
+      ],
+      "exp_skills": [
+        "expskill.read.mm_ruler",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s2.demo.1",
+      "unit_id": "unit.b1.c3.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 65,
+      "content_sha256": "6c291f8b58149f640930db767c8169700bb53a091dac94c7cf8b1698c67cba8b",
+      "concise_topic": "弹簧测力计纸团标记与力传感器F-t图像演示静摩擦力变化及最大静摩擦",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.static_friction",
+        "law.m2.sliding_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [
+        "method.graph.ft_impulse"
+      ],
+      "traps": [
+        "trap.mech.static_friction_equals_mu_fn"
+      ]
+    },
+    {
+      "item_id": "tb.b1.c3.s3.exp.1",
+      "unit_id": "unit.b1.c3.s3",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 69,
+      "content_sha256": "6a8e2ff3e42834fe11886023d878557deb19234f5fce82a41f7bb47aee524ff9",
+      "concise_topic": "用两弹簧测力计对拉探究作用力与反作用力关系及车船驱动力机理分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.newton_third_law",
+        "law.m2.static_friction"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c3.s4.exp.1",
+      "unit_id": "unit.b1.c3.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 73,
+      "content_sha256": "dda6b1a6327dfc6cac6807caadca8533c92bebde624d95fe4d6b97a67b748a4a",
+      "concise_topic": "用橡皮条与弹簧测力计等效替代法探究互成角度二力合成平行四边形定则",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.force_parallelogram"
+      ],
+      "exp_skills": [
+        "expskill.read.stopwatch_spring"
+      ],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s2.exp.1",
+      "unit_id": "unit.b1.c4.s2",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 88,
+      "content_sha256": "47c0f1a2b7f41256fc067627d0f4fa63c6326661b410df4d7ddf103f2913b035",
+      "concise_topic": "控制变量法与阻力补偿法探究加速度与力、质量关系及a-1/m线性化作图",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.newton_second_law",
+        "law.m1.uam_zero_init_ratios"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.mech.newton_second_law"
+      ],
+      "exp_skills": [
+        "expskill.op.friction_compensation",
+        "expskill.op.small_mass_approx",
+        "expskill.op.ac_spark_timer",
+        "expskill.data.linearization_plot",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b1.c4.s6.hand.1",
+      "unit_id": "unit.b1.c4.s6",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 111,
+      "content_sha256": "cd27b4f4c47c07d888daade6aae5ebf5da98bfa5ea7227ad9e7f7206fc5fbf34",
+      "concise_topic": "站在电梯地板体重计上观察电梯启动、运行与制动示数变化的超失重体验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.m3.apparent_weight",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    }
+  ]
+}

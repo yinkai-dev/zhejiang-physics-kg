@@ -9,7 +9,9 @@ import {
   inspectNodes,
   computeCurriculumScope,
   matchQuestions,
-  diagnoseError
+  diagnoseError,
+  queryArchetypes,
+  traceProvenance
 } from '../src/engine.mjs';
 import { loadSplits, assertPaperReadable, HeldOutTestAccessError } from '../src/split-guard.mjs';
 
@@ -177,4 +179,39 @@ test('题目标注门禁拦截野生节点 ID、指纹漂移与缺失子问推�
   assert.equal(b1Only.total, 1);
   assert.equal(b1Only.questions[0].question_id, 'q1');
   assert.equal(b1Only.rejected_out_of_scope, 1);
+});
+
+test('人教版 6 册教材母题/STSE 栏目图谱挂载与浙江高考真题双向溯源闭环生效', () => {
+  const bundle = loadBundle(KG_ROOT);
+  if (!bundle.counts.textbook_items) return;
+
+  assert.ok(bundle.counts.textbook_items >= 1100, `教材挂载条目数不足: ${bundle.counts.textbook_items}`);
+  assert.equal(bundle.counts.gaokao_provenance_papers, 6);
+  assert.equal(bundle.counts.gaokao_provenance_questions, 116);
+
+  // 1. 按关键词与零超纲条件查询课本母题
+  const b1Arch = queryArchetypes(bundle, { learnedSelectors: ['b1'], limit: 500 });
+  assert.ok(b1Arch.total >= 150);
+  for (const item of b1Arch.items) {
+    assert.equal(item.book_id, 'b1');
+  }
+
+  // 2. 查询衍生出浙江选考官方真题的课本母本
+  const gaokaoArch = queryArchetypes(bundle, { gaokaoOnly: true, limit: 20 });
+  assert.ok(gaokaoArch.total >= 30);
+  const topArchId = gaokaoArch.items[0].item_id;
+
+  // 3. 双向溯源：从课本条目反查真题 + 从真题查回课本出处
+  const revTrace = traceProvenance(bundle, { textbookId: topArchId });
+  assert.equal(revTrace.mode, 'textbook_to_exams');
+  assert.ok(revTrace.derived_gaokao_questions.length >= 1);
+
+  const sampleGaokaoQid = revTrace.derived_gaokao_questions[0].question_id;
+  const fwdTrace = traceProvenance(bundle, { questionId: sampleGaokaoQid });
+  assert.equal(fwdTrace.mode, 'gaokao_question_provenance');
+  assert.ok(fwdTrace.source_textbook_cards.some((c) => c.item_id === topArchId));
+
+  // 4. 错题诊断同步返回课本脚手架母题
+  const diag = diagnoseError(bundle, { trapQuery: '不等间距 动量守恒' });
+  assert.ok(diag[0].remediation_targets.some((t) => Array.isArray(t.sample_textbook_archetypes)));
 });

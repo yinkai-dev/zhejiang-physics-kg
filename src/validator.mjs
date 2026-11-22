@@ -278,3 +278,154 @@ export function validatePaperAnnotation(paperAnnotation, ontology, bankPaper = n
 
   return { ok: errors.length === 0, errors };
 }
+
+const ALLOWED_PEDAGOGICAL_ROLES = new Set([
+  'concept_check',
+  'canonical_archetype',
+  'experiment_inquiry',
+  'stse_context',
+  'history_method',
+  'capstone_synthesis'
+]);
+
+const ALLOWED_BOOK_DEPS = {
+  b1: new Set(['b1']),
+  b2: new Set(['b1', 'b2']),
+  b3: new Set(['b1', 'b2', 'b3']),
+  s1: new Set(['b1', 'b2', 'b3', 's1']),
+  s2: new Set(['b1', 'b2', 'b3', 's1', 's2']),
+  s3: new Set(['b1', 'b2', 'b3', 's1', 's2', 's3'])
+};
+
+/**
+ * 校验单册人教版教材母题与栏目知识图谱挂载文件
+ * @param {object} bookAnn 单册教材挂载对象
+ * @param {ReturnType<import('./loader.mjs').loadOntology>} ontology 本体对象
+ */
+export function validateTextbookBookAnnotation(bookAnn, ontology) {
+  const errors = [];
+  const { nodes } = ontology;
+  const bookId = bookAnn?.book_id;
+  if (!bookId || !ALLOWED_BOOK_DEPS[bookId]) {
+    return { ok: false, errors: [`非法或缺失教材 book_id: ${bookId}`] };
+  }
+  if (!Array.isArray(bookAnn.items) || bookAnn.items.length === 0) {
+    return { ok: false, errors: [`教材 ${bookId} items 数组为空`] };
+  }
+
+  const allowedBooks = ALLOWED_BOOK_DEPS[bookId];
+  const seen = new Set();
+  const fieldTypes = [
+    ['laws', 'ConceptAndLaw'],
+    ['models', 'PhysicalModel'],
+    ['experiments', 'Experiment'],
+    ['exp_skills', 'ExpSkill'],
+    ['methods', 'MethodAndTool'],
+    ['traps', 'Misconception']
+  ];
+
+  for (const item of bookAnn.items) {
+    const iid = item.item_id;
+    if (!iid || !iid.startsWith(`tb.${bookId}.`)) {
+      errors.push(`非法教材条目 item_id: ${iid}`);
+      continue;
+    }
+    if (seen.has(iid)) errors.push(`重复教材条目 item_id: ${iid}`);
+    seen.add(iid);
+
+    if (!item.unit_id || !nodes.has(item.unit_id)) {
+      errors.push(`${iid} 缺少合法教材章节 unit_id: ${item.unit_id}`);
+    }
+    const topic = (item.concise_topic || '').trim();
+    if (topic.length < 6 || topic.length > 48 || topic.includes('\n')) {
+      errors.push(`${iid} concise_topic 长度须在 6~48 字单行无换行: "${topic}"`);
+    }
+    if (!ALLOWED_PEDAGOGICAL_ROLES.has(item.pedagogical_role)) {
+      errors.push(`${iid} 非法 pedagogical_role: ${item.pedagogical_role}`);
+    }
+
+    let totalRefs = 0;
+    for (const [field, expectedType] of fieldTypes) {
+      const list = item[field] || [];
+      if (!Array.isArray(list)) {
+        errors.push(`${iid}.${field} 必须为数组`);
+        continue;
+      }
+      for (const nid of list) {
+        totalRefs++;
+        const n = nodes.get(nid);
+        if (!n) {
+          errors.push(`${iid}.${field} 引用了野生 ID: ${nid}`);
+        } else if (n.type !== expectedType) {
+          errors.push(`${iid}.${field} 类型不匹配: ${nid} 为 ${n.type}，期望 ${expectedType}`);
+        } else if ((n.type === 'ConceptAndLaw' || n.type === 'Experiment') && n.unit) {
+          const uBook = n.unit.split('.')[1];
+          if (!allowedBooks.has(uBook)) {
+            errors.push(`${iid} 违反教材先后顺序因果锁: ${bookId} 册引用了后置册 (${uBook}) 节点 ${nid}`);
+          }
+        }
+      }
+    }
+    if (totalRefs === 0) {
+      errors.push(`${iid} 必须至少挂载 1 个受控知识图谱节点`);
+    }
+  }
+
+  return { ok: errors.length === 0, errors };
+}
+
+/**
+ * 校验浙江选考真题双向教材溯源库
+ * @param {object} provData 溯源库对象
+ * @param {Map<string, object>} textbookItemMap 已加载的全部 tb.* 条目表
+ * @param {ReturnType<import('./loader.mjs').loadOntology>} ontology 本体对象
+ */
+export function validateGaokaoProvenance(provData, textbookItemMap, ontology) {
+  const errors = [];
+  const { nodes } = ontology;
+  const allowedLevels = new Set(['direct_adaptation', 'archetype_synthesis', 'curriculum_canonical']);
+
+  if (!provData || !Array.isArray(provData.papers) || provData.papers.length === 0) {
+    return { ok: false, errors: ['溯源库 papers 数组为空'] };
+  }
+
+  for (const paper of provData.papers) {
+    const pid = paper.paper_id;
+    if (!pid || !Array.isArray(paper.questions) || paper.questions.length === 0) {
+      errors.push(`溯源真题卷缺少 paper_id 或 questions: ${pid}`);
+      continue;
+    }
+    for (const q of paper.questions) {
+      const qtag = `${pid}#q${q.question_no}`;
+      if (!allowedLevels.has(q.provenance_level)) {
+        errors.push(`${qtag} 非法 provenance_level: ${q.provenance_level}`);
+      }
+      if (!Array.isArray(q.source_textbook_ids) || q.source_textbook_ids.length === 0) {
+        errors.push(`${qtag} 缺少 source_textbook_ids`);
+      } else {
+        for (const tid of q.source_textbook_ids) {
+          if (!textbookItemMap.has(tid)) {
+            errors.push(`${qtag} 引用了不存在的教材条目 ID: ${tid}`);
+          }
+        }
+      }
+      const mech = (q.adaptation_mechanism || '').trim();
+      if (mech.length < 15 || mech.includes('\n')) {
+        errors.push(`${qtag} adaptation_mechanism 过短或包含换行`);
+      }
+      if (!q.slot || !nodes.has(q.slot) || nodes.get(q.slot).type !== 'ExamSlot') {
+        errors.push(`${qtag} 缺少合法 slot: ${q.slot}`);
+      }
+      for (const [field, expectedType] of [['laws', 'ConceptAndLaw'], ['models', 'PhysicalModel'], ['experiments', 'Experiment']]) {
+        for (const nid of q[field] || []) {
+          const n = nodes.get(nid);
+          if (!n || n.type !== expectedType) {
+            errors.push(`${qtag}.${field} 引用了非法节点: ${nid}`);
+          }
+        }
+      }
+    }
+  }
+
+  return { ok: errors.length === 0, errors };
+}

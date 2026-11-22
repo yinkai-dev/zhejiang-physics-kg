@@ -1,0 +1,2573 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "浙江新课标新教材物理选考官方真题双向教材溯源全表 (2023.06–2026.06)",
+  "annotation_source": "textbook_grounded_ai",
+  "total_papers": 6,
+  "total_questions": 116,
+  "papers": [
+    {
+      "paper_id": "zj-gaokao-2023-06",
+      "title": "2023年6月浙江物理选考真题",
+      "exam_year": 2023,
+      "exam_month": 6,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-gaokao-2023-06-q01",
+          "exam_question_summary": "四组力电物理量中全为标量的概念辨析",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.m1.displacement_distance",
+            "law.e1.potential_equipotential",
+            "law.m6.power_avg_instant",
+            "law.m7.momentum_impulse"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q4",
+            "tb.s1.c1.s1.prac.q1",
+            "tb.b3.c10.s1.think.1"
+          ],
+          "adaptation_mechanism": "必修第一册P33复习A组第4题建立矢量与标量辨析范式，选必一P5练习第1题对比动量（矢量）与动能（标量），必修三P29明确电势为标量；真题将跨模块八个高频物理量（电势与场强、热量与功率、动量与动能、速度与加速度）两两配对，考查标量概念的系统归类。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-gaokao-2023-06-q02",
+          "exam_question_summary": "足球香蕉球入网情景中质点模型、惯性与相互作用力辨析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.point_mass_reference",
+            "law.m3.newton_first_inertia",
+            "law.m2.newton_third_law"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c1.s1.think.1",
+            "tb.b1.c4.s1.prac.q3",
+            "tb.b1.c3.s3.exp.1"
+          ],
+          "adaptation_mechanism": "直接改编自必修第一册P13思考与讨论图1.1-2“研究如何踢出香蕉球时能否把足球看作质点”及P87练习第3题“被抛出的小球速度改变但惯性不变”；真题以足球入网一图串联质点条件、质量唯一决定惯性、离脚后受力分析及触网作用力与反作用力等大关系。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-gaokao-2023-06-q03",
+          "exam_question_summary": "铅球水平推出后加速度、速率、动能与机械能随时间变化图像判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m4.projectile_horizontal",
+            "law.m6.mechanical_energy_cons"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b2.c5.s4.exmp.1",
+            "tb.b2.c5.s4.prac.q1",
+            "tb.b2.c8.s4.think.2"
+          ],
+          "adaptation_mechanism": "必修第二册P15例题1推导平抛运动加速度恒为g及合速率随时间的非线性关系，P91确立只有重力做功时机械能守恒；真题以水平推铅球为载体，将平抛运动学规律与机械能守恒定律转化为a-t、v-t、Ek-t与E-t四幅函数图像的直曲辨析。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-gaokao-2023-06-q04",
+          "exam_question_summary": "玉兔二号巡视器在月球表面直线与曲线行走的引力、加速度与位移判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.displacement_distance",
+            "law.m1.avg_instant_velocity",
+            "law.m4.curvilinear_condition",
+            "law.m5.gravity_gold_sub"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b2.c5.s1.demo.2",
+            "tb.b1.c1.revA.q4",
+            "tb.s2.c5.s1.walk.1"
+          ],
+          "adaptation_mechanism": "呼应选必二第五章探月巡视器情境，依托必修第一册P33位移与平均速度矢量性及必修第二册P4演示实验“曲线运动速度方向变化必有加速度”的核心判据；真题借月球车直线OA与曲线AB车辙照片，综合考查月面重力差异、曲线运动加速度及位移与轨迹长度区别。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-gaokao-2023-06-q05",
+          "exam_question_summary": "玉兔二号核电池钚238衰变方程、射线穿透力、比结合能与半衰期判断",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q2.nuclear_decay_half_life",
+            "law.q2.nucleus_isotopes_rays",
+            "law.q2.binding_energy_mass_defect"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c5.revA.q4",
+            "tb.s3.c5.s2.think.1"
+          ],
+          "adaptation_mechanism": "直接脱胎于选择性必修第三册P131复习与提高A组第4题（空间探测器采用钚238核素供电，书写α衰变方程并计算半衰期）；真题将“火星车”替换为我国“玉兔二号”月球车，保留钚238的α衰变方程内核，增设α与γ穿透力、母子核比结合能及月夜低温不影响半衰期的判断。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-gaokao-2023-06-q06",
+          "exam_question_summary": "两排平行半圆柱体上静置光滑圆柱体所受正交支持力大小计算",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.m2.force_composition_decomp"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c4.s5.prac.q4",
+            "tb.b1.c3.revB.q1"
+          ],
+          "adaptation_mechanism": "直接源自必修第一册P108练习与应用第4题图4.5-8“两固定平行圆柱形油桶A、B支撑上方光滑圆柱桶C”的截面几何原型；真题剥离货车加速过程回归共点力静态平衡，并将对称角度调整为两相切半径成90°正交且偏离竖直37°，直接用正交分解求两支持力大小。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-gaokao-2023-06-q07",
+          "exam_question_summary": "1100kV特高压直流输电工程中升压整流、逆变降压与功率决定关系判断",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.long_distance_power",
+            "law.e5.ideal_transformer",
+            "law.e5.ac_four_values"
+          ],
+          "models": [
+            "model.ind.grid_two_transformers_line"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c3.s4.stse.1",
+            "tb.s2.c3.s3.prac.q1"
+          ],
+          "adaptation_mechanism": "直接取材于选择性必修第二册P66《STSE：输电技术的发展》原文与图3.4-4、3.4-5（明确介绍我国1100kV特高压直流输电工程及送电端“整流”、用户端“逆变”系统框图）；真题结合P62变压器不能改变恒定直流电压原理，考查“先升压再整流、先逆变再降压”的工序逻辑。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-gaokao-2023-06-q08",
+          "exam_question_summary": "带电粒子在转向器两段不同半径辐向电场等势圆弧中运动的场强比",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.m4.centripetal_force_accel",
+            "law.e1.potential_equipotential"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c10.revA.q4",
+            "tb.b2.c6.s3.prac.q1"
+          ],
+          "adaptation_mechanism": "融合必修第三册P50同心圆弧等势面上移动静电力不做功（粒子速率保持不变）与必修第二册P34圆周运动向心力公式；真题创设两段平滑衔接的异半径辐向电场转向器，由虚线为等势线锁定全过程速率恒定，进而由电场力提供向心力导出场强与轨道半径成反比。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-gaokao-2023-06-q09",
+          "exam_question_summary": "由木卫一二三周期比及木卫三与月球轨道参量求木星与地球质量比",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m5.kepler_three_laws",
+            "law.m5.celestial_mass_density",
+            "law.m5.universal_gravitation"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c7.s2.prac.q4",
+            "tb.b2.c7.s3.think.1"
+          ],
+          "adaptation_mechanism": "直接改编自必修第二册P54练习与应用第4题（原题明确给出木星三颗伽利略卫星周期之比为1:2:4）并融合P56思考与讨论“由卫星周期和轨道半径求中心行星质量”；真题保留1:2:4周期比考查开普勒第三定律立方根关系，同时联立地月系轨道参量求木星与地球质量比。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-gaokao-2023-06-q10",
+          "exam_question_summary": "双细杆悬挂导体棒接直流电源偏角平衡与改接二极管电磁阻尼摆动分析",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.e4.motional_emf_linear_rot",
+            "law.e4.induction_energy_work",
+            "law.e5.diode_unidirectional"
+          ],
+          "models": [
+            "model.mag.ampere_3d_to_2d_balance"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revA.q7",
+            "tb.s2.c2.s3.demo.1"
+          ],
+          "adaptation_mechanism": "前半段直接取自选必二P21复习A组第7题图1-4“双线悬挂通电棒在匀强磁场中静平衡偏角θ”，后半段融合选必二P38磁场中摆动导体的电磁阻尼并串入理想二极管；真题利用单刀双掷开关将安培力静平衡求电动势与单向导通半程电磁阻尼耗能摆动巧妙串联。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-gaokao-2023-06-q11",
+          "exam_question_summary": "声波沿双分支管道传播拉长一侧管道首次测得最小声强求振幅比与波长",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.m8.wave_superposition_interf"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c3.s4.prac.q3",
+            "tb.s1.c3.s4.stse.1"
+          ],
+          "adaptation_mechanism": "直接改编自选择性必修第一册P78练习与应用第3题图3.4-7“声波沿管道分上下两束传播相遇削弱噪声的消声器”；真题将固定支管改造为可拉长U形滑管（拉长d使波程差增加2d），引入声强与合振幅平方成正比的定量关系，联立最大与最小声强求解两束声波振幅比及波长。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-gaokao-2023-06-q12",
+          "exam_question_summary": "倾斜平行金属板间悬挂带电小球剪断细线后匀加速直线运动与电势能变化",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.e1.electric_pe_work",
+            "law.e1.uniform_field_u_ed"
+          ],
+          "models": [
+            "model.elec.equivalent_gravity_pendulum",
+            "model.mech.instant_cut_spring_cord",
+            "model.elec.dc_circuit_with_capacitor"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b1.c3.revB.q5",
+            "tb.b3.c10.s3.exmp.1",
+            "tb.b3.c10.revB.q3"
+          ],
+          "adaptation_mechanism": "将必修第一册P81细线悬挂小球三力平衡与必修第三册P36、P51平行板匀强电场中带电体的运动及电势能变化相融合；真题将平行板倾斜30°接入含串联电阻的稳态直流电路，考查剪断细线后小球沿重电合力方向做匀加速直线运动的极板落点与克服电场力做功。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-gaokao-2023-06-q13",
+          "exam_question_summary": "水池底部等腰直角三角形细灯带发光体在水面形成的透光区域形状判断",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.o1.total_internal_reflection"
+          ],
+          "models": [
+            "model.opt.liquid_surface_light_cone"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c4.s2.exmp.1",
+            "tb.s1.c4.revB.q2"
+          ],
+          "adaptation_mechanism": "以选择性必修第一册P92例题全反射临界圆锥及P114复习B组第2题水下点物透光圆半径r=htanC为基准母本；真题将单个水下点光源拓展为等腰直角三角形细灯带线光源，求各点透光圆盘的包络并集，并比较临界圆半径与三角形内切圆半径以判定中心有无暗区。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-gaokao-2023-06-q14",
+          "exam_question_summary": "热力学第二定律、液体表面张力方向、狭义相对性原理与多普勒效应辨析",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.t2.second_law_entropy",
+            "law.t1.liquids_surface_capillary",
+            "law.q2.elementary_relativity",
+            "law.m8.doppler_effect"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.s3.c3.s4.think.1",
+            "tb.s3.c2.s5.exp.1",
+            "tb.s1.c3.s5.demo.1",
+            "tb.b2.c7.s5.think.1"
+          ],
+          "adaptation_mechanism": "紧扣四处课本概念栏目——选必三P60热力学第二定律克劳修斯表述、P36液体表面张力方向跟液面相切、必修二P67狭义相对性原理及选必一P79蜂鸣器多普勒效应演示，采用多选拼盘形式全面检验热学、机械波与相对论核心表述的准确性。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-gaokao-2023-06-q15",
+          "exam_question_summary": "紫外光激发单能光电子束经双缝干涉测条纹间距反推电子与入射光子动量",
+          "slot": "slot.choice.multi_capstone",
+          "laws": [
+            "law.q1.photoelectric_effect",
+            "law.q1.compton_de_broglie",
+            "law.o2.double_slit_interference"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.s2.think.2",
+            "tb.s3.c4.s5.prac.q2",
+            "tb.s1.c4.s4.exp.1",
+            "tb.s3.c4.revB.q5"
+          ],
+          "adaptation_mechanism": "跨册融合选必一P101双缝干涉条纹公式与选必三P75光电效应方程、P97德布罗意物质波及P99复习B组第5题光子动量关系；真题将双缝干涉从光波迁移至相干光电子束物质波，构建“条纹间距→电子波长→电子动量与动能→入射光子能量与动量”的四步逆推链。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-gaokao-2023-06-q16",
+          "exam_question_summary": "探究平抛运动特点、双弹簧串联弹力势能、测干电池电动势内阻及选修实验辨析",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.m4.projectile_horizontal",
+            "law.m2.elastic_force_hooke",
+            "law.e2.closed_circuit_ohm"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.mech.projectile_motion",
+            "exp.mech.spring_hooke",
+            "exp.elec.battery_emf_r",
+            "exp.thermo.oil_film_molecule",
+            "exp.elec.transformer_turns_u"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c5.s3.exp.1",
+            "tb.b1.c3.s1.exp.1",
+            "tb.b3.c12.s3.exp.1",
+            "tb.s2.c3.s3.exp.1"
+          ],
+          "adaptation_mechanism": "直接改编自课本必做实验：平抛子题复刻必修二P11图5.3-2小锤击打与图5.3-3斜槽挡板，新增平移竖直挡板扣除钢球半径d/2修正；弹力子题将必修一P60单弹簧升级为双弹簧串联并追问计入弹簧自重的弹性势能关系；电学与多选直接源自必修三P89测干电池及选必二P58可拆变压器缺横梁铁芯等实验。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-gaokao-2023-06-q17",
+          "exam_question_summary": "导热直立圆筒活塞封闭理想气体经等温压缩与等容升温的状态温度与做功计算",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t1.temp_molecular_ke_dist",
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo"
+          ],
+          "models": [
+            "model.thermo.cylinder_piston_thermo1"
+          ],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.s3.c3.revB.q3",
+            "tb.s3.c2.s3.ext.1"
+          ],
+          "adaptation_mechanism": "以选必三P65复习B组第3题“竖直圆筒活塞封闭理想气体受力平衡与热力学第一定律”及P29理想气体状态方程为母本；真题将单过程拆解为“接触恒温热源缓慢压缩（等温）”与“固定活塞升温（等容）”两阶段，由A→C总吸热与B→C内能增量逆向推算A→B外界做功。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-gaokao-2023-06-q18",
+          "exam_question_summary": "滑块经竖直S形圆弧管道与弹簧栓接双滑块碰撞及传送带减速多过程综合计算",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m4.centripetal_force_accel",
+            "law.m6.work_energy_theorem",
+            "law.m7.momentum_conservation",
+            "law.m6.mechanical_energy_cons"
+          ],
+          "models": [
+            "model.mech.multi_stage_track_combo",
+            "model.mech.horizontal_conveyor",
+            "model.mech.spring_connected_two_body"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.s5.exmp.1",
+            "tb.s1.c1.revB.q6",
+            "tb.b2.c6.s4.prac.q5"
+          ],
+          "adaptation_mechanism": "融合必修二P39竖直圆周最低点压力、选必一P22粘连完全非弹性碰撞及P30复习B组第6题弹簧双体共速最大势能母题；真题串入顺时针水平传送带与S形圆弧管道，先后考查碰后反弹经传送带减速逆推无损碰撞、以及粘住后三体系统弹簧最大与最小长度之差。"
+        },
+        {
+          "question_no": 19,
+          "question_id": "zj-gaokao-2023-06-q19",
+          "exam_question_summary": "火箭无动力落停竖直导轨恒流自生磁场安培力制动、输出电压与能量回收计算",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm",
+            "law.m6.energy_conservation_macro"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c2.revB.q4",
+            "tb.s2.c1.s1.prac.q2",
+            "tb.b3.c12.s4.stse.1"
+          ],
+          "adaptation_mechanism": "以选必二P47复习B组第4题竖直导轨金属杆下落电磁制动为骨架，逆用恒流导轨自生磁场机理；真题区分导电杆处磁场B1=kI（求恒定安培力匀减速制动）与杆下方回路磁场B2=2kI（求动生电动势），结合调控装置P-t图像面积定量分析输出能量与重力势能动能回收。"
+        },
+        {
+          "question_no": 20,
+          "question_id": "zj-gaokao-2023-06-q20",
+          "exam_question_summary": "正离子斜射入平行双层匀强与线性梯度非均匀磁场的速度临界及穿出比例计算",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.e3.cyclotron_motion_laws",
+            "law.m7.momentum_theorem"
+          ],
+          "models": [
+            "model.mag.bounded_mag_chord_tangent",
+            "model.mag.scaling_circle_critical",
+            "model.mag.lorentz_component_impulse"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revB.q4",
+            "tb.s2.c1.s3.prac.q3",
+            "tb.s1.c1.s2.walk.1"
+          ],
+          "adaptation_mechanism": "第(1)问直接同构于选必二P22复习B组第4题“带电粒子斜射入平行边界匀强磁场恰与另一边界相切不射出”；真题在此母本下方叠加第二层磁场，第(2)问升级为B2=2B1双圆弧衔接相切临界，第(3)问突破为线性梯度磁场B2=(B1/L)y，需沿x轴对洛伦兹力分量运用微元动量定理求穿出比例。"
+        }
+      ]
+    },
+    {
+      "paper_id": "zj-gaokao-2024-01",
+      "title": "2024年1月浙江物理选考真题",
+      "exam_year": 2024,
+      "exam_month": 1,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-gaokao-2024-01-q01",
+          "exam_question_summary": "识别国际单位制基本单位符号与电磁力学导出单位",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.m3.si_base_units"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c4.s4.ext.1",
+            "tb.b1.c4.s4.exmp.1"
+          ],
+          "adaptation_mechanism": "依托必修第一册P100-102《力学单位制》及拓展学习《基本单位的定义》对秒（s）等七个SI基本单位与导出单位的规范界定；真题将时间基本单位符号s与牛顿N、法拉F、特斯拉T三个力电导出单位并置对比，直接考查SI基本单位识别。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-gaokao-2024-01-q02",
+          "exam_question_summary": "杭州亚运会跳水、转体、百米赛跑与攀岩四个比赛场景的质点模型判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.point_mass_reference"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q1",
+            "tb.b1.c1.s2.prac.q3"
+          ],
+          "adaptation_mechanism": "直接改编自必修第一册P33复习与提高A组第1题（原题即以跳水运动员动作评分、观察运动姿态对比测算路程速度考查质点理想模型条件）及P19百米赛跑练习；真题换用杭州亚运会跳水、空中转体、百米冲刺与攀岩四幅实景图，完全保留原题设问逻辑。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-gaokao-2024-01-q03",
+          "exam_question_summary": "考虑空气阻力的足球非对称斜抛轨迹中重力势能、动能与机械能变化判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m6.gravity_elastic_pe",
+            "law.m6.work_energy_theorem",
+            "law.m6.work_energy_relations"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b2.c5.s4.think.1",
+            "tb.b2.c8.s4.think.1"
+          ],
+          "adaptation_mechanism": "融合必修第二册P18思考与讨论“计入空气阻力时斜抛实际非对称弹道曲线”与P90思考与讨论“有阻力运动中重力势能变化仍仅由高度差mgh决定、但机械能减小”；真题通过轨迹左右不对称隐含空气阻力存在，精准辨析重力势能改变量与动能改变量的差异。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-gaokao-2024-01-q04",
+          "exam_question_summary": "磁电式电表极靴与软铁圆柱间辐向磁场的安培力方向及各点磁感应强度比较",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.e3.magnetic_induction_flux"
+          ],
+          "models": [
+            "model.mag.galvanometer_radial_coil"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c1.s1.think.1"
+          ],
+          "adaptation_mechanism": "直接改编自选择性必修第二册P5磁电式电流表正文及图1.1-8原图（题干“两磁极装有极靴，极靴中间还有一个用软铁制成的圆柱。极靴与圆柱间的磁场都沿半径方向”逐字取自课本）；真题在原图增标a、b、c、d四点，深度考查安培力方向、B矢量方向性、磁感线闭合性及疏密强弱。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-gaokao-2024-01-q05",
+          "exam_question_summary": "燃气灶电子点火装置理想变压器升压匝数比、交流电压表示数与频率判断",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.ideal_transformer",
+            "law.e5.ac_four_values"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c3.revB.q2",
+            "tb.b3.c9.s4.prac.q4"
+          ],
+          "adaptation_mechanism": "100%直接改编自选择性必修第二册P68复习与提高B组第2题图3-4“燃气灶点火装置原理图”；真题完全沿用课本原电路图与两道设问内核（原线圈交流电压表测有效值及副线圈峰值触发电火花的匝数比不等式），仅将点火峰值由5000V改为10kV并增设频率不变判断。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-gaokao-2024-01-q06",
+          "exam_question_summary": "双小球与四根细线跨过两侧定滑轮挂等重配重的整体法与隔离法拉力计算",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.m2.force_composition_decomp"
+          ],
+          "models": [
+            "model.mech.live_dead_knot_rod"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c3.revB.q6"
+          ],
+          "adaptation_mechanism": "直接脱胎于必修第一册P81复习与提高B组第6题图3-10“用细线a、b、c连接悬挂两个等重小球的静态平衡”；真题将课本施加的单侧水平拉力升级为跨过左右定滑轮的一对平行反向等大配重拉力（使两球整体水平与竖直斜拉力恰好抵消），复现先整体求Ta再隔离求Tb的母法。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-gaokao-2024-01-q07",
+          "exam_question_summary": "氘氚核聚变反应方程、核力作用距离与4g氘完全聚变释放能量数量级计算",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q2.fission_fusion",
+            "law.q2.binding_energy_mass_defect",
+            "law.t1.avogadro_micro_est"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c5.revB.q3",
+            "tb.s3.c5.s4.think.1"
+          ],
+          "adaptation_mechanism": "直接改编自选择性必修第三册P131复习B组第3题（原题给出完全相同的氘核2.0141u、氦核4.0026u及阿伏加德罗常数求宏观质量氘完全聚变总释能）及P123思考与讨论“聚变核间距须达10^-15m以内”；真题改为4g氘参与氘氚聚变估算能量数量级，并将核力距离设为10^-10m干扰项。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-gaokao-2024-01-q08",
+          "exam_question_summary": "山泉水从水平细水管喷出恰由水桶口中心落至桶底边沿的平抛初速度计算",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m4.projectile_horizontal"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b2.c5.revB.q2",
+            "tb.b2.c5.revB.q4"
+          ],
+          "adaptation_mechanism": "依托必修第二册P20复习B组第2题图5-7“水平管口喷水视为平抛运动测算流速”的生活情境；真题增设高度为管口一半的圆水桶几何约束（水流恰过桶口中心落至桶底边沿A），利用下落h与2h两位置水平位移之差等于桶半径D/2求解出水初速度。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-gaokao-2024-01-q09",
+          "exam_question_summary": "朱雀二号火箭发射近地轨道卫星的反冲推力、向心加速度、周期与超失重判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m7.rocket_variable_mass",
+            "law.m5.satellite_orbit_scaling",
+            "law.m3.apparent_weight"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.s1.c1.s6.walk.1",
+            "tb.b1.c4.s6.prac.q3",
+            "tb.b2.c7.s4.stse.1"
+          ],
+          "adaptation_mechanism": "以我国“朱雀二号”火箭送卫星入500km近地轨道为科技载体，横向整合选必一P26火箭喷气反冲推力施力物体、必修一P112练习第3题火箭加速升空超重判据及必修二第七章近地卫星向心加速度（约8.4m/s²）与周期定量估算。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-gaokao-2024-01-q10",
+          "exam_question_summary": "相同弹簧悬挂等质量小球与点光源反相简谐振动时屏上影子运动与位移分析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m8.shm_kinematics_dynamics"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c2.s2.demo.1",
+            "tb.s1.c2.revB.q4"
+          ],
+          "adaptation_mechanism": "脱胎于选择性必修第一册P38演示实验图2.2-4“并列悬挂两个相同弹簧振子观察振动步调与相位差”；真题将其中一个振子替换为点光源并在右侧增设观测屏，融合y-t振动图像读写与光直线传播相似三角形几何放大关系，求解反相最大位移时刻影子的位移5A。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-gaokao-2024-01-q11",
+          "exam_question_summary": "紫外线照射金属板M逸出光电子在正对金属网N间加速的末动能、侧移与遏止电压",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e1.charged_particle_accel",
+            "law.e1.charged_particle_deflect",
+            "law.q1.photoelectric_effect"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b3.c10.s5.prac.q2"
+          ],
+          "adaptation_mechanism": "100%直接改编自必修第三册P49练习与应用第2题图10.5-7（原题即为紫外线照射金属板M向各方向发射不同速率电子，正对放置金属网N加电压U接电流表测遏止电压）；真题沿用完全一致的M、N极板装置图，改为已知最大初速率vm，增设平行极板逸出电子类平抛最大侧移量计算。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-gaokao-2024-01-q12",
+          "exam_question_summary": "氢原子巴耳末系两条谱线在单缝衍射、平行玻璃砖侧移、光束光子数与光电效应对比",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q1.bohr_hydrogen_transitions",
+            "law.o2.light_diffraction",
+            "law.o1.apparent_depth_shift",
+            "law.q1.photoelectric_effect"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.s4.prac.q3",
+            "tb.s1.c4.s1.prac.q5",
+            "tb.s1.c4.s5.prac.q2",
+            "tb.s3.c4.revA.q1"
+          ],
+          "adaptation_mechanism": "直接提取选必三P86-91巴耳末公式与氢原子光谱四条可见谱线图为题干引子，横向融合选必一P107单缝衍射条纹宽度、P89平行玻璃砖折射侧移量及选必三等功率光束单位长度光子数与饱和光电流对比，实现原子光谱与几何、波动光学及量子论的四合一考查。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-gaokao-2024-01-q13",
+          "exam_question_summary": "超导圆形线圈电阻率上限对应的感应电动势与一年后电流衰减量数量级估算",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.e2.resistance_law",
+            "law.e4.faraday_induction_law",
+            "law.e4.mutual_self_inductance"
+          ],
+          "models": [
+            "model.ind.superconducting_inductance_coil"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c11.s2.demo.1",
+            "tb.s2.c2.revA.q5"
+          ],
+          "adaptation_mechanism": "取材于必修第三册P59-60电阻定律及超导现象背景，融合选必二P45圆形导线环电磁感应计算；真题还原物理学家测量超导电阻率上限的真实实验原理——由闭合超导环极微小欧姆压降IR等于自生磁场衰减引起的自感电动势ΔΦ/Δt，开展跨数量级建模估算。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-gaokao-2024-01-q14",
+          "exam_question_summary": "黑体辐射本领、等动能中子与电子德布罗意波长、电磁场物质性与反射偏振光辨析",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.q1.blackbody_energy_quantum",
+            "law.q1.compton_de_broglie",
+            "law.e5.maxwell_em_waves",
+            "law.o2.light_polarization"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c4.s6.hand.1",
+            "tb.s3.c4.s5.prac.q2",
+            "tb.s2.c4.s4.prac.q1"
+          ],
+          "adaptation_mechanism": "多选项直接源自课本栏目与课后题：D项逐字复刻选必一P111《做一做》“透过偏振片观察玻璃表面反射来的自然光并转动偏振片观察明暗变化”；B项将选必三P97练习第2题“等动能电子与质子比德布罗意波长”中的质子换为中子；C项对应选必二P87练习第1题电磁场物质性。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-gaokao-2024-01-q15",
+          "exam_question_summary": "点波源机械波跨双介质分界面反射相干加强减弱与折射波峰几何正弦值计算",
+          "slot": "slot.choice.multi_wave_opt",
+          "laws": [
+            "law.m8.wave_diffraction",
+            "law.m8.wave_superposition_interf",
+            "law.o1.refraction_snell"
+          ],
+          "models": [
+            "model.wave.two_source_interference_grid"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c3.s3.demo.1",
+            "tb.s1.c4.revB.q4",
+            "tb.s1.c4.s1.prac.q3"
+          ],
+          "adaptation_mechanism": "融合选必一P71-72机械波跨介质反射折射（频率不变、波速波长同比例变化）与P115复习B组第4题“单源界面反射镜像干涉”机制；真题利用折射区唯一波峰与波源同处波峰的整数波长几何关系（3-4-5直角三角形）联立求解折射角正弦及界面干涉强弱。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-gaokao-2024-01-q16",
+          "exam_question_summary": "探究加速度与力质量关系、电容器充放电测并联电压表内阻及热敏电阻温控电路设计",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.m3.newton_second_law",
+            "law.e1.capacitor_formulas",
+            "law.e2.series_parallel_meters",
+            "law.e5.common_sensors"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.mech.newton_second_law",
+            "exp.elec.capacitor_charge_dis",
+            "exp.elec.sensor_auto_control"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c4.s2.exp.1",
+            "tb.b1.c4.s2.meth.1",
+            "tb.b3.c10.s4.exp.1",
+            "tb.s2.c5.revB.q2"
+          ],
+          "adaptation_mechanism": "三子题均深度植根课本：第Ⅰ题直接出自必修一P88-92实验及控制变量栏目；第Ⅱ题在必修三P38电容器充电两端并联非理想电压表，利用充电稳态电流160μA妙测电压表内阻；第Ⅲ题100%改编自选必二P109复习B组第2题（保留E=3V、1-2端2V开启及三选一定值电阻原架构，将光敏照明换为热敏温控）。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-gaokao-2024-01-q17",
+          "exam_question_summary": "水平绝热容器抽隔板向真空自由膨胀与解锁活塞电阻丝加热等压膨胀吸热计算",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t2.second_law_entropy",
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo"
+          ],
+          "models": [
+            "model.thermo.cylinder_piston_thermo1"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c3.s4.ext.1",
+            "tb.s3.c3.revA.q3",
+            "tb.s3.c3.revB.q3"
+          ],
+          "adaptation_mechanism": "前半段直接改编自选择性必修第三册P62拓展学习图3.4-4及P64复习A组第3题图3-1“绝热容器抽开隔板气体向真空自由膨胀（过程不可逆且内能、温度不变）”；真题在课本绝热容器右端增设可解锁活塞B与加热电阻丝C，串联自由膨胀降压与恒力等压升温做功吸热计算。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-gaokao-2024-01-q18",
+          "exam_question_summary": "小物块在上下异摩擦因数倾斜轨道往返耗能及滑上带弹性挡板滑块不脱离临界长度",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m4.centripetal_force_accel",
+            "law.m3.incline_accel_feature",
+            "law.m6.work_energy_relations",
+            "law.m7.momentum_conservation"
+          ],
+          "models": [
+            "model.mech.multi_stage_track_combo",
+            "model.mech.block_on_plank"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b1.c4.s5.exmp.2",
+            "tb.b2.c8.revA.q6",
+            "tb.s1.c1.revB.q7"
+          ],
+          "adaptation_mechanism": "融合必修二P99组合圆弧轨道阻力耗能、必修一P106斜面动力学与选必一P30复习B组第7题水平板块共速不掉落母题；真题创新引入上滑与下滑摩擦因数不等的特殊斜面DE（需用每次上下等距对称性求总路程与总时间比）及带弹性碰撞右挡板的往返板块模型。"
+        },
+        {
+          "question_no": 19,
+          "question_id": "zj-gaokao-2024-01-q19",
+          "exam_question_summary": "扫描隧道显微镜弹簧悬挂平台与三组辐向磁场线圈磁阻尼减振器的焦耳热与弹力冲量",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.m2.elastic_force_hooke",
+            "law.e4.motional_emf_linear_rot",
+            "law.e4.eddy_damping_drive",
+            "law.m6.energy_conservation_macro",
+            "law.m7.momentum_theorem"
+          ],
+          "models": [
+            "model.mech.vertical_spring_shm_energy",
+            "model.ind.magnetic_braking_fall"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c2.s3.prac.q2",
+            "tb.s2.c1.s1.think.1",
+            "tb.s1.c2.s6.walk.1"
+          ],
+          "adaptation_mechanism": "以选择性必修第二册P39练习第2题图2.3-14“弹簧悬挂振子电磁阻尼振动能量转化”为核心原型，结合P5辐向磁场使圆线圈全周长2πr垂直切割磁感线；真题依托扫描隧道显微镜减振器，利用平衡点势能抵消关系求焦耳热，并由通过截面电荷量求解变安培力与弹簧弹力冲量。"
+        },
+        {
+          "question_no": 20,
+          "question_id": "zj-gaokao-2024-01-q20",
+          "exam_question_summary": "质子束经平行匀强磁场反射与窄电势差区类光折射全反射调控及探测板吸收冲击力",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.e3.cyclotron_motion_laws",
+            "law.e1.charged_particle_accel",
+            "law.o1.refraction_snell",
+            "law.o1.total_internal_reflection",
+            "law.m7.momentum_theorem"
+          ],
+          "models": [
+            "model.mag.bounded_mag_chord_tangent",
+            "model.mech.continuous_fluid_jet_impact"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revB.q4",
+            "tb.s1.c4.s3.walk.1",
+            "tb.s1.c1.revB.q4"
+          ],
+          "adaptation_mechanism": "跨学科融合选必二P22平行有界磁场偏转、选必一光学反射折射全反射概念（类比P99微粒跨界面切向分速度不变导出离子光学折射率与减速反弹“全反射”电压阈值）及P30连续粒子流撞击平均冲力模型，最后按电势差区间分类讨论左右对称双质子束打板受力。"
+        }
+      ]
+    },
+    {
+      "paper_id": "zj-gaokao-2024-06",
+      "title": "2024年6月浙江物理选考真题",
+      "exam_year": 2024,
+      "exam_month": 6,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-gaokao-2024-06-q01",
+          "exam_question_summary": "位移、时间、电流与热量四个物理量中矢量的判定",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.m1.displacement_distance",
+            "law.e2.current_micro_macro"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q4",
+            "tb.b1.c1.s2.prac.q4"
+          ],
+          "adaptation_mechanism": "紧扣必修第一册P17-20及P33复习A组第4题对位移矢量性与时间标量性的界定，同时针对学生易将“有方向规定的电流”误判为矢量的典型迷思设问（电流遵循算术加减而非平行四边形定则故为标量），考查矢量的本质判据。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-gaokao-2024-06-q02",
+          "exam_question_summary": "小猫蹬地跃起腾空追蝶过程中的受力分析、曲线运动合力方向与蹬地超重判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.elastic_force_hooke",
+            "law.m4.curvilinear_condition",
+            "law.m3.apparent_weight"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c4.s6.think.1",
+            "tb.b2.c5.s1.demo.2",
+            "tb.b1.c3.s1.demo.1"
+          ],
+          "adaptation_mechanism": "依托必修第一册P110思考与讨论“站起蹬地向上加速时支持力大于重力”、P59接触形变产生弹力条件及必修第二册P4曲线运动合力不沿速度方向判据；真题以小猫跃起追蝶生活情景串联飞行受空气力、转弯合力方向、腾空无弹力及蹬地超重四个基础判断。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-gaokao-2024-06-q03",
+          "exam_question_summary": "水流导光实验中激光在水流内的全反射现象与水流的平抛运动性质判断",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.o1.total_internal_reflection",
+            "law.o1.refraction_snell",
+            "law.m4.projectile_horizontal"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c4.s2.hand.1",
+            "tb.b2.c5.s4.exmp.1"
+          ],
+          "adaptation_mechanism": "直接取材于选择性必修第一册P94《做一做》图4.2-10“水流导光”课堂小实验原图；真题一图双考，既考查激光在水流与空气界面发生全反射及水中光速变小，又考查小孔喷出的水流在空中做平抛运动（水平匀速、匀变速曲线运动）的运动学特征。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-gaokao-2024-06-q04",
+          "exam_question_summary": "查德威克发现中子的核反应方程与玉兔二号核电池钚238衰变方程及能量判断",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q2.nucleus_isotopes_rays",
+            "law.q2.nuclear_decay_half_life",
+            "law.q2.binding_energy_mass_defect"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c5.s1.think.2",
+            "tb.s3.c5.revA.q4"
+          ],
+          "adaptation_mechanism": "双源直接取材于选择性必修第三册第五章：前半句源自P104查德威克用α粒子轰击铍9发现中子的核反应与质量数定义，后半句源自P131复习A组第4题探测器钚238核电池α衰变方程；真题并置人工核转变与天然α衰变，考查质量数电荷数守恒及衰变放能规律。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-gaokao-2024-06-q05",
+          "exam_question_summary": "已知音乐喷泉喷头出水口横截面积、喷水流速与水密度估算喷水机械功率",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m6.power_avg_instant",
+            "law.m6.work_energy_theorem"
+          ],
+          "models": [
+            "model.mech.continuous_fluid_jet_impact",
+            "model.mech.wind_hydro_energy_est"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c8.s4.prac.q6",
+            "tb.s1.c1.revB.q4"
+          ],
+          "adaptation_mechanism": "直接改编自必修第二册P94练习与应用第6题图8.4-10“估算城市广场喷泉给喷管喷水的输出功率”；真题省去课本由40层楼高反推喷速的步骤，直接给出喷口横截面积S与喷水速度v，取Δt微元水柱质量Δm=ρSvΔt求单位时间水流动能增量即喷水功率。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-gaokao-2024-06-q06",
+          "exam_question_summary": "平行板电容器保持电荷量不变增大极板间距时静电计张角、电容、场强与储能变化",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e1.capacitor_formulas",
+            "law.e1.uniform_field_u_ed"
+          ],
+          "models": [
+            "model.elec.capacitor_const_u_vs_q"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b3.c10.s4.ext.2"
+          ],
+          "adaptation_mechanism": "直接复刻必修第三册P41《拓展学习：平行板电容器的电容》图10.4-6乙原实验图与操作（保持电荷量Q不变，增大极板间距d，静电计指针张角增大）；真题在课本U增大、C减小的结论上延伸考查恒Q变距时板间场强E不变及克服静电力拉开极板使电容器储能增大。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-gaokao-2024-06-q07",
+          "exam_question_summary": "理想变压器原线圈抽头切换及副线圈电容、电感与光敏电阻三支路灯泡亮度动态分析",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.ideal_transformer",
+            "law.e5.reactance_inductor_capacitor",
+            "law.e5.common_sensors"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c3.s2.ext.1",
+            "tb.s2.c3.s3.exp.1",
+            "tb.s2.c5.s2.exp.1"
+          ],
+          "adaptation_mechanism": "将选择性必修第二册P56拓展学习图3.2-4“电感串灯泡”、图3.2-6“电容串灯泡”两个演示电路与P97光敏电阻支路并联接入P58抽头式理想变压器副线圈；真题在一张图内综合考查电容增大容抗减小、频率增大感抗增大、光照增强光敏阻值减小及原线圈减匝升压。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-gaokao-2024-06-q08",
+          "exam_question_summary": "与地球圆轨道外切和内切的两颗小行星椭圆轨道速度、加速度及半周期开普勒定律比较",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m5.kepler_three_laws",
+            "law.m5.universal_gravitation"
+          ],
+          "models": [
+            "model.mech.binary_star_orbit_transfer"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c7.s3.prac.q4"
+          ],
+          "adaptation_mechanism": "脱胎于必修第二册P58练习与应用第4题图7.3-4“地球圆公转轨道与哈雷彗星椭圆轨道对比”；真题设计分别与地球圆轨道R外切和内切的两颗小行星椭圆轨道，由切点几何直接确定半长轴(R1+R)/2与(R2+R)/2，考查开普勒第二、第三定律及切点同距同向心加速度。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-gaokao-2024-06-q09",
+          "exam_question_summary": "固定斜杆两点悬挂光滑细线穿过小铁球的静平衡张力与垂直纸面等效单摆周期计算",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.m8.simple_pendulum"
+          ],
+          "models": [
+            "model.mech.live_dead_knot_rod"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c2.s4.prac.q2",
+            "tb.b1.c3.s5.prac.q2"
+          ],
+          "adaptation_mechanism": "融合必修第一册光滑穿绳“活结等张力”静平衡条件（两端绳拉力等大且关于竖直方向对称，结合A端垂直30°斜杆导出几何边角）与选必一P50练习第2题秒摆（等效摆长1m对应周期约2s）；真题在斜杆双悬点穿球装置中实现静力学角度推算与等效摆长计算的咬合。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-gaokao-2024-06-q10",
+          "exam_question_summary": "氢原子n=3能级跃迁三种辐射光的光子动量、光电效应最大初动能差与双缝条纹间距判断",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q1.bohr_hydrogen_transitions",
+            "law.q1.photoelectric_effect",
+            "law.q1.compton_de_broglie",
+            "law.o2.double_slit_interference"
+          ],
+          "models": [
+            "model.mod.photoelectric_bohr_combo"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.s4.prac.q4",
+            "tb.s3.c4.s2.think.2",
+            "tb.s1.c4.s3.think.1"
+          ],
+          "adaptation_mechanism": "以选必三P91练习第4题“n=3氢原子跃迁辐射三种频率光且满足ν31-ν21=ν32”为主干，融合P75光电效应方程（消去逸出功得最大初动能差恰为hν32）、光子动量p=(E3-E1)/c、能级跃迁共振吸收条件及选必一双缝条纹间距与频率反比关系。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-gaokao-2024-06-q11",
+          "exam_question_summary": "由同频双波源到M点距离差及M点分阶段叠加振动图像求波速、波长、起振方向与振幅",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.m8.wave_formation_params",
+            "law.m8.wave_superposition_interf"
+          ],
+          "models": [
+            "model.wave.vib_wave_dual_graphs"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c3.s4.prac.q4",
+            "tb.s1.c3.revA.q5"
+          ],
+          "adaptation_mechanism": "融合选必一P82复习A组第5题“由传播距离差与到达时间差求波速波长”及P78练习第4题双波源干涉合振幅规律；真题创设M点“单波先到（4~7s振幅3cm）→双波反相叠加减弱（7s后振幅降至1cm）”的分段振动图像，动态考查两波源同向起振及分振幅推算。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-gaokao-2024-06-q12",
+          "exam_question_summary": "竖直匀强电场与水平等量异种点电荷叠加场中垂面光滑圆环上带电小球圆周运动分析",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.e1.electric_field_superpos",
+            "law.e1.potential_equipotential",
+            "law.m6.work_energy_theorem",
+            "law.m4.centripetal_force_accel"
+          ],
+          "models": [
+            "model.elec.dipole_equal_charges",
+            "model.elec.equivalent_gravity_pendulum"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c10.revB.q1",
+            "tb.b2.c6.revB.q4"
+          ],
+          "adaptation_mechanism": "以必修第三册P51复习B组第1题“等量异种点电荷中垂面为等势面且场强垂直中垂面”为破题核心，三维叠加竖直匀强电场与重力场中的光滑圆环；因点电荷电场力垂直圆环不做功，可由动能定理求B点速率并合成向心与切向加速度，同时判读D点空间弹力方向。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-gaokao-2024-06-q13",
+          "exam_question_summary": "正方形线框在均匀增大磁场中感生发热功率与在恒定磁场中绕轴匀速转动最大安培力计算",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.e4.faraday_induction_law",
+            "law.e5.ac_generation_neutral",
+            "law.e5.ac_four_values",
+            "law.e3.ampere_force_effective_l"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c3.revB.q1",
+            "tb.s2.c2.revA.q5"
+          ],
+          "adaptation_mechanism": "直接脱胎于选择性必修第二册P68复习与提高B组第1题图3-3“比较同一电阻线圈在时变磁场（感生）与绕OO'轴匀速转动（动生交变）中的电动势有效值及电功率”；真题用均匀增大磁场锁定基准热功率P，再由绕轴转动热功率2P反解角速度及峰值电流下的最大安培力。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-gaokao-2024-06-q14",
+          "exam_question_summary": "中子内部结构、真空光速不变原理、接收电路线圈匝数与调谐频率及分子势能变化辨析",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.q2.elementary_relativity",
+            "law.e5.lc_oscillation",
+            "law.e5.maxwell_em_waves",
+            "law.t1.intermolecular_force_pe"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c5.s5.ext.1",
+            "tb.s2.c4.s3.prac.q4",
+            "tb.s3.c1.s4.think.1",
+            "tb.b2.c7.s5.think.1"
+          ],
+          "adaptation_mechanism": "四选项精准源自课本栏目与习题：A项直接取材选必三P128拓展学习《夸克与粒子物理标准模型》强子内部结构；C项直接改编选必二P82练习第4题“接收最高频率电台应减少线圈匝数”；B、D项对应必修二P67光速不变原理与选必三P15分子力变号过程分子势能先减后增。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-gaokao-2024-06-q15",
+          "exam_question_summary": "套在倾斜光滑绝缘细杆上的带电小球沿杆上滑至最高点过程中各力冲量分析",
+          "slot": "slot.choice.multi_capstone",
+          "laws": [
+            "law.m7.momentum_impulse",
+            "law.m7.momentum_theorem",
+            "law.e3.lorentz_force"
+          ],
+          "models": [
+            "model.mag.ring_on_rough_rod_eb"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.s2.prac.q1",
+            "tb.s1.c1.revB.q1"
+          ],
+          "adaptation_mechanism": "融合选必一P10各力冲量与合力冲量的矢量辨析、P30复习B组第1题随时间线性变化力的冲量面积求法及洛伦兹力规律；真题利用光滑杆使小球沿杆匀减速加速度gsinθ恒定，令洛伦兹力与法向弹力均随t线性减小，巧妙设置初末弹力等大反向使总弹力冲量为零的临界初速。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-gaokao-2024-06-q16",
+          "exam_question_summary": "验证机械能守恒定律、欧姆挡判二极管极性与测绘伏安曲线及插针法测三棱镜折射率",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.m6.mechanical_energy_cons",
+            "law.e2.ohm_volt_ampere_curve",
+            "law.e5.diode_unidirectional",
+            "law.o1.refraction_snell"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.mech.mech_energy_cons",
+            "exp.elec.multimeter_practice",
+            "exp.elec.bulb_va_curve",
+            "exp.opt.glass_refractive_index"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c8.s5.exp.1",
+            "tb.b3.c11.s5.hand.1",
+            "tb.b3.c11.s2.ext.1",
+            "tb.s1.c4.s1.exp.1"
+          ],
+          "adaptation_mechanism": "三子题均由课本实验直接演化：第Ⅰ题基于必修二P95-98验证机械能守恒，直击“用纸带算出的g计算势能未采用当地重力加速度”的方法论误区；第Ⅱ题融合必修三P73欧姆挡正反接判二极管极性与P60测绘非线性伏安曲线；第Ⅲ题将选必一P87插针法改为垂直入射等腰三棱镜免插第4针。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-gaokao-2024-06-q17",
+          "exam_question_summary": "利用导热容器连通竖直薄玻璃管活塞浸入热水等压膨胀测定不规则固体体积及吸热计算",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t2.gas_pressure_micro",
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo"
+          ],
+          "models": [
+            "model.thermo.cylinder_piston_thermo1"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c2.s3.prac.q4",
+            "tb.s3.c2.revB.q3",
+            "tb.s3.c3.revB.q3"
+          ],
+          "adaptation_mechanism": "直接改编自选择性必修第三册P30练习与应用第4题图2.3-6（原题即为容器插两端开口玻璃管并用蜡密封接口、浸入温度T2热水由气柱长l1、l2测未知容积）并融合P43复习B组第3题测不规则固体体积；真题将水银柱换为质量m活塞、未知容积换为已知容器内置固体体积V，并增考等压吸热。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-gaokao-2024-06-q18",
+          "exam_question_summary": "弹簧弹射小滑块经螺旋圆形轨道最高点后滑上凹槽内长平板的共速损耗与初速度极值",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m4.centripetal_force_accel",
+            "law.m6.work_energy_theorem",
+            "law.m7.momentum_conservation",
+            "law.m3.newton_second_law"
+          ],
+          "models": [
+            "model.mech.vertical_circle_cord_track",
+            "model.mech.block_on_plank",
+            "model.mech.multi_stage_track_combo"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b2.c6.revB.q1",
+            "tb.b2.c8.revA.q6",
+            "tb.s1.c1.revB.q7"
+          ],
+          "adaptation_mechanism": "串联必修二P99复习A组第6题弹簧弹射冲上竖直圆轨、P41复习B组第1题圆轨最高点临界速度与选必一P30复习B组第7题板块共速不掉落母题；真题在第(3)问计入凹槽地面摩擦μ2与锁定距离d，考查滑块恰在共速瞬间抵达平板右端并共同减速滑至H点的最大初速度。"
+        },
+        {
+          "question_no": 19,
+          "question_id": "zj-gaokao-2024-06-q19",
+          "exam_question_summary": "三辐条金属飞轮实现法拉第圆盘电动机匀速提升重物与发电机电磁阻尼匀速降物计算",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm",
+            "law.e2.electric_work_joule",
+            "law.e4.induction_energy_work"
+          ],
+          "models": [
+            "model.ind.rotating_rod_sector_coil",
+            "model.elec.motor_mixed_circuit"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c2.revB.q6",
+            "tb.b3.c12.s1.exmp.1"
+          ],
+          "adaptation_mechanism": "直接点名改编自选择性必修第二册P47复习与提高B组第6题图2-12“法拉第圆盘发电机”，并融合必修第三册P81-82非纯电阻电动机功率分配规律；真题将实心铜盘具象为三根并联辐条飞轮缠绳挂重物，通过双掷开关对称考查“通电作电动机克服反电动势提重物”与“接电阻作发电机匀速放重物”。"
+        },
+        {
+          "question_no": 20,
+          "question_id": "zj-gaokao-2024-06-q20",
+          "exam_question_summary": "两种比荷正离子经加速电场、上下匀强磁场偏转及双层栅极板减速喷镀板上下表面调控",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.e1.charged_particle_accel",
+            "law.e3.cyclotron_motion_laws"
+          ],
+          "models": [
+            "model.mag.mass_spectrometer",
+            "model.mag.spliced_e_and_b_fields"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.s4.prac.q1",
+            "tb.s2.c1.revB.q5",
+            "tb.b3.c10.revB.q2"
+          ],
+          "adaptation_mechanism": "以选择性必修第二册P18-20质谱仪“同一电压加速不同比荷正离子在磁场中按直径分离”为第一级原型；真题将底片升级为双面喷镀板P并在右侧增设平行栅极减速电场与下方磁场，构建“a离子半圆镀上表面、1/4比荷b离子跨过P板经栅极单次或多次往返减速后镀下表面”的多解递推压轴题。"
+        }
+      ]
+    },
+    {
+      "paper_id": "zj-gaokao-2025-01",
+      "title": "2025年1月浙江物理选考真题",
+      "exam_year": 2025,
+      "exam_month": 1,
+      "question_count": 20,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-gaokao-2025-01-q01",
+          "exam_question_summary": "新一代车用动力电池比能量参数中单位瓦时（W·h）对应的物理量辨析",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.e2.electric_work_joule",
+            "law.e2.energy_sustainability",
+            "law.m3.si_base_units"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b3.c12.s2.prac.q7",
+            "tb.b3.c11.s1.stse.1"
+          ],
+          "adaptation_mechanism": "直接改编自必修三P88练习与应用第7题（辨析充电宝电荷量单位mA·h与民航额定能量单位160W·h）及P55《STSE：电动汽车中的电池》。真题保留功率乘时间单位W·h表征电能而区别于电荷量A·h的核心辨析，将移动电源载体升级为我国新一代车用电池比能量参数210W·h/kg。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-gaokao-2025-01-q02",
+          "exam_question_summary": "水下敷缆机器人一体化作业中可视为质点的工况判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.point_mass_reference"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q1",
+            "tb.b1.c1.s1.prac.q1"
+          ],
+          "adaptation_mechanism": "对应必修一P33复习与提高A组第1题（蚂蚁肢体分工动作与爬行路程的质点判据对比）及P14练习与应用第1题（歼-20战斗机质点问题创设）。真题保留“宏观路线定位可视为质点、研究转弯姿态与局部机械臂动作不可视为质点”的课本标准判据，更换为国产水下敷缆机器人工程背景。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-gaokao-2025-01-q03",
+          "exam_question_summary": "举重抓举稳定态双臂夹角受力、平衡力辨析与加速上举超重分析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.force_composition_decomp",
+            "law.m2.concurrent_equilibrium",
+            "law.m2.newton_third_law",
+            "law.m3.apparent_weight"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c3.s4.prac.q5",
+            "tb.b1.c4.s6.exmp.1",
+            "tb.b1.c3.s3.exp.1"
+          ],
+          "adaptation_mechanism": "锚定必修一P75练习与应用第5题（二力合成夹角与合力大小关系）、P111例题（加速上升超重支持力分析）及P69作用力与反作用力实验。真题以121kg抓举夺冠为情境，综合考查对称双臂分力随夹角增大而增大、相互作用力与平衡力区分以及加速上举阶段人与杠铃系统整体超重判据。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-gaokao-2025-01-q04",
+          "exam_question_summary": "三点电荷电场线与等势线分布图中电势、场强、电势差及电子做功比较",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e1.electric_field_superpos",
+            "law.e1.potential_equipotential",
+            "law.e1.electric_pe_work",
+            "law.e1.uniform_field_u_ed"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c10.s2.prac.q5",
+            "tb.b3.c10.revA.q4"
+          ],
+          "adaptation_mechanism": "融合必修三P34练习与应用第5题（不规则等势面上不同点A、B移至同一点C静电力做功相等）与P50复习与提高A组第4题（非匀强电场同一电场线上等距三点电势差不等）。真题将两母题机制置于两正一负三点电荷实测型电场线与等势线图中，联动考查电势高低、场强矢量方向与等势线做功性质。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-gaokao-2025-01-q05",
+          "exam_question_summary": "受与速率成正比空气阻力的微小沙尘颗粒从20m高处稳定降落时间估算",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.concurrent_equilibrium",
+            "law.m1.avg_instant_velocity"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c3.s2.walk.1",
+            "tb.b1.c4.revA.q8"
+          ],
+          "adaptation_mechanism": "直接脱胎于必修一P66《科学漫步：流体的阻力》与P114复习与提高A组第8题（高空雨滴受随速度增大空气阻力最终二力平衡匀速下落）。真题保留微粒收尾匀速沉降核心模型，将定性描述升级为线性阻力f=kv定量计算，要求算出微米级沙尘极小的终端速率并换算降落20m所需的数小时量级。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-gaokao-2025-01-q06",
+          "exam_question_summary": "地球与哈雷彗星绕日运行轨迹中扫过面积用时、近日点速度及加速度比较",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m5.kepler_three_laws",
+            "law.m5.universal_gravitation",
+            "law.m5.satellite_orbit_scaling",
+            "law.m6.mechanical_energy_cons"
+          ],
+          "models": [
+            "model.mech.binary_star_orbit_transfer"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c7.s3.prac.q4",
+            "tb.b2.c7.s1.prac.q2"
+          ],
+          "adaptation_mechanism": "直接改编自必修二P58练习与应用第4题图7.3-4（地球公转圆轨道与哈雷彗星大偏心率椭圆轨道对比）。真题完全沿用课本哈雷彗星原图架构，新增两段弧扫过面积S1>S2反推开普勒第二定律运行时间长短，并给出近日点距离0.6R考查椭圆切点变轨超速关系及万有引力平方反比加速度（1/0.36倍）陷阱。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-gaokao-2025-01-q07",
+          "exam_question_summary": "变压器、磁场中旋转线框、LC振荡与调谐电路四幅教材原图规律判断",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.ideal_transformer",
+            "law.e5.ac_generation_neutral",
+            "law.e5.lc_oscillation",
+            "law.e5.maxwell_em_waves"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c3.s1.prac.q4",
+            "tb.s2.c3.s3.exp.1",
+            "tb.s2.c4.s1.think.1",
+            "tb.s2.c4.s1.exmp.1"
+          ],
+          "adaptation_mechanism": "四幅图均直接裁自选必二教材：图1为P59变压器结构图，图2取自P53练习第4题图3.1-9（夹角30°旋转线框），图3为P72-73 LC振荡场能转化图，图4为P81无线电调谐接收电路图。真题集结四幅原图，综合检验变压比、转动电动势趋势、LC充放电电磁场能增减与调谐频率公式。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-gaokao-2025-01-q08",
+          "exam_question_summary": "光滑水平面两长木板迎面碰撞粘连后滑块跨板摩擦共速的时间、生热与相对路程",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m7.momentum_conservation",
+            "law.m7.inelastic_collision_bounds",
+            "law.m3.newton_second_law",
+            "law.m6.work_energy_relations"
+          ],
+          "models": [
+            "model.mech.block_on_plank"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.revB.q7",
+            "tb.s1.c1.s5.prac.q1"
+          ],
+          "adaptation_mechanism": "由选必一P30复习与提高B组第7题（长板携滑块匀速运动与另一物块极短时间碰撞后再摩擦共速）与P24练习与应用第1题（两物体迎面相撞粘连损失机械能）融合升级。真题保留“碰撞瞬间滑块速度不变、碰后系统动量守恒摩擦共速”内核，改为两等长板迎面粘连，综合考查滑块相对位移与摩擦生热定理。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-gaokao-2025-01-q09",
+          "exam_question_summary": "新能源汽车制动能量回收中开关电感与二极管构成的斩波升压充电电路选型",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e4.mutual_self_inductance",
+            "law.e5.diode_unidirectional",
+            "law.e4.lenz_law"
+          ],
+          "models": [
+            "model.ind.boost_rectifier_lc_filter"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c2.s4.demo.2",
+            "tb.s2.c2.s4.prac.q3",
+            "tb.b3.c12.s4.stse.1"
+          ],
+          "adaptation_mechanism": "脱胎于选必二P41《演示：观察开关断开时灯泡的亮度》（断电自感产生高电动势使灯泡闪亮）及必修三P98《STSE：汽车和能源》新能源汽车技术。真题抽取“开关闭合电感储能、开关断开电感产生与低压源同向串联的自感电动势”内核，引入二极管防止高压动力电池倒灌，重构为工程Boost升压电路。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-gaokao-2025-01-q10",
+          "exam_question_summary": "透明隔板平分待测溶液与空气的旋转圆柱容器由激光透射亮点时间测液体折射率",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.o1.refraction_snell",
+            "law.o1.total_internal_reflection",
+            "law.m4.circular_kinematics"
+          ],
+          "models": [
+            "model.opt.prism_semicircle_sphere_tir"
+          ],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c4.s2.demo.1",
+            "tb.s1.c4.s2.think.1"
+          ],
+          "adaptation_mechanism": "直接改编自选必一P90《演示：观察全反射现象》图4.2-1（激光沿半圆形玻璃砖半径射向直径平面并旋转改变入射角观察透射光消失）。真题将半圆玻璃砖升级为由折射率n平行隔板分隔的半圆柱溶液与空气旋转池，增加平行隔板双界面折射率n约分干扰，并将临界角测量转化为匀速旋转亮点持续时间Δt。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-gaokao-2025-01-q11",
+          "exam_question_summary": "氢原子三束可见光照射光电管的I-U曲线与单缝衍射、物质波波长及能级跃迁判断",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.q1.photoelectric_effect",
+            "law.q1.bohr_hydrogen_transitions",
+            "law.q1.compton_de_broglie",
+            "law.o2.light_diffraction"
+          ],
+          "models": [
+            "model.mod.photoelectric_bohr_combo"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.revA.q1",
+            "tb.s3.c4.s4.prac.q3",
+            "tb.s3.c4.s5.prac.q2"
+          ],
+          "adaptation_mechanism": "核心题图直接源自选必三P98复习与提高A组第1题图4-1（同一光电管三条光电流—电压曲线比较频率与最大初动能），并串联同章P91巴耳末系可见光跃迁、P97德布罗意波长及选必一单缝衍射规律。真题保留由遏止电压排序光频率的母本主线，新增正向非饱和区电流相等点到达阳极光电子数比较与最小物质波波长计算。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-gaokao-2025-01-q12",
+          "exam_question_summary": "分处异种均匀介质的同相双波源相向传播相遇时刻与跨界面干涉加强减弱点判断",
+          "slot": "slot.choice.multi_wave_opt",
+          "laws": [
+            "law.m8.wave_formation_params",
+            "law.m8.wave_superposition_interf"
+          ],
+          "models": [
+            "model.wave.standing_longitudinal_hetero",
+            "model.wave.vib_wave_dual_graphs"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c3.s4.prac.q4",
+            "tb.s1.c3.revB.q7",
+            "tb.s1.c3.s3.demo.2"
+          ],
+          "adaptation_mechanism": "以选必一P78练习与应用第4题（同频同相双波源沿直线相向传播求干涉加强或减弱点位置）和P83复习B组第7题为原型，融合P72波跨不同介质频率不变而波速波长改变的规律。真题将课本单一均匀介质改为x=6m双介质分界，不可直接套用几何路程差等于半波长整数倍，必须转化为两波传播相位差求解加强点个数。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-gaokao-2025-01-q13",
+          "exam_question_summary": "圆形区域周期性时变磁场激发同心圆感生电场中圆环、圆弧及直导线的电动势与有效值",
+          "slot": "slot.choice.multi_capstone",
+          "laws": [
+            "law.e4.faraday_induction_law",
+            "law.e5.ac_four_values",
+            "law.e5.maxwell_em_waves"
+          ],
+          "models": [
+            "model.ind.vortex_electric_field_betatron",
+            "model.ind.ac_non_sinusoidal_rms"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c2.revA.q5",
+            "tb.s2.c3.s2.prac.q7",
+            "tb.s2.c4.s2.prac.q1"
+          ],
+          "adaptation_mechanism": "源自选必二P35“感生电场”正文及P45复习A组第5题（圆形时变磁场与同心圆环感应电流）、P57练习第7题（分段交变电流有效值热等效计算）。真题在同心包络圆环Ⅰ有效值计算之上，创新设置场外相切圆环Ⅱ（净磁通为零故环电流为零）与切线直导线CD，考查利用径向零感生电场线构造闭合回路割补求局部感生电动势。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-gaokao-2025-01-q14",
+          "exam_question_summary": "探究加速度与力质量关系实验：纸带求瞬时速度、补偿阻力操作与气垫导轨双光电门测加速度",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.m3.newton_second_law",
+            "law.m1.uam_midtime_delta_x",
+            "law.m1.uam_basic_kinematics"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.mech.newton_second_law",
+            "exp.mech.ticker_velocity"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c4.s2.exp.1",
+            "tb.b1.c1.revB.q4",
+            "tb.b3.c11.s3.prac.q1"
+          ],
+          "adaptation_mechanism": "直接拼合改编自必修一P88《实验：探究加速度与力、质量的关系》图4.2-2（阻力补偿法规范与纸带处理）和P34复习B组第4题图1-5（气垫导轨遮光条过双光电门测加速度）。真题第(3)问将课本给时间间隔t求a，改为给光电门间距x与20分度游标卡尺测遮光条宽度d，由速度位移公式导出a。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-gaokao-2025-01-q15",
+          "exam_question_summary": "探究影响感应电流方向的因素实验：由检流计偏转反推磁铁运动方向及增大偏角措施",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.e4.lenz_law",
+            "law.e4.faraday_induction_law",
+            "law.e4.mutual_self_inductance"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.elec.lenz_induced_dir"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c2.s1.exp.1",
+            "tb.s2.c2.s2.hand.1"
+          ],
+          "adaptation_mechanism": "直接取材于选必二P24《实验：探究影响感应电流方向的因素》与P30《做一做》（探究磁体下落速度对感应电压示数的影响）。真题保留由灵敏电流表接线柱极性、指针偏转方向及线圈绕向逆推磁铁插拔状态的核心操作，新增G0/G1高低灵敏度接线柱切换及外套装闭合线圈产生反向互感磁通削弱偏角的深度辨析。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-gaokao-2025-01-q16",
+          "exam_question_summary": "利用分压电路、单刀双掷开关、电压表与电阻箱测定热敏电阻阻值温度特性及替代法设计",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.e5.common_sensors",
+            "law.e2.series_parallel_meters",
+            "law.e2.ohm_volt_ampere_curve"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.elec.sensor_auto_control"
+          ],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c5.s2.exp.2",
+            "tb.b3.c11.revB.q3"
+          ],
+          "adaptation_mechanism": "以选必二P99《实验：观察热敏电阻特性》为实验母题，融合必修三P76分压式滑动变阻器选型原理与串联分压测阻法。真题将课本多用电表欧姆挡定性观察升级为小阻值变阻器恒定分压输出U0、单电压表双掷切换测串联分压求Rt的定量实验，并在第(3)问考查调节电阻箱使电压表示数为U0/2（半压法）的开放方案设计。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-gaokao-2025-01-q17",
+          "exam_question_summary": "带吸管导热瓶内理想气体经等压升温与吸走水柱等温降压过程的微观解释及热一定律计算",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t2.gas_pressure_micro",
+            "law.t1.temp_molecular_ke_dist",
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo"
+          ],
+          "models": [
+            "model.thermo.cylinder_piston_thermo1",
+            "model.thermo.mercury_column_tube"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c2.s3.prac.q3",
+            "tb.s3.c1.s3.prac.q3",
+            "tb.s3.c3.revB.q5"
+          ],
+          "adaptation_mechanism": "融合选必三P30练习与应用第3题（插吸管密封罐液柱封闭气体）、P13练习第3题（气体压强微观统计解释）及P65复习B组第5题（汽缸活塞气体做功与热力学第一定律）。真题创新构造“可动瓶塞+吸管水柱差压”双约束装置，串联水浴等压膨胀做功W12与吸水等温降压膨胀W23两阶段，综合求解末体积与全程内能增量。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-gaokao-2025-01-q18",
+          "exam_question_summary": "含竖直螺旋圆轨、完全非弹性碰撞、粗糙斜轨与落地反弹斜抛进洞的多过程力学综合计算",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m6.mechanical_energy_cons",
+            "law.m7.momentum_conservation",
+            "law.m7.inelastic_collision_bounds",
+            "law.m4.centripetal_force_accel",
+            "law.m6.work_energy_theorem",
+            "law.m4.oblique_projectile"
+          ],
+          "models": [
+            "model.mech.multi_stage_track_combo",
+            "model.mech.vertical_circle_cord_track",
+            "model.mech.inelastic_bounce_series"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.s5.exmp.1",
+            "tb.b2.c8.revA.q6",
+            "tb.b2.c5.revB.q1"
+          ],
+          "adaptation_mechanism": "将选必一P22例题（等质量双物块完全非弹性碰撞动能折半）、必修二P99复习A组第6题（水平轨道接竖直圆轨道最高点临界与能量损耗）及P20复习B组第1题（等高面斜抛对称射程）三大经典母本组装为闯关游戏轨道，新增GH台面非弹性反弹（竖直分速度减半）规则，导出直接进洞与反弹一次进洞两解并受过圆顶临界约束。"
+        },
+        {
+          "question_no": 19,
+          "question_id": "zj-gaokao-2025-01-q19",
+          "exam_question_summary": "恒流源供电正方形线框沿对角线越过磁场直边界的变安培力做功、冲量、电压与时间差计算",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.m6.work_definition",
+            "law.m7.momentum_theorem",
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm"
+          ],
+          "models": [
+            "model.ind.coil_crossing_mag_field",
+            "model.mech.linear_variable_force_shm"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revA.q4",
+            "tb.s2.c2.revB.q5",
+            "tb.s1.c2.s2.hand.1"
+          ],
+          "adaptation_mechanism": "融合选必二P21复习A组第4题（折线有效长度安培力）与P47复习B组第5题（方框越界安培力图像）。真题改接恒流源使对角线有效长度决定的安培力F=2BI(L-x)随位移线性减小，既由F-x面积求功与动生反电动势求端电压，又借类简谐1/4周期等时性巧得两初位置运动时间差为零。"
+        },
+        {
+          "question_no": 20,
+          "question_id": "zj-gaokao-2025-01-q20",
+          "exam_question_summary": "加速器质谱仪测定古木碳14含量：生成与衰变核方程、磁偏转选质、平行板斜射选能及定年",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.q2.nucleus_isotopes_rays",
+            "law.q2.nuclear_decay_half_life",
+            "law.e1.charged_particle_accel",
+            "law.e3.cyclotron_motion_laws",
+            "law.e1.charged_particle_deflect"
+          ],
+          "models": [
+            "model.mag.mass_spectrometer"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c5.s2.prac.q6",
+            "tb.s3.c5.s2.prac.q3",
+            "tb.s2.c1.s4.prac.q1",
+            "tb.b3.c10.s5.exmp.2"
+          ],
+          "adaptation_mechanism": "深度融合选必三P111-112“碳14测年技术”正文及P114练习第6(3)题原方程（中子轰击氮14生成碳14）、选必二P20质谱仪分离同位素与必修三P46平行板电场偏转。真题还原加速器质谱仪AMS全流程，串联核反应、C3+圆弧管道选质、45°斜抛静电分析器选能与半衰期考古定年。"
+        }
+      ]
+    },
+    {
+      "paper_id": "zj-gaokao-2025-06",
+      "title": "2025年6月浙江物理选考真题",
+      "exam_year": 2025,
+      "exam_month": 6,
+      "question_count": 18,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-gaokao-2025-06-q01",
+          "exam_question_summary": "根据光子能量公式E=hν推导普朗克常量h的单位",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.q1.blackbody_energy_quantum",
+            "law.m3.si_base_units"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b3.c13.s5.prac.q1",
+            "tb.s3.c4.s1.prac.q1",
+            "tb.b1.c4.s4.ext.1"
+          ],
+          "adaptation_mechanism": "直接取材于必修三P125能量子正文公式ε=hν及P128练习与应用第1题、选必三P70练习第1题中普朗克常量h=6.63×10^-34 J·s的单位表述。真题隐去常数值而保留核心公式，考查由能量单位J与频率单位Hz（s^-1）执行量纲运算导出J·s并与冲量单位N·s辨析。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-gaokao-2025-06-q02",
+          "exam_question_summary": "神舟十九号载人飞船返回舱着陆过程中质点、万有引力、反推减速超失重与平均速度辨析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.point_mass_reference",
+            "law.m5.universal_gravitation",
+            "law.m3.apparent_weight",
+            "law.m1.avg_instant_velocity"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c2.s3.prac.q5",
+            "tb.b1.c4.s6.prac.q4",
+            "tb.b1.c1.revA.q4"
+          ],
+          "adaptation_mechanism": "直接脱胎于必修一P46练习与应用第5题（神舟五号返回舱着陆前缓冲发动机向下喷气减速过程），并整合必修一P33路程与平均速度辨析及P112减速下落超重模型。真题将“神舟五号”时事升级为“神舟十九号”，将匀减速计算转化为返回轨迹质点判据、近地引力变化、向下减速超重与曲线平均速率的四维辨析。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-gaokao-2025-06-q03",
+          "exam_question_summary": "桌面斜面滚下钢球落在高度可调水平木板上的平抛运动时间、初速度与落点规律",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m4.projectile_horizontal"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.mech.projectile_motion"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c5.s3.prac.q1",
+            "tb.b2.c5.s4.prac.q2",
+            "tb.b2.c5.s3.exp.1"
+          ],
+          "adaptation_mechanism": "100%源自必修二P13练习与应用第1题图5.3-7（水平桌面放置斜面让钢球同一位置滚下越过桌边做平抛运动，用高度可调水平木板记录落点）及P18第2题。真题原样照搬课本家庭探究实验装置图，直接设问下落高度h与水平射程x对应的飞行时间、平抛初速度表达式及改变h对撞击速度偏角的影响。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-gaokao-2025-06-q04",
+          "exam_question_summary": "高能电子束穿过铝箔形成衍射环纹的波动性、概率波特征及电子速度对亮斑半径影响",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q1.compton_de_broglie"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c4.s5.prac.q2",
+            "tb.s3.c4.s5.stse.1",
+            "tb.s3.c4.revB.q4"
+          ],
+          "adaptation_mechanism": "直接采用选必三P93图4.5-1《电子束穿过铝箔后的衍射图样》原书实验照片及P94“概率波”正文阐述（关联P97练习第2题德布罗意波长计算）。真题在检验物质波波动性与亮纹概率统计含义的基础上，新增电子速度增大使德布罗意波长λ=h/(mv)减小、衍射减弱从而中心亮斑半径缩小的推理设问。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-gaokao-2025-06-q05",
+          "exam_question_summary": "调节线圈铁芯、匝数或平行板电容器电介质、板间距以减小LC电路电磁振荡周期",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.lc_oscillation",
+            "law.e1.capacitor_formulas",
+            "law.e4.mutual_self_inductance"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c4.s1.think.2",
+            "tb.s2.c4.s1.prac.q4",
+            "tb.b3.c10.s4.ext.2"
+          ],
+          "adaptation_mechanism": "直接改编自选必二P74《思考与讨论》（电感L与电容C对振荡周期T=2π√(LC)的影响）和P75练习与应用第4题（极板间电介质改变引起LC振荡频率变化），融合必修三P41平行板电容决定式。真题将插铁芯、增匝数、插电介质、增板间距绘成四幅直观操作图，考查L与C单调变化对固有周期的控制。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-gaokao-2025-06-q06",
+          "exam_question_summary": "粗糙水平桌面上对称双橡皮绳连接物块沿中垂线拉离释放后的非简谐运动与弹力做功",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.force_composition_decomp",
+            "law.m2.sliding_friction",
+            "law.m8.shm_kinematics_dynamics",
+            "law.m6.work_energy_theorem"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b2.c8.s3.exmp.1",
+            "tb.s1.c2.s2.exmp.1",
+            "tb.b1.c3.s4.exp.1"
+          ],
+          "adaptation_mechanism": "关联必修一P73橡皮条二力合成、选必一P39弹簧振子简谐运动动力学判据及必修二P86动能定理求变力功例题。真题构造粗糙桌面对称双橡皮绳中垂线释放模型，重点考查几何夹角变化与恒定滑动摩擦使回复力不满足F=-kx（非简谐运动）、支持力不可漏算以及用动能定理求非线性变弹力做功。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-gaokao-2025-06-q07",
+          "exam_question_summary": "风光互补环保路灯的风电功率风速关系、光电效率、六年减排碳量与储能电池续航估算",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e2.energy_sustainability",
+            "law.e2.electric_work_joule",
+            "law.m6.power_avg_instant",
+            "law.m6.energy_conservation_macro"
+          ],
+          "models": [
+            "model.mech.wind_hydro_energy_est",
+            "model.mech.continuous_fluid_jet_impact"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b2.c8.revB.q3",
+            "tb.b3.c12.s2.prac.q7",
+            "tb.b3.c12.s2.prac.q3"
+          ],
+          "adaptation_mechanism": "由必修二P100复习与提高B组第3题（风力发电机截留气流功率与风速三次方成正比推导）与必修三P88练习第7题（电池电压与安时容量乘积换算总电能W=UQ）双母题合成。真题构建风光储一体化路灯绿色能源情境，综合考查风电功率v^3标度律、能量转化损耗、标准煤二氧化碳减排折算与阴雨周续航校核。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-gaokao-2025-06-q08",
+          "exam_question_summary": "α粒子撞击静止金原子核散射轨迹中库仑力做功、近核点动能电势能及库仑力数量级估算",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.q1.rutherford_nuclear_model",
+            "law.e1.coulomb_law",
+            "law.e1.electric_pe_work",
+            "law.e1.potential_equipotential"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c4.s3.think.2",
+            "tb.s3.c4.s3.prac.q6",
+            "tb.b3.c10.revA.q4"
+          ],
+          "adaptation_mechanism": "直接改编自选必三P81《思考与讨论》卢瑟福α粒子散射轨迹图与P83第6题（金核Z=79大核电荷库仑斥力），叠加必修三P50点电荷同心圆等势面模型。真题在散射轨迹图上增设同心虚线圆，考查斥力先负功后正功、曲线最近点P切向速度不为零（动能非零）及核间距10^-14m处高达百牛量级的库仑力定量估算。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-gaokao-2025-06-q09",
+          "exam_question_summary": "50g鸡蛋高空坠落以5cm上下沿触地时间差产生500N冲击力时的坠落楼层估算",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.m7.momentum_theorem",
+            "law.m1.free_fall_vertical_throw",
+            "law.m1.uam_basic_kinematics"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c1.revB.q3",
+            "tb.s1.c1.s2.prac.q6"
+          ],
+          "adaptation_mechanism": "100%源自选必一P30复习B组第3题（50g鸡蛋从18楼自由落下，楼层高差3m、蛋高5cm，以上下沿落地时间差为撞击时间估算冲击力）。真题原样保留50g质量、5cm高度与匀减速触地时间模型，仅将课本“已知18楼求约500N冲击力”逆向反问“产生500N冲击力对应的坠落楼层（17层）”。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-gaokao-2025-06-q10",
+          "exam_question_summary": "两端固定紧绷金属丝受激形成三波腹驻波并在中点局部磁场切割输出交流电的波速与最大功率",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.m8.wave_formation_params",
+            "law.m8.wave_superposition_interf",
+            "law.e4.motional_emf_linear_rot",
+            "law.e5.ac_four_values",
+            "law.e2.source_power_efficiency"
+          ],
+          "models": [
+            "model.wave.standing_longitudinal_hetero"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c3.s4.demo.1",
+            "tb.s1.c3.s1.demo.2",
+            "tb.s2.c2.s2.prac.q3",
+            "tb.s2.c3.s2.prac.q4"
+          ],
+          "adaptation_mechanism": "跨模块融合选必一P74绳波叠加与P64纵波特征、选必二P33简谐振动切割磁感线发电、P57有效值及必修三电源最大输出功率E^2/(4r)。真题由三波腹驻波锁定λ=2L/3求波速，用中点1cm磁场算电动势峰值与最大输出功率，并在D项辨析纵向激励形成纵驻波时中点仍可为波腹。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-gaokao-2025-06-q11",
+          "exam_question_summary": "热力学第二定律、相对论粒子寿命延缓、变压器感生电场机理与电阻型传感器原理综合辨析",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.t2.second_law_entropy",
+            "law.q2.elementary_relativity",
+            "law.e5.ideal_transformer",
+            "law.e5.maxwell_em_waves",
+            "law.e5.common_sensors"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c7.s5.think.1",
+            "tb.s2.c5.s2.prac.q1",
+            "tb.s2.c3.s3.think.1",
+            "tb.s3.c3.s4.think.1"
+          ],
+          "adaptation_mechanism": "四选项逐一直接对应课本四处原文：A源自选必三P60热传导不可逆讨论；B直接改编必修二P67《思考与讨论》（高速运动μ子因时间延缓比低速时平均寿命更长，题面故意说反）；C结合选必二P35感生电场与P61变压器能量传递机理；D直接取自选必二P102练习第1题热敏电阻与电阻应变片输入输出对照表。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-gaokao-2025-06-q12",
+          "exam_question_summary": "氢原子n=4、6跃迁至n=2的两束光经棱镜分光、弯棒导光、劈尖干涉与光电效应四图联考",
+          "slot": "slot.choice.multi_wave_opt",
+          "laws": [
+            "law.q1.bohr_hydrogen_transitions",
+            "law.o1.dispersion_spectrum",
+            "law.o1.total_internal_reflection",
+            "law.o2.thin_film_interference",
+            "law.q1.photoelectric_effect"
+          ],
+          "models": [
+            "model.mod.photoelectric_bohr_combo",
+            "model.opt.thin_film_wedge_newton_ring"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.s4.walk.1",
+            "tb.s1.c4.s2.demo.2",
+            "tb.s1.c4.s3.prac.q4",
+            "tb.s3.c4.s2.think.2"
+          ],
+          "adaptation_mechanism": "集结四幅课本原图并用氢原子巴耳末跃迁串联：甲为选必三P90图4.4-9棱镜光谱图，乙为选必一P93图4.2-6弯曲玻璃棒全反射导光图，丙为选必一P100练习第4题图4.3-7劈尖干涉图，丁为选必三P75光电效应Ek-ν图。真题以4→2与6→2光子能量差统领折射率、全反射、劈尖条纹与初动能。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-gaokao-2025-06-q13",
+          "exam_question_summary": "月球北极上方水平发射物体沿最短周期椭圆轨道落至北纬60°月面的高度、焦距、周期与落速",
+          "slot": "slot.choice.multi_capstone",
+          "laws": [
+            "law.m5.kepler_three_laws",
+            "law.m5.gravity_gold_sub",
+            "law.m5.gravitational_pe_formula",
+            "law.m6.mechanical_energy_cons"
+          ],
+          "models": [
+            "model.mech.binary_star_orbit_transfer"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b2.c7.s1.hand.1",
+            "tb.b2.c7.s3.think.1",
+            "tb.b2.c7.s4.think.1"
+          ],
+          "adaptation_mechanism": "将必修二P45《做一做：用图钉和细绳画椭圆》（椭圆双焦点到轨上点距离和2a）、P56开普勒第三定律及P60近地圆轨道周期黄金代换深度融合。真题创设月球亚轨道定点投送情境，需由第二焦点几何垂线极值锁定最短周期对应最小半长轴a=3R/4，并结合引力势能公式-GMm/r排除匀强重力场2gh落速误区。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-gaokao-2025-06-q14",
+          "exam_question_summary": "干电池电动势内阻测量电路选型作图与单摆测重力加速度传感器周期、l-T²消误差及圆弧槽误差",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.e2.closed_circuit_ohm",
+            "law.m8.simple_pendulum",
+            "law.m4.centripetal_force_accel",
+            "law.m6.mechanical_energy_cons"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.elec.battery_emf_r",
+            "exp.mech.pendulum_gravity"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b3.c12.s3.exp.1",
+            "tb.s1.c2.revB.q3",
+            "tb.s1.c2.s5.exp.1"
+          ],
+          "adaptation_mechanism": "上半题直接源自必修三P89《实验：电池电动势和内阻的测量》电路选型与U-I作图；下半题源自选必一P51单摆测g实验，其中变形球作l-T^2图求g与重心差直接改编自选必一P60复习B组第3题，末问创新引入3D打印5°圆弧槽，考查小球沿槽滚动分走转动动能使周期变大、g测值偏小的物理本质。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-gaokao-2025-06-q15",
+          "exam_question_summary": "中医拔火罐热空气倒扣皮肤等容冷却过程的末态压强、内能变化量与皮肤吸力计算",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo",
+            "law.t1.internal_energy"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c2.s3.prac.q2",
+            "tb.s3.c3.revB.q5"
+          ],
+          "adaptation_mechanism": "直接由选必三P30练习与应用第2题图2.3-4（中医“拔火罐”加热罐内空气倒扣皮肤等容冷却紧贴皮肤求压力）扩写为高考计算大题！真题完整沿用课本医学情境与忽略皮肤形变等容查理定律假设（温度由80℃→20℃微调为易算的77℃→27℃），并结合第3章热一定律新增等容放热ΔU=Q及内外压差求皮肤吸力。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-gaokao-2025-06-q16",
+          "exam_question_summary": "物块经斜轨、顺时针水平传送带加速共速后冲上光滑面可动半圆弧轨道最高点的功、划痕与压力",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m6.work_energy_theorem",
+            "law.m2.sliding_friction",
+            "law.m1.uam_basic_kinematics",
+            "law.m7.momentum_conservation",
+            "law.m6.mechanical_energy_cons",
+            "law.m4.centripetal_force_accel"
+          ],
+          "models": [
+            "model.mech.multi_stage_track_combo",
+            "model.mech.horizontal_conveyor",
+            "model.mech.bullet_block_arc_groove"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b2.c8.revA.q6",
+            "tb.s1.c1.s3.exmp.1",
+            "tb.b2.c6.s4.prac.q4"
+          ],
+          "adaptation_mechanism": "将必修二P99复习A组第6题（水平轨道接竖直半圆导轨的能量与圆周运动）、水平传送带摩擦共速划痕计算及选必一第1章水平动量守恒融合升级。核心进阶在于把固定半圆轨改为光滑水平面可动半圆弧槽，最高点不再共速，须联立水平动量守恒与机械能守恒解出物块与槽异向速度后，按相对圆周速度求轨道压力。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-gaokao-2025-06-q17",
+          "exam_question_summary": "两级水平电磁弹射系统：恒压导轨线性阻力收尾匀速耗能与超导线圈断电感生冲量二次加速飞机",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.e4.motional_emf_linear_rot",
+            "law.e2.closed_circuit_ohm",
+            "law.m7.momentum_theorem",
+            "law.e4.faraday_induction_law",
+            "law.e4.lenz_law",
+            "law.m7.momentum_conservation"
+          ],
+          "models": [
+            "model.mag.electromagnetic_launcher",
+            "model.ind.single_rod_dc_source_drive",
+            "model.mech.linear_drag_momentum_sum"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revB.q1",
+            "tb.s2.c2.revA.q6",
+            "tb.s2.c2.s1.exmp.1",
+            "tb.s1.c1.s3.exmp.2"
+          ],
+          "adaptation_mechanism": "综合选必二P22水平导轨安培力、P46动生切割电路、P27楞次定律判线圈电流及选必一反冲动量守恒。真题创设两级电磁弹射模型：第一级含恒压源反电动势U-Blv与线性阻力kv，需对全过程列微元动量定理消去位移xm求总电量q与电源输出能qU；第二级借超导磁场骤消产生感生冲量BlΦ/R2对飞机实施二次弹射。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-gaokao-2025-06-q18",
+          "exam_question_summary": "回旋加速器氘核轰击铝核反应、圆形磁场质子能谱偏转测距及激发态铝28核β衰变释放能量",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.q2.nucleus_isotopes_rays",
+            "law.e3.cyclotron_motion_laws",
+            "law.e2.current_micro_macro",
+            "law.q2.binding_energy_mass_defect",
+            "law.m6.energy_conservation_macro"
+          ],
+          "models": [
+            "model.mag.cyclotron_accelerator",
+            "model.mag.bounded_mag_chord_tangent",
+            "model.mod.collider_nuclear_reaction"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c5.revB.q4",
+            "tb.s2.c1.s4.prac.q4",
+            "tb.s2.c1.s3.exmp.1",
+            "tb.s3.c5.s2.prac.q5"
+          ],
+          "adaptation_mechanism": "融合选必二P20回旋加速器、P15磁场圆周偏转与选必三P114铝27人工核转变、P131复习B组第4题（衰变产生激发态子核及激发态能差核算）。真题用圆形匀强磁场分离3MeV与9MeV两束质子，反推出铝28激发态高出基态6MeV，再扣除电子静质能0.51MeV求得β衰变释放能量。"
+        }
+      ]
+    },
+    {
+      "paper_id": "zj-26-erkao--paper-0f58a917fecae1c2",
+      "title": "2026年6月浙江物理选考真题",
+      "exam_year": 2026,
+      "exam_month": 6,
+      "question_count": 18,
+      "questions": [
+        {
+          "question_no": 1,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q01",
+          "exam_question_summary": "位移、电场强度、磁感应强度与热量四个物理量中标量与矢量的辨析",
+          "slot": "slot.choice.si_concept",
+          "laws": [
+            "law.m1.displacement_distance",
+            "law.e1.electric_field_superpos",
+            "law.e3.magnetic_induction_flux",
+            "law.t2.first_law_thermo"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q4",
+            "tb.b3.c9.s3.think.1",
+            "tb.s3.c3.s2.exmp.1"
+          ],
+          "adaptation_mechanism": "锚定必修一P33复习与提高A组第4题（矢量与标量基础辨析）、必修三P12电场强度矢量定义及选必三P51热力学第一定律中热量传递标量属性。真题横跨力、电、磁、热四大模块抽取代表性物理量，检验对“有大小和方向且服从平行四边形定则的场强/位移矢量”与“过程能量转移标量（热量）”的准确区分。"
+        },
+        {
+          "question_no": 2,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q02",
+          "exam_question_summary": "人形机器人半程马拉松夺冠情境中转弯加速度、参考系、质点判据与平均速度辨析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m1.point_mass_reference",
+            "law.m1.displacement_distance",
+            "law.m1.avg_instant_velocity",
+            "law.m1.acceleration_concept"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.b1.c1.revA.q1",
+            "tb.b1.c1.revA.q2",
+            "tb.b1.c1.revA.q4"
+          ],
+          "adaptation_mechanism": "整合必修一第1章P33复习与提高A组第1、2、4题（质点理想化条件、相对运动参考系变换、路程与位移区别）及曲线转弯速度方向改变必有加速度的核心概念。真题以2026年人形机器人半程马拉松21.0975km赛事为载体，一站式考查第一章四大基础运动学概念的易错点。"
+        },
+        {
+          "question_no": 3,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q03",
+          "exam_question_summary": "卢瑟福用α粒子轰击氮原子核首次实现原子核人工转变反应方程中未知粒子判断",
+          "slot": "slot.choice.tom_core",
+          "laws": [
+            "law.q2.nucleus_isotopes_rays",
+            "law.q2.nuclear_decay_half_life"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s3.c5.s2.prac.q5",
+            "tb.s3.c5.s2.prac.q6",
+            "tb.s3.c5.s1.think.2"
+          ],
+          "adaptation_mechanism": "题干逐字引用选必三P112“核反应”正文原句与方程（“卢瑟福用α粒子轰击氮原子核，产生了氧17和一个质子，这是人类第一次实现的原子核的人工转变”，关联P104发现质子讨论与P114练习第5、6题）。真题将产物中的质子挖空为X，直接考查教材标志性物理学史及核反应质量数与电荷数守恒。"
+        },
+        {
+          "question_no": 4,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q04",
+          "exam_question_summary": "静止斜靠在光滑竖直墙壁上且下端置于粗糙水平地面的直梯侧面受力示意图判断",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m2.gravity_center_of_mass",
+            "law.m2.elastic_force_hooke",
+            "law.m2.static_friction",
+            "law.m2.concurrent_equilibrium"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b1.c3.revA.q2",
+            "tb.b1.c3.s1.prac.q4"
+          ],
+          "adaptation_mechanism": "一字不差改编自必修一P80复习与提高A组第2题图3-1（“一架直梯斜靠在光滑的竖直墙壁上，下端放在粗糙的水平地面上，直梯处于静止状态。请画出从侧面观察时直梯的受力示意图”）。真题直接把课本主观画图母题转化为客观图像选择题，针对光滑墙面无摩擦力、弹力垂直接触面与地面向左静摩擦力设错。"
+        },
+        {
+          "question_no": 5,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q05",
+          "exam_question_summary": "220V理想变压器为121个并联晚会彩灯供电的匝数比、功率与原线圈电流",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e5.ideal_transformer",
+            "law.e2.series_parallel_meters",
+            "law.e2.electric_work_joule"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s2.c3.revA.q4",
+            "tb.s2.c3.s3.prac.q2"
+          ],
+          "adaptation_mechanism": "100%源自选必二P68复习与提高A组第4题（晚会装饰120个4V、0.1A小彩灯并联由变压器供电，原线圈接220V照明电路，求原线圈电流）。真题完整保留晚会彩灯情境与4V、0.1A、220V参数，仅将120个改为121个使原线圈电流整除得0.22A，并增设匝数比与输入功率辨析。"
+        },
+        {
+          "question_no": 6,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q06",
+          "exam_question_summary": "由简谐横波在t=0.5s时刻的波形图与波速求波频率、质点运动方向、路程及振动方程",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m8.wave_formation_params",
+            "law.m8.shm_kinematics_dynamics",
+            "law.m8.shm_symmetry_energy"
+          ],
+          "models": [
+            "model.wave.vib_wave_dual_graphs"
+          ],
+          "experiments": [],
+          "provenance_level": "curriculum_canonical",
+          "source_textbook_ids": [
+            "tb.s1.c3.revA.q4",
+            "tb.s1.c3.s2.prac.q2"
+          ],
+          "adaptation_mechanism": "对应选必一P82复习与提高A组第4题（结合波形图与质点简谐运动正弦表达式求波长、波速与传播方向）及P70练习第2题（质点振动方向与周期路程计算）。真题将课本已知t=0波形与振动方程求波速，反转为已知t=0.5s非零时刻波形与波速反写质点初相位及振动方程，并排查质点随波迁移迷思。"
+        },
+        {
+          "question_no": 7,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q07",
+          "exam_question_summary": "月球上宇航员用测力计称钩码重力求月球质量及第一宇宙速度、劲度系数与激光速度辨析",
+          "slot": "slot.choice.mech_core",
+          "laws": [
+            "law.m5.universal_gravitation",
+            "law.m5.gravity_gold_sub",
+            "law.m5.three_cosmic_velocities",
+            "law.m2.elastic_force_hooke",
+            "law.q2.elementary_relativity"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.b2.c7.revA.q6",
+            "tb.b2.c7.s4.think.1",
+            "tb.b2.c7.s5.prac.q1"
+          ],
+          "adaptation_mechanism": "直接改编自必修二P71复习与提高A组第6题（“在月球上的宇航员已知引力常量和月球半径且有质量为m的钩码，怎样测出月球质量并写出表达式”）。真题用测力计示数W落实课本实验方案得M=WR^2/(Gm)，并融合同章P60第一宇宙速度中心天体质量误代钩码m、弹簧劲度系数不变性及P66狭义相对论光速不变原理。"
+        },
+        {
+          "question_no": 8,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q08",
+          "exam_question_summary": "竖直磁场中接恒定电源的两共轴光滑金属圆环间导体棒偏离30°平衡角后的阻尼振动θ-t图像",
+          "slot": "slot.choice.em_core",
+          "laws": [
+            "law.e3.ampere_force_effective_l",
+            "law.m2.concurrent_equilibrium",
+            "law.e4.motional_emf_linear_rot",
+            "law.e4.lenz_law",
+            "law.e4.eddy_damping_drive",
+            "law.m8.forced_vib_resonance"
+          ],
+          "models": [
+            "model.mag.ampere_3d_to_2d_balance",
+            "model.ind.single_rod_dc_source_drive"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s2.c1.revB.q2",
+            "tb.s2.c2.s3.prac.q2",
+            "tb.s1.c2.s6.prac.q1"
+          ],
+          "adaptation_mechanism": "综合选必二P22复习B组第2题（竖直磁场中倾斜导轨通电金属杆安培力平衡）、P39练习第2题（闭合回路电磁阻尼使振动迅速衰减）与选必一P55阻尼振动图像特征。真题将直导轨改为圆弧环轨，在恒压电源维持θ0=30°静态平衡基础上引入小角微扰，考查棒切割磁感线产生附加阻尼安培力使θ围绕30°衰减振荡。"
+        },
+        {
+          "question_no": 9,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q09",
+          "exam_question_summary": "建筑工地重锤自由下落撞击桩体并共同陷入软土停下过程的阻力、内力、机械能损失与冲量",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.m1.free_fall_vertical_throw",
+            "law.m7.momentum_conservation",
+            "law.m7.inelastic_collision_bounds",
+            "law.m7.momentum_theorem",
+            "law.m2.newton_third_law",
+            "law.m6.work_energy_relations"
+          ],
+          "models": [],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.revA.q1",
+            "tb.s1.c1.s5.exmp.1",
+            "tb.b2.c8.s3.exmp.2"
+          ],
+          "adaptation_mechanism": "由选必一P29复习A组第1题（铁锤自由落下打在水泥桩上用动量定理求冲击力）、P22完全非弹性碰撞粘连动能损失例题与必修二P87例题2（打夯重物砸入松散地面求阻力）三母本融合。真题串联自由落体、瞬时锤桩完全非弹性碰撞与共同入土三阶段，重点考查碰撞耗能使软土做功小于总机械能损失及全程动量定理。"
+        },
+        {
+          "question_no": 10,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q10",
+          "exam_question_summary": "全液冷兆瓦级充电装置的输出电功率、电压及水冷散热系统体积流量计算",
+          "slot": "slot.choice.single_capstone",
+          "laws": [
+            "law.e2.electric_work_joule",
+            "law.e2.energy_sustainability",
+            "law.m6.energy_conservation_macro"
+          ],
+          "models": [
+            "model.mech.wind_hydro_energy_est"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c12.revA.q2",
+            "tb.b3.c12.s4.prac.q6",
+            "tb.b3.c11.s1.stse.1"
+          ],
+          "adaptation_mechanism": "融合必修三P100复习A组第2题（电热功率与水的比热容升温关系）、P99练习第6题（水电站连续流体体积流量微元能量计算）及P55电动汽车充电技术。真题区分充电输出功率（20度/分钟即1.2MW）与电路焦耳热功率（10kW），联立热交换功率平衡P热=ρcΔT·Q求解冷却水体积流量与每分钟出水量。"
+        },
+        {
+          "question_no": 11,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q11",
+          "exam_question_summary": "黑体辐射谱、不同摆长单摆共振、不同电容充电I-t与金属半导体电阻—温度四条教材曲线判读",
+          "slot": "slot.choice.multi_mod_thermo",
+          "laws": [
+            "law.q1.blackbody_energy_quantum",
+            "law.m8.forced_vib_resonance",
+            "law.m8.simple_pendulum",
+            "law.e1.capacitor_formulas",
+            "law.e2.resistance_law",
+            "law.e5.common_sensors"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.elec.capacitor_charge_dis"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c2.s6.prac.q4",
+            "tb.b3.c10.s4.ext.1",
+            "tb.s2.c5.s2.exp.2",
+            "tb.s3.c4.s1.prac.q1"
+          ],
+          "adaptation_mechanism": "四幅曲线均直接改编自四册课本原图：甲为选必三P68图4.1-2黑体辐射温度曲线；乙取自选必一P58练习第4题图2.6-8（单摆摆长对共振峰频率的影响）；丙源自必修三P39《拓展学习》图10.4-2电容充放电I-t图（面积Q=CU判电容）；丁照搬选必二P98图5.2-4金属与热敏电阻曲线并反标设错。"
+        },
+        {
+          "question_no": 12,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q12",
+          "exam_question_summary": "方解石双折射晶体经透明树脂胶斜向粘合成偏振棱镜中o光与e光的折射、光子能量及全反射消光",
+          "slot": "slot.choice.multi_wave_opt",
+          "laws": [
+            "law.o1.refraction_snell",
+            "law.o1.total_internal_reflection",
+            "law.o1.apparent_depth_shift",
+            "law.q1.blackbody_energy_quantum"
+          ],
+          "models": [
+            "model.opt.prism_semicircle_sphere_tir"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c2.s4.exp.1",
+            "tb.s1.c4.revA.q5",
+            "tb.s1.c4.s2.think.1"
+          ],
+          "adaptation_mechanism": "由选必三P33图2.4-6“方解石晶体双折射现象”出发，跨册融合选必一P114棱镜折射全反射光路与平行界面出射平行性规律。真题给出树脂胶折射率1.55介于o光1.658与e光1.486之间的格兰—汤姆孙偏振器件，定量推导高折射率o光在胶层界面发生全反射滤除、仅留单束e光射出的入射角正弦上限。"
+        },
+        {
+          "question_no": 13,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q13",
+          "exam_question_summary": "热电子加速碰撞激发基态氢原子后45°斜射入匀强偏转电场形成分立荧光斑点的电压与间距分析",
+          "slot": "slot.choice.multi_capstone",
+          "laws": [
+            "law.e1.charged_particle_accel",
+            "law.e1.uniform_field_u_ed",
+            "law.e1.charged_particle_deflect",
+            "law.m4.oblique_projectile",
+            "law.q1.bohr_hydrogen_transitions"
+          ],
+          "models": [
+            "model.mod.franck_hertz_collision"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c4.revA.q2",
+            "tb.s3.c4.revB.q2",
+            "tb.b3.c10.s5.exmp.2",
+            "tb.b2.c5.revB.q1"
+          ],
+          "adaptation_mechanism": "将选必三P98复习A组第2题（电子碰撞基态氢原子传能）及B组第2题（n=1..4跃迁发光）与必修三P46匀强电场偏转、必修二P20 45°斜抛射程融合。真题构建弗兰克—赫兹实验模型，由弹性碰后电子45°类斜抛最远射程12.8cm反推加速电压12.8V，锁定激发至n=2,3,4并求荧光斑最大间距。"
+        },
+        {
+          "question_no": 14,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q14",
+          "exam_question_summary": "双缝干涉测光波长光具座调节操作与利用已知内阻电流挡及密绕法测滑动变阻器金属丝电阻率",
+          "slot": "slot.nonchoice.exp_trio",
+          "laws": [
+            "law.o2.double_slit_interference",
+            "law.e2.ohm_volt_ampere_curve",
+            "law.e2.series_parallel_meters",
+            "law.e2.resistance_law"
+          ],
+          "models": [],
+          "experiments": [
+            "exp.opt.double_slit_wavelength",
+            "exp.elec.metal_resistivity"
+          ],
+          "provenance_level": "direct_adaptation",
+          "source_textbook_ids": [
+            "tb.s1.c4.s4.exp.1",
+            "tb.b3.c11.s3.exp.1",
+            "tb.b3.c11.s3.prac.q1"
+          ],
+          "adaptation_mechanism": "14-Ⅰ直接取材于选必一P101《实验：用双缝干涉测量光的波长》光具座排序、拨杆调平、光源共轴与旋转测量头细节；14-Ⅱ改编自必修三P62测导体电阻率实验，改测滑动变阻器全电阻（扣已知电流挡内阻），用密绕长除匝数求线径、游标卡尺测瓷管外径求总长，并评估两变阻器互换合理性。"
+        },
+        {
+          "question_no": 15,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q15",
+          "exam_question_summary": "绝热汽缸锁定活塞与电阻丝加热理想气体的状态方程、热一定律求功及匀速上升时内能与分子数判断",
+          "slot": "slot.nonchoice.calc_thermo",
+          "laws": [
+            "law.t2.gas_three_laws_ideal",
+            "law.t2.first_law_thermo",
+            "law.t1.internal_energy",
+            "law.t1.temp_molecular_ke_dist"
+          ],
+          "models": [
+            "model.thermo.cylinder_piston_thermo1"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s3.c3.revA.q5",
+            "tb.s3.c1.s4.think.2",
+            "tb.s3.c1.s4.prac.q4",
+            "tb.s3.c2.s3.ext.1"
+          ],
+          "adaptation_mechanism": "前半部融合选必三P29理想气体状态方程与P64复习A组第5题图3-2（绝热汽缸内电热丝加热封闭气体的热一定律分析）；第(3)问直接脱胎于选必三P16《思考与讨论》与同页第4题（辨析物体整体机械运动对分子无规则热运动内能无贡献），考查汽缸随平台匀速上升时气体内能不变且相对汽缸上下运动分子数近似相等。"
+        },
+        {
+          "question_no": 16,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q16",
+          "exam_question_summary": "物块经水平传送带与半圆弧同弹簧振子弹性碰撞反弹往返，比对振子周期相位判定二次碰撞状态",
+          "slot": "slot.nonchoice.calc_mech",
+          "laws": [
+            "law.m2.sliding_friction",
+            "law.m3.newton_second_law",
+            "law.m1.uam_basic_kinematics",
+            "law.m6.work_energy_theorem",
+            "law.m4.centripetal_force_accel",
+            "law.m7.elastic_collision_laws",
+            "law.m6.mechanical_energy_cons",
+            "law.m8.shm_kinematics_dynamics"
+          ],
+          "models": [
+            "model.mech.multi_stage_track_combo",
+            "model.mech.horizontal_conveyor",
+            "model.mech.elastic_moving_hits_rest"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.s1.c1.s5.prac.q2",
+            "tb.s1.c2.s2.exmp.1",
+            "tb.s1.c2.revB.q4"
+          ],
+          "adaptation_mechanism": "将选必一P24练习第2题（小球弹性正碰静止4倍质量大球反弹，题中微调为5倍得整数速度）、水平圆周向心力、有界传送带对称往返与选必一P39弹簧振子周期相位融合。压轴问比对物块反弹经运动传送带折返总耗时2.25s与振子T=1s相位，锁定二次碰撞处于第3周期压缩回程段。"
+        },
+        {
+          "question_no": 17,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q17",
+          "exam_question_summary": "强脉冲激光驱动电容—线圈靶产生圆柱形强磁场偏转高能质子束测磁感应强度及估算量子效率",
+          "slot": "slot.nonchoice.calc_particle",
+          "laws": [
+            "law.e3.lorentz_force",
+            "law.e3.cyclotron_motion_laws",
+            "law.m6.work_energy_theorem",
+            "law.m7.momentum_impulse",
+            "law.e2.current_micro_macro",
+            "law.q1.blackbody_energy_quantum"
+          ],
+          "models": [
+            "model.mag.bounded_mag_chord_tangent"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c13.s5.prac.q2",
+            "tb.s2.c1.s3.exmp.1",
+            "tb.s1.c4.s6.prac.q5",
+            "tb.b3.c11.s1.prac.q2"
+          ],
+          "adaptation_mechanism": "跨册融合选必一P113练习第5题（脉冲强激光能量聚集）、选必二P15质子磁场圆周偏转、必修三P56脉冲电流电量与P128练习第2题（由激光波长和能量算光子数）。真题创设电容—线圈靶情境，由三维洛伦兹力与微区强场小角偏转近似求得150T强场，再比对电子数与光子数求量子效率。"
+        },
+        {
+          "question_no": 18,
+          "question_id": "zj-26-erkao--paper-0f58a917fecae1c2-q18",
+          "exam_question_summary": "输电线巡检机器人半填充磁性材料螺绕环在直导线环向磁场中串联与圆筒短接并联的推力与热功率比",
+          "slot": "slot.nonchoice.calc_ind",
+          "laws": [
+            "law.e3.ampere_right_hand_rule",
+            "law.e3.ampere_force_effective_l",
+            "law.e3.ampere_molecular_current",
+            "law.e2.series_parallel_meters",
+            "law.e2.resistance_law",
+            "law.e2.electric_work_joule"
+          ],
+          "models": [
+            "model.mag.nonuniform_mag_coil_propulsion"
+          ],
+          "experiments": [],
+          "provenance_level": "archetype_synthesis",
+          "source_textbook_ids": [
+            "tb.b3.c13.s1.demo.1",
+            "tb.b3.c13.s1.walk.1",
+            "tb.s2.c1.s1.prac.q3",
+            "tb.b3.c12.s1.exmp.1"
+          ],
+          "adaptation_mechanism": "综合必修三P106直导线同心圆磁感线演示、P107《安培分子电流假说》铁磁介质增磁、选必二P7多匝线圈安培力叠加与必修三串并联热功率规律。真题用半环磁性材料制造强弱场差产生轴向推力驱动巡检机器人，再借内外金属圆筒短接轴向边将n匝串联反相边重构为2n条径向边同向并联降耗。"
+        }
+      ]
+    }
+  ]
+}

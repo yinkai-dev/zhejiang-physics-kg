@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "e8fd3d2b8b129778e606e511add2361bfc5bc2ecdfb4c512261c7150e1d2a890",
-  "ontology_version": "1.1.0-release",
+  "version": "8893619da9c4e33f25f1a2563e71837feba35848e9b2944d4e4608dcfeb9d618",
+  "ontology_version": "1.2.0-release",
   "annotated_questions": 958,
   "tabs": {
     "curriculum": [

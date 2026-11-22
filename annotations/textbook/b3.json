@@ -1,0 +1,4756 @@
+{
+  "schema_version": "1.0.0",
+  "book_id": "b3",
+  "annotation_source": "textbook_grounded_ai",
+  "items": [
+    {
+      "item_id": "tb.b3.c9.s1.prac.q1",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "c2a93c7cf4554d6dc6de1aceeff7f4199ffaca2611e1e29f301ed820a5f5bfb7",
+      "concise_topic": "干燥天气脱衣摩擦起电与接触金属门把手放电解释",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s1.prac.q2",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "4cdd5f022e12ea7265a9f1cb7501199f6ac2d123d03a860913429509956749d0",
+      "concise_topic": "感应起电接触导体分开带负电时电子转移方向与数目计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s1.prac.q3",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "e702d50b8d8eef40b62cda8574ad3e6ac5936a8bc76b78baea2991b8d7391598",
+      "concise_topic": "带正电球靠近中性导体不同截面分割后电性与电量守恒分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s1.prac.q4",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 5,
+      "content_sha256": "ee01c0d03a12c9de34566755b4243f491bb42ee6d37fffc299956c4da551f990",
+      "concise_topic": "元电荷物理概念与带电体电荷量量子化特征辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.exmp.1",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 8,
+      "content_sha256": "076c85479632f8df1b9025aca58ceaa5f49e0641df9fda66688cf1bd7971b2f2",
+      "concise_topic": "氢原子内质子与电子间库仑静电力和万有引力数量级对比",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m5.universal_gravitation",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.exmp.2",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 9,
+      "content_sha256": "ee92c6463239e71a68af49e2ec51c3211644d8e315116a03e4b79660d60b1e4e",
+      "concise_topic": "等边三角形三顶点等量正点电荷各自所受库仑力矢量合成",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s2.prac.q1",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "5919635b3af453d042a25d33550d51c535628b11db3fb1e7bc778f8aeba829ab",
+      "concise_topic": "三个相同金属球多次接触均分电荷获得目标电量操作设计",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.prac.q2",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "a91e6f24c4fd1531b1890623c3a33cb680ccf63812f487ebf7202421bc5117ac",
+      "concise_topic": "球心距三倍半径的同种带电金属球库仑定律点电荷适用性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m1.point_mass_reference"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.prac.q3",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "f1ccabea3c0ef853aede4fc0679a29cb247b85b3877acfbcd964be3f06353d6f",
+      "concise_topic": "等量异种带电小球经中性球依次接触及间距加倍后静电力计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charge_conservation",
+        "law.e1.coulomb_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.prac.q4",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "f11fd4c135284ed9f3715286c25fa21051480e837ee57b9eea92a7ce8719df57",
+      "concise_topic": "正方形四顶点等量同种点电荷对单顶点电荷的库仑合力计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s2.prac.q5",
+      "unit_id": "unit.b3.c9.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 10,
+      "content_sha256": "8d1b6d85e4e9a7adc9034e768b477153e03f2155a4e1444472289f6fcaccf473",
+      "concise_topic": "同点绝缘细线悬挂两个同种等量带电小球平衡求电荷量",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.similar_triangles"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.em.gravity_ignored_for_droplet_ball"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q1",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "de18e155c2ca8ede0d7003db1f919de6ae5955de2cad507117a92df58c593cc8",
+      "concise_topic": "电场强度定义式、点电荷场强决定式与匀强场受力多选辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy",
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q2",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 16,
+      "content_sha256": "928b6e0b05237ccc6aa2e082488ad981a73888c1a7239877e043cab85a80bdd9",
+      "concise_topic": "利用不同试探电荷在电场各点所受静电力求解电场强度之比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q3",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 17,
+      "content_sha256": "6605155db5a1544e95264f7d03e984931660850863fcf8d1a244378f8e75f6aa",
+      "concise_topic": "仿照电场强度比值定义法建立地球重力场强度的大小与方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m2.gravity_center_of_mass"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition",
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q4",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 17,
+      "content_sha256": "65009d5d4722b2c8036a4477cd116a52ae8477e2e78a34efb065079918068416",
+      "concise_topic": "电场线与带电粒子在电场中运动轨迹是否重合的条件辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m4.curvilinear_condition"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.field_line_is_trajectory"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q5",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 17,
+      "content_sha256": "31f3b68fd183917734cce6d56fb8fe6c071d4d2ff1b9b3ada7fa0791495cb631",
+      "concise_topic": "由非匀强电场线疏密与切线判断场强强弱方向及负电荷受力",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q6",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 17,
+      "content_sha256": "0cb60f504a33ae13d1d8249f016418394ca253ac438b6b5961df3d5928ab7f9e",
+      "concise_topic": "水平匀强电场中绝缘轻绳悬挂带正电小球偏转平衡求场强",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m2.concurrent_equilibrium",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted",
+        "trap.em.gravity_ignored_for_droplet_ball"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s3.prac.q7",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 17,
+      "content_sha256": "081e397e04f7799c6016ca8e2c988c9e32546a2daa699b4a25079bc9d9f82707",
+      "concise_topic": "坐标轴固定不等量异种点电荷求场强为零位置及正向场强区间",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [
+        "model.elec.three_collinear_charges"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s4.prac.q1",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "692ae576c0b50fca4d544d3bf1c4fdf13322352bf6fb95b5d4e180c006ad3254",
+      "concise_topic": "印刷印染与制药车间静电吸附危害及消除静电措施设计",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s4.prac.q2",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "0f889215c8b172ff74f8a4564eae0938aeed12cb692399a45d1ecd3c9b8c11b1",
+      "concise_topic": "起电机连接锯条与金属片演示塑料瓶内蚊香烟雾静电除尘机理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding",
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s4.prac.q3",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "08619091aec96ed75466a3987df932f1f1f224ce6714647541768483182c83f8",
+      "concise_topic": "超高压输电线带电作业服混纺金属丝实现人体静电屏蔽原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s4.prac.q4",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "7c1aad5c966e25a18ebfdb905be2fa8e79758ba3e225b66f66dd10579b98f248",
+      "concise_topic": "燃气电子点火器钉尖电极尖端放电与验电器顶端金属球设计对比",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s4.prac.q5",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 22,
+      "content_sha256": "904a9e468316421ca8c859aee06397f8653d18cd4aee886977038647f77daaab",
+      "concise_topic": "有线话筒线外层金属网屏蔽层防止外界静电信号干扰原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q1",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "2f4b413f7e99091f5ded78191eb0f544735584afdd2419f1960785bf4bba9aee",
+      "concise_topic": "验电器带电后两片金属箔张开并稳定在确定角度的平衡机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.charge_conservation",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q2",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "8cf374141cf8b6e46d3fb6c90ec5c1dd1792bdb306d54bcbef5555ed41dc8c46",
+      "concise_topic": "带电体旁接触导体先分后移与先移后分两种操作顺序电性判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q3",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "b1ed38447ddaa7dd79a0ac860c8fc2aba0720f95c9d9fcf859a755d50d469235",
+      "concise_topic": "等质量不等电量同种带电双球等长细线悬挂偏角相等论证",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.newton_third_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q4",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "4af9a16528559897389d7f3397e7556df1000922a502ccb685d3c5872d2b0bc4",
+      "concise_topic": "两个自由正电小球引入第三带电球实现三点共线静电力平衡",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [
+        "model.elec.three_collinear_charges"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q5",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "b1bae056b890041e75eb9ddba4d1c92037a202448eb521c1af031c5537c6f9cc",
+      "concise_topic": "竖直平行板匀强电场中长绝缘线悬挂带电小球微偏角平衡求电量",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m2.concurrent_equilibrium"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.small_angle_approx"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.em.gravity_ignored_for_droplet_ball"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.revA.q6",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 23,
+      "content_sha256": "f4cd29bd8371e23f9600840ff8c350296817672b76b1bcfb78408eaa56cb918d",
+      "concise_topic": "轴向外置点电荷使导体棒静电平衡时感应电荷在棒中点场强计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electrostatic_shielding",
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q1",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 23,
+      "content_sha256": "6d2b9ac69b2a12ff9e885caaca66993d6dcee9c60ed8d8c369d03a0c82790b44",
+      "concise_topic": "带电体旁反复接触分离导体驱动灵敏电动机是否违背能量守恒辨析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.charge_conservation",
+        "law.m6.work_energy_relations",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q2",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 24,
+      "content_sha256": "c5bfffeb8c0732f539dc7dd26fe6de2cb1afb48f0640ae6cc697e7dd5cbda976",
+      "concise_topic": "定间距两金属球分配总电荷量使库仑静电力最大的均值极值论证",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.am_gm_inequality"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q3",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 24,
+      "content_sha256": "72f8cab9220291a4553dda49130cbbc8e94efedf824b9d5941dc3ed533141875",
+      "concise_topic": "正方形对角等量正电荷引入第三顶点电荷使第四顶点合场强为零",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q4",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 24,
+      "content_sha256": "df27739210a80dd17a7a70f9289b0c24b0bf371c40d474c79a09b7f809e683f2",
+      "concise_topic": "点电荷与均匀带电薄板近侧场强为零利用对称性求薄板对称点场强",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [
+        "model.elec.symmetry_cut_patch_field"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q5",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 24,
+      "content_sha256": "5435d608b39a1bfa7a71eac0e5d9147b04828a00c64af5097c1aff437eb6a447",
+      "concise_topic": "等量同种与等量异种点电荷中垂线上试探电荷所受静电力大小比较",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.coulomb_law",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [
+        "model.elec.dipole_equal_charges"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.revB.q6",
+      "unit_id": "unit.b3.c9",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 24,
+      "content_sha256": "a044f76cd47da451172abcd68029e8966a103941925169830d5c8f810ba91183",
+      "concise_topic": "点电荷电场线上两点试探电荷 F-q 图像斜率求场强与场源坐标",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q1",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "b2bfaa1b77328afced8bb48d5b7b0171d0daf371abf9581e82753cc44e47f797",
+      "concise_topic": "匀强电场中正电荷沿折线与直线移动时静电力做功与路径无关计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.m6.work_definition"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q2",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "5e292ad72b0fbf8d71c1ee7e8df7afc8a4f447393c7b35273b483f2bd397db97",
+      "concise_topic": "由正试探电荷电势能求某点电势及改放负试探电荷后的电势能计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q3",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "6b15556281a90850bb889d57a90e48f16c33cbee6f9dcb0515cff8769e2ca7b3",
+      "concise_topic": "由正负试探电荷在电场不同位置电势能大小与符号判断电势高低",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q4",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "fa526acd1c7f8a099410b57f1557bbb04d7e56b21a9c3c76d408c32184dade62",
+      "concise_topic": "匀强电场同电场线及非同电场线各点结合垂直等势线判电势高低",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q5",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "5bbf302e4ed23f6a5c6779f977b6b56b6c27e0282eee21b3f8a00659d312e2a2",
+      "concise_topic": "由正负试探电荷从无穷远移至两点静电力做功判定场源电性与位置",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q6",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "16a6a94e773b578d0bfc47cfd2d5f3c748a47d30616cd36214ff539eea2ae3d5",
+      "concise_topic": "由两点试探电荷电势能求电势并计算移动负电荷时静电力做功",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s1.prac.q7",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 30,
+      "content_sha256": "9a4a3088160a317610150b2df38bbe774c5fcc91be202a1e2a376a2ddba16f8c",
+      "concise_topic": "负点电荷沿等量同种电荷连线至中点再沿中垂线移动电势能变化",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.e1.potential_equipotential"
+      ],
+      "models": [
+        "model.elec.dipole_equal_charges"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.zero_e_means_zero_phi"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s2.exmp.1",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 32,
+      "content_sha256": "65eb507a7cb6026b7782f434b6c521efd27842417b8b9d7fb7f01b77d36ab4b9",
+      "concise_topic": "匀强电场移送电荷做功求三点电势高低、电势差及电场分布草图",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q1",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "48d0b41aba651486e725f43d76dad1378ef156908022633009c6ddbf47354f83",
+      "concise_topic": "已知两点电势差移动负电荷计算静电力做功与电势能增减量",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q2",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "d2aef48eff56ab1740ea5673fbfedf8bd7dad7c97318611e83895d91de2aa776",
+      "concise_topic": "微观粒子能量单位电子伏特（eV）与国际单位焦耳的换算推导",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.charged_particle_accel",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q3",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "4c41a28621203b581963a2e9cdc7cd9ea7c7fc2521539964ae0607ad73630e53",
+      "concise_topic": "非匀强电场线上两点电势高低、负电荷电势能做功及电势差正负辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q4",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "07182f234f2c849fec2dc984887962d26b2c029b6c77cded922456823d562f35",
+      "concise_topic": "静电场中两个电势不同的等势面能否相交的物理逻辑论证",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q5",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "21709ec77a4e0bc5ecfc46071b3335d3670b341bd46561afd2258fd96bf6d349",
+      "concise_topic": "由等势面分布图画正交电场线并比较同等势面与异等势面间做功",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s2.prac.q6",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 34,
+      "content_sha256": "679862f9a2e4b196ef5181053bfa72054616426a0c2d84ae2dbdb52674d19e6a",
+      "concise_topic": "匀强电场已知平面三点电势找等势线并作过指定点的电场线",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s3.exmp.1",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 36,
+      "content_sha256": "990796042a986ce41187df25312692d643793a2c03fbfc88f4e8774cbebca7ad",
+      "concise_topic": "恒压平行金属板间带电粒子静止加速末速度与极板间距加倍分析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.charged_particle_accel",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s3.prac.q1",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 37,
+      "content_sha256": "9d1907aa30807d4d1db64a999f577c20c31e2d7a72a6ff4f533e82db2a41870c",
+      "concise_topic": "高压直流平行金属板靠近放电测定空气电离击穿电场强度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s3.prac.q2",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 37,
+      "content_sha256": "fa9419072cf736e79c286bbf13e7514a39ffb2c91a654ad57d5250dcd0947a2b",
+      "concise_topic": "平行板匀强电场不同极板接地时各点电势、电势差与电子移送做功",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s3.prac.q3",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 37,
+      "content_sha256": "4d34333327a65daf463280abc93c8375c167d7726094e1e46dfb358e03aa432a",
+      "concise_topic": "类比地理等高线疏密陡峭度判读等差等势线疏密与电场强度大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.potential_equipotential",
+        "law.m3.incline_accel_feature"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s4.prac.q1",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 43,
+      "content_sha256": "a12949118a12cb524fb0f8db6437badd2cdb7acf8d9d497670c60e65530a373c",
+      "concise_topic": "单刀双掷开关切换下电容器充放电电流方向、电压与能量转化分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.capacitor_charge_dis"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s4.prac.q2",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 43,
+      "content_sha256": "029daa9eb9fd5cac3e32572e2f73910504e451b951bc9f36f6887e94fd42b8f9",
+      "concise_topic": "电容器充电过程电荷量 Q、电压 U 与电容 C 关系图像正误辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.capacitor_formulas"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s4.prac.q3",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 43,
+      "content_sha256": "465656e65f9eba6cdcb40a94fcbb5aeb52e5cd39144bd7cb555c85c34355bccf",
+      "concise_topic": "已充电电容器电容计算及极板电压降低后电容与电荷量变化求解",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.capacitor_formulas"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s4.prac.q4",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 43,
+      "content_sha256": "5e478b8495ab1d91a170fb6f68f4f138b46aaae0e72073eb7862f8982ec7b9e8",
+      "concise_topic": "医用心脏除颤器高压电容器完全放电通过人体组织的电荷量计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.capacitor_formulas"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s5.exmp.1",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 44,
+      "content_sha256": "38260c451baa336a96f6576ef850c558086be5e47d8ca02b33145195ec5ef60e",
+      "concise_topic": "交变方波电压多级金属圆筒直线加速器同步条件与第n筒长度推导",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.e1.electrostatic_shielding",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [
+        "model.elec.ac_plates_particle_motion"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.exmp.2",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 46,
+      "content_sha256": "5839afc537f56be0590636474bae87282924e8c3ba38ceda33d094086816cf83",
+      "concise_topic": "电子垂直射入平行极板匀强电场类平抛侧移量与速度偏转角计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_deflect",
+        "law.e1.uniform_field_u_ed",
+        "law.m4.projectile_horizontal",
+        "law.m3.newton_second_law"
+      ],
+      "models": [
+        "model.elec.oscilloscope_accel_deflect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q1",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "e4f509c6a0aebfab1e474c8c199632d5a17c4ef3189099cf204de9577f5dc8c2",
+      "concise_topic": "二价氧离子平行板静止加速末动能的动力学与动能定理双解对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.m6.work_energy_theorem",
+        "law.m3.newton_second_law",
+        "law.m1.uam_basic_kinematics"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q2",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "1cfb7dfffce6334f470ff1effe33a3226a4544e0badea1ed770e570504f7a7b1",
+      "concise_topic": "紫外线照射金属板逸出电子加反向截止电压无电流求最大初速度",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.just_reach_critical_ambiguity"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q3",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "786c9ea065598738dda1558f2bbff9c4ee4288167a9b957f9ce2fe0dc1b32467",
+      "concise_topic": "电子与氢核以等初速度或等初动能射入同一偏转电场偏转角正切比",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_deflect"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q4",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "8abaa354cbde542afd02a6186571ae13605d0ccd12549c8e37fc0d2d3949e218",
+      "concise_topic": "三种不同比荷正离子经同一电场加速再入同一偏转电场轨迹重合证明",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.e1.charged_particle_deflect"
+      ],
+      "models": [
+        "model.elec.oscilloscope_accel_deflect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q5",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "40f43c0b28e188aad15826ebc4732c2c63cb49ab2cb9527b1669730f11cb52a6",
+      "concise_topic": "电子经高压电场加速后垂直射入匀强偏转电场的出射速度与偏转角",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.e1.charged_particle_deflect",
+        "law.m4.motion_composition"
+      ],
+      "models": [
+        "model.elec.oscilloscope_accel_deflect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s5.prac.q6",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 49,
+      "content_sha256": "efb86674c57a3d1914d3ef47e5da55cea5b175ca367e495f7bd3a34c44fa3735",
+      "concise_topic": "医用肿瘤质子疗法直线加速段达到目标速度所需匀强电场强度计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.e1.uniform_field_u_ed",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.revA.q1",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 50,
+      "content_sha256": "1f7d3110b50b9642d75b0a74b5616df542bf45d0571c299c660bb88ce8edc706",
+      "concise_topic": "由等差等势面分布计算电子跨等势面做功并比较两点静电力与电势能",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.revA.q2",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 50,
+      "content_sha256": "2eae1b95de98df7a8e58e93d0d36c6514119fe0e7113868fdc9fffd884997722",
+      "concise_topic": "利用正交等势线电势差矛盾论证平行不等距静电场线不可能存在",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.revA.q3",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 50,
+      "content_sha256": "d2427fdd575b3e5c5cd9588223a85bc807a7db3ca1189deb4b296f143ad0e527",
+      "concise_topic": "负电荷沿电场线静止释放结合 v-t 图像斜率判读电势高低与场强大小",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.electric_pe_work",
+        "law.e1.potential_equipotential",
+        "law.e1.electric_field_superpos",
+        "law.m3.newton_second_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.vt"
+      ],
+      "traps": [
+        "trap.mech.accel_dec_means_decelerating"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.revA.q4",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 50,
+      "content_sha256": "200339c65ee5587534456a1d22352498c0d537d7ea6c8e0d2a529b64c31be91e",
+      "concise_topic": "点电荷等间距同心圆等势面电势计算与非匀强场相邻电势差不等辨析",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work",
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.u_ed_in_nonuniform_field"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.revA.q5",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 50,
+      "content_sha256": "f587103c455cf28193a41298d7b3f8ecad3b638d8f7459e851b3319279f00627",
+      "concise_topic": "已知平行板电容器电容、所带电荷量与板间距求解极板间电场强度",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.revB.q1",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 51,
+      "content_sha256": "78a26274477a92af56400b1e441722b6fec3ba8b7c1978dce3f725b5641437a3",
+      "concise_topic": "负试探电荷沿等量异种电荷中垂线与连线移动时静电力电势及电势能变化",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [
+        "model.elec.dipole_equal_charges"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.zero_e_means_zero_phi"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.revB.q2",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 51,
+      "content_sha256": "4a564f1c05c1a057b56b4f06a458bda01ca292c8eebcfe24c2d8d513dd1797e3",
+      "concise_topic": "电子垂直极板射入平行板电场减速至最远点折返求初始入射速度",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.charged_particle_accel",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.revB.q3",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 51,
+      "content_sha256": "d8b5e7993c01ca779587182412c4e453e71c3c10a6f1dbcc1eff5cb89012d78d",
+      "concise_topic": "匀强电场三角形三顶点移送负电荷做功求电势差电势并作电场线方向",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work",
+        "law.e1.uniform_field_u_ed"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.revB.q4",
+      "unit_id": "unit.b3.c10",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 51,
+      "content_sha256": "7db835a756e9bdc5e3868abe5fa7088bb296f391f0c9cced4eacafec09e53e76",
+      "concise_topic": "单刀双掷开关切换电容器充电后放电的电流 I-t 与电压 U-t 图像绘制",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.e2.current_micro_macro"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.capacitor_charge_dis"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s1.prac.q1",
+      "unit_id": "unit.b3.c11.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 56,
+      "content_sha256": "3836e4022c66ea136f673f130474fe4f71bd6dd89d0c435381ae86ac2fd51a97",
+      "concise_topic": "微安级恒定电流给定时间内通过导线横截面电荷量与自由电子数计算",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.current_micro_macro",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s1.prac.q2",
+      "unit_id": "unit.b3.c11.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 56,
+      "content_sha256": "1f466a77c7e74da396e4fd2e63d502390d6fb5fcf9646cd10e8f4905898eb8cb",
+      "concise_topic": "手电筒干电池供电由给定时间通过导体横截面电荷量计算电流",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.current_micro_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s1.prac.q3",
+      "unit_id": "unit.b3.c11.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 56,
+      "content_sha256": "c5de8ed0d4f2d245ea9643e8ff63958ad82f7ceab7dec6a8d3378b7daeda842f",
+      "concise_topic": "由手机电池容量毫安时估算待机电流及播放视频工作电流倍数",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.current_micro_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.mah_as_energy_unit"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q1",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "5ca08e4fb9b334b9c8ed777132d0e1bcf53585bd7a9cec1de23c2844dffe3555",
+      "concise_topic": "坐标系中四个电阻电压电流测量点与原点连线斜率比较阻值大小",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q2",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "01fe34ba27afcc0acaf8e6d9b3ff407fbb9055a4b386bab50365ea36c548d306",
+      "concise_topic": "估算实验铜导线电阻并与小灯泡阻值比较说明忽略导线电阻理由",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q3",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "16d8ad7bbc14eb41fedb6e3dd0c27cc9e5505dbfc764673ecaa37eae9b132b79",
+      "concise_topic": "家用空调铜质双股供电导线电阻计算与正常制冷时导线电压损失",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q4",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "7216e49d680082b947966c96930a38d6adb2a7300fa18e3c6b8bcb034c14a19c",
+      "concise_topic": "小鸟站立在大电流铜质裸输电线上两爪间跨步电压计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q5",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "f30148f3031bb095d573670e4c08789c381d7157cf58878637e2361265135473",
+      "concise_topic": "封闭橡胶管盐水柱等体积拉长后横截面积缩减与电阻变化计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q6",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "3bb3ab248fe9b0f91fd659ac7238899fa4a24687d6e0a78b48319e84e39be06d",
+      "concise_topic": "均匀长方体导体样品沿不同棱长方向通电时电阻率与阻值换算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s2.prac.q7",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 61,
+      "content_sha256": "bd7fa7da006ff1b7737e59e97d42bff159506a9fb94a686313ed6a91f1b08ce5",
+      "concise_topic": "人体脂肪测量仪利用电解质水分与脂肪导电性差异测体脂原理分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s3.prac.q1",
+      "unit_id": "unit.b3.c11.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "444505382e0da879d13ad42e58d2da16a58e203653ce88dff13c867068f3e9c6",
+      "concise_topic": "十分度游标卡尺测导体长度与螺旋测微器测圆柱体直径读数",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [
+        "expskill.read.vernier_caliper",
+        "expskill.read.micrometer"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.vernier_extra_digit",
+        "trap.exp.micrometer_miss_half_mm"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s3.prac.q2",
+      "unit_id": "unit.b3.c11.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "aaf32c7ca26702d665b84e8d1c85ef80940b14f7889ceede7a5a9e5cf7362760",
+      "concise_topic": "不合格纯净水电导率偏大判断与高阻水样伏安法测电阻实物连线",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [
+        "expskill.circuit.ammeter_in_out",
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.rheostat_divider_short_wire"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s3.prac.q3",
+      "unit_id": "unit.b3.c11.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 67,
+      "content_sha256": "e989a2e410a100e40bf464814ff5006589c532d02831e14d8e268014fe3f09a8",
+      "concise_topic": "指针式电压表与电流表读数结合长度直径计算金属丝电阻率",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [
+        "expskill.read.pointer_meters",
+        "expskill.read.mm_ruler",
+        "expskill.read.micrometer"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.gen.diameter_vs_radius",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s4.exmp.1",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 70,
+      "content_sha256": "c88fc94b13c8834530eb3f89e99673549108553c3254f4b686a8f0ae246964db",
+      "concise_topic": "灵敏电流表头并联分流电阻扩程改装电流表及改装后总内阻计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.meter_modification"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s4.prac.q1",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "a76d1b3900f3f68a8df8d50a8c90d18beffcc437a977410052aee32bd4b719d0",
+      "concise_topic": "限流式滑动变阻器滑片移动过程中定值电阻两端电压变化范围",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s4.prac.q2",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "593070d82236278d873c7322c1118898f866209dacd6632268fff766ba415239",
+      "concise_topic": "串联电阻正比分压公式推导与滑动变阻器分压接法从零调压原理",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s4.prac.q3",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "47977458d7cd17e085b660e70d8229c4e817c008004b42444925d8f3aeeb0706",
+      "concise_topic": "伏安法测电阻电流表外接法与内接法测量值定量误差对比及选型",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.ammeter_in_out",
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s4.prac.q4",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "975620d3261d24cde128851ec8cdc82a7c72750f0c5abbd3900c8ff097433c40",
+      "concise_topic": "灵敏表头依次串联两个分压电阻改装双量程电压表的阻值计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.meter_modification"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s4.prac.q5",
+      "unit_id": "unit.b3.c11.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 71,
+      "content_sha256": "e19141e86b4eb3de21d16b29088dcaf2b166fa9b5c44333111cab7c20c8dc3c0",
+      "concise_topic": "灵敏表头抽头式并联分流电阻改装双量程电流表的阻值计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.meter_modification"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s5.prac.q1",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 74,
+      "content_sha256": "aa006061e5a049040b3bd71e9185cb3a5e5f27a1fa2d86ca62ab856630eb13de",
+      "concise_topic": "指针式多用电表直流电压挡、直流电流挡与欧姆挡读数及倍率互推",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.pointer_meters",
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s5.prac.q2",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 74,
+      "content_sha256": "61be625fde31ef3ff74e8d3a7cb1517e9ef7984fd7aac424de1b91ec69ada0e5",
+      "concise_topic": "多用电表测小电阻后换测千欧级电阻的选挡与短接欧姆调零顺序",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_forget_rezero"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s5.prac.q3",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 74,
+      "content_sha256": "b770326989c14026f4b26bf792ac4543ae4836b5533a6d42198e1d320cdbfa70",
+      "concise_topic": "多用电表测直流电流与直流电压时红黑表笔电势高低极性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_black_lead_polarity"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s5.prac.q4",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 74,
+      "content_sha256": "1f2a9e8063cd73210462b747da8b3239fb24ad438401b4869514d21aca827eff",
+      "concise_topic": "无OFF挡多用电表用毕旋至交流最高电压挡规范与留置欧姆挡风险",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s5.prac.q5",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 74,
+      "content_sha256": "44c6081ba4f9e14002a492f93b516d13222cc28827310bbcad07fec50c6017f1",
+      "concise_topic": "闭合串联灯泡不亮电路用多用电表直流电压挡不拆线定位断路故障",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.circuit.fault_diagnosis"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q1",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "f13f55d1c603fc592ee5018a11042ed33c154520ba4afcd5fa3336e2f3c8a99b",
+      "concise_topic": "千欧大电阻与几欧小电阻混联电路干路总电流数量级近似估算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q2",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "1b477642abff09effc9cec4dd1dcbdc299935fb6c7ca613e69a1c54e2ac768ae",
+      "concise_topic": "滑动变阻器分压混联电路滑片右移时灯泡亮度变化的数学式讨论",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q3",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "b1122b66b0a5018c2f0ecb7d28de9e33beada907502af3526cf34264e8354d0b",
+      "concise_topic": "电学实验短铜导线与远距离长铝输电线电阻计算及工程影响对比",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q4",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "15c48212a706657d4923a442cab20ad6533d2ec7ef414f73c7443b86624fa251",
+      "concise_topic": "串并联组合电路中任一电阻增大则总等效电阻必增大的代数证明",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q5",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "6a7d1da9c81d6395625ab1283e9a9d7552fa72dd18adb2d89a69ab7e87f8055a",
+      "concise_topic": "三电阻T形网络输出端短路等效电阻与输入接恒压源时输出开路分压",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q6",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "9f031c2c1e3261bc8d3efa02244423017126d7e498214b6dfad0cacc5425c901",
+      "concise_topic": "多用电表机械调零、选挡、欧姆调零与测二十欧定值电阻读数操作",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_forget_rezero"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q7",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 75,
+      "content_sha256": "5dffc18165cb86155833d079c97bfee11c9b654575d1a16a2273a0776ce43441",
+      "concise_topic": "带电电路用多用电表10V挡查断导线及误用小量程或欧姆挡后果分析",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.circuit.fault_diagnosis",
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revA.q8",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 76,
+      "content_sha256": "b988b311f3d6ebdf25a2b628441a9f77a0fd0463d73713bfcd5e365ad269be3d",
+      "concise_topic": "伏安法测定值电阻额定状态阻值实物图电表极性量程与变阻器纠错",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit",
+        "expskill.read.pointer_meters"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.rheostat_divider_short_wire"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q1",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 76,
+      "content_sha256": "e95acebb5bdbadb41b497d4fcd807ca6237bbc65113256fb4efb14216c9e71da",
+      "concise_topic": "均匀带负电长直橡胶棒沿轴向匀速运动形成的等效电流大小与方向",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.current_micro_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q2",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 76,
+      "content_sha256": "60b2c23633c4dc4fc7eaa12ff47eb04aaa9f5f4ecaf1d8fb68ec0cb9a9f2346b",
+      "concise_topic": "根据待测电阻与电表内阻比值优选电流表内外接法并证明系统误差",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.ammeter_in_out",
+        "expskill.data.error_algebraic_proof"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q3",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 76,
+      "content_sha256": "14012f275b8c6565817476a7db13011df26293212b542696f93c60ad56cae2ac",
+      "concise_topic": "测绘小灯泡伏安特性曲线分压外接电路设计、滑片初态与额定阻值求解",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.bulb_va_curve"
+      ],
+      "exp_skills": [
+        "expskill.circuit.rheostat_div_limit",
+        "expskill.circuit.ammeter_in_out"
+      ],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.gen.graph_secant_vs_tangent",
+        "trap.exp.rheostat_divider_short_wire"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q4",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 77,
+      "content_sha256": "204f2fbf95e0c0adacdb1d1919f0b5dc5564d3a1845cbdfe9db07029b1353f1b",
+      "concise_topic": "三接线柱黑箱内四个等值电阻由欧姆表端口阻值反推混联电路结构",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q5",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 77,
+      "content_sha256": "b82d1124357b76e35c2870df162ad076dcb46ff8ae8e12d294edf51ca01e78cf",
+      "concise_topic": "双量程电流表独立并联与公共抽头分流两种改装电路计算及使用对比",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [
+        "expskill.circuit.meter_modification"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.revB.q6",
+      "unit_id": "unit.b3.c11",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 77,
+      "content_sha256": "3d22221ec61ea79a1424525ea2fe0202e1419947cad7cc2f3cb43d9dcfff2b7e",
+      "concise_topic": "双灯串联不亮电路用多用电表直流电压挡固定表笔逐点排查断路故障",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.circuit.fault_diagnosis"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_black_lead_polarity"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s1.exmp.1",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "problem",
+      "category": "worked_example",
+      "printed_page": 82,
+      "content_sha256": "e5436867734b6a4ccbabeb72fcbd7b3675b40a019dfbea79c634d7870d4a18dc",
+      "concise_topic": "直流电动机非纯电阻电路消耗电功率、线圈热功率与机械功率计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [
+        "model.elec.motor_mixed_circuit"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.motor_apply_ohm_law"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s1.prac.q1",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 82,
+      "content_sha256": "76a514b1107af90ea09e74d2e19d7c14016873fae185bf05c87bddf735a275ba",
+      "concise_topic": "串联电路与并联电路各纯电阻消耗电功率与阻值分配比例关系推导",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s1.prac.q2",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 82,
+      "content_sha256": "e56cfc85da1dd4868bc6f334e284076b33a02aeaf289290aa86458a0292daf0e",
+      "concise_topic": "电饭锅温控开关通断对应加热与保温状态判断及限流分压电阻比计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s1.prac.q3",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 82,
+      "content_sha256": "eccdafc2e79f6214adf541a6a272ee58a8bf17ebd2860a159c9076434e3ff04b",
+      "concise_topic": "已知额定电压与额定功率的四个定值电阻混联电路实际消耗功率排序",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s1.prac.q4",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 82,
+      "content_sha256": "b131c98b8dc6731d7e70cf527cea3b92d417d7f0452d25f45f25b96abd3a846e",
+      "concise_topic": "计及双输电线电阻时单接电热水器与再并联电水壶的实际电压功率计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q1",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "c2bce6b1a2c2c35b56518a55998812e80a39a868b2671a618957613958522e84",
+      "concise_topic": "电源电动势与电流乘积 EI 的单位推导及电源总功率物理意义解析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.emf_concept",
+        "law.e2.source_power_efficiency"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q2",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "1cac7ebe8fc6e2a177115670c6af5f7503e07ff41c0f2050799d694c5360b25a",
+      "concise_topic": "两节串联干电池使额定小灯泡正常发光推算单节干电池内阻",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q3",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "c7f5b25ba8dfd1b322db33c4d55b31df54628e4743f33bbce0f1083eeeccbd9f",
+      "concise_topic": "卫星与电动汽车锂电池由空载开路电压和内阻计算短路电流",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q4",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "5840ac09e51d307aad6fd13c55d2a30e4dd5c905604df8fcfd102540548a8963",
+      "concise_topic": "由已知外阻路端电压求内阻并计算外电路再并联或串联电阻后的路端电压",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q5",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "b5d23328048228f681e60383a75d4d3be35dd9ec2b0a3bb340972bee6a8806b5",
+      "concise_topic": "多节含内阻电池串联给额定用电器供电所需最少节数与分压电阻计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q6",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "180d18de24d4c02fd7f5b2587669fd32d1ac9b918c0d254910d3741011683e11",
+      "concise_topic": "汽车启动电动机闭合瞬间干路大电流增大内压降导致车灯变暗分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [
+        "model.elec.dynamic_dc_circuit"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.prac.q7",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 88,
+      "content_sha256": "5dc568df6151ac86140d9e3a25c503895c0e713d3803a855e11eeae7986e585d",
+      "concise_topic": "充电宝毫安时容量与额定能量瓦时换算及民航登机能量限额核验",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.energy_sustainability",
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.mah_as_energy_unit"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s3.prac.q1",
+      "unit_id": "unit.b3.c12.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 92,
+      "content_sha256": "6ca7b550efe337d5260b1815f4ef991a22dcc8664b9bdaed42fb5b0ea9de86f9",
+      "concise_topic": "伏安法测蓄电池五组数据绘制 U-I 图像求解电动势和内阻",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.battery_emf_r"
+      ],
+      "exp_skills": [
+        "expskill.graph.vt_fit",
+        "expskill.circuit.emf_three_schemes"
+      ],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.gen.graph_axis_origin_offset"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s3.prac.q2",
+      "unit_id": "unit.b3.c12.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 92,
+      "content_sha256": "79faf2f527c3e58db1fe9b010975c2ecf0b739c174903da123096cf5ee781eb0",
+      "concise_topic": "伏安法测电池组实物补线及电流表损坏改用伏阻法电路与数据处理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.battery_emf_r"
+      ],
+      "exp_skills": [
+        "expskill.circuit.emf_three_schemes",
+        "expskill.data.linearization_plot"
+      ],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s3.prac.q3",
+      "unit_id": "unit.b3.c12.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 92,
+      "content_sha256": "b77baf539a4b4bfc655e003232d28e94113dd69f7280ceed7da0b42636272aad",
+      "concise_topic": "微安表与电阻箱安阻法测自制橙汁电池作 U-I 图求电动势和内阻",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.battery_emf_r"
+      ],
+      "exp_skills": [
+        "expskill.circuit.emf_three_schemes",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q1",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "0bb21c2bc4d799a68519d1904bd40dee8879f677f9c9a431aa6788cac84ed497",
+      "concise_topic": "结合能量耗散与能量转化方向性论述能量守恒下节约能源的必要性",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q2",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "afa0ee61ff135c25593fa80472a4a1c6b2c5415ba5bb23561cae8eccb23a5856",
+      "concise_topic": "家庭日常电器工作时不同形式能量相互转化关系的实例分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q3",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "eefa85ea8aa7a945e60b1dd5891b582815367acf73568b2574386bc62f194662",
+      "concise_topic": "轻轨车站进出站高站台斜坡设计列车断电冲坡速度与节能意图分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.mechanical_energy_cons",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q4",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "81b6bb93f47e8249aaa02c7eea35ffa9b0e87f6f9ee18616f1a8d4279282c5a9",
+      "concise_topic": "风力发电机气流柱微元动能建模与给定风能转化效率下发电功率计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability",
+        "law.m6.power_avg_instant"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum"
+      ],
+      "traps": [
+        "trap.mech.fluid_impact_forget_delta_m"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q5",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "850893bd0dba54e68189cd8120455442b9f9e991e1c3b72f6e2a383843b8041b",
+      "concise_topic": "屋顶太阳能热水器由太阳辐射功率密度、聚热面积与效率求日获内能",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s4.prac.q6",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 99,
+      "content_sha256": "e6d3991cd02d80d4783b5ba9871d7885d4cb6fc4acc74ea99bc839de6707ef55",
+      "concise_topic": "三峡水电站水位落差与水流量估算最大发电功率及城市供电承载量",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum",
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q1",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "e96972c2960648897fbbadbdbe97fd989188b4f7c1d3e619affd11e6c19c1fe4",
+      "concise_topic": "数码相机锂电池总电能换算与开关液晶屏时单张照片消耗电能计算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.energy_sustainability",
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.mah_as_energy_unit"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q2",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "4a7801c11931cbf23ba11011d01797e0300664bf519a3d681c1a30dcdae65595",
+      "concise_topic": "电加热器烧水升温吸收热量与消耗电功对比求解电热装置效率",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q3",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "6f111a418d81464c3c4c7c38b849cf9cc90a985aabe51a380400302d3997b223",
+      "concise_topic": "不同发光颜色电压LED灯单颗电功率与大型LED广告牌供电功率估算",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.electric_work_joule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q4",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "2fdc69b330f4a243e56d4a6d8f2ec883c74b5ec74db654d2dc387956d4a104a4",
+      "concise_topic": "电源路端 U-I 直线与定值电阻伏安线交点求输出功率及内外功率比",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.source_power_efficiency"
+      ],
+      "models": [
+        "model.elec.source_load_ui_intersection"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q5",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "78b24d12c4d56c116903b186f3fba6e6f23d4fa3625d87a50dc0b23332c2d6c0",
+      "concise_topic": "含内阻电源混联定值电阻与额定工作直流电动机的机械功率求解",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [
+        "model.elec.motor_mixed_circuit"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.motor_apply_ohm_law"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q6",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "01188205d6619ad3568866f59a0117cb865e524b89c15cb26e1370af91e277f1",
+      "concise_topic": "照明电路计及双输电线电阻时并联开启10盏与20盏灯的线损电压功率对比",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.e2.series_parallel_meters",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revA.q7",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 100,
+      "content_sha256": "a0b39cd94bc5368d3b16cbe13b9994c41c30b662784ac8559ce148d2c89e8be0",
+      "concise_topic": "调节可变电阻绘制定值电阻 U-I 图像辨析过原点斜率与线段斜率意义",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.gen.graph_secant_vs_tangent"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revB.q1",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 101,
+      "content_sha256": "a9ff4fd1502709be53cfd31fd678793e4983d7f91f30f215fe7c5b5e43ad696b",
+      "concise_topic": "干路恒定电流供电并联电路增大一支路电阻时电压电流及总功率动态分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.series_parallel_meters",
+        "law.e2.electric_work_joule",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revB.q2",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 101,
+      "content_sha256": "04b95a65b8f5355e21fa42efce495f4e63858e4366585072c05e7a46de0562d0",
+      "concise_topic": "汽车蓄电池由启动电机接通前后干路电流突增定量计算车灯减少功率",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.electric_work_joule"
+      ],
+      "models": [
+        "model.elec.motor_mixed_circuit",
+        "model.elec.dynamic_dc_circuit"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.motor_apply_ohm_law"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.revB.q3",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 101,
+      "content_sha256": "2b87f502b258b412131553991fa7a69a50210b395968425bd94687e1697f62b4",
+      "concise_topic": "电鳗体内多行多列起电斑串并联等效电源对周围水体放电输出电压计算",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revB.q4",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 101,
+      "content_sha256": "1d9717b0e41946f61c70b233f4a7213e9bad71003eb0b370396e3ce4b8a577db",
+      "concise_topic": "含定值电阻闭合电路分别求定值电阻、可变电阻及电源输出最大功率条件",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.source_power_efficiency"
+      ],
+      "models": [
+        "model.elec.equivalent_source_max_power"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method",
+        "method.math.am_gm_inequality"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.revB.q5",
+      "unit_id": "unit.b3.c12",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 102,
+      "content_sha256": "0567f8280c7baf39671b67ea468a93a5abfaa2c20b6ab131c91b0da8f8873c99",
+      "concise_topic": "理想电压表与电阻箱伏阻法测水果电池换算电流作 U-I 图求电动势和内阻",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.battery_emf_r"
+      ],
+      "exp_skills": [
+        "expskill.circuit.emf_three_schemes",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q1",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "1df12fea825ea87a4881a2a80c65135801f1532a27c00245cd863378d3db969f",
+      "concise_topic": "扬声器、电话与磁盘磁卡等日常器具利用磁性工作的机理解析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e3.ampere_molecular_current",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q2",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "7d0f6d13beddb71842e2bdc7efd07016ceb2cd4b4b969e28aea0d61ca4a86659",
+      "concise_topic": "磁性门吸与磁性螺丝刀原理分析及日常生活磁性应用创意设计",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e3.ampere_molecular_current"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q3",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "2b6facccf9ac635ca76f19d5a8b90aa31e8c6bb0bbaad0a3daff5f11720fc298",
+      "concise_topic": "生产生活中磁体磁性与电流磁场技术应用的多维度分类举例",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e3.ampere_molecular_current",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q4",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "74d952ef2329e0fe4c915bc938db8ee4ab553942e1307446d6d4c27831d3adcd",
+      "concise_topic": "根据通电直导线附近小磁针极性指向利用安培定则反推电流方向",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q5",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "2b10e561e78c8341fda66dfd181fecf39e5e909e1be31263a46046f53af7b07f",
+      "concise_topic": "逆时针通电导线环中心小磁针静止时N极指向的安培定则判定",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q6",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "c357580242ca5d10b0b1d9459d86ebc8044fb3e8713ce3a86e5bc370406c8902",
+      "concise_topic": "根据磁感线疏密分布比较通电螺线管内部与管口外部磁场强弱",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.prac.q7",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 108,
+      "content_sha256": "fe1b5913232f083263041d81dc8250e04be0aea6a20b4ec2d990ca156813a384",
+      "concise_topic": "利用地磁场南北极性与安培定则判定地球自转轴等效环形电流方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.ampere_molecular_current"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s2.prac.q1",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "75978560939fffa676a01453412fb56952dd0d9b63bbeddd1b10235895bc7448",
+      "concise_topic": "磁感应强度比值定义式 B=F/(Il) 误判成正反比决定关系的辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s2.prac.q2",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "4e5d2441a6991b9e7424b909698173bdcbdf87130e14fbfa39de3a32617d4489",
+      "concise_topic": "匀强磁场中垂直放置通电直导线已知电流长度与磁场力求磁感应强度",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s2.prac.q3",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "0fdde44cc34afa29dfd7bfac8c1518a65a9d0db821cf2d2002f6b0c0a2117b8b",
+      "concise_topic": "三维直角折面线框垂直面、平行面与斜面在匀强磁场中投影磁通量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.3d_projection_views"
+      ],
+      "traps": [
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s2.prac.q4",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 113,
+      "content_sha256": "73e576b1a2729ffc1d1204bd7b4596dfbeb287475e811967551daac203c26492",
+      "concise_topic": "同一磁场垂直直导线所受磁场力 F 与电流 I 正比过原点直线图像判读",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q1",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 117,
+      "content_sha256": "977e59ef257bf3c9f212739275ae80bf63762f7a8d97d7cc2108758a789d3d59",
+      "concise_topic": "无界匀强磁场中矩形闭合线框上下平动、左右平动与绕轴转动感应电流判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q2",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "90a8c04c6200446ff2e6ea0b51d6e0290aecc3db30c7f6c52ec53e577423c8c4",
+      "concise_topic": "磁场中撑开的闭合弹簧线圈放手收缩面积减小时产生感应电流判断",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q3",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "77c73aabb5d0cdd0cc80625ea57948394c7dd4bad818f5517bedbd6ca10888d6",
+      "concise_topic": "闭合线圈进入、完全在内部移动及穿出有界匀强磁场全过程感应电流判断",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [
+        "model.ind.coil_crossing_mag_field"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q4",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "11c05c427926e6c925b2d46c3e7570ec123206a7f136b2f59084d3d0c3f8a3a0",
+      "concise_topic": "通电长直导线共面矩形线圈远离平动或直导线电流增减时感应电流判据",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q5",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "0f25b7c715c87795fc632d1be84540394ea6324153930036db781eef89c659c3",
+      "concise_topic": "闭合铜环分别在匀强磁场与非均匀磁场中沿场线平移时感应电流有无对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.prac.q6",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 118,
+      "content_sha256": "88a29b76d5ab9e15b9be4de892a0461e6a4a927a61e12659af0e5259aef45a2e",
+      "concise_topic": "共铁芯双线圈由原线圈四种电流 i-t 变化图像判断副线圈有无感应电流",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.phi_t_bt"
+      ],
+      "traps": [
+        "trap.em.flux_vs_flux_change_rate"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s4.prac.q1",
+      "unit_id": "unit.b3.c13.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 123,
+      "content_sha256": "0ef120c713ff0e0c2039f25c8ce2b27d8cc103a79bc56bfbfbc946fae485178f",
+      "concise_topic": "家用微波炉已知工作频率利用真空光速关系计算微波波长",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m3.si_base_units",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s4.prac.q2",
+      "unit_id": "unit.b3.c13.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 123,
+      "content_sha256": "05c58c2f24eea9e36da27aa5dc67380d6be910bd1a845be31eb8f30b020590fa",
+      "concise_topic": "变化电磁场相互激发形成电磁波无需介质与真空光速传播特性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s4.prac.q3",
+      "unit_id": "unit.b3.c13.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 123,
+      "content_sha256": "a8ba0c597a2c88964406eb0292da46f6f550cd6b04370a74f4b299ddec867df2",
+      "concise_topic": "天宫一号飞行器已知轨道半径与地球半径求授课信号传至地面最短时间",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m1.displacement_distance",
+        "law.m1.avg_instant_velocity",
+        "law.m5.satellite_orbit_scaling"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.surface_height_vs_center_r",
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s4.prac.q4",
+      "unit_id": "unit.b3.c13.s4",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 123,
+      "content_sha256": "4e184c4955e1947f752d12e47921c10179ec498a3ff8e13e0ddecc677218cc7f",
+      "concise_topic": "高温电焊弧光高频电磁波波长计算、紫外线波段判断及防护头盔原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s5.prac.q1",
+      "unit_id": "unit.b3.c13.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 128,
+      "content_sha256": "c688965261c02e72235a9d4ef14d12a0821d9cbf0f6c60aeaeb8c609f58a6bed",
+      "concise_topic": "已知普朗克能量子焦耳数值求解对应电磁辐射频率与波长",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.q2.elementary_relativity",
+        "law.m3.si_base_units"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s5.prac.q2",
+      "unit_id": "unit.b3.c13.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 128,
+      "content_sha256": "9607e799ceefadd6904b27a23e55810c3ee2ebb96c608a532791d0e22754c1ab",
+      "concise_topic": "氦氖激光器已知波长与发光功率求单光子能量及每秒发射光子数",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.m6.power_avg_instant",
+        "law.m6.energy_conservation_macro",
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s5.prac.q3",
+      "unit_id": "unit.b3.c13.s5",
+      "group": "problem",
+      "category": "section_exercises",
+      "printed_page": 128,
+      "content_sha256": "cba9c0a0f10a5601de0e4c86668e9065700aa556c64c4aac785723170f484334",
+      "concise_topic": "根据热辐射峰值波长与温度关系判断夜空红星与蓝星表面温度高低",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q1",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "8758dbab3ef14895ff7b5338ddaa1f24a03c2e492b57c995a72abaaf6ef52f4a",
+      "concise_topic": "奥斯特实验南北向直导线通电使下方小磁针转动的原因解释",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q2",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "558e64f06d4704565f924d23c37bdca40619a73e5ff33988552824044a81e0d9",
+      "concise_topic": "电子沿逆时针圆轨道运动等效顺时针环形电流在轴线点的磁场方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.current_micro_macro",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.vector_direction_omitted"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q3",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "705c08326e0774a0741d1c5890b270457aabe9dab8ab4a1fe03d777e129203e5",
+      "concise_topic": "三根等大垂直同向平行直导线在对称点产生磁感应强度的矢量叠加方向",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.magnetic_induction_flux",
+        "law.m2.force_composition_decomp"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q4",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "c8c4079e2e4d883f23ba2f252f8237518d602e070ab50d1130d40f9f14030c68",
+      "concise_topic": "通电短导线在磁场中不受力或非垂直放置误套 B=F/(Il) 的概念纠错",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy",
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q5",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "5da82e95898e4834efba378a08b0eefaaada86d673362d5ffdede7ad4790c8e0",
+      "concise_topic": "垂直磁场通电短导线求磁感应强度及电流加倍时外磁场不变特性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q6",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "2218e3293df4c88bf39c8b62caa4dd4411fdde7e4f9ace3dfcc5a8ba1cb9ce51",
+      "concise_topic": "匀强磁场中垂直线圈初始态及绕轴转过60度、90度时的磁通量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revA.q7",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_A",
+      "printed_page": 129,
+      "content_sha256": "6ae38dd16c274bcef6cc8445b35e171d2cef4b49afb227e43bf38a6705939191",
+      "concise_topic": "多匝大正方形线框包络局域小正方形匀强磁场的有效面积磁通量计算",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revB.q1",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 130,
+      "content_sha256": "7a0748e08342ce800b8f05f88216af2bf879f0f342d9807c4eb4f831d2338e45",
+      "concise_topic": "电磁充气泵通电螺线管磁极判定与铁芯选用软磁性材料原因分析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.ampere_molecular_current"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revB.q2",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 130,
+      "content_sha256": "211476d8244ed689b36a5d1b2b8b19df3e34fe20119e79ea0500fa9d7d285e34",
+      "concise_topic": "水平圆环从竖直条形磁体上方套入经中部穿至下方全过程净磁通量变化",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e3.magnetic_induction_flux",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.directional_scalar_as_vector"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.revB.q3",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 130,
+      "content_sha256": "f3aab59a12e636e5610b704cae643f8a9f8bd05f98bc5cbdbff3a683f2575a1d",
+      "concise_topic": "共铁芯双线圈合上与断开开关瞬间副线圈磁通量变化及感应电流判断",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revB.q4",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 130,
+      "content_sha256": "f014f880af55998690a0777f5cdf6997b3bae34f557f6993d81092a1710b5d4a",
+      "concise_topic": "铁环对称双半环绕组通电产生的磁场在环心O点矢量叠加方向分析",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e3.ampere_right_hand_rule",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.symmetry_principle"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.revB.q5",
+      "unit_id": "unit.b3.c13",
+      "group": "problem",
+      "category": "chapter_review_B",
+      "printed_page": 130,
+      "content_sha256": "1cdfe9c8f29ed9fff757fe9462988bbc9f5b2f5991d235a31f10883d2ca0d87c",
+      "concise_topic": "金属棒沿导轨匀速右移扩面时维持零感应电流的磁感应强度 B(t) 推导",
+      "pedagogical_role": "capstone_synthesis",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [
+        "model.ind.motional_plus_induced_emf"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s3.think.1",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 12,
+      "content_sha256": "644219cacc8703815c846c7febbbbe5ca65553ac74946d521576b7849f3c2fe1",
+      "concise_topic": "点电荷电场中试探电荷受力与电量正比检验及电场强度比值定义推导",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.e1.coulomb_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s3.meth.1",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "column",
+      "category": "scientific_method",
+      "printed_page": 16,
+      "content_sha256": "83d323c346cd927a9311874444a7ae5215769b0c9243976278858d13b677fc69",
+      "concise_topic": "用物理量之比定义密度、速度与电场强度等新物理量的科学方法",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.e1.electric_field_superpos",
+        "law.m1.avg_instant_velocity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c9.s4.walk.1",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 20,
+      "content_sha256": "ccbdf51adb993207ccf29f338eb568c6c72a71b8826ff1e91d3509298d07e782",
+      "concise_topic": "武当山金殿雷火炼殿放电奇观与静电除尘、静电喷漆及复印工程原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding",
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s1.think.1",
+      "unit_id": "unit.b3.c10.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 29,
+      "content_sha256": "a27939ea02ce30ac64cfad936cb5e33aa0e5d5af0bddd56c7b4a47c308186260",
+      "concise_topic": "由试探电荷电势能与电荷量比值不变性定义电势及零电势参考点选取",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.directional_scalar_as_vector",
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s2.think.1",
+      "unit_id": "unit.b3.c10.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 34,
+      "content_sha256": "ee1eac42da452ca198db0774b305e987f62d7c63808da0bd5b62d6fafe6ce36d",
+      "concise_topic": "静电场电势高低与重力场高度类比及正负电荷电势能大小差异辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.potential_equipotential",
+        "law.e1.electric_pe_work",
+        "law.m6.gravity_elastic_pe"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s3.think.1",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 35,
+      "content_sha256": "81b96d39280b3838007c90c4d5da119285365a3f9d356a3e4fb321664f347f06",
+      "concise_topic": "匀强电场非同电场线两点 U=Ed 沿场方向投影论证及场强双单位等价",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.potential_equipotential"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.dimensional_analysis"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s3.think.2",
+      "unit_id": "unit.b3.c10.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 37,
+      "content_sha256": "8e4226bfaf2bef3e645dc337a8c6523bd0b1631951cc5c3defd183ab4d5a66af",
+      "concise_topic": "异形极板非匀强电场中静电力不确定性与恒压加速末速度唯一性辨析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e1.uniform_field_u_ed",
+        "law.e1.charged_particle_accel",
+        "law.m6.work_energy_theorem"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.u_ed_in_nonuniform_field"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c10.s4.ext.1",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 39,
+      "content_sha256": "409c7c75c952dce6869848b1adb6875fba05f61153ef9a51b1fff47d09230df1",
+      "concise_topic": "电流传感器采集电容器放电 I-t 曲线微元面积数格法估算总电荷量",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.e2.current_micro_macro"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.capacitor_charge_dis"
+      ],
+      "exp_skills": [
+        "expskill.data.area_grid_counting"
+      ],
+      "methods": [
+        "method.thought.infinitesimal_sum",
+        "method.math.calculus_rate_area_intuition"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s4.ext.2",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 41,
+      "content_sha256": "7b695a3ed082a5a43ed8bd21c9477bab26ddb5c1a9c6211a015214cd7433271e",
+      "concise_topic": "静电计控制变量法探究平行板电容器电容决定式及常用电容器构造",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.capacitor_formulas"
+      ],
+      "models": [
+        "model.elec.capacitor_const_u_vs_q"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.ext.1",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 47,
+      "content_sha256": "4e1774404016e0f215a01c183d933e508ca48c46c6690a254315331a0d11169a",
+      "concise_topic": "示波管电子枪加速与双正交偏转电极扫描电压显示周期电信号原理",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.charged_particle_accel",
+        "law.e1.charged_particle_deflect"
+      ],
+      "models": [
+        "model.elec.oscilloscope_accel_deflect"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.3d_projection_views"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s5.walk.1",
+      "unit_id": "unit.b3.c10.s5",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 48,
+      "content_sha256": "db395823391b201cf1b361d3fed1076e74817a5233f034f0e0084660c7754095",
+      "concise_topic": "范德格拉夫静电加速器尖端喷电球壳聚电原理及医院直线放疗应用",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e1.electrostatic_shielding",
+        "law.e1.charged_particle_accel"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s1.ext.1",
+      "unit_id": "unit.b3.c11.s1",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 55,
+      "content_sha256": "32a179f95cc02c934079cab385ddb8fc5b10945bd57e729448e9a9d0214063d7",
+      "concise_topic": "金属导体自由电子定向漂移电流微观表达式 I=neSv 推导与速率量级对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.current_micro_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.infinitesimal_sum",
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s1.stse.1",
+      "unit_id": "unit.b3.c11.s1",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 55,
+      "content_sha256": "88c1921ef6774f937d73785511e8fa75cdb5fdaf3f0eb3b23a66e2d3961eeb64",
+      "concise_topic": "纯电动汽车锂离子电池正负极嵌入脱嵌充放电机理与安时容量解析",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.e2.current_micro_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.gen.mah_as_energy_unit"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.ext.1",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 60,
+      "content_sha256": "7ecb02620150ec96890440f33e9f2474d8be4a3d33df9fdc19b27fc14ce35ba0",
+      "concise_topic": "金属线性元件与气态导体、晶体二极管非线性元件伏安特性曲线对比",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.bulb_va_curve"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.gen.graph_secant_vs_tangent"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s1.think.1",
+      "unit_id": "unit.b3.c12.s1",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 81,
+      "content_sha256": "35fb2d95987226a7b437a98aa0d4da21f9b5ff95ef880866106d78ee4272248e",
+      "concise_topic": "风扇电动机与充电电池非纯电阻电路总电功率、热功率及输出功率平衡",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.electric_work_joule",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [
+        "model.elec.motor_mixed_circuit"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": [
+        "trap.em.motor_apply_ohm_law"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s2.think.1",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 83,
+      "content_sha256": "7ba2bb77029f30fb9dfcfafa0eeb5287aff1ff37c20033aacf93c54f4a1da35f",
+      "concise_topic": "电源内部非静电力克服静电力搬运正电荷维持稳恒电流与能量转化机理",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.emf_concept",
+        "law.e1.electric_pe_work"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.think.2",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 84,
+      "content_sha256": "deddb4ed59a2f4b9a3440feaf93d706b3ddd434657263939109a70845c74a3c0",
+      "concise_topic": "由非静电力做功与移动电荷量之比定义电源电动势 E=W/q 及其物理意义",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s2.think.3",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 85,
+      "content_sha256": "e2222a26aef0158baa0663968e0da2bc88c7951890c2b7c7603e3ed55dcdaf02",
+      "concise_topic": "由电源非静电力做功与内外电路焦耳热能量守恒推导闭合电路欧姆定律",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.emf_concept",
+        "law.e2.electric_work_joule",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.think.4",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 86,
+      "content_sha256": "6b330a0424570de39acd5e325843e1e78eb55d9d6f9cafa5e6232215b4c18e7d",
+      "concise_topic": "电源路端电压 U-I 直线截距斜率、外电路断路电压与电源短路电流分析",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.graph.ui_dc",
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s2.ext.1",
+      "unit_id": "unit.b3.c12.s2",
+      "group": "column",
+      "category": "extension_learning",
+      "printed_page": 87,
+      "content_sha256": "3e885a614bb887658fcc33030d5f223373bfbbc44c98f90e1eee912fb7f5ba84",
+      "concise_topic": "基于闭合电路欧姆定律推导欧姆表改装原理、欧姆内阻与非线性刻度成因",
+      "pedagogical_role": "canonical_archetype",
+      "laws": [
+        "law.e2.closed_circuit_ohm"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s4.think.1",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 93,
+      "content_sha256": "edfe1a4c9e05e204341612469cc6ae005f757734be1c087c814d5bfb6f3a4529",
+      "concise_topic": "热传导宏观不可逆现象、太阳能多途径转化与能量耗散方向性探讨",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c12.s4.stse.1",
+      "unit_id": "unit.b3.c12.s4",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 98,
+      "content_sha256": "ba50f2ac5e49c3a80cbdb15cc0bb65a47683b8fea595fd3b4be2e1a7a644752e",
+      "concise_topic": "燃油汽车行驶功率损耗分配、总热效率估算与新能源电动汽车节能减排",
+      "pedagogical_role": "stse_context",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.e2.energy_sustainability",
+        "law.m6.power_avg_instant"
+      ],
+      "models": [
+        "model.mech.wind_hydro_energy_est"
+      ],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s1.walk.1",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 107,
+      "content_sha256": "178ede95f94ccaeed3a8056771a9591e871a699fe29160c69ee299a3ae74abb7",
+      "concise_topic": "安培分子电流假说微观环形电流模型解释铁棒磁化与高温剧烈撞击退磁",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.e3.ampere_molecular_current",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s2.think.1",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 112,
+      "content_sha256": "fa074848089195eb9eac6f82485dfcaa8d3ef3f1c22b77b44085859b715f8275",
+      "concise_topic": "同一束磁感线穿过不同大小截面时磁感应强度差异与磁通量相等关系",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s2.stse.1",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "column",
+      "category": "stse",
+      "printed_page": 112,
+      "content_sha256": "ed4781bee4c2e4ac131454f7522d62b72d1d6e511d5df2b3e966f6fc4665b01a",
+      "concise_topic": "地球地理两极与地磁两极地磁偏角发现及指南针在郑和下西洋中的应用",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s3.think.1",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "column",
+      "category": "thinking_discussion",
+      "printed_page": 115,
+      "content_sha256": "34fe2fd545ee916a633e7f34044e69406e8cdc84bf35d6bc18aa99b899f498e8",
+      "concise_topic": "闭合电路导体棒切割磁感线改变回路面积引起磁通量变化产生感应电流",
+      "pedagogical_role": "concept_check",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s5.walk.1",
+      "unit_id": "unit.b3.c13.s5",
+      "group": "column",
+      "category": "science_walk",
+      "printed_page": 127,
+      "content_sha256": "84917eecac3038ab1cdc0dbbb53bcc06e1010efa7a41592f8dd371d1eae2d4f0",
+      "concise_topic": "中国天眼FAST五百米口径射电望远镜观测宇宙电磁辐射与南仁东事迹",
+      "pedagogical_role": "history_method",
+      "laws": [
+        "law.m6.energy_conservation_macro",
+        "law.q2.elementary_relativity"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.math.scientific_est_order"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s1.exp.1",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 3,
+      "content_sha256": "3099f15e090f67dc2fc99b2c5bf0e4ca08be0dddd3c3f1d3cbfe6f40bf018150",
+      "concise_topic": "带电体移近接触绝缘金属导体A、B观察金属箔张合与静电感应起电实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s1.hand.1",
+      "unit_id": "unit.b3.c9.s1",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 4,
+      "content_sha256": "4567881b7c66fc75fa46bd8f5f3efdbe5d338a62ac8131b23c2c58bf10a7058f",
+      "concise_topic": "自制金属箔验电器与认识指针式静电计检测带电体电荷性质",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s3.demo.1",
+      "unit_id": "unit.b3.c9.s3",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 15,
+      "content_sha256": "a68487a3fef71a7755fbd4f73d0ac27e1c5f211a6cebe8b85013e1f2939dc290",
+      "concise_topic": "蓖麻油悬浮头发碎屑模拟点电荷辐射电场线与平行板匀强电场线分布",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.electric_field_superpos"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c9.s4.demo.1",
+      "unit_id": "unit.b3.c9.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 20,
+      "content_sha256": "590ac0c527ff03e3d83192453fac82fb8640ceda4a47e38753f4ab8e7863d56d",
+      "concise_topic": "金属网罩住验电器验证静电屏蔽效应与野外高压输电线防雷接地网",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.electrostatic_shielding"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s4.exp.1",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 38,
+      "content_sha256": "8e7baa274ce3c8525761ee0aaa152cd1166783c6016ebc9f7cd29b78f1e044e8",
+      "concise_topic": "单刀双掷开关配合电表观察电容器充放电电流方向、电压与能量转化实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.capacitor_charge_dis"
+      ],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c10.s4.demo.1",
+      "unit_id": "unit.b3.c10.s4",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 40,
+      "content_sha256": "ef82db1a0f34869ea650895e3f30e698ed7e5313699c6324c56832f997145238",
+      "concise_topic": "相同未充电电容器多次并联平分电荷演示 Q 与 U 正比并定义电容",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e1.capacitor_formulas",
+        "law.e1.charge_conservation"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.capacitor_charge_dis"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.unit_cm_gram_unconverted",
+        "trap.gen.ratio_def_proportional_fallacy"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s2.exp.1",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 58,
+      "content_sha256": "86e653f1e0fc04dd39f6b7f5ad7519e57bfa6812294161864c07a37aa5616906",
+      "concise_topic": "串联四段不同规格金属丝控制变量测电压比探究导体电阻定律 R=ρl/S",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables",
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s2.demo.1",
+      "unit_id": "unit.b3.c11.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 59,
+      "content_sha256": "b6b99dbe17c819b737b54526347dfa543e1de7a2394138b8d486f8fa90331b86",
+      "concise_topic": "酒精灯加热串联灯丝演示金属电阻率随温度升高增大及超导现象简介",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c11.s3.exp.1",
+      "unit_id": "unit.b3.c11.s3",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 62,
+      "content_sha256": "84e47f8179eb7f8d32bf9e6f1b703c0630907208a8bbc288b08706990c01edff",
+      "concise_topic": "游标卡尺与螺旋测微器读数、绕线累积法及伏安法测定金属丝电阻率实验",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.resistance_law",
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.metal_resistivity"
+      ],
+      "exp_skills": [
+        "expskill.read.vernier_caliper",
+        "expskill.read.micrometer",
+        "expskill.read.mm_ruler",
+        "expskill.circuit.ammeter_in_out",
+        "expskill.circuit.rheostat_div_limit",
+        "expskill.graph.vt_fit"
+      ],
+      "methods": [
+        "method.thought.micro_amplification",
+        "method.graph.ui_dc"
+      ],
+      "traps": [
+        "trap.exp.vernier_extra_digit",
+        "trap.exp.micrometer_miss_half_mm",
+        "trap.gen.diameter_vs_radius"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s5.exp.1",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 72,
+      "content_sha256": "dab82bdcb4b42dcc10fa7b91ef04f3f44f229f0df01de76c47c63ecb3b08ccd2",
+      "concise_topic": "认识指针式多用电表结构并练习测量小灯泡直流电压电流与定值电阻",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve",
+        "law.e2.series_parallel_meters"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.pointer_meters",
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_forget_rezero",
+        "trap.exp.ohmmeter_black_lead_polarity"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c11.s5.hand.1",
+      "unit_id": "unit.b3.c11.s5",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 73,
+      "content_sha256": "254e108053642a70ccb9fd8d3a4a0add3caeb5a1a9a92151ded5fe6030ed8042",
+      "concise_topic": "用指针式与数字式多用电表测量定值电阻、小灯泡、人体及正反向二极管电阻",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.ohm_volt_ampere_curve"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.multimeter_practice"
+      ],
+      "exp_skills": [
+        "expskill.read.ohmmeter_scale"
+      ],
+      "methods": [],
+      "traps": [
+        "trap.exp.ohmmeter_black_lead_polarity"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c12.s3.exp.1",
+      "unit_id": "unit.b3.c12.s3",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 89,
+      "content_sha256": "5cf82dbab008d8f2370b80c3d9f0889a8f727017c9e063b2f76cb67720f52db4",
+      "concise_topic": "伏安法测干电池与伏阻法测水果电池电动势和内阻实验设计及 U-I 图处理",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e2.closed_circuit_ohm",
+        "law.e2.emf_concept"
+      ],
+      "models": [],
+      "experiments": [
+        "exp.elec.battery_emf_r"
+      ],
+      "exp_skills": [
+        "expskill.circuit.emf_three_schemes",
+        "expskill.graph.vt_fit",
+        "expskill.data.linearization_plot"
+      ],
+      "methods": [
+        "method.graph.ui_dc",
+        "method.thought.limit_extrapolation"
+      ],
+      "traps": [
+        "trap.gen.graph_axis_origin_offset",
+        "trap.exp.emf_sys_error_reversed"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s1.demo.1",
+      "unit_id": "unit.b3.c13.s1",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 106,
+      "content_sha256": "87c4951f5256e5f7b5deaf689e24f10e366d1dc96fed73e5083b4a019b5641f9",
+      "concise_topic": "玻璃板细铁屑观察条形磁体与电流磁感线分布及直导线螺线管安培定则",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s2.demo.1",
+      "unit_id": "unit.b3.c13.s2",
+      "group": "activity",
+      "category": "demonstration",
+      "printed_page": 109,
+      "content_sha256": "24e8e52837475795a4fd85aab8610ef10789b29aaf5cf768675c5c92df82b186",
+      "concise_topic": "并排蹄形磁体控制变量探究垂直通电导线受力并建立磁感应强度与磁通量",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e3.magnetic_induction_flux"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables",
+        "method.thought.ratio_definition"
+      ],
+      "traps": [
+        "trap.gen.ratio_def_proportional_fallacy",
+        "trap.gen.effective_area_angle"
+      ]
+    },
+    {
+      "item_id": "tb.b3.c13.s3.exp.1",
+      "unit_id": "unit.b3.c13.s3",
+      "group": "activity",
+      "category": "experiment",
+      "printed_page": 115,
+      "content_sha256": "0dae7786638288c94f711f092fe5ce847b70c5d6b16a8a6129e33b67e995f844",
+      "concise_topic": "套叠双线圈开关通断及滑片移动探究感应电流产生条件与法拉第科学探索史",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.e3.magnetic_induction_flux",
+        "law.e3.ampere_right_hand_rule"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [],
+      "traps": []
+    },
+    {
+      "item_id": "tb.b3.c13.s4.hand.1",
+      "unit_id": "unit.b3.c13.s4",
+      "group": "activity",
+      "category": "hands_on",
+      "printed_page": 120,
+      "content_sha256": "4ada08edca6a18ea8e8e3cc8b85c79b2c288e132f1281be965c72628c72f19d8",
+      "concise_topic": "高压火花放电天线发射与平行铜管接收捕捉电磁波演示及电磁波谱应用",
+      "pedagogical_role": "experiment_inquiry",
+      "laws": [
+        "law.e4.induction_condition",
+        "law.m6.energy_conservation_macro"
+      ],
+      "models": [],
+      "experiments": [],
+      "exp_skills": [],
+      "methods": [
+        "method.thought.control_variables",
+        "method.thought.equivalence_method"
+      ],
+      "traps": []
+    }
+  ]
+}

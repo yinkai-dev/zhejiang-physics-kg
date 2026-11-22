@@ -47,6 +47,16 @@ node $kg diagnose "动量守恒 圆弧槽"
 
 # 7. 生成浙江 18 题标准仿真卷或专题突破蓝图
 node $kg blueprint --mode zhejiang_18_mock
+
+# 8. 检索人教版 6 册教材母题、STSE/拓展栏目与实验原型（支持零超纲过滤与高考高频母本筛选）
+node $kg archetype "霍尔"
+node $kg archetype --nodes model.ind.eddy_damping_drive --learned b1,b2,b3,s2
+node $kg archetype --gaokao-only --limit 15
+
+# 9. 高考真题/模拟题与人教版课本双向溯源（查真题课本出处，或从课本母题反查衍生真题与联考题）
+node $kg provenance --level direct_adaptation --limit 15
+node $kg provenance --question zj-26-erkao--paper-0f58a917fecae1c2-q05
+node $kg provenance --textbook tb.s2.c3.revB.q2
 ```
 
 ---

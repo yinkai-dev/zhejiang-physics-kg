@@ -1,7 +1,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { KG_ROOT, loadOntology, loadPaperAnnotations, sha256 } from './loader.mjs';
-import { validateOntology } from './validator.mjs';
+import {
+  KG_ROOT,
+  loadOntology,
+  loadPaperAnnotations,
+  loadTextbookAnnotations,
+  loadGaokaoProvenance,
+  sha256
+} from './loader.mjs';
+import {
+  validateOntology,
+  validateTextbookBookAnnotation,
+  validateGaokaoProvenance
+} from './validator.mjs';
 
 /**
  * 计算每个概念规律、物理模型、实验的先修规律闭包与最小必需教材节次集合
@@ -103,8 +114,11 @@ export function renderL0Map(ontology, closures, questionStats) {
   const lines = [];
   lines.push(`# 浙江高考物理知识图谱 L0 全景路由地图 (v${meta.ontology_version})`);
   lines.push('');
-  lines.push(`> 节点总数: ${ontology.nodes.size} | 教材: 6册/${unitsRaw.length}章 | 概念规律: ${laws.length} | 物理模型: ${models.length} | 实验与微技能: ${experiments.length + expSkills.length} | 方法图像数学: ${methods.length} | 迷思陷阱: ${traps.length} | 题位簇: ${slots.length} | 已挂载题目: ${questionStats.annotatedQuestions}`);
-  lines.push('> 调用指南: 先在本图定位目标节点语义 ID，再按需用 `kg-cli inspect <id>` 拉取公式/适用条件/易混辨析，或用 `kg-cli scope` / `kg-cli match` 执行零超纲选题。');
+  const extraStats = questionStats.textbookItems
+    ? ` | 教材母本挂载: ${questionStats.textbookItems} | 真题溯源: ${questionStats.provenanceQuestions}`
+    : '';
+  lines.push(`> 节点总数: ${ontology.nodes.size} | 教材: 6册/${unitsRaw.length}章 | 概念规律: ${laws.length} | 物理模型: ${models.length} | 实验与微技能: ${experiments.length + expSkills.length} | 方法图像数学: ${methods.length} | 迷思陷阱: ${traps.length} | 题位簇: ${slots.length} | 已挂载题目: ${questionStats.annotatedQuestions}${extraStats}`);
+  lines.push('> 调用指南: 先在本图定位目标节点语义 ID，再按需用 `kg-cli inspect <id>` 拉取公式/适用条件/易混辨析，`kg-cli archetype` / `provenance` 调取课本母题与真题溯源，或用 `kg-cli scope` / `match` 执行零超纲选题。');
   lines.push('');
 
   lines.push('## 1. 教材六册与 27 章速查 (`unit.*`)');
@@ -178,8 +192,103 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
 
   const closures = computeClosures(ontology);
   const annotationsMap = loadPaperAnnotations(root);
+  const tbAnnotationsMap = loadTextbookAnnotations(root);
+  const rawProvenance = loadGaokaoProvenance(root);
 
-  // 聚合已挂载题目的节点索引
+  // 1. 聚合教材母题与栏目图谱挂载 (annotations/textbook/*.json)
+  const textbookItems = {};
+  const tbItemMap = new Map();
+  const nodeTextbookItems = new Map();
+  const lawTbFreq = new Map();
+
+  const pushTbHit = (nodeId, itemId) => {
+    if (!nodeTextbookItems.has(nodeId)) nodeTextbookItems.set(nodeId, new Set());
+    nodeTextbookItems.get(nodeId).add(itemId);
+  };
+
+  for (const [bookId, bookAnn] of tbAnnotationsMap.entries()) {
+    const tbCheck = validateTextbookBookAnnotation(bookAnn, ontology);
+    if (!tbCheck.ok) {
+      throw new Error(`教材 [${bookId}] 图谱挂载门禁未通过:\n${tbCheck.errors.slice(0, 20).join('\n')}`);
+    }
+    for (const item of bookAnn.items || []) {
+      const reqUnits = new Set();
+      const uNode = ontology.nodes.get(item.unit_id);
+      if (uNode?.level === 'section') {
+        reqUnits.add(item.unit_id);
+      } else if (uNode?.level === 'chapter') {
+        for (const sid of uNode.section_ids || []) reqUnits.add(sid);
+      }
+      const directNodes = [
+        ...(item.models || []),
+        ...(item.laws || []),
+        ...(item.experiments || []),
+        ...(item.exp_skills || []),
+        ...(item.methods || []),
+        ...(item.traps || [])
+      ];
+      pushTbHit(item.unit_id, item.item_id);
+      if (uNode?.chapter_id) pushTbHit(uNode.chapter_id, item.item_id);
+      for (const nid of directNodes) {
+        pushTbHit(nid, item.item_id);
+        for (const u of closures.requiredUnits.get(nid) || []) reqUnits.add(u);
+      }
+      for (const lid of item.laws || []) {
+        lawTbFreq.set(lid, (lawTbFreq.get(lid) || 0) + 1);
+      }
+      const enriched = {
+        ...item,
+        book_id: bookId,
+        required_units: [...reqUnits].sort(),
+        derived_gaokao_questions: []
+      };
+      textbookItems[item.item_id] = enriched;
+      tbItemMap.set(item.item_id, enriched);
+    }
+  }
+
+  // 2. 聚合浙江新教材选考真题双向教材溯源 (annotations/provenance/zhejiang-gaokao-provenance.json)
+  let provenancePapers = [];
+  let provenanceQuestionsCount = 0;
+  const provenanceByQuestionId = new Map();
+  if (rawProvenance && tbItemMap.size > 0) {
+    const pCheck = validateGaokaoProvenance(rawProvenance, tbItemMap, ontology);
+    if (!pCheck.ok) {
+      throw new Error(`高考真题教材溯源门禁未通过:\n${pCheck.errors.slice(0, 20).join('\n')}`);
+    }
+    provenancePapers = rawProvenance.papers;
+    for (const paper of provenancePapers) {
+      for (const q of paper.questions || []) {
+        provenanceQuestionsCount++;
+        const refEntry = {
+          paper_id: paper.paper_id,
+          paper_title: paper.title,
+          exam_year: paper.exam_year,
+          exam_month: paper.exam_month,
+          question_no: q.question_no,
+          question_id: q.question_id,
+          exam_question_summary: q.exam_question_summary,
+          provenance_level: q.provenance_level,
+          adaptation_mechanism: q.adaptation_mechanism
+        };
+        provenanceByQuestionId.set(q.question_id, {
+          ...refEntry,
+          slot: q.slot,
+          laws: q.laws || [],
+          models: q.models || [],
+          experiments: q.experiments || [],
+          source_textbook_ids: q.source_textbook_ids || []
+        });
+        for (const tid of q.source_textbook_ids || []) {
+          if (textbookItems[tid]) {
+            textbookItems[tid].derived_gaokao_questions.push(refEntry);
+          }
+        }
+      }
+    }
+  }
+
+  // 3. 聚合已挂载题目的节点索引 + 计算 Top-3 同构教材母题推荐
   const nodeQuestions = new Map();
   const questionAnnotations = {};
   let annotatedQuestions = 0;
@@ -187,6 +296,67 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
   const pushHit = (nodeId, qid) => {
     if (!nodeQuestions.has(nodeId)) nodeQuestions.set(nodeId, new Set());
     nodeQuestions.get(nodeId).add(qid);
+  };
+
+  const recommendArchetypesForQuestion = (q, reqUnitsSet) => {
+    const explicitProv = provenanceByQuestionId.get(q.question_id);
+    if (explicitProv?.source_textbook_ids?.length) {
+      return explicitProv.source_textbook_ids.slice(0, 3);
+    }
+    if (tbItemMap.size === 0) return [];
+
+    const qModels = new Set(q.models || []);
+    const qExps = new Set(q.experiments || []);
+    const qSkills = new Set([
+      ...(q.exp_skills || []),
+      ...(q.subquestions || []).flatMap((s) => s.exp_skills || [])
+    ]);
+    const qDirectLaws = new Set(q.laws || []);
+    const qSubLaws = new Set((q.subquestions || []).flatMap((s) => s.invoked_laws || []));
+    const qMethods = new Set(q.methods || []);
+    const qTraps = new Set(q.traps || []);
+
+    // 收集候选 tb 条目集合
+    const candidateIds = new Set();
+    for (const nid of [...qModels, ...qExps, ...qSkills, ...qDirectLaws, ...qSubLaws]) {
+      for (const tid of nodeTextbookItems.get(nid) || []) candidateIds.add(tid);
+    }
+
+    const scored = [];
+    for (const tid of candidateIds) {
+      const tb = textbookItems[tid];
+      if (!tb) continue;
+      let score = 0;
+      for (const m of tb.models || []) {
+        if (qModels.has(m)) score += 7.5;
+      }
+      for (const e of tb.experiments || []) {
+        if (qExps.has(e)) score += 7.0;
+      }
+      for (const sk of tb.exp_skills || []) {
+        if (qSkills.has(sk)) score += 3.0;
+      }
+      for (const l of tb.laws || []) {
+        const idf = 2.0 + 3.0 / Math.log2(2 + (lawTbFreq.get(l) || 1));
+        if (qDirectLaws.has(l)) score += idf;
+        else if (qSubLaws.has(l)) score += idf * 0.75;
+      }
+      for (const mt of tb.methods || []) {
+        if (qMethods.has(mt)) score += 1.6;
+      }
+      for (const tr of tb.traps || []) {
+        if (qTraps.has(tr)) score += 1.8;
+      }
+      // 优先推荐标准例题/母题与 STSE 拓展，且不超出当前题知识范围的脚手架条目
+      if (tb.pedagogical_role === 'canonical_archetype' || tb.category === 'worked_example') score += 1.2;
+      if ((tb.required_units || []).every((u) => reqUnitsSet.has(u))) score += 2.2;
+
+      if (score >= 3.2) {
+        scored.push({ id: tid, score });
+      }
+    }
+    scored.sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
+    return scored.slice(0, 3).map((x) => x.id);
   };
 
   for (const [, paperAnn] of annotationsMap.entries()) {
@@ -207,14 +377,25 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
         pushHit(nid, q.question_id);
         for (const u of closures.requiredUnits.get(nid) || []) requiredForQuestion.add(u);
       }
-      // 模型与规律的隐式先修规律也建立可追溯关联
       for (const mid of q.models || []) {
         for (const lid of closures.modelLawClosure.get(mid) || []) pushHit(lid, q.question_id);
       }
+      const explicitProv = provenanceByQuestionId.get(q.question_id);
+      const recTbIds = recommendArchetypesForQuestion(q, requiredForQuestion);
       questionAnnotations[q.question_id] = {
         ...q,
         paper_id: paperAnn.paper_id,
-        required_units: [...requiredForQuestion].sort()
+        required_units: [...requiredForQuestion].sort(),
+        ...(recTbIds.length ? { recommended_textbook_ids: recTbIds } : {}),
+        ...(explicitProv
+          ? {
+              textbook_provenance: {
+                provenance_level: explicitProv.provenance_level,
+                source_textbook_ids: explicitProv.source_textbook_ids,
+                adaptation_mechanism: explicitProv.adaptation_mechanism
+              }
+            }
+          : {})
       };
     }
   }
@@ -232,7 +413,8 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
       variant_subtree: closures.variantSubtree.has(id) && closures.variantSubtree.get(id).size > 1
         ? [...closures.variantSubtree.get(id)].sort()
         : undefined,
-      question_count: nodeQuestions.has(id) ? nodeQuestions.get(id).size : 0
+      question_count: nodeQuestions.has(id) ? nodeQuestions.get(id).size : 0,
+      textbook_item_count: nodeTextbookItems.has(id) ? nodeTextbookItems.get(id).size : 0
     };
   }
 
@@ -242,14 +424,22 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
     counts: {
       ...check.counts,
       annotated_papers: annotationsMap.size,
-      annotated_questions: annotatedQuestions
+      annotated_questions: annotatedQuestions,
+      textbook_items: tbItemMap.size,
+      gaokao_provenance_papers: provenancePapers.length,
+      gaokao_provenance_questions: provenanceQuestionsCount
     },
     nodes: serializedNodes,
     edges: ontology.edges,
     node_questions: Object.fromEntries(
       [...nodeQuestions.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([k, set]) => [k, [...set].sort()])
     ),
-    questions: questionAnnotations
+    node_textbook_items: Object.fromEntries(
+      [...nodeTextbookItems.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([k, set]) => [k, [...set].sort()])
+    ),
+    questions: questionAnnotations,
+    textbook_items: textbookItems,
+    gaokao_provenance: provenancePapers
   };
   const bundleVersion = sha256(bundlePayload);
   const bundle = { version: bundleVersion, ...bundlePayload };
@@ -263,7 +453,11 @@ export function buildKnowledgeGraph(root = KG_ROOT) {
 
   fs.writeFileSync(path.join(distDir, 'kg-bundle.json'), JSON.stringify(bundle, null, 2) + '\n');
 
-  const l0Text = renderL0Map(ontology, closures, { annotatedQuestions });
+  const l0Text = renderL0Map(ontology, closures, {
+    annotatedQuestions,
+    textbookItems: tbItemMap.size,
+    provenanceQuestions: provenanceQuestionsCount
+  });
   fs.writeFileSync(path.join(agentDir, 'L0-map.md'), l0Text + '\n');
 
   const trapsLines = ['# 高频审题陷阱与认知迷思速查表 (`trap.*`)\n'];
