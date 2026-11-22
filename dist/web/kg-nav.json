@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "175b74550947d874b6028e90cb336724e63c7fd37ff4c4b771cf5d9013fd28b3",
-  "ontology_version": "1.0.0-release",
+  "version": "e8fd3d2b8b129778e606e511add2361bfc5bc2ecdfb4c512261c7150e1d2a890",
+  "ontology_version": "1.1.0-release",
   "annotated_questions": 958,
   "tabs": {
     "curriculum": [
@@ -37,13 +37,6 @@
           },
           {
             "id": "unit.b1.c1.s4",
-            "title": "实验：借助传感器或打点计时器测速度",
-            "topics": [
-              "力学"
-            ]
-          },
-          {
-            "id": "unit.b1.c1.s5",
             "title": "速度变化快慢的描述——加速度",
             "topics": [
               "力学"
@@ -83,7 +76,7 @@
           },
           {
             "id": "unit.b1.c2.s4",
-            "title": "自由落体运动与伽利略的研究",
+            "title": "自由落体运动",
             "topics": [
               "力学"
             ]
@@ -101,7 +94,7 @@
         "sections": [
           {
             "id": "unit.b1.c3.s1",
-            "title": "重力与弹力（含探究弹簧弹力与形变量关系）",
+            "title": "重力与弹力",
             "topics": [
               "力学"
             ]
@@ -122,7 +115,7 @@
           },
           {
             "id": "unit.b1.c3.s4",
-            "title": "力的合成和分解（含探究两个互成角度的力的合成规律）",
+            "title": "力的合成和分解",
             "topics": [
               "力学"
             ]
@@ -246,7 +239,7 @@
           },
           {
             "id": "unit.b2.c6.s2",
-            "title": "向心力（含探究向心力大小实验）",
+            "title": "向心力",
             "topics": [
               "力学"
             ]
@@ -432,7 +425,7 @@
           },
           {
             "id": "unit.b3.c10.s4",
-            "title": "电容器的电容（含观察充放电）",
+            "title": "电容器的电容",
             "topics": [
               "电学"
             ]
@@ -464,7 +457,7 @@
           },
           {
             "id": "unit.b3.c11.s2",
-            "title": "导体的电阻（含伏安特性曲线）",
+            "title": "导体的电阻",
             "topics": [
               "电学"
             ]
@@ -741,7 +734,7 @@
         "sections": [
           {
             "id": "unit.s1.c4.s1",
-            "title": "光的折射（含测量玻璃折射率实验）",
+            "title": "光的折射",
             "topics": [
               "光学"
             ]
@@ -833,7 +826,7 @@
         "sections": [
           {
             "id": "unit.s2.c2.s1",
-            "title": "楞次定律（含探究感应电流方向实验）",
+            "title": "楞次定律",
             "topics": [
               "电学"
             ]
@@ -886,7 +879,7 @@
           },
           {
             "id": "unit.s2.c3.s3",
-            "title": "变压器（含探究变压器匝数与电压关系实验）",
+            "title": "变压器",
             "topics": [
               "电学"
             ]
@@ -1028,7 +1021,7 @@
           },
           {
             "id": "unit.s3.c2.s2",
-            "title": "气体的等温变化（含探究气体等温变化规律实验）",
+            "title": "气体的等温变化",
             "topics": [
               "热学"
             ]
@@ -1234,7 +1227,7 @@
         "topics": [
           "力学"
         ],
-        "unit": "unit.b1.c1.s5",
+        "unit": "unit.b1.c1.s3",
         "formulas": [
           "a = \\frac{\\Delta v}{\\Delta t}"
         ],
@@ -4400,7 +4393,7 @@
         "topics": [
           "力学"
         ],
-        "unit": "unit.b1.c1.s4",
+        "unit": "unit.b1.c1.s3",
         "mandatory": true,
         "question_count": 0
       },

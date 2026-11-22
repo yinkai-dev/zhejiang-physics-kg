@@ -63,7 +63,10 @@ export function loadOntology(root = KG_ROOT) {
         chapter_title: ch.title,
         order: sec.order,
         title: sec.title,
-        topics: sec.topics
+        topics: sec.topics,
+        ...(sec.page_range ? { page_range: sec.page_range } : {}),
+        ...(sec.aliases ? { aliases: sec.aliases } : {}),
+        ...(sec.column_titles ? { column_titles: sec.column_titles } : {})
       });
     }
   }

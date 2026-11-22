@@ -111,7 +111,8 @@ export function renderL0Map(ontology, closures, questionStats) {
   const byBook = new Map();
   for (const ch of unitsRaw) {
     if (!byBook.has(ch.book_id)) byBook.set(ch.book_id, { title: ch.book_title, chapters: [] });
-    byBook.get(ch.book_id).chapters.push(`${ch.id}(${ch.title.replace(/^第[一二三四五六七八九十]+章\s*/, '')}, ${ch.sections.length}节)`);
+    const pageStr = ch.page_range ? `, P${ch.page_range[0]}-${ch.page_range[1]}` : '';
+    byBook.get(ch.book_id).chapters.push(`${ch.id}(${ch.title.replace(/^第[一二三四五六七八九十]+章\s*/, '')}, ${ch.sections.length}节${pageStr})`);
   }
   for (const [bookId, info] of byBook.entries()) {
     lines.push(`- **${bookId} ${info.title}**: ${info.chapters.join(' · ')}`);

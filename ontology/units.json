@@ -7,14 +7,92 @@
     "book_title": "必修第一册",
     "order": 1,
     "title": "第一章 运动的描述",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b1.c1.s1", "order": 1, "title": "质点 参考系", "topics": ["力学"] },
-      { "id": "unit.b1.c1.s2", "order": 2, "title": "时间 位移", "topics": ["力学"] },
-      { "id": "unit.b1.c1.s3", "order": 3, "title": "位置变化快慢的描述——速度", "topics": ["力学"] },
-      { "id": "unit.b1.c1.s4", "order": 4, "title": "实验：借助传感器或打点计时器测速度", "topics": ["力学"] },
-      { "id": "unit.b1.c1.s5", "order": 5, "title": "速度变化快慢的描述——加速度", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b1.c1.s1",
+        "order": 1,
+        "title": "质点 参考系",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          11,
+          14
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c1.s2",
+        "order": 2,
+        "title": "时间 位移",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          15,
+          20
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "实验：练习使用打点计时器",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c1.s3",
+        "order": 3,
+        "title": "位置变化快慢的描述——速度",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          21,
+          26
+        ],
+        "aliases": [
+          "实验：借助传感器或打点计时器测速度",
+          "练习使用打点计时器"
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "实验：测量纸带的平均速度和瞬时速度",
+          "拓展学习：借助传感器与计算机测速度",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c1.s4",
+        "order": 4,
+        "title": "速度变化快慢的描述——加速度",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          27,
+          34
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "科学漫步：变化率",
+          "STSE",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      10,
+      34
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.b1.c2",
@@ -24,13 +102,92 @@
     "book_title": "必修第一册",
     "order": 2,
     "title": "第二章 匀变速直线运动的研究",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b1.c2.s1", "order": 1, "title": "实验：探究小车速度随时间变化的规律", "topics": ["力学"] },
-      { "id": "unit.b1.c2.s2", "order": 2, "title": "匀变速直线运动的速度与时间的关系", "topics": ["力学"] },
-      { "id": "unit.b1.c2.s3", "order": 3, "title": "匀变速直线运动的位移与时间的关系", "topics": ["力学"] },
-      { "id": "unit.b1.c2.s4", "order": 4, "title": "自由落体运动与伽利略的研究", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b1.c2.s1",
+        "order": 1,
+        "title": "实验：探究小车速度随时间变化的规律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          36,
+          38
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c2.s2",
+        "order": 2,
+        "title": "匀变速直线运动的速度与时间的关系",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          39,
+          41
+        ],
+        "column_titles": [
+          "【例题】",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c2.s3",
+        "order": 3,
+        "title": "匀变速直线运动的位移与时间的关系",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          42,
+          46
+        ],
+        "column_titles": [
+          "【例题1】",
+          "【例题2】",
+          "拓展学习：匀变速直线运动位移公式的推导",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c2.s4",
+        "order": 4,
+        "title": "自由落体运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          47,
+          55
+        ],
+        "aliases": [
+          "自由落体运动与伽利略的研究"
+        ],
+        "column_titles": [
+          "演示",
+          "实验",
+          "做一做：用手机测自由落体加速度",
+          "科学漫步：伽利略对自由落体运动的研究",
+          "STSE：从伽利略的一生看科学与社会",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      35,
+      55
+    ],
+    "chapter_review_counts": {
+      "group_A": 6,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.b1.c3",
@@ -40,14 +197,111 @@
     "book_title": "必修第一册",
     "order": 3,
     "title": "第三章 相互作用——力",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b1.c3.s1", "order": 1, "title": "重力与弹力（含探究弹簧弹力与形变量关系）", "topics": ["力学"] },
-      { "id": "unit.b1.c3.s2", "order": 2, "title": "摩擦力", "topics": ["力学"] },
-      { "id": "unit.b1.c3.s3", "order": 3, "title": "牛顿第三定律", "topics": ["力学"] },
-      { "id": "unit.b1.c3.s4", "order": 4, "title": "力的合成和分解（含探究两个互成角度的力的合成规律）", "topics": ["力学"] },
-      { "id": "unit.b1.c3.s5", "order": 5, "title": "共点力的平衡", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b1.c3.s1",
+        "order": 1,
+        "title": "重力与弹力",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          57,
+          62
+        ],
+        "aliases": [
+          "重力与弹力（含探究弹簧弹力与形变量关系）"
+        ],
+        "column_titles": [
+          "演示",
+          "实验：探究弹簧弹力与形变量的关系",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c3.s2",
+        "order": 2,
+        "title": "摩擦力",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          63,
+          67
+        ],
+        "column_titles": [
+          "【例题】",
+          "演示：静摩擦力的大小随拉力的变化",
+          "科学漫步：流体的阻力",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c3.s3",
+        "order": 3,
+        "title": "牛顿第三定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          68,
+          71
+        ],
+        "column_titles": [
+          "实验：用弹簧测力计探究作用力和反作用力的关系",
+          "拓展学习：用力传感器探究作用力和反作用力的关系",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c3.s4",
+        "order": 4,
+        "title": "力的合成和分解",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          72,
+          75
+        ],
+        "aliases": [
+          "力的合成和分解（含探究两个互成角度的力的合成规律）"
+        ],
+        "column_titles": [
+          "实验：探究两个互成角度的力的合成规律",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c3.s5",
+        "order": 5,
+        "title": "共点力的平衡",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          76,
+          81
+        ],
+        "column_titles": [
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      56,
+      81
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.b1.c4",
@@ -57,15 +311,123 @@
     "book_title": "必修第一册",
     "order": 4,
     "title": "第四章 运动和力的关系",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b1.c4.s1", "order": 1, "title": "牛顿第一定律", "topics": ["力学"] },
-      { "id": "unit.b1.c4.s2", "order": 2, "title": "实验：探究加速度与力、质量的关系", "topics": ["力学"] },
-      { "id": "unit.b1.c4.s3", "order": 3, "title": "牛顿第二定律", "topics": ["力学"] },
-      { "id": "unit.b1.c4.s4", "order": 4, "title": "力学单位制", "topics": ["力学"] },
-      { "id": "unit.b1.c4.s5", "order": 5, "title": "牛顿运动定律的应用", "topics": ["力学"] },
-      { "id": "unit.b1.c4.s6", "order": 6, "title": "超重和失重", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b1.c4.s1",
+        "order": 1,
+        "title": "牛顿第一定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          83,
+          87
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "拓展学习：惯性参考系",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c4.s2",
+        "order": 2,
+        "title": "实验：探究加速度与力、质量的关系",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          88,
+          93
+        ],
+        "column_titles": [
+          "科学方法：控制变量",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c4.s3",
+        "order": 3,
+        "title": "牛顿第二定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          94,
+          98
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c4.s4",
+        "order": 4,
+        "title": "力学单位制",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          99,
+          103
+        ],
+        "column_titles": [
+          "【例题】",
+          "思考与讨论",
+          "拓展学习：基本单位的定义",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c4.s5",
+        "order": 5,
+        "title": "牛顿运动定律的应用",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          104,
+          108
+        ],
+        "column_titles": [
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b1.c4.s6",
+        "order": 6,
+        "title": "超重和失重",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          109,
+          115
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "做一做",
+          "【例题】",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      82,
+      115
+    ],
+    "chapter_review_counts": {
+      "group_A": 9,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.b2.c5",
@@ -75,13 +437,91 @@
     "book_title": "必修第二册",
     "order": 5,
     "title": "第五章 抛体运动",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b2.c5.s1", "order": 1, "title": "曲线运动", "topics": ["力学"] },
-      { "id": "unit.b2.c5.s2", "order": 2, "title": "运动的合成与分解", "topics": ["力学"] },
-      { "id": "unit.b2.c5.s3", "order": 3, "title": "实验：探究平抛运动的特点", "topics": ["力学"] },
-      { "id": "unit.b2.c5.s4", "order": 4, "title": "抛体运动的规律", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b2.c5.s1",
+        "order": 1,
+        "title": "曲线运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          2,
+          5
+        ],
+        "column_titles": [
+          "演示",
+          "思考与讨论",
+          "演示",
+          "做一做：用飞镖显示曲线运动的速度方向",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c5.s2",
+        "order": 2,
+        "title": "运动的合成与分解",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          6,
+          9
+        ],
+        "column_titles": [
+          "演示",
+          "【例题】",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c5.s3",
+        "order": 3,
+        "title": "实验：探究平抛运动的特点",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          10,
+          13
+        ],
+        "column_titles": [
+          "拓展学习：用传感器和计算机描绘物体做平抛运动的轨迹",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c5.s4",
+        "order": 4,
+        "title": "抛体运动的规律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          14,
+          21
+        ],
+        "column_titles": [
+          "【例题1】",
+          "做一做",
+          "【例题2】",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      1,
+      21
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.b2.c6",
@@ -91,13 +531,92 @@
     "book_title": "必修第二册",
     "order": 6,
     "title": "第六章 圆周运动",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b2.c6.s1", "order": 1, "title": "圆周运动", "topics": ["力学"] },
-      { "id": "unit.b2.c6.s2", "order": 2, "title": "向心力（含探究向心力大小实验）", "topics": ["力学"] },
-      { "id": "unit.b2.c6.s3", "order": 3, "title": "向心加速度", "topics": ["力学"] },
-      { "id": "unit.b2.c6.s4", "order": 4, "title": "生活中的圆周运动", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b2.c6.s1",
+        "order": 1,
+        "title": "圆周运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          23,
+          26
+        ],
+        "column_titles": [
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c6.s2",
+        "order": 2,
+        "title": "向心力",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          27,
+          30
+        ],
+        "aliases": [
+          "向心力（含探究向心力大小实验）"
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "做一做",
+          "实验：探究向心力大小的表达式",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c6.s3",
+        "order": 3,
+        "title": "向心加速度",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          31,
+          34
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "拓展学习：推导向心加速度公式",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c6.s4",
+        "order": 4,
+        "title": "生活中的圆周运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          35,
+          42
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      22,
+      42
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.b2.c7",
@@ -107,14 +626,107 @@
     "book_title": "必修第二册",
     "order": 7,
     "title": "第七章 万有引力与宇宙航行",
-    "topics": ["力学", "近代物理"],
+    "topics": [
+      "力学",
+      "近代物理"
+    ],
     "sections": [
-      { "id": "unit.b2.c7.s1", "order": 1, "title": "行星的运动", "topics": ["力学"] },
-      { "id": "unit.b2.c7.s2", "order": 2, "title": "万有引力定律", "topics": ["力学"] },
-      { "id": "unit.b2.c7.s3", "order": 3, "title": "万有引力理论的成就", "topics": ["力学"] },
-      { "id": "unit.b2.c7.s4", "order": 4, "title": "宇宙航行", "topics": ["力学"] },
-      { "id": "unit.b2.c7.s5", "order": 5, "title": "相对论时空观与牛顿力学的局限性", "topics": ["近代物理", "力学"] }
-    ]
+      {
+        "id": "unit.b2.c7.s1",
+        "order": 1,
+        "title": "行星的运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          44,
+          48
+        ],
+        "column_titles": [
+          "做一做",
+          "科学漫步：人类对行星运动规律的认识",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c7.s2",
+        "order": 2,
+        "title": "万有引力定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          49,
+          54
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "拓展学习：引力常量的测量",
+          "科学漫步：牛顿的科学生涯",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c7.s3",
+        "order": 3,
+        "title": "万有引力理论的成就",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          55,
+          58
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c7.s4",
+        "order": 4,
+        "title": "宇宙航行",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          59,
+          64
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "STSE：航天事业改变着人类的生活",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c7.s5",
+        "order": 5,
+        "title": "相对论时空观与牛顿力学的局限性",
+        "topics": [
+          "近代物理",
+          "力学"
+        ],
+        "page_range": [
+          65,
+          72
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "科学漫步：1. 宇宙的起源与演化",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      43,
+      72
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.b2.c8",
@@ -124,14 +736,105 @@
     "book_title": "必修第二册",
     "order": 8,
     "title": "第八章 机械能守恒定律",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.b2.c8.s1", "order": 1, "title": "功与功率", "topics": ["力学"] },
-      { "id": "unit.b2.c8.s2", "order": 2, "title": "重力势能", "topics": ["力学"] },
-      { "id": "unit.b2.c8.s3", "order": 3, "title": "动能和动能定理", "topics": ["力学"] },
-      { "id": "unit.b2.c8.s4", "order": 4, "title": "机械能守恒定律", "topics": ["力学"] },
-      { "id": "unit.b2.c8.s5", "order": 5, "title": "实验：验证机械能守恒定律", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.b2.c8.s1",
+        "order": 1,
+        "title": "功与功率",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          74,
+          78
+        ],
+        "column_titles": [
+          "【例题1】",
+          "思考与讨论",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c8.s2",
+        "order": 2,
+        "title": "重力势能",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          79,
+          83
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "拓展学习：物体沿曲面滑下时重力做的功",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c8.s3",
+        "order": 3,
+        "title": "动能和动能定理",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          84,
+          88
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c8.s4",
+        "order": 4,
+        "title": "机械能守恒定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          89,
+          94
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b2.c8.s5",
+        "order": 5,
+        "title": "实验：验证机械能守恒定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          95,
+          101
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      73,
+      101
+    ],
+    "chapter_review_counts": {
+      "group_A": 6,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.b3.c9",
@@ -141,13 +844,88 @@
     "book_title": "必修第三册",
     "order": 9,
     "title": "第九章 静电场及其应用",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.b3.c9.s1", "order": 1, "title": "电荷", "topics": ["电学"] },
-      { "id": "unit.b3.c9.s2", "order": 2, "title": "库仑定律", "topics": ["电学"] },
-      { "id": "unit.b3.c9.s3", "order": 3, "title": "电场 电场强度", "topics": ["电学"] },
-      { "id": "unit.b3.c9.s4", "order": 4, "title": "静电的防止与利用", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.b3.c9.s1",
+        "order": 1,
+        "title": "电荷",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          2,
+          5
+        ],
+        "column_titles": [
+          "实验：观察静电感应现象",
+          "做一做：验电器",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c9.s2",
+        "order": 2,
+        "title": "库仑定律",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          6,
+          10
+        ],
+        "column_titles": [
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c9.s3",
+        "order": 3,
+        "title": "电场 电场强度",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          11,
+          17
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "演示：模拟电场线",
+          "科学方法：用物理量之比定义新物理量",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c9.s4",
+        "order": 4,
+        "title": "静电的防止与利用",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          18,
+          24
+        ],
+        "column_titles": [
+          "演示",
+          "科学漫步：雷火炼殿",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      1,
+      24
+    ],
+    "chapter_review_counts": {
+      "group_A": 6,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.b3.c10",
@@ -157,14 +935,111 @@
     "book_title": "必修第三册",
     "order": 10,
     "title": "第十章 静电场中的能量",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.b3.c10.s1", "order": 1, "title": "电势能和电势", "topics": ["电学"] },
-      { "id": "unit.b3.c10.s2", "order": 2, "title": "电势差", "topics": ["电学"] },
-      { "id": "unit.b3.c10.s3", "order": 3, "title": "电势差与电场强度的关系", "topics": ["电学"] },
-      { "id": "unit.b3.c10.s4", "order": 4, "title": "电容器的电容（含观察充放电）", "topics": ["电学"] },
-      { "id": "unit.b3.c10.s5", "order": 5, "title": "带电粒子在电场中的运动", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.b3.c10.s1",
+        "order": 1,
+        "title": "电势能和电势",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          26,
+          30
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c10.s2",
+        "order": 2,
+        "title": "电势差",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          31,
+          34
+        ],
+        "column_titles": [
+          "【例题】",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c10.s3",
+        "order": 3,
+        "title": "电势差与电场强度的关系",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          35,
+          37
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c10.s4",
+        "order": 4,
+        "title": "电容器的电容",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          38,
+          43
+        ],
+        "aliases": [
+          "电容器的电容（含观察充放电）"
+        ],
+        "column_titles": [
+          "实验",
+          "拓展学习：用传感器观察电容器的放电过程",
+          "演示",
+          "拓展学习：平行板电容器的电容",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c10.s5",
+        "order": 5,
+        "title": "带电粒子在电场中的运动",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          44,
+          51
+        ],
+        "column_titles": [
+          "【例题1】",
+          "【例题2】",
+          "拓展学习：示波管的原理",
+          "科学漫步：范德格拉夫静电加速器",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      25,
+      51
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 4
+    }
   },
   {
     "id": "unit.b3.c11",
@@ -174,14 +1049,104 @@
     "book_title": "必修第三册",
     "order": 11,
     "title": "第十一章 电路及其应用",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.b3.c11.s1", "order": 1, "title": "电源和电流", "topics": ["电学"] },
-      { "id": "unit.b3.c11.s2", "order": 2, "title": "导体的电阻（含伏安特性曲线）", "topics": ["电学"] },
-      { "id": "unit.b3.c11.s3", "order": 3, "title": "实验：导体电阻率的测量", "topics": ["电学"] },
-      { "id": "unit.b3.c11.s4", "order": 4, "title": "串联电路和并联电路", "topics": ["电学"] },
-      { "id": "unit.b3.c11.s5", "order": 5, "title": "实验：练习使用多用电表", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.b3.c11.s1",
+        "order": 1,
+        "title": "电源和电流",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          53,
+          56
+        ],
+        "column_titles": [
+          "拓展学习：电流的微观解释",
+          "STSE：电动汽车中的电池",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c11.s2",
+        "order": 2,
+        "title": "导体的电阻",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          57,
+          61
+        ],
+        "aliases": [
+          "导体的电阻（含伏安特性曲线）"
+        ],
+        "column_titles": [
+          "实验：研究导体电阻与长度、横截面积及材料的定量关系",
+          "演示：电阻率与温度的关系",
+          "拓展学习：伏安特性曲线",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c11.s3",
+        "order": 3,
+        "title": "实验：导体电阻率的测量",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          62,
+          67
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c11.s4",
+        "order": 4,
+        "title": "串联电路和并联电路",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          68,
+          71
+        ],
+        "column_titles": [
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c11.s5",
+        "order": 5,
+        "title": "实验：练习使用多用电表",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          72,
+          77
+        ],
+        "column_titles": [
+          "做一做：测量电阻",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      52,
+      77
+    ],
+    "chapter_review_counts": {
+      "group_A": 8,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.b3.c12",
@@ -191,13 +1156,88 @@
     "book_title": "必修第三册",
     "order": 12,
     "title": "第十二章 电能 能量守恒定律",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.b3.c12.s1", "order": 1, "title": "电路中的能量转化", "topics": ["电学"] },
-      { "id": "unit.b3.c12.s2", "order": 2, "title": "闭合电路的欧姆定律", "topics": ["电学"] },
-      { "id": "unit.b3.c12.s3", "order": 3, "title": "实验：电池电动势和内阻的测量", "topics": ["电学"] },
-      { "id": "unit.b3.c12.s4", "order": 4, "title": "能源与可持续发展", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.b3.c12.s1",
+        "order": 1,
+        "title": "电路中的能量转化",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          79,
+          82
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c12.s2",
+        "order": 2,
+        "title": "闭合电路的欧姆定律",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          83,
+          88
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "思考与讨论",
+          "思考与讨论",
+          "拓展学习：欧姆表的原理",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c12.s3",
+        "order": 3,
+        "title": "实验：电池电动势和内阻的测量",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          89,
+          92
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c12.s4",
+        "order": 4,
+        "title": "能源与可持续发展",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          93,
+          102
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "STSE：汽车和能源",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      78,
+      102
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.b3.c13",
@@ -207,14 +1247,104 @@
     "book_title": "必修第三册",
     "order": 13,
     "title": "第十三章 电磁感应与电磁波初步",
-    "topics": ["电学", "近代物理"],
+    "topics": [
+      "电学",
+      "近代物理"
+    ],
     "sections": [
-      { "id": "unit.b3.c13.s1", "order": 1, "title": "磁场 磁感线", "topics": ["电学"] },
-      { "id": "unit.b3.c13.s2", "order": 2, "title": "磁感应强度 磁通量", "topics": ["电学"] },
-      { "id": "unit.b3.c13.s3", "order": 3, "title": "电磁感应现象及应用", "topics": ["电学"] },
-      { "id": "unit.b3.c13.s4", "order": 4, "title": "电磁波的发现及应用", "topics": ["电学"] },
-      { "id": "unit.b3.c13.s5", "order": 5, "title": "能量量子化", "topics": ["近代物理"] }
-    ]
+      {
+        "id": "unit.b3.c13.s1",
+        "order": 1,
+        "title": "磁场 磁感线",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          104,
+          108
+        ],
+        "column_titles": [
+          "演示：观察常见磁场的分布",
+          "科学漫步：安培分子电流假说",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c13.s2",
+        "order": 2,
+        "title": "磁感应强度 磁通量",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          109,
+          113
+        ],
+        "column_titles": [
+          "演示：探究影响通电导线受力的因素",
+          "思考与讨论",
+          "STSE：指南针与郑和下西洋",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c13.s3",
+        "order": 3,
+        "title": "电磁感应现象及应用",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          114,
+          118
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "实验：探究感应电流产生的条件",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c13.s4",
+        "order": 4,
+        "title": "电磁波的发现及应用",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          119,
+          123
+        ],
+        "column_titles": [
+          "做一做：捕捉电磁波",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.b3.c13.s5",
+        "order": 5,
+        "title": "能量量子化",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          124,
+          130
+        ],
+        "column_titles": [
+          "科学漫步：“聆听”宇宙",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      103,
+      130
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.s1.c1",
@@ -224,15 +1354,124 @@
     "book_title": "选择性必修第一册",
     "order": 14,
     "title": "第一章 动量守恒定律",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.s1.c1.s1", "order": 1, "title": "动量", "topics": ["力学"] },
-      { "id": "unit.s1.c1.s2", "order": 2, "title": "动量定理", "topics": ["力学"] },
-      { "id": "unit.s1.c1.s3", "order": 3, "title": "动量守恒定律", "topics": ["力学"] },
-      { "id": "unit.s1.c1.s4", "order": 4, "title": "实验：验证动量守恒定律", "topics": ["力学"] },
-      { "id": "unit.s1.c1.s5", "order": 5, "title": "弹性碰撞和非弹性碰撞", "topics": ["力学"] },
-      { "id": "unit.s1.c1.s6", "order": 6, "title": "反冲现象 火箭", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.s1.c1.s1",
+        "order": 1,
+        "title": "动量",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          2,
+          5
+        ],
+        "column_titles": [
+          "演示",
+          "【例题】",
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c1.s2",
+        "order": 2,
+        "title": "动量定理",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          6,
+          11
+        ],
+        "column_titles": [
+          "【例题】",
+          "科学漫步：历史上关于运动量度的争论",
+          "STSE：汽车碰撞试验",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c1.s3",
+        "order": 3,
+        "title": "动量守恒定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          12,
+          16
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题1】",
+          "【例题2】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c1.s4",
+        "order": 4,
+        "title": "实验：验证动量守恒定律",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          17,
+          20
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c1.s5",
+        "order": 5,
+        "title": "弹性碰撞和非弹性碰撞",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          21,
+          24
+        ],
+        "column_titles": [
+          "实验：研究小车碰撞前后动能的变化",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c1.s6",
+        "order": 6,
+        "title": "反冲现象 火箭",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          25,
+          30
+        ],
+        "column_titles": [
+          "做一做",
+          "思考与讨论",
+          "科学漫步：三级火箭",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      1,
+      30
+    ],
+    "chapter_review_counts": {
+      "group_A": 8,
+      "group_B": 8
+    }
   },
   {
     "id": "unit.s1.c2",
@@ -242,15 +1481,127 @@
     "book_title": "选择性必修第一册",
     "order": 15,
     "title": "第二章 机械振动",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.s1.c2.s1", "order": 1, "title": "简谐运动", "topics": ["力学"] },
-      { "id": "unit.s1.c2.s2", "order": 2, "title": "简谐运动的描述", "topics": ["力学"] },
-      { "id": "unit.s1.c2.s3", "order": 3, "title": "简谐运动的回复力和能量", "topics": ["力学"] },
-      { "id": "unit.s1.c2.s4", "order": 4, "title": "单摆", "topics": ["力学"] },
-      { "id": "unit.s1.c2.s5", "order": 5, "title": "实验：用单摆测量重力加速度", "topics": ["力学"] },
-      { "id": "unit.s1.c2.s6", "order": 6, "title": "受迫振动 共振", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.s1.c2.s1",
+        "order": 1,
+        "title": "简谐运动",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          32,
+          35
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "做一做：用数码相机和计算机绘制弹簧振子的x-t图像",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c2.s2",
+        "order": 2,
+        "title": "简谐运动的描述",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          36,
+          42
+        ],
+        "column_titles": [
+          "做一做：测量小球振动的周期",
+          "演示",
+          "【例题】",
+          "做一做：用计算机呈现声音的振动图像",
+          "科学漫步：乐音和音阶",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c2.s3",
+        "order": 3,
+        "title": "简谐运动的回复力和能量",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          43,
+          45
+        ],
+        "column_titles": [
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c2.s4",
+        "order": 4,
+        "title": "单摆",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          46,
+          50
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "做一做",
+          "演示",
+          "实验：探究单摆周期与摆长之间的关系",
+          "科学漫步：从日晷到原子钟",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c2.s5",
+        "order": 5,
+        "title": "实验：用单摆测量重力加速度",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          51,
+          53
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c2.s6",
+        "order": 6,
+        "title": "受迫振动 共振",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          54,
+          60
+        ],
+        "column_titles": [
+          "做一做：研究受迫振动的频率",
+          "做一做",
+          "科学漫步：振动控制技术",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      31,
+      60
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.s1.c3",
@@ -260,14 +1611,108 @@
     "book_title": "选择性必修第一册",
     "order": 16,
     "title": "第三章 机械波",
-    "topics": ["力学"],
+    "topics": [
+      "力学"
+    ],
     "sections": [
-      { "id": "unit.s1.c3.s1", "order": 1, "title": "波的形成", "topics": ["力学"] },
-      { "id": "unit.s1.c3.s2", "order": 2, "title": "波的描述", "topics": ["力学"] },
-      { "id": "unit.s1.c3.s3", "order": 3, "title": "波的反射、折射和衍射", "topics": ["力学"] },
-      { "id": "unit.s1.c3.s4", "order": 4, "title": "波的干涉", "topics": ["力学"] },
-      { "id": "unit.s1.c3.s5", "order": 5, "title": "多普勒效应", "topics": ["力学"] }
-    ]
+      {
+        "id": "unit.s1.c3.s1",
+        "order": 1,
+        "title": "波的形成",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          62,
+          66
+        ],
+        "column_titles": [
+          "演示",
+          "做一做",
+          "演示：观察弹簧形成的波",
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c3.s2",
+        "order": 2,
+        "title": "波的描述",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          67,
+          70
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c3.s3",
+        "order": 3,
+        "title": "波的反射、折射和衍射",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          71,
+          73
+        ],
+        "column_titles": [
+          "演示：水波的反射",
+          "演示",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c3.s4",
+        "order": 4,
+        "title": "波的干涉",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          74,
+          78
+        ],
+        "column_titles": [
+          "演示",
+          "演示：观察水波的干涉",
+          "做一做：声音的干涉",
+          "STSE：主动降噪技术",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c3.s5",
+        "order": 5,
+        "title": "多普勒效应",
+        "topics": [
+          "力学"
+        ],
+        "page_range": [
+          79,
+          83
+        ],
+        "column_titles": [
+          "演示：蜂鸣器音调的变化",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      61,
+      83
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.s1.c4",
@@ -277,15 +1722,130 @@
     "book_title": "选择性必修第一册",
     "order": 17,
     "title": "第四章 光",
-    "topics": ["光学"],
+    "topics": [
+      "光学"
+    ],
     "sections": [
-      { "id": "unit.s1.c4.s1", "order": 1, "title": "光的折射（含测量玻璃折射率实验）", "topics": ["光学"] },
-      { "id": "unit.s1.c4.s2", "order": 2, "title": "全反射", "topics": ["光学"] },
-      { "id": "unit.s1.c4.s3", "order": 3, "title": "光的干涉", "topics": ["光学"] },
-      { "id": "unit.s1.c4.s4", "order": 4, "title": "实验：用双缝干涉测量光的波长", "topics": ["光学"] },
-      { "id": "unit.s1.c4.s5", "order": 5, "title": "光的衍射", "topics": ["光学"] },
-      { "id": "unit.s1.c4.s6", "order": 6, "title": "光的偏振 激光", "topics": ["光学"] }
-    ]
+      {
+        "id": "unit.s1.c4.s1",
+        "order": 1,
+        "title": "光的折射",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          85,
+          89
+        ],
+        "aliases": [
+          "光的折射（含测量玻璃折射率实验）"
+        ],
+        "column_titles": [
+          "实验：测量玻璃的折射率",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c4.s2",
+        "order": 2,
+        "title": "全反射",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          90,
+          94
+        ],
+        "column_titles": [
+          "演示：观察全反射现象",
+          "思考与讨论",
+          "【例题】",
+          "演示：观察光在弯曲的有机玻璃棒中传播的路径",
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c4.s3",
+        "order": 3,
+        "title": "光的干涉",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          95,
+          100
+        ],
+        "column_titles": [
+          "演示：光的双缝干涉",
+          "思考与讨论",
+          "思考与讨论",
+          "做一做",
+          "科学漫步：光的本性",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c4.s4",
+        "order": 4,
+        "title": "实验：用双缝干涉测量光的波长",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          101,
+          103
+        ],
+        "column_titles": [
+          "拓展学习：用光传感器做双缝干涉的实验",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c4.s5",
+        "order": 5,
+        "title": "光的衍射",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          104,
+          107
+        ],
+        "column_titles": [
+          "科学漫步：一、泊松亮斑趣事",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s1.c4.s6",
+        "order": 6,
+        "title": "光的偏振 激光",
+        "topics": [
+          "光学"
+        ],
+        "page_range": [
+          108,
+          115
+        ],
+        "column_titles": [
+          "演示",
+          "思考与讨论",
+          "做一做",
+          "科学漫步：立体电影和偏振光",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      84,
+      115
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.s2.c1",
@@ -295,13 +1855,89 @@
     "book_title": "选择性必修第二册",
     "order": 18,
     "title": "第一章 安培力与洛伦兹力",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.s2.c1.s1", "order": 1, "title": "磁场对通电导线的作用力", "topics": ["电学"] },
-      { "id": "unit.s2.c1.s2", "order": 2, "title": "磁场对运动电荷的作用力", "topics": ["电学"] },
-      { "id": "unit.s2.c1.s3", "order": 3, "title": "带电粒子在匀强磁场中的运动", "topics": ["电学"] },
-      { "id": "unit.s2.c1.s4", "order": 4, "title": "质谱仪与回旋加速器", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.s2.c1.s1",
+        "order": 1,
+        "title": "磁场对通电导线的作用力",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          2,
+          7
+        ],
+        "column_titles": [
+          "演示：安培力的方向",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c1.s2",
+        "order": 2,
+        "title": "磁场对运动电荷的作用力",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          8,
+          12
+        ],
+        "column_titles": [
+          "演示：观察电子束在磁场中的偏转",
+          "思考与讨论",
+          "思考与讨论",
+          "科学漫步：正电子的发现",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c1.s3",
+        "order": 3,
+        "title": "带电粒子在匀强磁场中的运动",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          13,
+          16
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "演示：观察带电粒子的运动径迹",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c1.s4",
+        "order": 4,
+        "title": "质谱仪与回旋加速器",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          17,
+          22
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      1,
+      22
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.s2.c2",
@@ -311,13 +1947,96 @@
     "book_title": "选择性必修第二册",
     "order": 19,
     "title": "第二章 电磁感应",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.s2.c2.s1", "order": 1, "title": "楞次定律（含探究感应电流方向实验）", "topics": ["电学"] },
-      { "id": "unit.s2.c2.s2", "order": 2, "title": "法拉第电磁感应定律", "topics": ["电学"] },
-      { "id": "unit.s2.c2.s3", "order": 3, "title": "涡流、电磁阻尼和电磁驱动", "topics": ["电学"] },
-      { "id": "unit.s2.c2.s4", "order": 4, "title": "互感和自感", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.s2.c2.s1",
+        "order": 1,
+        "title": "楞次定律",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          24,
+          29
+        ],
+        "aliases": [
+          "楞次定律（含探究感应电流方向实验）"
+        ],
+        "column_titles": [
+          "实验：探究影响感应电流方向的因素",
+          "思考与讨论",
+          "【例题1】",
+          "【例题2】",
+          "思考与讨论",
+          "科学方法：归纳推理",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c2.s2",
+        "order": 2,
+        "title": "法拉第电磁感应定律",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          30,
+          34
+        ],
+        "column_titles": [
+          "做一做",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c2.s3",
+        "order": 3,
+        "title": "涡流、电磁阻尼和电磁驱动",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          35,
+          39
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "做一做",
+          "演示",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c2.s4",
+        "order": 4,
+        "title": "互感和自感",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          40,
+          47
+        ],
+        "column_titles": [
+          "演示：观察两个灯泡的发光情况",
+          "演示：观察开关断开时灯泡的亮度",
+          "做一做：用电流传感器显示自感对电流的影响",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      23,
+      47
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.s2.c3",
@@ -327,13 +2046,92 @@
     "book_title": "选择性必修第二册",
     "order": 20,
     "title": "第三章 交变电流",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.s2.c3.s1", "order": 1, "title": "交变电流", "topics": ["电学"] },
-      { "id": "unit.s2.c3.s2", "order": 2, "title": "交变电流的描述", "topics": ["电学"] },
-      { "id": "unit.s2.c3.s3", "order": 3, "title": "变压器（含探究变压器匝数与电压关系实验）", "topics": ["电学"] },
-      { "id": "unit.s2.c3.s4", "order": 4, "title": "电能的输送", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.s2.c3.s1",
+        "order": 1,
+        "title": "交变电流",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          49,
+          53
+        ],
+        "column_titles": [
+          "演示：观察交变电流的方向",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c3.s2",
+        "order": 2,
+        "title": "交变电流的描述",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          54,
+          57
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "拓展学习",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c3.s3",
+        "order": 3,
+        "title": "变压器",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          58,
+          62
+        ],
+        "aliases": [
+          "变压器（含探究变压器匝数与电压关系实验）"
+        ],
+        "column_titles": [
+          "实验：探究变压器原、副线圈电压与匝数的关系",
+          "思考与讨论",
+          "科学漫步：无线充电技术",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c3.s4",
+        "order": 4,
+        "title": "电能的输送",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          63,
+          69
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "STSE：输电技术的发展",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      48,
+      69
+    ],
+    "chapter_review_counts": {
+      "group_A": 6,
+      "group_B": 3
+    }
   },
   {
     "id": "unit.s2.c4",
@@ -343,13 +2141,87 @@
     "book_title": "选择性必修第二册",
     "order": 21,
     "title": "第四章 电磁振荡与电磁波",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.s2.c4.s1", "order": 1, "title": "电磁振荡", "topics": ["电学"] },
-      { "id": "unit.s2.c4.s2", "order": 2, "title": "电磁场与电磁波", "topics": ["电学"] },
-      { "id": "unit.s2.c4.s3", "order": 3, "title": "无线电波的发射和接收", "topics": ["电学"] },
-      { "id": "unit.s2.c4.s4", "order": 4, "title": "电磁波谱", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.s2.c4.s1",
+        "order": 1,
+        "title": "电磁振荡",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          71,
+          75
+        ],
+        "column_titles": [
+          "演示：观察振荡电路中电压的波形",
+          "思考与讨论",
+          "思考与讨论",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c4.s2",
+        "order": 2,
+        "title": "电磁场与电磁波",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          76,
+          79
+        ],
+        "column_titles": [
+          "科学漫步：麦克斯韦电磁场理论的建立",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c4.s3",
+        "order": 3,
+        "title": "无线电波的发射和接收",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          80,
+          82
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c4.s4",
+        "order": 4,
+        "title": "电磁波谱",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          83,
+          89
+        ],
+        "column_titles": [
+          "做一做",
+          "做一做",
+          "STSE：寻找地外文明",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      70,
+      89
+    ],
+    "chapter_review_counts": {
+      "group_A": 4,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.s2.c5",
@@ -359,12 +2231,71 @@
     "book_title": "选择性必修第二册",
     "order": 22,
     "title": "第五章 传感器",
-    "topics": ["电学"],
+    "topics": [
+      "电学"
+    ],
     "sections": [
-      { "id": "unit.s2.c5.s1", "order": 1, "title": "认识传感器", "topics": ["电学"] },
-      { "id": "unit.s2.c5.s2", "order": 2, "title": "常见传感器的工作原理及应用", "topics": ["电学"] },
-      { "id": "unit.s2.c5.s3", "order": 3, "title": "利用传感器制作简单的自动控制装置", "topics": ["电学"] }
-    ]
+      {
+        "id": "unit.s2.c5.s1",
+        "order": 1,
+        "title": "认识传感器",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          91,
+          96
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "科学漫步：机器人",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c5.s2",
+        "order": 2,
+        "title": "常见传感器的工作原理及应用",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          97,
+          102
+        ],
+        "column_titles": [
+          "实验：观察光敏电阻特性",
+          "实验：观察热敏电阻特性",
+          "思考与讨论",
+          "拓展学习：霍尔元件",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s2.c5.s3",
+        "order": 3,
+        "title": "利用传感器制作简单的自动控制装置",
+        "topics": [
+          "电学"
+        ],
+        "page_range": [
+          103,
+          110
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      90,
+      110
+    ],
+    "chapter_review_counts": {
+      "group_A": 4,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.s3.c1",
@@ -374,13 +2305,85 @@
     "book_title": "选择性必修第三册",
     "order": 23,
     "title": "第一章 分子动理论",
-    "topics": ["热学"],
+    "topics": [
+      "热学"
+    ],
     "sections": [
-      { "id": "unit.s3.c1.s1", "order": 1, "title": "分子动理论的基本内容", "topics": ["热学"] },
-      { "id": "unit.s3.c1.s2", "order": 2, "title": "实验：用油膜法估测油酸分子的大小", "topics": ["热学"] },
-      { "id": "unit.s3.c1.s3", "order": 3, "title": "分子运动速率分布规律", "topics": ["热学"] },
-      { "id": "unit.s3.c1.s4", "order": 4, "title": "分子动能和分子势能", "topics": ["热学"] }
-    ]
+      {
+        "id": "unit.s3.c1.s1",
+        "order": 1,
+        "title": "分子动理论的基本内容",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          2,
+          6
+        ],
+        "column_titles": [
+          "演示：用显微镜观察炭粒的运动",
+          "思考与讨论",
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c1.s2",
+        "order": 2,
+        "title": "实验：用油膜法估测油酸分子的大小",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          7,
+          9
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c1.s3",
+        "order": 3,
+        "title": "分子运动速率分布规律",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          10,
+          13
+        ],
+        "column_titles": [
+          "演示：模拟气体压强产生的机理",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c1.s4",
+        "order": 4,
+        "title": "分子动能和分子势能",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          14,
+          17
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      1,
+      17
+    ],
+    "chapter_review_counts": {
+      "group_A": 4,
+      "group_B": 3
+    }
   },
   {
     "id": "unit.s3.c2",
@@ -390,14 +2393,108 @@
     "book_title": "选择性必修第三册",
     "order": 24,
     "title": "第二章 气体、固体和液体",
-    "topics": ["热学"],
+    "topics": [
+      "热学"
+    ],
     "sections": [
-      { "id": "unit.s3.c2.s1", "order": 1, "title": "温度和温标", "topics": ["热学"] },
-      { "id": "unit.s3.c2.s2", "order": 2, "title": "气体的等温变化（含探究气体等温变化规律实验）", "topics": ["热学"] },
-      { "id": "unit.s3.c2.s3", "order": 3, "title": "气体的等压变化和等容变化", "topics": ["热学"] },
-      { "id": "unit.s3.c2.s4", "order": 4, "title": "固体", "topics": ["热学"] },
-      { "id": "unit.s3.c2.s5", "order": 5, "title": "液体", "topics": ["热学"] }
-    ]
+      {
+        "id": "unit.s3.c2.s1",
+        "order": 1,
+        "title": "温度和温标",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          19,
+          22
+        ],
+        "column_titles": [
+          "科学漫步：形形色色的温度计",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c2.s2",
+        "order": 2,
+        "title": "气体的等温变化",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          23,
+          25
+        ],
+        "aliases": [
+          "气体的等温变化（含探究气体等温变化规律实验）"
+        ],
+        "column_titles": [
+          "实验：探究气体等温变化的规律",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c2.s3",
+        "order": 3,
+        "title": "气体的等压变化和等容变化",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          26,
+          30
+        ],
+        "column_titles": [
+          "【例题】",
+          "拓展学习：理想气体的状态方程",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c2.s4",
+        "order": 4,
+        "title": "固体",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          31,
+          35
+        ],
+        "column_titles": [
+          "实验：观察玻璃和云母片上石蜡熔化区域的形状",
+          "思考与讨论",
+          "科学漫步：石墨烯实验研究背后的故事",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c2.s5",
+        "order": 5,
+        "title": "液体",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          36,
+          44
+        ],
+        "column_titles": [
+          "实验：观察肥皂膜和棉线的变化",
+          "思考与讨论",
+          "实验：观察毛细现象",
+          "科学漫步：液晶显示",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      18,
+      44
+    ],
+    "chapter_review_counts": {
+      "group_A": 8,
+      "group_B": 7
+    }
   },
   {
     "id": "unit.s3.c3",
@@ -407,13 +2504,87 @@
     "book_title": "选择性必修第三册",
     "order": 25,
     "title": "第三章 热力学定律",
-    "topics": ["热学"],
+    "topics": [
+      "热学"
+    ],
     "sections": [
-      { "id": "unit.s3.c3.s1", "order": 1, "title": "功、热和内能的改变", "topics": ["热学"] },
-      { "id": "unit.s3.c3.s2", "order": 2, "title": "热力学第一定律", "topics": ["热学"] },
-      { "id": "unit.s3.c3.s3", "order": 3, "title": "能量守恒定律", "topics": ["热学"] },
-      { "id": "unit.s3.c3.s4", "order": 4, "title": "热力学第二定律", "topics": ["热学"] }
-    ]
+      {
+        "id": "unit.s3.c3.s1",
+        "order": 1,
+        "title": "功、热和内能的改变",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          46,
+          49
+        ],
+        "column_titles": [
+          "做一做",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c3.s2",
+        "order": 2,
+        "title": "热力学第一定律",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          50,
+          53
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "科学漫步：探索热的本质",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c3.s3",
+        "order": 3,
+        "title": "能量守恒定律",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          54,
+          58
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c3.s4",
+        "order": 4,
+        "title": "热力学第二定律",
+        "topics": [
+          "热学"
+        ],
+        "page_range": [
+          59,
+          65
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "拓展学习",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      45,
+      65
+    ],
+    "chapter_review_counts": {
+      "group_A": 6,
+      "group_B": 5
+    }
   },
   {
     "id": "unit.s3.c4",
@@ -423,14 +2594,100 @@
     "book_title": "选择性必修第三册",
     "order": 26,
     "title": "第四章 原子结构和波粒二象性",
-    "topics": ["近代物理"],
+    "topics": [
+      "近代物理"
+    ],
     "sections": [
-      { "id": "unit.s3.c4.s1", "order": 1, "title": "普朗克黑体辐射理论", "topics": ["近代物理"] },
-      { "id": "unit.s3.c4.s2", "order": 2, "title": "光电效应", "topics": ["近代物理"] },
-      { "id": "unit.s3.c4.s3", "order": 3, "title": "原子的核式结构模型", "topics": ["近代物理"] },
-      { "id": "unit.s3.c4.s4", "order": 4, "title": "氢原子光谱和玻尔的原子模型", "topics": ["近代物理"] },
-      { "id": "unit.s3.c4.s5", "order": 5, "title": "粒子的波动性和量子力学的建立", "topics": ["近代物理"] }
-    ]
+      {
+        "id": "unit.s3.c4.s1",
+        "order": 1,
+        "title": "普朗克黑体辐射理论",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          67,
+          70
+        ],
+        "column_titles": [
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c4.s2",
+        "order": 2,
+        "title": "光电效应",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          71,
+          77
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c4.s3",
+        "order": 3,
+        "title": "原子的核式结构模型",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          78,
+          83
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c4.s4",
+        "order": 4,
+        "title": "氢原子光谱和玻尔的原子模型",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          84,
+          91
+        ],
+        "column_titles": [
+          "科学漫步：光谱分析",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c4.s5",
+        "order": 5,
+        "title": "粒子的波动性和量子力学的建立",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          92,
+          99
+        ],
+        "column_titles": [
+          "STSE：量子力学的创立和索尔维会议",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      66,
+      99
+    ],
+    "chapter_review_counts": {
+      "group_A": 7,
+      "group_B": 6
+    }
   },
   {
     "id": "unit.s3.c5",
@@ -440,13 +2697,104 @@
     "book_title": "选择性必修第三册",
     "order": 27,
     "title": "第五章 原子核",
-    "topics": ["近代物理"],
+    "topics": [
+      "近代物理"
+    ],
     "sections": [
-      { "id": "unit.s3.c5.s1", "order": 1, "title": "原子核的组成", "topics": ["近代物理"] },
-      { "id": "unit.s3.c5.s2", "order": 2, "title": "放射性元素的衰变", "topics": ["近代物理"] },
-      { "id": "unit.s3.c5.s3", "order": 3, "title": "核力与结合能", "topics": ["近代物理"] },
-      { "id": "unit.s3.c5.s4", "order": 4, "title": "核裂变与核聚变", "topics": ["近代物理"] },
-      { "id": "unit.s3.c5.s5", "order": 5, "title": "“基本”粒子", "topics": ["近代物理"] }
-    ]
+      {
+        "id": "unit.s3.c5.s1",
+        "order": 1,
+        "title": "原子核的组成",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          101,
+          107
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "拓展学习：威耳逊云室",
+          "思考与讨论",
+          "科学漫步：天然放射现象的发现",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c5.s2",
+        "order": 2,
+        "title": "放射性元素的衰变",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          108,
+          114
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c5.s3",
+        "order": 3,
+        "title": "核力与结合能",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          115,
+          118
+        ],
+        "column_titles": [
+          "思考与讨论",
+          "【例题】",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c5.s4",
+        "order": 4,
+        "title": "核裂变与核聚变",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          119,
+          125
+        ],
+        "column_titles": [
+          "拓展学习：原子弹",
+          "思考与讨论",
+          "练习与应用"
+        ]
+      },
+      {
+        "id": "unit.s3.c5.s5",
+        "order": 5,
+        "title": "“基本”粒子",
+        "topics": [
+          "近代物理"
+        ],
+        "page_range": [
+          126,
+          131
+        ],
+        "column_titles": [
+          "拓展学习：夸克与粒子物理标准模型",
+          "练习与应用"
+        ]
+      }
+    ],
+    "page_range": [
+      100,
+      131
+    ],
+    "chapter_review_counts": {
+      "group_A": 5,
+      "group_B": 5
+    }
   }
 ]

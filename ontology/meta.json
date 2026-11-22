@@ -1,10 +1,16 @@
 {
   "schema_version": 1,
-  "ontology_version": "1.0.0-release",
+  "ontology_version": "1.1.0-release",
   "stage": "K4_verified_release",
   "title": "浙江高考物理 Agent-Native 知识图谱本体",
   "curriculum_standard": "普通高中物理课程标准（2017年版2020年修订）· 人教版（2019）必修1-3 + 选择性必修1-3",
-  "legacy_topics": ["力学", "电学", "热学", "光学", "近代物理"],
+  "legacy_topics": [
+    "力学",
+    "电学",
+    "热学",
+    "光学",
+    "近代物理"
+  ],
   "node_types": [
     "CurriculumUnit",
     "ConceptAndLaw",
@@ -30,5 +36,13 @@
     "answer_grounded_ai",
     "question_only_ai",
     "teacher_verified"
-  ]
+  ],
+  "textbook_grounded": {
+    "edition": "人教版普通高中教科书·物理（必修1-3、选择性必修1-3）",
+    "books": 6,
+    "chapters": 27,
+    "sections": 125,
+    "total_pdf_pages": 786,
+    "official_glossary_terms": 262
+  }
 }

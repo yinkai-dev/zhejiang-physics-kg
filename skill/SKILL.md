@@ -11,9 +11,10 @@ description: 面向 AI 智能体的浙江高考物理六维属性知识图谱（
 
 ## 一、 渐进式阅读协议（Progressive Context Loading）
 
-1. **首轮意图对齐（L0 路由）**：先读取同目录下的 [references/L0-map.md](references/L0-map.md)（约 4K Tokens），一次性掌握全图谱 592 个受控节点的语义 ID（`unit.*` / `law.*` / `model.*` / `exp.*` / `expskill.*` / `method.*` / `trap.*` / `slot.*`）。
-2. **局部契约展开（L1 精读）**：选定 1~5 个候选节点后，运行 `inspect` 拉取标准公式、严格适用条件护栏、易混辨析对（`CONTRASTS_WITH`）与高频审题陷阱，**不要猜测节点 ID 或手写模糊关键词搜题**。
-3. **拓扑选题与零超纲门禁（L2 实证）**：传入学校实际已学章节选择器（支持任意选修讲授顺序，如 `b1,b2,b3,s2` 或精确到节 `unit.s1.c1.s3`），由 `match` 执行 100% 确定性零超纲筛选。
+1. **首轮意图对齐（L0 路由）**：先读取同目录下的 [references/L0-map.md](references/L0-map.md)（约 4K Tokens），一次性掌握全图谱 591 个受控节点的语义 ID（`unit.*` / `law.*` / `model.*` / `exp.*` / `expskill.*` / `method.*` / `trap.*` / `slot.*`）及人教版全六册 27 章精确页码范围。
+2. **局部契约展开（L1 精读）**：选定 1~5 个候选节点后，运行 `inspect` 拉取标准公式、严格适用条件护栏、教材起止页码锚点（`page_range` / `textbook_anchor`）、易混辨析对（`CONTRASTS_WITH`）与高频审题陷阱，**不要猜测节点 ID 或手写模糊关键词搜题**。
+3. **人教版数字教材库深潜（L1.5 溯源，可选）**：当任务涉及核对教材原始定义、侧边栏旁批、课标实验标准步骤、课后母题（《练习与应用》/《复习与提高》A·B 组）或《科学漫步》/《STSE》/《拓展学习》出处时，若本机配置了结构化教材库目录（环境变量 `ZJ_PHYSICS_TEXTBOOK_CORPUS`），可通过 `python <TEXTBOOK_CORPUS>/scripts/textbook_cli.py unit <unit_id>` 或 `search <关键词>` 直接按图谱 `unit.*` 节点调取核验后的教材结构化卡片。
+4. **拓扑选题与零超纲门禁（L2 实证）**：传入学校实际已学章节选择器（支持任意选修讲授顺序，如 `b1,b2,b3,s2` 或精确到节 `unit.s1.c1.s3`），由 `match` 执行 100% 确定性零超纲筛选。
 
 ---
 
